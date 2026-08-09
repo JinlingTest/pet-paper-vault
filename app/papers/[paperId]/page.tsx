@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { FullPaper } from "@/components/PaperView";
-import { PrintButton } from "@/components/PrintButton";
+import { PaperModeSwitcher } from "@/components/PaperModeSwitcher";
 import { getNextPaperId, getPaper, getPreviousPaperId, papers } from "@/lib/papers";
 
 type PageProps = {
@@ -39,7 +38,7 @@ export default async function PaperPage({ params }: PageProps) {
           <h1>
             Paper {paper.id}: {paper.topic}
           </h1>
-          <p>打印时会自动只保留卷子内容。</p>
+          <p>保留打印试卷界面，并可切换到 PET 词汇答题小程序。</p>
         </div>
         <div className="button-row">
           <Link className="button" href="/">
@@ -55,10 +54,9 @@ export default async function PaperPage({ params }: PageProps) {
               下一份
             </Link>
           ) : null}
-          <PrintButton />
         </div>
       </nav>
-      <FullPaper paper={paper} />
+      <PaperModeSwitcher paper={paper} />
     </>
   );
 }

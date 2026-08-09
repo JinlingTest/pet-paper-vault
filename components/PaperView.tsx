@@ -30,23 +30,15 @@ export function StudentPaper({ paper }: { paper: Paper }) {
         Version: {paper.version} | Date: {paper.date} | Level: B1 Preliminary / PET
       </p>
       <div className="meta">
-        <span>
-          Name: <span className="line" />
-        </span>
-        <span>
-          Date: <span className="line" />
-        </span>
-        <span>
-          Score: <span className="line" />
-        </span>
+        <span>Name: <span className="line" /></span>
+        <span>Date: <span className="line" /></span>
+        <span>Score: <span className="line" /></span>
       </div>
 
       <h2>Part 1: Key Words</h2>
       <ul className="word-grid">
         {paper.words.map((word, index) => (
-          <li key={word.word}>
-            {index + 1}. {word.word} - {word.meaning}
-          </li>
+          <li key={word.word}>{index + 1}. {word.word} - {word.meaning}</li>
         ))}
       </ul>
 
@@ -168,9 +160,7 @@ export function StudentMistakes({ paper }: { paper: Paper }) {
           {paper.blanks.map((blank, index) => (
             <tr key={`${blank.studentAnswer}-${index}`}>
               <td>{index + 1}</td>
-              <td>
-                <span className="student-answer">{blank.studentAnswer}</span>
-              </td>
+              <td><span className="student-answer">{blank.studentAnswer}</span></td>
             </tr>
           ))}
         </tbody>
@@ -204,8 +194,7 @@ export function TeacherReview({ paper }: { paper: Paper }) {
             <span className="tag">{item.tag}</span>
             <span className="english-note">Problem:</span> {item.explanationEn}
             <br />
-            <span className="chinese-note">问题：</span>
-            {item.explanationZh}
+            <span className="chinese-note">问题：</span>{item.explanationZh}
             <br />
             Correct / 正确答案: <span className="correct-answer">{item.answer}</span>
           </p>
@@ -224,12 +213,8 @@ export function TeacherReview({ paper }: { paper: Paper }) {
           {paper.blanks.map((blank, index) => (
             <tr key={`${blank.answer}-${index}`}>
               <td>{index + 1}</td>
-              <td>
-                <span className="student-answer">{blank.studentAnswer}</span>
-              </td>
-              <td>
-                <span className="correct-answer">{blank.answer}</span>
-              </td>
+              <td><span className="student-answer">{blank.studentAnswer}</span></td>
+              <td><span className="correct-answer">{blank.answer}</span></td>
               <td>
                 <span className="english-note">{blank.explanationEn}</span>
                 <br />
