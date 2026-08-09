@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PET 词汇答题小程序 - Travel & Daily Life</title>
+  <style>
+    :root {
+      --ink: #17202a;
+      --muted: #5d6d7e;
+      --line: #d5dde6;
+      --paper: #ffffff;
+      --wash: #f4f7fb;
+      --blue: #1f6feb;
+      --blue-soft: #eaf2ff;
+      --green: #16834a;
+      --green-soft: #e8f6ee;
+      --red: #c0392b;
+      --red-soft: #fdecea;
+      --amber: #a86600;
+      --amber-soft: #fff4dc;
+      --shadow: 0 18px 46px rgba(23, 32, 42, 0.12);
+      font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+      color: var(--ink);
+      background: var(--wash);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(135deg, rgba(31, 111, 235, 0.08), transparent 34%),
+        linear-gradient(315deg, rgba(22, 131, 74, 0.08), transparent 32%),
+        var(--wash);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .app {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 40px;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+
+    .title-block h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    .title-block p {
+      max-width: 680px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .score-card {
+      min-width: 230px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.86);
+      box-shadow: var(--shadow);
+    }
+
+    .score-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .score-value {
+      font-size: 34px;
+      font-weight: 800;
+      color: var(--ink);
+    }
+
+    .progress {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7ecf3;
+    }
+
+    .progress span {
+      display: block;
+      height: 100%;
+      width: 0%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--blue), var(--green));
+      transition: width 240ms ease;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: var(--shadow);
+    }
+
+    .quiz-panel {
+      overflow: hidden;
+    }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-bottom: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+
+    .tab {
+      min-height: 52px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .tab:last-child {
+      border-right: 0;
+    }
+
+    .tab.active {
+      color: var(--blue);
+      background: var(--blue-soft);
+    }
+
+    .stage {
+      padding: 24px;
+    }
+
+    .stage h2,
+    .side h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      letter-spacing: 0;
+    }
+
+    .reading {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdff;
+      line-height: 1.85;
+      font-size: 17px;
+    }
+
+    .reading strong {
+      color: var(--blue);
+    }
+
+    .word-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .word {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+    }
+
+    .word b {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 18px;
+    }
+
+    .word span {
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .question-meta {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--muted);
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .question-title {
+      margin: 0 0 18px;
+      font-size: 25px;
+      line-height: 1.35;
+    }
+
+    .options {
+      display: grid;
+      gap: 10px;
+    }
+
+    .option {
+      display: flex;
+      width: 100%;
+      min-height: 58px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      text-align: left;
+      cursor: pointer;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+
+    .option:hover {
+      transform: translateY(-1px);
+      border-color: #9db7db;
+      background: #fbfdff;
+    }
+
+    .option.correct {
+      border-color: rgba(22, 131, 74, 0.5);
+      background: var(--green-soft);
+      color: var(--green);
+    }
+
+    .option.wrong {
+      border-color: rgba(192, 57, 43, 0.45);
+      background: var(--red-soft);
+      color: var(--red);
+    }
+
+    .answer-input {
+      width: 100%;
+      min-height: 56px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    .answer-input:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 4px rgba(31, 111, 235, 0.12);
+    }
+
+    .feedback {
+      min-height: 74px;
+      margin-top: 16px;
+      padding: 14px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fbfcfe;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .feedback.good {
+      border-color: rgba(22, 131, 74, 0.45);
+      background: var(--green-soft);
+      color: #11643a;
+    }
+
+    .feedback.bad {
+      border-color: rgba(192, 57, 43, 0.42);
+      background: var(--red-soft);
+      color: #8c271e;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .btn {
+      min-height: 44px;
+      padding: 10px 14px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      background: var(--blue);
+      color: #fff;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .btn.secondary {
+      border-color: var(--line);
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .btn.warning {
+      background: var(--amber);
+    }
+
+    .btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.52;
+    }
+
+    .side {
+      display: grid;
+      gap: 18px;
+    }
+
+    .side .panel {
+      padding: 18px;
+    }
+
+    .mini-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .mini-list li {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      line-height: 1.45;
+    }
+
+    .numbered-list {
+      counter-reset: step;
+    }
+
+    .numbered-list li {
+      position: relative;
+      padding-left: 44px;
+      min-height: 46px;
+    }
+
+    .numbered-list li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      display: grid;
+      width: 24px;
+      height: 24px;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .mini-list b {
+      color: var(--ink);
+    }
+
+    .word-meta {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .mistake-empty {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .summary {
+      display: none;
+      padding: 24px;
+    }
+
+    .summary.visible {
+      display: block;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin: 16px 0;
+    }
+
+    .stat {
+      padding: 14px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .stat b {
+      display: block;
+      margin-top: 4px;
+      font-size: 26px;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    @media (max-width: 860px) {
+      .topbar,
+      .layout {
+        grid-template-columns: 1fr;
+        display: grid;
+      }
+
+      .score-card {
+        min-width: 0;
+      }
+
+      .tabs {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .word-grid,
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <section class="title-block">
+        <h1>PET 词汇答题小程序</h1>
+        <p>主题：Travel & Daily Life。先读 Anna 的火车旅行小短文，再练 journey / trip / travel、delay / late、comfortable / convenient / crowded、luggage 等易混点。</p>
+      </section>
+      <aside class="score-card" aria-label="学习进度">
+        <div class="score-row"><span>当前得分</span><strong class="score-value" id="scoreText">0/0</strong></div>
+        <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+      </aside>
+    </header>
+
+    <section class="layout">
+      <div class="panel quiz-panel">
+        <nav class="tabs" aria-label="学习步骤">
+          <button class="tab active" data-tab="review">1. 复习</button>
+          <button class="tab" data-tab="quiz">2. 答题</button>
+          <button class="tab" data-tab="mistakes">3. 错题</button>
+          <button class="tab" data-tab="summary">4. 结果</button>
+        </nav>
+
+        <section class="stage" id="reviewStage">
+          <h2>先读材料</h2>
+          <p class="reading">
+            Last Saturday, Anna took a train to visit her cousin. Her <strong>journey</strong> started early in the morning.
+            When she got to the station, she checked her <strong>ticket</strong> and walked to <strong>platform</strong> 3.
+            There were many <strong>passengers</strong>, and the train was very <strong>crowded</strong>. Anna had a small
+            suitcase as her <strong>luggage</strong>, so it was easy to carry. The train had a short <strong>delay</strong>,
+            but her seat was quite <strong>comfortable</strong>. In the end, she <strong>arrived</strong> at her cousin's town
+            at 11:30. She was happy because she didn't <strong>miss</strong> lunch with her cousin.
+          </p>
+          <div class="word-grid" id="wordGrid"></div>
+          <div class="actions">
+            <button class="btn" id="startQuizBtn">开始答题</button>
+          </div>
+        </section>
+
+        <section class="stage hide" id="quizStage">
+          <div class="question-meta">
+            <span class="pill" id="questionType">选择题</span>
+            <span id="questionCount">第 1 题</span>
+          </div>
+          <h2 class="question-title" id="questionTitle"></h2>
+          <div id="answerArea"></div>
+          <div class="feedback" id="feedback">选出答案后，这里会马上解释为什么。</div>
+          <div class="actions">
+            <button class="btn secondary" id="prevBtn">上一题</button>
+            <button class="btn" id="checkBtn">检查答案</button>
+            <button class="btn secondary" id="nextBtn">下一题</button>
+          </div>
+        </section>
+
+        <section class="stage hide" id="mistakesStage">
+          <h2>错题强化</h2>
+          <p class="mistake-empty" id="mistakeIntro">答题后，错题会自动出现在这里。</p>
+          <ul class="mini-list" id="mistakeList"></ul>
+          <div class="actions">
+            <button class="btn warning" id="retryMistakesBtn">只练错题</button>
+            <button class="btn secondary" id="backToQuizBtn">回到全部题目</button>
+          </div>
+        </section>
+
+        <section class="summary" id="summaryStage">
+          <h2>学习结果</h2>
+          <div class="summary-grid">
+            <div class="stat"><span>正确题数</span><b id="rightStat">0</b></div>
+            <div class="stat"><span>错题数量</span><b id="wrongStat">0</b></div>
+            <div class="stat"><span>掌握率</span><b id="rateStat">0%</b></div>
+          </div>
+          <p class="feedback" id="summaryText"></p>
+          <div class="actions">
+            <button class="btn" id="restartBtn">重新完整练习</button>
+            <button class="btn secondary" id="summaryMistakesBtn">查看错题</button>
+          </div>
+        </section>
+      </div>
+
+      <aside class="side">
+        <section class="panel">
+          <h2>易混点</h2>
+          <ul class="mini-list">
+            <li><b>journey</b> <span class="word-meta">n. /ˈdʒɝːni/</span>：强调从一个地方到另一个地方的过程。</li>
+            <li><b>trip</b> <span class="word-meta">n. /trɪp/</span>：一次出行或参观，常常包含来回。</li>
+            <li><b>travel</b> <span class="word-meta">v./n. /ˈtrævəl/</span>：旅行这件事，也可作动词。</li>
+            <li><b>delay</b> <span class="word-meta">n./v. /dɪˈleɪ/</span> 是名词或动词；<b>late</b> <span class="word-meta">adj./adv. /leɪt/</span> 是形容词，也可作副词。</li>
+            <li><b>comfortable</b> <span class="word-meta">adj. /ˈkʌmftɚbəl/</span> 说坐着、穿着舒服；<b>convenient</b> <span class="word-meta">adj. /kənˈviːniənt/</span> 说方便。</li>
+          </ul>
+        </section>
+        <section class="panel">
+          <h2>学习节奏</h2>
+          <ul class="mini-list numbered-list">
+            <li>读短文时先圈出关键词。</li>
+            <li>选择题检查意思，填空题检查搭配。</li>
+            <li>错题页只保留没掌握的点，方便二刷。</li>
+          </ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const words = [
+      ["journey", "旅程，强调路上的过程"],
+      ["delay", "延误；使推迟"],
+      ["platform", "站台"],
+      ["luggage", "行李，不可数名词"],
+      ["ticket", "票"],
+      ["passenger", "乘客"],
+      ["comfortable", "舒服的"],
+      ["crowded", "拥挤的"],
+      ["arrive", "到达"],
+      ["miss", "错过；想念"]
+    ];
+
+    const allQuestions = [
+      {
+        type: "阅读理解",
+        mode: "choice",
+        prompt: "Where was Anna going?",
+        options: ["To visit her cousin.", "To buy a ticket.", "To work at the station.", "To find her luggage."],
+        answer: "To visit her cousin.",
+        explain: "短文第一句说 Anna took a train to visit her cousin，所以目的地不是车站，而是去看 cousin。"
+      },
+      {
+        type: "阅读理解",
+        mode: "choice",
+        prompt: "Which word means “many people in one place”?",
+        options: ["crowded", "comfortable", "convenient", "confident"],
+        answer: "crowded",
+        explain: "crowded 表示拥挤的；comfortable 是舒服的；convenient 是方便的。"
+      },
+      {
+        type: "词义辨析",
+        mode: "choice",
+        prompt: "The train arrived later than planned. There was a short ____.",
+        options: ["delay", "late", "wait", "miss"],
+        answer: "delay",
+        explain: "a short delay 是自然搭配。late 是形容词，不能说 a short late。"
+      },
+      {
+        type: "词义辨析",
+        mode: "choice",
+        prompt: "This chair is very ____. I can sit here all afternoon.",
+        options: ["comfortable", "convenient", "crowded", "passenger"],
+        answer: "comfortable",
+        explain: "椅子让人坐着舒服，用 comfortable。convenient 是方便，不是身体感受舒服。"
+      },
+      {
+        type: "搭配练习",
+        mode: "choice",
+        prompt: "We went on a school ____ to the museum.",
+        options: ["trip", "travel", "delay", "luggage"],
+        answer: "trip",
+        explain: "school trip 是固定常见搭配，表示学校组织的一次出行。"
+      },
+      {
+        type: "语法检查",
+        mode: "choice",
+        prompt: "Choose the correct sentence.",
+        options: ["My luggage is very heavy.", "My luggages are very heavy.", "My luggage are very heavy.", "My luggage were many."],
+        answer: "My luggage is very heavy.",
+        explain: "luggage 通常不可数，所以不用 luggages，也常和 is 搭配。"
+      },
+      {
+        type: "拼写题",
+        mode: "input",
+        prompt: "根据中文写英文：站台",
+        answer: "platform",
+        explain: "platform = 站台。短文里是 platform 3。"
+      },
+      {
+        type: "拼写题",
+        mode: "input",
+        prompt: "根据中文写英文：乘客",
+        answer: "passenger",
+        explain: "passenger = 乘客。复数是 passengers。"
+      },
+      {
+        type: "改错题",
+        mode: "input",
+        prompt: "改正句子里的错误，只填正确关键词：The seat is very convenient, so I can sleep well.",
+        answer: "comfortable",
+        explain: "seat 和 sleep well 对应 comfortable。convenient 表示地点、工具、安排很方便。"
+      },
+      {
+        type: "改错题",
+        mode: "input",
+        prompt: "改正句子里的错误，只填正确关键词：I was delay for class because I missed the bus.",
+        answer: "late",
+        explain: "be late for class 是自然表达。delay 不能直接放在 was 后面作形容词。"
+      }
+    ];
+
+    const state = {
+      questions: [...allQuestions],
+      current: 0,
+      answers: new Map(),
+      checked: new Map()
+    };
+
+    const $ = (id) => document.getElementById(id);
+    const tabs = [...document.querySelectorAll(".tab")];
+    const stages = {
+      review: $("reviewStage"),
+      quiz: $("quizStage"),
+      mistakes: $("mistakesStage"),
+      summary: $("summaryStage")
+    };
+
+    function normalize(value) {
+      return String(value).trim().toLowerCase().replace(/\s+/g, " ");
+    }
+
+    function showTab(name) {
+      tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.tab === name));
+      Object.entries(stages).forEach(([key, el]) => {
+        el.classList.toggle("hide", key !== name);
+        el.classList.toggle("visible", key === name && key === "summary");
+      });
+      if (name === "mistakes") renderMistakes();
+      if (name === "summary") renderSummary();
+    }
+
+    function renderWords() {
+      $("wordGrid").innerHTML = words.map(([word, meaning]) => `
+        <article class="word">
+          <b>${word}</b>
+          <span>${meaning}</span>
+        </article>
+      `).join("");
+    }
+
+    function renderQuestion() {
+      const q = state.questions[state.current];
+      $("questionType").textContent = q.type;
+      $("questionCount").textContent = `第 ${state.current + 1} / ${state.questions.length} 题`;
+      $("questionTitle").textContent = q.prompt;
+      $("feedback").className = "feedback";
+      $("feedback").textContent = "选出答案后，这里会马上解释为什么。";
+      $("prevBtn").disabled = state.current === 0;
+      $("nextBtn").textContent = state.current === state.questions.length - 1 ? "看结果" : "下一题";
+
+      if (q.mode === "choice") {
+        $("answerArea").innerHTML = `<div class="options">${q.options.map((option) => `
+          <button class="option" data-answer="${option}">
+            <span>${option}</span>
+            <span aria-hidden="true">›</span>
+          </button>
+        `).join("")}</div>`;
+        document.querySelectorAll(".option").forEach((button) => {
+          button.addEventListener("click", () => {
+            state.answers.set(q.prompt, button.dataset.answer);
+            checkAnswer();
+          });
+        });
+      } else {
+        $("answerArea").innerHTML = `<input class="answer-input" id="textAnswer" autocomplete="off" placeholder="在这里输入答案">`;
+        $("textAnswer").value = state.answers.get(q.prompt) || "";
+        $("textAnswer").addEventListener("input", (event) => {
+          state.answers.set(q.prompt, event.target.value);
+        });
+        $("textAnswer").addEventListener("keydown", (event) => {
+          if (event.key === "Enter") checkAnswer();
+        });
+      }
+
+      if (state.checked.has(q.prompt)) {
+        showCheckedState(q);
+      }
+      updateScore();
+    }
+
+    function isCorrect(q) {
+      return normalize(state.answers.get(q.prompt) || "") === normalize(q.answer);
+    }
+
+    function checkAnswer() {
+      const q = state.questions[state.current];
+      if (!state.answers.has(q.prompt) || normalize(state.answers.get(q.prompt)) === "") {
+        $("feedback").className = "feedback bad";
+        $("feedback").textContent = "先写下或选择一个答案，再检查。";
+        return;
+      }
+      state.checked.set(q.prompt, true);
+      showCheckedState(q);
+      updateScore();
+    }
+
+    function showCheckedState(q) {
+      const correct = isCorrect(q);
+      $("feedback").className = correct ? "feedback good" : "feedback bad";
+      $("feedback").innerHTML = correct
+        ? `答对了。${q.explain}`
+        : `这题再看一眼。正确答案：<b>${q.answer}</b>。${q.explain}`;
+
+      document.querySelectorAll(".option").forEach((button) => {
+        button.classList.toggle("correct", normalize(button.dataset.answer) === normalize(q.answer));
+        button.classList.toggle("wrong", normalize(button.dataset.answer) === normalize(state.answers.get(q.prompt)) && !correct);
+      });
+    }
+
+    function updateScore() {
+      const checked = [...state.checked.keys()].length;
+      const right = state.questions.filter((q) => state.checked.has(q.prompt) && isCorrect(q)).length;
+      $("scoreText").textContent = `${right}/${checked}`;
+      $("progressBar").style.width = `${checked / state.questions.length * 100}%`;
+    }
+
+    function getMistakes() {
+      return state.questions.filter((q) => state.checked.has(q.prompt) && !isCorrect(q));
+    }
+
+    function renderMistakes() {
+      const mistakes = getMistakes();
+      $("mistakeIntro").textContent = mistakes.length
+        ? `现在有 ${mistakes.length} 道错题，建议先读解释，再点“只练错题”。`
+        : "目前没有错题。要么还没开始答题，要么已经全对。";
+      $("mistakeList").innerHTML = mistakes.map((q) => `
+        <li>
+          <b>${q.type}</b><br>
+          ${q.prompt}<br>
+          你的答案：${state.answers.get(q.prompt) || "未填写"}<br>
+          正确答案：${q.answer}<br>
+          ${q.explain}
+        </li>
+      `).join("");
+      $("retryMistakesBtn").disabled = mistakes.length === 0;
+    }
+
+    function renderSummary() {
+      const checked = [...state.checked.keys()].length;
+      const right = state.questions.filter((q) => state.checked.has(q.prompt) && isCorrect(q)).length;
+      const wrong = checked - right;
+      const rate = checked ? Math.round(right / checked * 100) : 0;
+      $("rightStat").textContent = right;
+      $("wrongStat").textContent = wrong;
+      $("rateStat").textContent = `${rate}%`;
+      $("summaryText").textContent = checked === state.questions.length
+        ? (wrong === 0 ? "非常稳，关键词和易混搭配都掌握了。" : "已经完成一轮。现在最值得做的是回到错题页，把解释读一遍后再二刷。")
+        : "还没有完成全部题目，可以继续答题，也可以先看已出现的错题。";
+    }
+
+    function resetAll() {
+      state.questions = [...allQuestions];
+      state.current = 0;
+      state.answers.clear();
+      state.checked.clear();
+      renderQuestion();
+      showTab("quiz");
+    }
+
+    tabs.forEach((tab) => tab.addEventListener("click", () => showTab(tab.dataset.tab)));
+    $("startQuizBtn").addEventListener("click", () => {
+      state.current = 0;
+      renderQuestion();
+      showTab("quiz");
+    });
+    $("checkBtn").addEventListener("click", checkAnswer);
+    $("prevBtn").addEventListener("click", () => {
+      state.current = Math.max(0, state.current - 1);
+      renderQuestion();
+    });
+    $("nextBtn").addEventListener("click", () => {
+      if (state.current === state.questions.length - 1) {
+        showTab("summary");
+        return;
+      }
+      state.current += 1;
+      renderQuestion();
+    });
+    $("retryMistakesBtn").addEventListener("click", () => {
+      const mistakes = getMistakes();
+      if (!mistakes.length) return;
+      state.questions = mistakes;
+      state.current = 0;
+      state.answers.clear();
+      state.checked.clear();
+      renderQuestion();
+      showTab("quiz");
+    });
+    $("backToQuizBtn").addEventListener("click", () => {
+      state.questions = [...allQuestions];
+      state.current = 0;
+      renderQuestion();
+      showTab("quiz");
+    });
+    $("restartBtn").addEventListener("click", resetAll);
+    $("summaryMistakesBtn").addEventListener("click", () => showTab("mistakes"));
+
+    renderWords();
+    renderQuestion();
+  </script>
+</body>
+</html>
