@@ -65,7 +65,7 @@ export const papers: Paper[] = [
     version: "v1",
     date: "2026-08-04",
     topic: "Travel & Daily Life",
-    title: "PET Vocabulary Practice: Travel & Daily Life",
+    title: "English Vocabulary Practice: Travel & Daily Life",
     words: [
       { word: "journey", meaning: "旅程", phonetic: "/ˈdʒɜːrni/", audioUrl: "/audio/papers/001/words/journey.mp3" },
       { word: "delay", meaning: "延误", phonetic: "/dɪˈleɪ/", audioUrl: "/audio/papers/001/words/delay.mp3" },
@@ -174,7 +174,7 @@ export const papers: Paper[] = [
     version: "v2",
     date: "2026-08-09",
     topic: "Environment & Daily Choices",
-    title: "PET Daily Vocabulary: Environment & Daily Choices",
+    title: "English Daily Vocabulary: Environment & Daily Choices",
     words: [
       { word: "environment", meaning: "环境", phonetic: "/ɪnˈvaɪrənmənt/", audioUrl: "/audio/papers/002/words/environment.mp3" },
       { word: "recycle", meaning: "回收利用", phonetic: "/ˌriːˈsaɪkəl/", audioUrl: "/audio/papers/002/words/recycle.mp3" },
