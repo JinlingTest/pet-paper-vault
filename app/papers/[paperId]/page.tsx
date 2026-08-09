@@ -38,7 +38,7 @@ export default async function PaperPage({ params }: PageProps) {
           <h1>
             Paper {paper.id}: {paper.topic}
           </h1>
-          <p>保留打印试卷界面，并可切换到 PET 词汇答题小程序。</p>
+          <p>保留打印试卷界面，并可切换到词汇答题小程序。</p>
         </div>
         <div className="button-row">
           <Link className="button" href="/">
