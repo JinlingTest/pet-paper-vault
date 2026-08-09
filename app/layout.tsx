@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "金子恒英语自测专用",
-  description: "金子恒 PET/B1 英语词汇自测与打印试卷。"
+  description: "PET/B1 词汇自测与南京初中英语中考衔接练习。"
 };
 
 export const viewport: Viewport = {

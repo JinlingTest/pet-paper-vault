@@ -107,6 +107,38 @@ a {
   gap: 14px;
 }
 
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+
+.program-card {
+  display: block;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+  box-shadow: 0 8px 30px rgba(31, 41, 51, 0.08);
+}
+
+.program-card h2 {
+  margin: 12px 0 8px;
+  font-size: clamp(20px, 2.8vw, 26px);
+  line-height: 1.2;
+}
+
+.program-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.primary-card {
+  border-color: #9dc0f6;
+  background: #f7fbff;
+}
+
 .paper-card {
   display: block;
   padding: 16px;
@@ -570,6 +602,43 @@ th {
   background: #fff;
 }
 
+.phrase-grid article p {
+  margin: 8px 0 4px;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.phrase-grid article small {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.grammar-box {
+  margin-top: 18px;
+  padding: 16px;
+  border: 1px solid #b8d6c2;
+  border-radius: 8px;
+  background: #f3fbf6;
+}
+
+.grammar-box h3 {
+  margin: 0 0 8px;
+  font-size: 19px;
+}
+
+.grammar-box p {
+  margin: 0 0 10px;
+  color: var(--muted);
+}
+
+.grammar-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
 .review-word-grid b {
   display: block;
   margin-bottom: 5px;
@@ -873,6 +942,10 @@ th {
   .stats {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .program-grid {
+    grid-template-columns: 1fr;
   }
 
   .page {
