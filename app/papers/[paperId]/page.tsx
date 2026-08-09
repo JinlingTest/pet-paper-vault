@@ -42,7 +42,7 @@ export default async function PaperPage({ params }: PageProps) {
         </div>
         <div className="button-row">
           <Link className="button" href="/">
-            返回库藏
+            返回目录
           </Link>
           {previousId ? (
             <Link className="button" href={`/papers/${previousId}`}>
