@@ -462,6 +462,33 @@ th {
   color: #2f6fed;
 }
 
+.helper-note,
+.judgement-note {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f8fafc;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.helper-note {
+  margin-top: 14px;
+}
+
+.judgement-note {
+  margin: -4px 0 14px;
+  border-left: 4px solid #9fb3c8;
+}
+
+.helper-note b,
+.judgement-note b {
+  color: var(--ink);
+}
+
 .review-word-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -525,6 +552,10 @@ th {
   line-height: 1.55;
 }
 
+.confusion-card strong {
+  color: var(--ink);
+}
+
 .rhythm-list {
   display: grid;
   gap: 10px;
@@ -561,6 +592,7 @@ th {
 
 .question-meta {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 12px;
   align-items: center;
