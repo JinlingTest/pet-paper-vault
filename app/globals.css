@@ -324,6 +324,7 @@ th {
   font: inherit;
   font-weight: 800;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .segmented button.active {
@@ -936,8 +937,8 @@ th {
   }
 
   .segmented button {
-    flex-direction: column;
-    gap: 1px;
+    flex-direction: row;
+    gap: 4px;
   }
 
   .segmented small {

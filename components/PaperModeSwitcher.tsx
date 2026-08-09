@@ -28,8 +28,8 @@ export function PaperModeSwitcher({ paper }: { paper: Paper }) {
             type="button"
             onClick={() => setMode("quiz")}
           >
-            <span>PET 词汇答题小程序</span>
-            {mode === "quiz" ? <small>得分 {score.correct}/{score.answered}</small> : null}
+            <span>词汇答题小程序</span>
+            {mode === "quiz" ? <small>· 得分 {score.correct}/{score.answered}</small> : null}
           </button>
         </div>
         {mode === "paper" ? <PrintButton /> : null}
