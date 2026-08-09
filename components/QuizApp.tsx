@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Paper, VocabWord } from "@/lib/papers";
 
 type QuizStep = "review" | "quiz" | "mistakes" | "result";
@@ -25,29 +25,101 @@ const steps: { id: QuizStep; label: string }[] = [
   { id: "result", label: "4. 结果" }
 ];
 
-function speak(text: string, audioUrl?: string) {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
-    return;
-  }
+type SpeakHandler = (key: string, text: string, audioUrl?: string) => void;
 
-  if (audioUrl) {
+function useAudioPlayer() {
+  const activeAudio = useRef<HTMLAudioElement | null>(null);
+  const [playingKey, setPlayingKey] = useState<string | null>(null);
+
+  const stopAudio = useCallback(() => {
+    activeAudio.current?.pause();
+    activeAudio.current = null;
+    setPlayingKey(null);
+
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      window.speechSynthesis.cancel();
+    }
+  }, []);
+
+  const speakWithBrowser = useCallback((text: string) => {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+      return;
+    }
+
     window.speechSynthesis.cancel();
-    const audio = new Audio(audioUrl);
-    audio.play().catch(() => speak(text));
-    return;
-  }
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "en-US";
+    utterance.rate = 0.82;
+    window.speechSynthesis.speak(utterance);
+  }, []);
 
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-US";
-  utterance.rate = 0.82;
-  window.speechSynthesis.speak(utterance);
+  const toggleSpeak = useCallback<SpeakHandler>(
+    (key, text, audioUrl) => {
+      if (playingKey === key) {
+        stopAudio();
+        return;
+      }
+
+      stopAudio();
+
+      if (!audioUrl) {
+        speakWithBrowser(text);
+        return;
+      }
+
+      const audio = new Audio(audioUrl);
+      activeAudio.current = audio;
+      setPlayingKey(key);
+
+      audio.addEventListener("ended", () => {
+        if (activeAudio.current === audio) {
+          activeAudio.current = null;
+          setPlayingKey(null);
+        }
+      });
+
+      audio.play().catch(() => {
+        if (activeAudio.current === audio) {
+          activeAudio.current = null;
+          setPlayingKey(null);
+        }
+        speakWithBrowser(text);
+      });
+    },
+    [playingKey, speakWithBrowser, stopAudio]
+  );
+
+  useEffect(() => stopAudio, [stopAudio]);
+
+  return { playingKey, toggleSpeak };
 }
 
-function SpeakButton({ text, audioUrl, label = "朗读" }: { text: string; audioUrl?: string; label?: string }) {
+function SpeakButton({
+  text,
+  audioUrl,
+  audioKey,
+  isPlaying,
+  onSpeak,
+  label = "朗读"
+}: {
+  text: string;
+  audioUrl?: string;
+  audioKey: string;
+  isPlaying: boolean;
+  onSpeak: SpeakHandler;
+  label?: string;
+}) {
+  const buttonLabel = isPlaying ? "暂停" : label;
+
   return (
-    <button className="speak-button" type="button" onClick={() => speak(text, audioUrl)} aria-label={label} title={label}>
-      🔊
+    <button
+      className={`speak-button ${isPlaying ? "is-playing" : ""}`}
+      type="button"
+      onClick={() => onSpeak(audioKey, text, audioUrl)}
+      aria-label={buttonLabel}
+      title={buttonLabel}
+    >
+      {isPlaying ? "⏸" : "🔊"}
     </button>
   );
 }
@@ -118,7 +190,15 @@ function makeQuizQuestions(paper: Paper): QuizQuestion[] {
   return [...readingQuestions, ...blankQuestions, ...correctionQuestions];
 }
 
-function HighlightedMaterial({ paper }: { paper: Paper }) {
+function HighlightedMaterial({
+  paper,
+  playingKey,
+  onSpeak
+}: {
+  paper: Paper;
+  playingKey: string | null;
+  onSpeak: SpeakHandler;
+}) {
   const wordMap = new Map(paper.words.map((word) => [word.word.toLowerCase(), word]));
   const parts = paper.reading.split(/(\b[\w']+\b)/g);
 
@@ -131,7 +211,14 @@ function HighlightedMaterial({ paper }: { paper: Paper }) {
           return (
             <span className="readable-word" key={`${part}-${index}`}>
               <strong>{part}</strong>
-              <SpeakButton text={word.word} audioUrl={word.audioUrl} label={`朗读 ${word.word}`} />
+              <SpeakButton
+                text={word.word}
+                audioUrl={word.audioUrl}
+                audioKey={`inline-${paper.id}-${word.word}`}
+                isPlaying={playingKey === `inline-${paper.id}-${word.word}`}
+                onSpeak={onSpeak}
+                label={`朗读 ${word.word}`}
+              />
             </span>
           );
         }
@@ -142,12 +229,31 @@ function HighlightedMaterial({ paper }: { paper: Paper }) {
   );
 }
 
-function WordCard({ word }: { word: VocabWord }) {
+function WordCard({
+  paperId,
+  word,
+  playingKey,
+  onSpeak
+}: {
+  paperId: string;
+  word: VocabWord;
+  playingKey: string | null;
+  onSpeak: SpeakHandler;
+}) {
+  const audioKey = `card-${paperId}-${word.word}`;
+
   return (
     <article>
       <div className="word-card-head">
         <b>{word.word}</b>
-        <SpeakButton text={word.word} audioUrl={word.audioUrl} label={`朗读 ${word.word}`} />
+        <SpeakButton
+          text={word.word}
+          audioUrl={word.audioUrl}
+          audioKey={audioKey}
+          isPlaying={playingKey === audioKey}
+          onSpeak={onSpeak}
+          label={`朗读 ${word.word}`}
+        />
       </div>
       {word.phonetic ? <span className="phonetic">{word.phonetic}</span> : null}
       <span>{word.meaning}</span>
@@ -166,6 +272,7 @@ export function QuizApp({
   const [step, setStep] = useState<QuizStep>("review");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const { playingKey, toggleSpeak } = useAudioPlayer();
 
   const current = questions[currentIndex];
   const selected = answers[current.id];
@@ -198,9 +305,16 @@ export function QuizApp({
             <section className="quiz-stage">
               <div className="section-title-row">
                 <h2>先读材料 / Read First</h2>
-                <SpeakButton text={paper.reading} audioUrl={paper.readingAudioUrl} label="朗读整段材料" />
+                <SpeakButton
+                  text={paper.reading}
+                  audioUrl={paper.readingAudioUrl}
+                  audioKey={`reading-${paper.id}`}
+                  isPlaying={playingKey === `reading-${paper.id}`}
+                  onSpeak={toggleSpeak}
+                  label="朗读整段材料"
+                />
               </div>
-              <HighlightedMaterial paper={paper} />
+              <HighlightedMaterial paper={paper} playingKey={playingKey} onSpeak={toggleSpeak} />
 
               <div className="helper-note">
                 <b>Reading help / 阅读帮助</b>
@@ -210,7 +324,7 @@ export function QuizApp({
 
               <div className="review-word-grid">
                 {paper.words.map((word) => (
-                  <WordCard key={word.word} word={word} />
+                  <WordCard key={word.word} paperId={paper.id} word={word} playingKey={playingKey} onSpeak={toggleSpeak} />
                 ))}
               </div>
 
@@ -231,7 +345,13 @@ export function QuizApp({
               </div>
               <div className="section-title-row">
                 <h2>{current.prompt}</h2>
-                <SpeakButton text={current.prompt} label="朗读题目" />
+                <SpeakButton
+                  text={current.prompt}
+                  audioKey={`question-${current.id}`}
+                  isPlaying={playingKey === `question-${current.id}`}
+                  onSpeak={toggleSpeak}
+                  label="朗读题目"
+                />
               </div>
               <div className="judgement-note">
                 <b>Key judgement / 判断关键：</b>
@@ -307,7 +427,13 @@ export function QuizApp({
                       <span className="pill">{question.type}</span>
                       <div className="section-title-row">
                         <h3>{question.prompt}</h3>
-                        <SpeakButton text={question.prompt} label="朗读错题题目" />
+                        <SpeakButton
+                          text={question.prompt}
+                          audioKey={`mistake-${question.id}`}
+                          isPlaying={playingKey === `mistake-${question.id}`}
+                          onSpeak={toggleSpeak}
+                          label="朗读错题题目"
+                        />
                       </div>
                       <p><span className="student-answer">Your answer / 你的答案：</span>{answers[question.id]}</p>
                       <p><span className="correct-answer">Correct answer / 正确答案：</span>{question.answer}</p>

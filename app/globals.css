@@ -510,6 +510,12 @@ th {
   background: #eaf2ff;
 }
 
+.speak-button.is-playing {
+  border-color: #ef8354;
+  background: #fff3ea;
+  color: #b84a1b;
+}
+
 .section-title-row {
   display: flex;
   align-items: center;

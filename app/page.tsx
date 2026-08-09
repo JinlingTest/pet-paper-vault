@@ -2,6 +2,11 @@ import Link from "next/link";
 import { papers } from "@/lib/papers";
 import { getVaultStatus } from "@/lib/vault-status";
 
+const topicZh: Record<string, string> = {
+  "001": "旅行与日常生活",
+  "002": "环境与日常选择"
+};
+
 export default function Home() {
   const status = getVaultStatus();
 
@@ -45,7 +50,7 @@ export default function Home() {
         {papers.map((paper) => (
           <Link className="paper-card" href={`/papers/${paper.id}`} key={paper.id}>
             <h2>
-              Paper {paper.id}: {paper.topic}
+              Paper {paper.id}: {paper.topic} / {topicZh[paper.id] ?? paper.topic}
             </h2>
             <p className="muted">
               {paper.version} | {paper.date} | {paper.words.length} words
