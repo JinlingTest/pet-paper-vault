@@ -2,6 +2,7 @@ export type VocabWord = {
   word: string;
   meaning: string;
   phonetic?: string;
+  audioUrl?: string;
 };
 
 export type ComprehensionQuestion = {
@@ -46,6 +47,7 @@ export type Paper = {
   title: string;
   words: VocabWord[];
   reading: string;
+  readingAudioUrl?: string;
   questions: ComprehensionQuestion[];
   wordStudy: WordStudy[];
   blanks: FillBlank[];
@@ -65,19 +67,20 @@ export const papers: Paper[] = [
     topic: "Travel & Daily Life",
     title: "PET Vocabulary Practice: Travel & Daily Life",
     words: [
-      { word: "journey", meaning: "旅程", phonetic: "/ˈdʒɜːrni/" },
-      { word: "delay", meaning: "延误", phonetic: "/dɪˈleɪ/" },
-      { word: "platform", meaning: "站台", phonetic: "/ˈplætfɔːrm/" },
-      { word: "luggage", meaning: "行李", phonetic: "/ˈlʌɡɪdʒ/" },
-      { word: "ticket", meaning: "票", phonetic: "/ˈtɪkɪt/" },
-      { word: "passenger", meaning: "乘客", phonetic: "/ˈpæsɪndʒər/" },
-      { word: "comfortable", meaning: "舒适的", phonetic: "/ˈkʌmftərbəl/" },
-      { word: "crowded", meaning: "拥挤的", phonetic: "/ˈkraʊdɪd/" },
-      { word: "arrive", meaning: "到达", phonetic: "/əˈraɪv/" },
-      { word: "miss", meaning: "错过；想念", phonetic: "/mɪs/" }
+      { word: "journey", meaning: "旅程", phonetic: "/ˈdʒɜːrni/", audioUrl: "/audio/papers/001/words/journey.mp3" },
+      { word: "delay", meaning: "延误", phonetic: "/dɪˈleɪ/", audioUrl: "/audio/papers/001/words/delay.mp3" },
+      { word: "platform", meaning: "站台", phonetic: "/ˈplætfɔːrm/", audioUrl: "/audio/papers/001/words/platform.mp3" },
+      { word: "luggage", meaning: "行李", phonetic: "/ˈlʌɡɪdʒ/", audioUrl: "/audio/papers/001/words/luggage.mp3" },
+      { word: "ticket", meaning: "票", phonetic: "/ˈtɪkɪt/", audioUrl: "/audio/papers/001/words/ticket.mp3" },
+      { word: "passenger", meaning: "乘客", phonetic: "/ˈpæsɪndʒər/", audioUrl: "/audio/papers/001/words/passenger.mp3" },
+      { word: "comfortable", meaning: "舒适的", phonetic: "/ˈkʌmftərbəl/", audioUrl: "/audio/papers/001/words/comfortable.mp3" },
+      { word: "crowded", meaning: "拥挤的", phonetic: "/ˈkraʊdɪd/", audioUrl: "/audio/papers/001/words/crowded.mp3" },
+      { word: "arrive", meaning: "到达", phonetic: "/əˈraɪv/", audioUrl: "/audio/papers/001/words/arrive.mp3" },
+      { word: "miss", meaning: "错过；想念", phonetic: "/mɪs/", audioUrl: "/audio/papers/001/words/miss.mp3" }
     ],
     reading:
       "Last Saturday, Anna took a train to visit her cousin. Her journey started early in the morning. When she got to the station, she checked her ticket and walked to platform 3. There were many passengers, and the train was very crowded. Anna had a small suitcase as her luggage, so it was easy to carry. The train had a short delay, but her seat was quite comfortable. In the end, she arrived at her cousin's town at 11:30. She was happy because she didn't miss lunch with her cousin.",
+    readingAudioUrl: "/audio/papers/001/reading.mp3",
     questions: [
       {
         question: "Where was Anna going?",
@@ -173,19 +176,20 @@ export const papers: Paper[] = [
     topic: "Environment & Daily Choices",
     title: "PET Daily Vocabulary: Environment & Daily Choices",
     words: [
-      { word: "environment", meaning: "环境", phonetic: "/ɪnˈvaɪrənmənt/" },
-      { word: "recycle", meaning: "回收利用", phonetic: "/ˌriːˈsaɪkəl/" },
-      { word: "pollution", meaning: "污染", phonetic: "/pəˈluːʃən/" },
-      { word: "protect", meaning: "保护", phonetic: "/prəˈtekt/" },
-      { word: "waste", meaning: "浪费；废弃物", phonetic: "/weɪst/" },
-      { word: "energy", meaning: "能源；精力", phonetic: "/ˈenərdʒi/" },
-      { word: "local", meaning: "当地的", phonetic: "/ˈloʊkəl/" },
-      { word: "reduce", meaning: "减少", phonetic: "/rɪˈduːs/" },
-      { word: "plastic", meaning: "塑料；塑料的", phonetic: "/ˈplæstɪk/" },
-      { word: "habit", meaning: "习惯", phonetic: "/ˈhæbɪt/" }
+      { word: "environment", meaning: "环境", phonetic: "/ɪnˈvaɪrənmənt/", audioUrl: "/audio/papers/002/words/environment.mp3" },
+      { word: "recycle", meaning: "回收利用", phonetic: "/ˌriːˈsaɪkəl/", audioUrl: "/audio/papers/002/words/recycle.mp3" },
+      { word: "pollution", meaning: "污染", phonetic: "/pəˈluːʃən/", audioUrl: "/audio/papers/002/words/pollution.mp3" },
+      { word: "protect", meaning: "保护", phonetic: "/prəˈtekt/", audioUrl: "/audio/papers/002/words/protect.mp3" },
+      { word: "waste", meaning: "浪费；废弃物", phonetic: "/weɪst/", audioUrl: "/audio/papers/002/words/waste.mp3" },
+      { word: "energy", meaning: "能源；精力", phonetic: "/ˈenərdʒi/", audioUrl: "/audio/papers/002/words/energy.mp3" },
+      { word: "local", meaning: "当地的", phonetic: "/ˈloʊkəl/", audioUrl: "/audio/papers/002/words/local.mp3" },
+      { word: "reduce", meaning: "减少", phonetic: "/rɪˈduːs/", audioUrl: "/audio/papers/002/words/reduce.mp3" },
+      { word: "plastic", meaning: "塑料；塑料的", phonetic: "/ˈplæstɪk/", audioUrl: "/audio/papers/002/words/plastic.mp3" },
+      { word: "habit", meaning: "习惯", phonetic: "/ˈhæbɪt/", audioUrl: "/audio/papers/002/words/habit.mp3" }
     ],
     reading:
       "Mia's class started a project about the environment. Their teacher asked them to protect their town by changing one daily habit. Mia decided to use less plastic and always carry a bottle from home. Her friend Leo tried to recycle paper and cans. The students also wanted to reduce food waste at lunch. A local shop helped them by putting up posters about pollution. After one month, the class saved water and energy, and they felt proud of their small changes.",
+    readingAudioUrl: "/audio/papers/002/reading.mp3",
     questions: [
       { question: "What was Mia's class project about?", answer: "It was about the environment.", studentAnswer: "It was about the local shop.", explanationEn: "The local shop only helped with posters. The main project was about the environment.", explanationZh: "local shop 只是帮忙贴海报，不是项目主题。项目主题是 environment。", tag: "Reading detail" },
       { question: "What daily habit did Mia change?", answer: "She used less plastic and carried a bottle from home.", studentAnswer: "She recycled paper and cans.", explanationEn: "Leo recycled paper and cans. Mia used less plastic and carried a bottle.", explanationZh: "这里混淆了人物。Leo 回收纸和罐子；Mia 少用塑料并自带水瓶。", tag: "Who did it?" },

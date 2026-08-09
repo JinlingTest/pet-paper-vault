@@ -9,7 +9,7 @@ export default function Home() {
     <main className="shell">
       <div className="topbar">
         <div className="brand">
-          <h1>PET Paper Vault</h1>
+          <h1>金子恒英语自测专用</h1>
           <p>Next.js 架构版：每份 10 个 PET/B1 单词，支持扩展到 300+ 份卷子。</p>
         </div>
         <div className="button-row">

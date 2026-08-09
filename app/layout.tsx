@@ -2,8 +2,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "PET Paper Vault",
-  description: "A scalable PET/B1 vocabulary worksheet vault built with Next.js."
+  title: "金子恒英语自测专用",
+  description: "金子恒 PET/B1 英语词汇自测与打印试卷。"
 };
 
 export const viewport: Viewport = {

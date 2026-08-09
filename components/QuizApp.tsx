@@ -25,8 +25,15 @@ const steps: { id: QuizStep; label: string }[] = [
   { id: "result", label: "4. 结果" }
 ];
 
-function speak(text: string) {
+function speak(text: string, audioUrl?: string) {
   if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    return;
+  }
+
+  if (audioUrl) {
+    window.speechSynthesis.cancel();
+    const audio = new Audio(audioUrl);
+    audio.play().catch(() => speak(text));
     return;
   }
 
@@ -37,9 +44,9 @@ function speak(text: string) {
   window.speechSynthesis.speak(utterance);
 }
 
-function SpeakButton({ text, label = "朗读" }: { text: string; label?: string }) {
+function SpeakButton({ text, audioUrl, label = "朗读" }: { text: string; audioUrl?: string; label?: string }) {
   return (
-    <button className="speak-button" type="button" onClick={() => speak(text)} aria-label={label} title={label}>
+    <button className="speak-button" type="button" onClick={() => speak(text, audioUrl)} aria-label={label} title={label}>
       🔊
     </button>
   );
@@ -124,7 +131,7 @@ function HighlightedMaterial({ paper }: { paper: Paper }) {
           return (
             <span className="readable-word" key={`${part}-${index}`}>
               <strong>{part}</strong>
-              <SpeakButton text={word.word} label={`朗读 ${word.word}`} />
+              <SpeakButton text={word.word} audioUrl={word.audioUrl} label={`朗读 ${word.word}`} />
             </span>
           );
         }
@@ -140,7 +147,7 @@ function WordCard({ word }: { word: VocabWord }) {
     <article>
       <div className="word-card-head">
         <b>{word.word}</b>
-        <SpeakButton text={word.word} label={`朗读 ${word.word}`} />
+        <SpeakButton text={word.word} audioUrl={word.audioUrl} label={`朗读 ${word.word}`} />
       </div>
       {word.phonetic ? <span className="phonetic">{word.phonetic}</span> : null}
       <span>{word.meaning}</span>
@@ -191,7 +198,7 @@ export function QuizApp({
             <section className="quiz-stage">
               <div className="section-title-row">
                 <h2>先读材料 / Read First</h2>
-                <SpeakButton text={paper.reading} label="朗读整段材料" />
+                <SpeakButton text={paper.reading} audioUrl={paper.readingAudioUrl} label="朗读整段材料" />
               </div>
               <HighlightedMaterial paper={paper} />
 
