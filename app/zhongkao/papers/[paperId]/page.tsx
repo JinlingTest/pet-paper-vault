@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ZhongkaoQuizApp } from "@/components/ZhongkaoQuizApp";
+import { ZhongkaoPaperModeSwitcher } from "@/components/ZhongkaoPaperModeSwitcher";
 import {
   getNextZhongkaoPaperId,
   getPreviousZhongkaoPaperId,
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
   const paper = getZhongkaoPaper(paperId);
 
   return {
-    title: paper ? `${paper.title} - 中考英语衔接` : "中考英语衔接练习"
+    title: paper ? `${paper.title} - ??????` : "????????"
   };
 }
 
@@ -45,21 +45,21 @@ export default async function ZhongkaoPaperPage({ params }: PageProps) {
         </div>
         <div className="button-row">
           <Link className="button" href="/zhongkao">
-            返回中考目录
+            ??????
           </Link>
           {previousId ? (
             <Link className="button" href={`/zhongkao/papers/${previousId}`}>
-              上一份
+              ???
             </Link>
           ) : null}
           {nextId ? (
             <Link className="button" href={`/zhongkao/papers/${nextId}`}>
-              下一份
+              ???
             </Link>
           ) : null}
         </div>
       </nav>
-      <ZhongkaoQuizApp paper={paper} />
+      <ZhongkaoPaperModeSwitcher paper={paper} />
     </>
   );
 }
