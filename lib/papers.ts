@@ -227,6 +227,65 @@ export const papers: Paper[] = [
       { en: "A good habit can reduce waste.", zh: "一个好习惯可以减少浪费。" },
       { en: "Plastic pollution is a serious problem.", zh: "塑料污染是一个严重问题。" }
     ]
+  },
+  {
+    id: "003",
+    version: "v3",
+    date: "2026-08-10",
+    topic: "Health & Doctor Visit",
+    title: "English Daily Vocabulary: Health & Doctor Visit",
+    words: [
+      { word: "appointment", meaning: "预约", phonetic: "/əˈpɔɪntmənt/", audioUrl: "/audio/papers/003/words/appointment.mp3" },
+      { word: "medicine", meaning: "药", phonetic: "/ˈmedɪsən/", audioUrl: "/audio/papers/003/words/medicine.mp3" },
+      { word: "temperature", meaning: "体温；温度", phonetic: "/ˈtemprətʃər/", audioUrl: "/audio/papers/003/words/temperature.mp3" },
+      { word: "headache", meaning: "头痛", phonetic: "/ˈhedeɪk/", audioUrl: "/audio/papers/003/words/headache.mp3" },
+      { word: "stomachache", meaning: "胃痛", phonetic: "/ˈstʌməkˌeɪk/", audioUrl: "/audio/papers/003/words/stomachache.mp3" },
+      { word: "healthy", meaning: "健康的", phonetic: "/ˈhelθi/", audioUrl: "/audio/papers/003/words/healthy.mp3" },
+      { word: "exercise", meaning: "锻炼；练习", phonetic: "/ˈeksərsaɪz/", audioUrl: "/audio/papers/003/words/exercise.mp3" },
+      { word: "patient", meaning: "病人；有耐心的", phonetic: "/ˈpeɪʃənt/", audioUrl: "/audio/papers/003/words/patient.mp3" },
+      { word: "recover", meaning: "康复", phonetic: "/rɪˈkʌvər/", audioUrl: "/audio/papers/003/words/recover.mp3" },
+      { word: "advice", meaning: "建议", phonetic: "/ədˈvaɪs/", audioUrl: "/audio/papers/003/words/advice.mp3" }
+    ],
+    reading:
+      "Lily had a headache and a stomachache on Monday morning, so her mother made an appointment with a doctor. At the clinic, the nurse checked Lily's temperature and asked her to sit with another patient. The doctor said Lily did not need strong medicine, but she should rest and drink warm water. He also gave her advice about sleep, food, and light exercise. Lily wanted to recover quickly, so she followed the doctor's words. After three days, she felt healthy again and went back to school.",
+    readingAudioUrl: "/audio/papers/003/reading.mp3",
+    questions: [
+      { question: "Why did Lily's mother make an appointment?", answer: "Because Lily had a headache and a stomachache.", studentAnswer: "Because Lily wanted to do exercise.", explanationEn: "The first sentence gives the reason: Lily had a headache and a stomachache.", explanationZh: "第一句说明原因：Lily 头痛并且胃痛。", tag: "Reason" },
+      { question: "What did the nurse check?", answer: "The nurse checked Lily's temperature.", studentAnswer: "The nurse checked Lily's medicine.", explanationEn: "The text says the nurse checked Lily's temperature.", explanationZh: "原文说护士检查了 Lily 的 temperature 体温。", tag: "Reading detail" },
+      { question: "Did Lily need strong medicine?", answer: "No, she did not need strong medicine.", studentAnswer: "Yes, she needed strong medicine.", explanationEn: "The doctor said she did not need strong medicine.", explanationZh: "医生说她不需要 strong medicine。", tag: "Negative detail" },
+      { question: "What advice did the doctor give?", answer: "He gave advice about sleep, food, and light exercise.", studentAnswer: "He gave advice about school homework.", explanationEn: "The doctor's advice was about sleep, food, and light exercise.", explanationZh: "医生的 advice 是关于睡眠、饮食和轻度锻炼。", tag: "Advice" },
+      { question: "Which word means \"get well again\"?", answer: "recover", studentAnswer: "patient", explanationEn: "Recover means get well again. Patient means a sick person or someone who can wait calmly.", explanationZh: "recover 表示康复；patient 可以表示病人或有耐心的。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "advice", collocations: ["give advice", "take advice", "a piece of advice"], similar: ["suggestion", "tip"], note: "advice is uncountable, so say a piece of advice, not an advice." },
+      { word: "medicine", collocations: ["take medicine", "strong medicine", "cold medicine"], similar: ["pill", "drug"], note: "medicine is often uncountable when it means something you take to feel better." },
+      { word: "patient", collocations: ["a hospital patient", "be patient with someone", "patient care"], similar: ["sick person", "calm"], note: "patient can be a noun meaning a sick person, or an adjective meaning able to wait calmly." }
+    ],
+    blanks: [
+      { sentenceBefore: "I have a doctor's", sentenceAfter: "at three o'clock.", answer: "appointment", studentAnswer: "advice", explanationEn: "A doctor's appointment is a planned time to see a doctor.", explanationZh: "doctor's appointment 表示预约好的看医生时间。" },
+      { sentenceBefore: "You should take this", sentenceAfter: "after dinner.", answer: "medicine", studentAnswer: "temperature", explanationEn: "Take medicine is the natural phrase.", explanationZh: "take medicine 是常见搭配，表示吃药。" },
+      { sentenceBefore: "The nurse checked my", sentenceAfter: "because I felt hot.", answer: "temperature", studentAnswer: "headache", explanationEn: "When someone feels hot, a nurse may check temperature.", explanationZh: "感觉发热时，护士会检查 temperature 体温。" },
+      { sentenceBefore: "My head hurts. I have a", sentenceAfter: ".", answer: "headache", studentAnswer: "stomachache", explanationEn: "If your head hurts, you have a headache.", explanationZh: "头疼就是 headache。" },
+      { sentenceBefore: "My stomach hurts. I have a", sentenceAfter: ".", answer: "stomachache", studentAnswer: "headache", explanationEn: "If your stomach hurts, you have a stomachache.", explanationZh: "胃或肚子疼是 stomachache。" },
+      { sentenceBefore: "Sleep and good food help children stay", sentenceAfter: ".", answer: "healthy", studentAnswer: "patient", explanationEn: "Stay healthy means keep well.", explanationZh: "stay healthy 表示保持健康。" },
+      { sentenceBefore: "Walking is light", sentenceAfter: "for many people.", answer: "exercise", studentAnswer: "medicine", explanationEn: "Walking is a kind of exercise.", explanationZh: "walking 是一种 exercise 锻炼。" },
+      { sentenceBefore: "The doctor spoke to each", sentenceAfter: "carefully.", answer: "patient", studentAnswer: "appointment", explanationEn: "A patient is a person who is ill and sees a doctor.", explanationZh: "patient 作名词时表示病人。" },
+      { sentenceBefore: "It took Lily three days to", sentenceAfter: "from her illness.", answer: "recover", studentAnswer: "exercise", explanationEn: "Recover from an illness means get well again.", explanationZh: "recover from an illness 表示从疾病中康复。" },
+      { sentenceBefore: "The doctor gave us useful", sentenceAfter: "about sleep.", answer: "advice", studentAnswer: "advices", explanationEn: "Advice is uncountable, so do not add s.", explanationZh: "advice 不可数，不能加 s。" }
+    ],
+    corrections: [
+      { prompt: "My teacher gave me an advice.", answer: "My teacher gave me a piece of advice.", studentAnswer: "My teacher gave me an advice.", explanationEn: "Advice is uncountable, so use a piece of advice.", explanationZh: "advice 不可数，常说 a piece of advice。", tag: "Grammar" },
+      { prompt: "She took her temperature to the doctor.", answer: "She took her medicine to the doctor.", studentAnswer: "She took her temperature to the doctor.", explanationEn: "You take medicine. A nurse or doctor checks your temperature.", explanationZh: "take medicine 表示吃药；check temperature 表示量体温。", tag: "Collocation" },
+      { prompt: "He has a stomachache in his head.", answer: "He has a headache.", studentAnswer: "He has a stomachache in his head.", explanationEn: "A headache is pain in the head. A stomachache is pain in the stomach.", explanationZh: "headache 是头痛；stomachache 是胃痛/肚子痛。", tag: "Meaning" },
+      { prompt: "The patient was very patience.", answer: "The patient was very patient.", studentAnswer: "The patient was very patience.", explanationEn: "Patient can be a noun or adjective. Patience is the noun for the quality.", explanationZh: "patient 可作病人或有耐心的；patience 是“耐心”这个名词。", tag: "Word form" },
+      { prompt: "I hope you recover your cold soon.", answer: "I hope you recover from your cold soon.", studentAnswer: "I hope you recover your cold soon.", explanationEn: "Use recover from an illness.", explanationZh: "表示从疾病中康复要用 recover from。", tag: "Preposition" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short message to a classmate who is ill.",
+    examples: [
+      { en: "I have a doctor's appointment this afternoon.", zh: "我今天下午有一个医生预约。" },
+      { en: "The nurse checked my temperature before I saw the doctor.", zh: "看医生前，护士给我量了体温。" },
+      { en: "Good advice and light exercise can help you recover.", zh: "好的建议和轻度锻炼可以帮助你康复。" }
+    ]
   }
 ];
 

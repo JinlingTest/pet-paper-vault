@@ -44,6 +44,27 @@ Worksheet file:
 
 - PET_daily_2026-08-09_v2_environment.html
 
+### v3 - Health & Doctor Visit - 2026-08-10
+
+Paper id: 003
+
+Recorded words:
+
+1. appointment - 预约
+2. medicine - 药
+3. temperature - 体温；温度
+4. headache - 头痛
+5. stomachache - 胃痛
+6. healthy - 健康的
+7. exercise - 锻炼；练习
+8. patient - 病人；有耐心的
+9. recover - 康复
+10. advice - 建议
+
+Worksheet route:
+
+- /papers/003
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

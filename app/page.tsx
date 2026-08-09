@@ -4,11 +4,13 @@ import { getVaultStatus } from "@/lib/vault-status";
 
 const topicZh: Record<string, string> = {
   "001": "旅行与日常生活",
-  "002": "环境与日常选择"
+  "002": "环境与日常选择",
+  "003": "健康与看医生"
 };
 
 export default function Home() {
   const status = getVaultStatus();
+  const latestPaper = papers[papers.length - 1];
 
   return (
     <main className="shell">
@@ -21,7 +23,7 @@ export default function Home() {
           <Link className="button primary" href="/papers/001">
             打开第 1 份
           </Link>
-          <Link className="button" href="/papers/002">
+          <Link className="button" href={`/papers/${latestPaper.id}`}>
             打开最新卷
           </Link>
         </div>

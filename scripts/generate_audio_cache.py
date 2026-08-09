@@ -38,6 +38,21 @@ PAPERS = {
             "habit",
         ],
     },
+    "003": {
+        "reading": "Lily had a headache and a stomachache on Monday morning, so her mother made an appointment with a doctor. At the clinic, the nurse checked Lily's temperature and asked her to sit with another patient. The doctor said Lily did not need strong medicine, but she should rest and drink warm water. He also gave her advice about sleep, food, and light exercise. Lily wanted to recover quickly, so she followed the doctor's words. After three days, she felt healthy again and went back to school.",
+        "words": [
+            "appointment",
+            "medicine",
+            "temperature",
+            "headache",
+            "stomachache",
+            "healthy",
+            "exercise",
+            "patient",
+            "recover",
+            "advice",
+        ],
+    },
 }
 
 
