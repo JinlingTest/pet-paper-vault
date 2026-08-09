@@ -10,6 +10,7 @@ type Mode = "paper" | "quiz";
 
 export function PaperModeSwitcher({ paper }: { paper: Paper }) {
   const [mode, setMode] = useState<Mode>("paper");
+  const [score, setScore] = useState({ correct: 0, answered: 0 });
 
   return (
     <>
@@ -27,13 +28,18 @@ export function PaperModeSwitcher({ paper }: { paper: Paper }) {
             type="button"
             onClick={() => setMode("quiz")}
           >
-            PET 词汇答题小程序
+            <span>PET 词汇答题小程序</span>
+            {mode === "quiz" ? <small>得分 {score.correct}/{score.answered}</small> : null}
           </button>
         </div>
         {mode === "paper" ? <PrintButton /> : null}
       </div>
 
-      {mode === "paper" ? <FullPaper paper={paper} /> : <QuizApp paper={paper} />}
+      {mode === "paper" ? (
+        <FullPaper paper={paper} />
+      ) : (
+        <QuizApp paper={paper} onScoreChange={setScore} />
+      )}
     </>
   );
 }

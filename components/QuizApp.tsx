@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Paper } from "@/lib/papers";
 
 type QuizStep = "review" | "quiz" | "mistakes" | "result";
@@ -109,7 +109,13 @@ function HighlightedMaterial({ paper }: { paper: Paper }) {
   );
 }
 
-export function QuizApp({ paper }: { paper: Paper }) {
+export function QuizApp({
+  paper,
+  onScoreChange
+}: {
+  paper: Paper;
+  onScoreChange?: (score: { correct: number; answered: number }) => void;
+}) {
   const questions = useMemo(() => makeQuizQuestions(paper), [paper]);
   const [step, setStep] = useState<QuizStep>("review");
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -120,24 +126,13 @@ export function QuizApp({ paper }: { paper: Paper }) {
   const answeredCount = Object.keys(answers).length;
   const correctCount = questions.filter((question) => answers[question.id] === question.answer).length;
   const wrongQuestions = questions.filter((question) => answers[question.id] && answers[question.id] !== question.answer);
-  const progress = questions.length ? Math.round((answeredCount / questions.length) * 100) : 0;
+
+  useEffect(() => {
+    onScoreChange?.({ correct: correctCount, answered: answeredCount });
+  }, [answeredCount, correctCount, onScoreChange]);
 
   return (
-    <main className="quiz-app">
-      <section className="quiz-hero">
-        <div>
-          <h1>PET 词汇答题小程序</h1>
-          <p>
-            Topic / 主题：{paper.topic}。先读材料，再按打印试卷的 Part 3、Part 5、Part 6 顺序答题。
-          </p>
-        </div>
-        <div className="score-card">
-          <span>Current score / 当前得分</span>
-          <strong>{correctCount}/{answeredCount}</strong>
-          <div className="progress"><span style={{ width: `${progress}%` }} /></div>
-        </div>
-      </section>
-
+    <main className="quiz-app compact-quiz">
       <section className="quiz-workspace">
         <div className="quiz-main-card">
           <div className="quiz-tabs" role="tablist" aria-label="Quiz steps">
