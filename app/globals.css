@@ -819,12 +819,32 @@ th {
   }
 
   .brand h1 {
-    font-size: 27px;
+    font-size: 24px;
+    line-height: 1.12;
   }
 
-  .button-row,
-  .button {
+  .screen-only.topbar {
+    gap: 8px;
+    margin: 10px auto 8px;
+  }
+
+  .screen-only.topbar .brand p {
+    display: none;
+  }
+
+  .button-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
     width: 100%;
+    margin-top: 4px;
+  }
+
+  .button {
+    width: auto;
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 14px;
   }
 
   .segmented {
@@ -832,13 +852,26 @@ th {
   }
 
   .segmented button {
-    padding: 8px;
+    min-height: 38px;
+    padding: 7px 6px;
     font-size: 14px;
+  }
+
+  .mode-switcher {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    margin: 8px auto;
+    padding: 6px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: rgba(245, 247, 250, 0.94);
+    backdrop-filter: blur(8px);
   }
 
   .quiz-app {
     width: calc(100% - 16px);
-    margin: 8px auto 28px;
+    margin: 6px auto 28px;
   }
 
   .quiz-hero,
@@ -848,18 +881,18 @@ th {
   }
 
   .quiz-stage {
-    padding: 16px;
+    padding: 14px;
   }
 
   .quiz-tabs button {
-    min-height: 44px;
-    font-size: 14px;
+    min-height: 38px;
+    font-size: 13px;
   }
 
   .quiz-reading {
-    padding: 16px;
-    font-size: 18px;
-    line-height: 1.75;
+    padding: 14px;
+    font-size: 17px;
+    line-height: 1.7;
   }
 
   .review-word-grid {
@@ -868,6 +901,42 @@ th {
 
   .score-card {
     min-width: 0;
+  }
+
+  .quiz-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 92px;
+    gap: 8px;
+    padding: 10px;
+    margin-bottom: 8px;
+  }
+
+  .quiz-hero h1 {
+    margin: 0 0 4px;
+    font-size: 22px;
+  }
+
+  .quiz-hero p {
+    display: none;
+  }
+
+  .score-card {
+    padding: 8px;
+  }
+
+  .score-card span {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+
+  .score-card strong {
+    margin: 2px 0 6px;
+    font-size: 26px;
+    line-height: 1;
+  }
+
+  .progress {
+    height: 6px;
   }
 
   .option {
