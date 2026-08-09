@@ -38,7 +38,9 @@ export function StudentPaper({ paper }: { paper: Paper }) {
       <h2>Part 1: Key Words</h2>
       <ul className="word-grid">
         {paper.words.map((word, index) => (
-          <li key={word.word}>{index + 1}. {word.word} - {word.meaning}</li>
+          <li key={word.word}>
+            {index + 1}. {word.word} {word.phonetic ? <span className="phonetic">{word.phonetic}</span> : null} - {word.meaning}
+          </li>
         ))}
       </ul>
 

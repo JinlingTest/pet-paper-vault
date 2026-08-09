@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Paper } from "@/lib/papers";
+import type { Paper, VocabWord } from "@/lib/papers";
 
 type QuizStep = "review" | "quiz" | "mistakes" | "result";
 
@@ -24,6 +24,26 @@ const steps: { id: QuizStep; label: string }[] = [
   { id: "mistakes", label: "3. 错题" },
   { id: "result", label: "4. 结果" }
 ];
+
+function speak(text: string) {
+  if (typeof window === "undefined" || !("speechSynthesis" in window)) {
+    return;
+  }
+
+  window.speechSynthesis.cancel();
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "en-US";
+  utterance.rate = 0.82;
+  window.speechSynthesis.speak(utterance);
+}
+
+function SpeakButton({ text, label = "朗读" }: { text: string; label?: string }) {
+  return (
+    <button className="speak-button" type="button" onClick={() => speak(text)} aria-label={label} title={label}>
+      🔊
+    </button>
+  );
+}
 
 function rotateOptions(options: string[], seed: number) {
   const uniqueOptions = Array.from(new Set(options.filter(Boolean)));
@@ -92,20 +112,39 @@ function makeQuizQuestions(paper: Paper): QuizQuestion[] {
 }
 
 function HighlightedMaterial({ paper }: { paper: Paper }) {
-  const words = new Set(paper.words.map((word) => word.word.toLowerCase()));
+  const wordMap = new Map(paper.words.map((word) => [word.word.toLowerCase(), word]));
   const parts = paper.reading.split(/(\b[\w']+\b)/g);
 
   return (
     <p className="quiz-reading">
       {parts.map((part, index) => {
         const normalized = part.toLowerCase().replace(/'s$/, "");
-        if (words.has(normalized)) {
-          return <strong key={`${part}-${index}`}>{part}</strong>;
+        const word = wordMap.get(normalized);
+        if (word) {
+          return (
+            <span className="readable-word" key={`${part}-${index}`}>
+              <strong>{part}</strong>
+              <SpeakButton text={word.word} label={`朗读 ${word.word}`} />
+            </span>
+          );
         }
 
         return part;
       })}
     </p>
+  );
+}
+
+function WordCard({ word }: { word: VocabWord }) {
+  return (
+    <article>
+      <div className="word-card-head">
+        <b>{word.word}</b>
+        <SpeakButton text={word.word} label={`朗读 ${word.word}`} />
+      </div>
+      {word.phonetic ? <span className="phonetic">{word.phonetic}</span> : null}
+      <span>{word.meaning}</span>
+    </article>
   );
 }
 
@@ -150,21 +189,21 @@ export function QuizApp({
 
           {step === "review" ? (
             <section className="quiz-stage">
-              <h2>先读材料 / Read First</h2>
+              <div className="section-title-row">
+                <h2>先读材料 / Read First</h2>
+                <SpeakButton text={paper.reading} label="朗读整段材料" />
+              </div>
               <HighlightedMaterial paper={paper} />
 
               <div className="helper-note">
                 <b>Reading help / 阅读帮助</b>
-                <span>Blue words are today's key words. Read the sentence around each key word before answering.</span>
-                <span>蓝色词是今天的关键词。答题前先读关键词前后的完整句子。</span>
+                <span>Tap 🔊 to hear a word or the whole passage. Blue words are today's key words.</span>
+                <span>点击 🔊 可以听单词或整段材料。蓝色词是今天的关键词。</span>
               </div>
 
               <div className="review-word-grid">
                 {paper.words.map((word) => (
-                  <article key={word.word}>
-                    <b>{word.word}</b>
-                    <span>{word.meaning}</span>
-                  </article>
+                  <WordCard key={word.word} word={word} />
                 ))}
               </div>
 
@@ -183,7 +222,10 @@ export function QuizApp({
                 <span className="pill">{current.type}</span>
                 <span>{currentIndex + 1} / {questions.length}</span>
               </div>
-              <h2>{current.prompt}</h2>
+              <div className="section-title-row">
+                <h2>{current.prompt}</h2>
+                <SpeakButton text={current.prompt} label="朗读题目" />
+              </div>
               <div className="judgement-note">
                 <b>Key judgement / 判断关键：</b>
                 <span>{current.judgementEn}</span>
@@ -256,7 +298,10 @@ export function QuizApp({
                     <article key={question.id}>
                       <span className="pill">{question.part}</span>
                       <span className="pill">{question.type}</span>
-                      <h3>{question.prompt}</h3>
+                      <div className="section-title-row">
+                        <h3>{question.prompt}</h3>
+                        <SpeakButton text={question.prompt} label="朗读错题题目" />
+                      </div>
                       <p><span className="student-answer">Your answer / 你的答案：</span>{answers[question.id]}</p>
                       <p><span className="correct-answer">Correct answer / 正确答案：</span>{question.answer}</p>
                       <p><span className="english-note">Explanation:</span> {question.explanationEn}</p>
@@ -312,7 +357,7 @@ export function QuizApp({
           <section className="quiz-side">
             <h2>学习节奏 / Study Rhythm</h2>
             <ol className="rhythm-list">
-              <li><b>1</b><span>Read first. 先读材料，圈出关键词。</span></li>
+              <li><b>1</b><span>Listen and read. 先听再读，圈出关键词。</span></li>
               <li><b>2</b><span>Check meaning. 选择题先判断意思。</span></li>
               <li><b>3</b><span>Check collocation. 填空题检查搭配和语法位置。</span></li>
               <li><b>4</b><span>{paper.creativePrompt}</span></li>

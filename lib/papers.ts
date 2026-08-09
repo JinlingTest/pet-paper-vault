@@ -1,6 +1,7 @@
 export type VocabWord = {
   word: string;
   meaning: string;
+  phonetic?: string;
 };
 
 export type ComprehensionQuestion = {
@@ -64,16 +65,16 @@ export const papers: Paper[] = [
     topic: "Travel & Daily Life",
     title: "PET Vocabulary Practice: Travel & Daily Life",
     words: [
-      { word: "journey", meaning: "旅程" },
-      { word: "delay", meaning: "延误" },
-      { word: "platform", meaning: "站台" },
-      { word: "luggage", meaning: "行李" },
-      { word: "ticket", meaning: "票" },
-      { word: "passenger", meaning: "乘客" },
-      { word: "comfortable", meaning: "舒适的" },
-      { word: "crowded", meaning: "拥挤的" },
-      { word: "arrive", meaning: "到达" },
-      { word: "miss", meaning: "错过；想念" }
+      { word: "journey", meaning: "旅程", phonetic: "/ˈdʒɜːrni/" },
+      { word: "delay", meaning: "延误", phonetic: "/dɪˈleɪ/" },
+      { word: "platform", meaning: "站台", phonetic: "/ˈplætfɔːrm/" },
+      { word: "luggage", meaning: "行李", phonetic: "/ˈlʌɡɪdʒ/" },
+      { word: "ticket", meaning: "票", phonetic: "/ˈtɪkɪt/" },
+      { word: "passenger", meaning: "乘客", phonetic: "/ˈpæsɪndʒər/" },
+      { word: "comfortable", meaning: "舒适的", phonetic: "/ˈkʌmftərbəl/" },
+      { word: "crowded", meaning: "拥挤的", phonetic: "/ˈkraʊdɪd/" },
+      { word: "arrive", meaning: "到达", phonetic: "/əˈraɪv/" },
+      { word: "miss", meaning: "错过；想念", phonetic: "/mɪs/" }
     ],
     reading:
       "Last Saturday, Anna took a train to visit her cousin. Her journey started early in the morning. When she got to the station, she checked her ticket and walked to platform 3. There were many passengers, and the train was very crowded. Anna had a small suitcase as her luggage, so it was easy to carry. The train had a short delay, but her seat was quite comfortable. In the end, she arrived at her cousin's town at 11:30. She was happy because she didn't miss lunch with her cousin.",
@@ -172,16 +173,16 @@ export const papers: Paper[] = [
     topic: "Environment & Daily Choices",
     title: "PET Daily Vocabulary: Environment & Daily Choices",
     words: [
-      { word: "environment", meaning: "环境" },
-      { word: "recycle", meaning: "回收利用" },
-      { word: "pollution", meaning: "污染" },
-      { word: "protect", meaning: "保护" },
-      { word: "waste", meaning: "浪费；废弃物" },
-      { word: "energy", meaning: "能源；精力" },
-      { word: "local", meaning: "当地的" },
-      { word: "reduce", meaning: "减少" },
-      { word: "plastic", meaning: "塑料；塑料的" },
-      { word: "habit", meaning: "习惯" }
+      { word: "environment", meaning: "环境", phonetic: "/ɪnˈvaɪrənmənt/" },
+      { word: "recycle", meaning: "回收利用", phonetic: "/ˌriːˈsaɪkəl/" },
+      { word: "pollution", meaning: "污染", phonetic: "/pəˈluːʃən/" },
+      { word: "protect", meaning: "保护", phonetic: "/prəˈtekt/" },
+      { word: "waste", meaning: "浪费；废弃物", phonetic: "/weɪst/" },
+      { word: "energy", meaning: "能源；精力", phonetic: "/ˈenərdʒi/" },
+      { word: "local", meaning: "当地的", phonetic: "/ˈloʊkəl/" },
+      { word: "reduce", meaning: "减少", phonetic: "/rɪˈduːs/" },
+      { word: "plastic", meaning: "塑料；塑料的", phonetic: "/ˈplæstɪk/" },
+      { word: "habit", meaning: "习惯", phonetic: "/ˈhæbɪt/" }
     ],
     reading:
       "Mia's class started a project about the environment. Their teacher asked them to protect their town by changing one daily habit. Mia decided to use less plastic and always carry a bottle from home. Her friend Leo tried to recycle paper and cans. The students also wanted to reduce food waste at lunch. A local shop helped them by putting up posters about pollution. After one month, the class saved water and energy, and they felt proud of their small changes.",
