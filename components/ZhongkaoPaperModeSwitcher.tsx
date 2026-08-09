@@ -16,10 +16,10 @@ export function ZhongkaoPaperModeSwitcher({ paper }: { paper: ZhongkaoPaper }) {
       <div className="screen-only mode-switcher" aria-label="Zhongkao paper mode switcher">
         <div className="segmented">
           <button className={mode === "paper" ? "active" : ""} type="button" onClick={() => setMode("paper")}>
-            ????
+            打印试卷
           </button>
           <button className={mode === "quiz" ? "active" : ""} type="button" onClick={() => setMode("quiz")}>
-            ???????
+            在线答题小程序
           </button>
         </div>
         {mode === "paper" ? <PrintButton /> : null}

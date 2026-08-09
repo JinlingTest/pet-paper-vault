@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: PageProps) {
   const paper = getZhongkaoPaper(paperId);
 
   return {
-    title: paper ? `${paper.title} - ??????` : "????????"
+    title: paper ? `${paper.title} - 中考英语衔接` : "中考英语衔接练习"
   };
 }
 
@@ -45,16 +45,16 @@ export default async function ZhongkaoPaperPage({ params }: PageProps) {
         </div>
         <div className="button-row">
           <Link className="button" href="/zhongkao">
-            ??????
+            返回中考目录
           </Link>
           {previousId ? (
             <Link className="button" href={`/zhongkao/papers/${previousId}`}>
-              ???
+              上一份
             </Link>
           ) : null}
           {nextId ? (
             <Link className="button" href={`/zhongkao/papers/${nextId}`}>
-              ???
+              下一份
             </Link>
           ) : null}
         </div>

@@ -17,11 +17,11 @@ export function PaperModeSwitcher({ paper }: { paper: Paper }) {
       <div className="screen-only mode-switcher" aria-label="Paper mode switcher">
         <div className="segmented">
           <button className={mode === "paper" ? "active" : ""} type="button" onClick={() => setMode("paper")}>
-            ????
+            打印试卷
           </button>
           <button className={mode === "quiz" ? "active" : ""} type="button" onClick={() => setMode("quiz")}>
-            <span>???????</span>
-            {mode === "quiz" ? <small>?? {score.correct}/{score.answered}</small> : null}
+            <span>在线答题小程序</span>
+            {mode === "quiz" ? <small>得分 {score.correct}/{score.answered}</small> : null}
           </button>
         </div>
         {mode === "paper" ? <PrintButton /> : null}
