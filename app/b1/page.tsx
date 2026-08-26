@@ -5,7 +5,8 @@ import { getVaultStatus } from "@/lib/vault-status";
 const topicZh: Record<string, string> = {
   "001": "旅行与日常生活",
   "002": "环境与日常选择",
-  "003": "健康与看医生"
+  "003": "健康与看医生",
+  "004": "学校与学习"
 };
 
 export const metadata = {

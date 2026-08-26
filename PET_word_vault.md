@@ -65,6 +65,27 @@ Worksheet route:
 
 - /papers/003
 
+### v4 - School & Study - 2026-08-26
+
+Paper id: 004
+
+Recorded words:
+
+1. subject - 学科；主题
+2. improve - 提高；改善
+3. exam - 考试
+4. mark - 分数；标记
+5. explain - 解释
+6. practise - 练习
+7. mistake - 错误
+8. course - 课程
+9. result - 结果；成绩
+10. homework - 家庭作业
+
+Worksheet route:
+
+- /papers/004
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

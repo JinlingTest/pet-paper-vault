@@ -53,6 +53,21 @@ PAPERS = {
             "advice",
         ],
     },
+    "004": {
+        "reading": "Nina wanted to improve her English before an important exam. Her favourite subject was science, but English felt difficult. Her teacher asked her to join a short course after school and practise reading for twenty minutes every day. Nina did her homework carefully and wrote down each mistake in a small notebook. When she did not understand a sentence, she asked the teacher to explain it again. At the end of the month, Nina's mark was higher, and her result made her feel proud.",
+        "words": [
+            "subject",
+            "improve",
+            "exam",
+            "mark",
+            "explain",
+            "practise",
+            "mistake",
+            "course",
+            "result",
+            "homework",
+        ],
+    },
 }
 
 

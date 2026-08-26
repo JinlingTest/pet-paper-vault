@@ -286,6 +286,65 @@ export const papers: Paper[] = [
       { en: "The nurse checked my temperature before I saw the doctor.", zh: "看医生前，护士给我量了体温。" },
       { en: "Good advice and light exercise can help you recover.", zh: "好的建议和轻度锻炼可以帮助你康复。" }
     ]
+  },
+  {
+    id: "004",
+    version: "v4",
+    date: "2026-08-26",
+    topic: "School & Study",
+    title: "English Daily Vocabulary: School & Study",
+    words: [
+      { word: "subject", meaning: "学科；主题", phonetic: "/ˈsʌbdʒekt/", audioUrl: "/audio/papers/004/words/subject.mp3" },
+      { word: "improve", meaning: "提高；改善", phonetic: "/ɪmˈpruːv/", audioUrl: "/audio/papers/004/words/improve.mp3" },
+      { word: "exam", meaning: "考试", phonetic: "/ɪɡˈzæm/", audioUrl: "/audio/papers/004/words/exam.mp3" },
+      { word: "mark", meaning: "分数；标记", phonetic: "/mɑːrk/", audioUrl: "/audio/papers/004/words/mark.mp3" },
+      { word: "explain", meaning: "解释", phonetic: "/ɪkˈspleɪn/", audioUrl: "/audio/papers/004/words/explain.mp3" },
+      { word: "practise", meaning: "练习", phonetic: "/ˈpræktɪs/", audioUrl: "/audio/papers/004/words/practise.mp3" },
+      { word: "mistake", meaning: "错误", phonetic: "/mɪˈsteɪk/", audioUrl: "/audio/papers/004/words/mistake.mp3" },
+      { word: "course", meaning: "课程", phonetic: "/kɔːrs/", audioUrl: "/audio/papers/004/words/course.mp3" },
+      { word: "result", meaning: "结果；成绩", phonetic: "/rɪˈzʌlt/", audioUrl: "/audio/papers/004/words/result.mp3" },
+      { word: "homework", meaning: "家庭作业", phonetic: "/ˈhoʊmwɜːrk/", audioUrl: "/audio/papers/004/words/homework.mp3" }
+    ],
+    reading:
+      "Nina wanted to improve her English before an important exam. Her favourite subject was science, but English felt difficult. Her teacher asked her to join a short course after school and practise reading for twenty minutes every day. Nina did her homework carefully and wrote down each mistake in a small notebook. When she did not understand a sentence, she asked the teacher to explain it again. At the end of the month, Nina's mark was higher, and her result made her feel proud.",
+    readingAudioUrl: "/audio/papers/004/reading.mp3",
+    questions: [
+      { question: "Why did Nina want to improve her English?", answer: "Because she had an important exam.", studentAnswer: "Because science was her favourite subject.", explanationEn: "Science was her favourite subject, but the reason she improved English was the important exam.", explanationZh: "science 是她喜欢的学科，但她提高英语的原因是 important exam。", tag: "Reason" },
+      { question: "What course did Nina join?", answer: "She joined a short course after school.", studentAnswer: "She joined a science course before school.", explanationEn: "The text says she joined a short course after school.", explanationZh: "原文说她参加了 after school 的 short course。", tag: "Reading detail" },
+      { question: "How long did Nina practise reading every day?", answer: "She practised reading for twenty minutes every day.", studentAnswer: "She practised reading for ten minutes every day.", explanationEn: "The exact detail is twenty minutes every day.", explanationZh: "这里要抓具体信息：每天 twenty minutes。", tag: "Exact detail" },
+      { question: "What did Nina write in her small notebook?", answer: "She wrote down each mistake.", studentAnswer: "She wrote down each mark.", explanationEn: "She used the notebook to record mistakes, not marks.", explanationZh: "小本子记录的是 mistake 错误，不是 mark 分数。", tag: "Who/what" },
+      { question: "Which word means \"make something better\"?", answer: "improve", studentAnswer: "explain", explanationEn: "Improve means make something better. Explain means make something clear.", explanationZh: "improve 是提高、改善；explain 是解释清楚。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "improve", collocations: ["improve English", "improve a mark", "improve quickly"], similar: ["get better", "develop"], note: "improve means become better or make something better; it is not the same as practise." },
+      { word: "explain", collocations: ["explain a sentence", "explain the answer", "explain something to someone"], similar: ["describe", "show"], note: "explain focuses on making ideas clear; describe focuses on saying what something is like." },
+      { word: "mark", collocations: ["get a good mark", "a high mark", "full marks"], similar: ["score", "grade"], note: "mark can mean a score in school, or a sign on paper." }
+    ],
+    blanks: [
+      { sentenceBefore: "Maths is my favourite", sentenceAfter: "at school.", answer: "subject", studentAnswer: "course", explanationEn: "A school subject is an area like maths, English, or science.", explanationZh: "maths/English/science 这类学科用 subject。" },
+      { sentenceBefore: "I want to", sentenceAfter: "my reading this month.", answer: "improve", studentAnswer: "explain", explanationEn: "Improve reading means make reading better.", explanationZh: "improve reading 表示提高阅读能力。" },
+      { sentenceBefore: "We have an English", sentenceAfter: "on Friday.", answer: "exam", studentAnswer: "mark", explanationEn: "Have an exam is the natural phrase.", explanationZh: "have an exam 表示有一场考试。" },
+      { sentenceBefore: "Lucy got a high", sentenceAfter: "in the test.", answer: "mark", studentAnswer: "result", explanationEn: "A high mark means a good score.", explanationZh: "high mark 表示高分。" },
+      { sentenceBefore: "Can you", sentenceAfter: "this word to me?", answer: "explain", studentAnswer: "subject", explanationEn: "Explain something to someone is the correct pattern.", explanationZh: "explain something to someone 表示向某人解释某事。" },
+      { sentenceBefore: "You need to", sentenceAfter: "speaking every day.", answer: "practise", studentAnswer: "improve", explanationEn: "Practise speaking means do speaking again and again.", explanationZh: "practise speaking 表示反复练习口语。" },
+      { sentenceBefore: "I made one spelling", sentenceAfter: "in my homework.", answer: "mistake", studentAnswer: "mark", explanationEn: "Make a mistake is a fixed phrase.", explanationZh: "make a mistake 是固定搭配，表示犯错。" },
+      { sentenceBefore: "This online", sentenceAfter: "helps students learn English.", answer: "course", studentAnswer: "subject", explanationEn: "An online course is a set of lessons.", explanationZh: "online course 是在线课程。" },
+      { sentenceBefore: "The test", sentenceAfter: "was better than last time.", answer: "result", studentAnswer: "exam", explanationEn: "Result means what you get after a test or action.", explanationZh: "result 表示考试或行动后的结果。" },
+      { sentenceBefore: "I finished my English", sentenceAfter: "before dinner.", answer: "homework", studentAnswer: "course", explanationEn: "Finish homework is the natural phrase.", explanationZh: "finish homework 表示完成作业。" }
+    ],
+    corrections: [
+      { prompt: "I want to explain my English this year.", answer: "I want to improve my English this year.", studentAnswer: "I want to explain my English this year.", explanationEn: "Improve English means make your English better. Explain English means tell someone about English.", explanationZh: "improve English 是提高英语；explain English 是解释英语这个内容。", tag: "Word choice" },
+      { prompt: "She got a good result in one question.", answer: "She got a good mark in one question.", studentAnswer: "She got a good result in one question.", explanationEn: "For a score on a question or test, mark is more natural.", explanationZh: "具体分数更常用 mark；result 更偏整体结果。", tag: "Meaning" },
+      { prompt: "Please explain me this sentence.", answer: "Please explain this sentence to me.", studentAnswer: "Please explain me this sentence.", explanationEn: "Use explain something to someone.", explanationZh: "explain 的结构是 explain something to someone。", tag: "Grammar" },
+      { prompt: "I made a wrong in my homework.", answer: "I made a mistake in my homework.", studentAnswer: "I made a wrong in my homework.", explanationEn: "Mistake is the noun. Wrong is usually an adjective.", explanationZh: "mistake 是名词；wrong 通常是形容词。", tag: "Word form" },
+      { prompt: "He practised to read for twenty minutes.", answer: "He practised reading for twenty minutes.", studentAnswer: "He practised to read for twenty minutes.", explanationEn: "After practise, use the -ing form: practise reading.", explanationZh: "practise 后面常接动名词：practise reading。", tag: "Verb pattern" }
+    ],
+    creativePrompt: "Use five words from today's list to write a two-sentence study plan for this week.",
+    examples: [
+      { en: "I want to improve my exam result by doing homework carefully.", zh: "我想通过认真做作业来提高考试成绩。" },
+      { en: "The teacher explained my mistake after class.", zh: "老师课后解释了我的错误。" },
+      { en: "This course helps me practise English every day.", zh: "这门课程帮助我每天练习英语。" }
+    ]
   }
 ];
 
