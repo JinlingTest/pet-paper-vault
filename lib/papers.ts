@@ -345,6 +345,65 @@ export const papers: Paper[] = [
       { en: "The teacher explained my mistake after class.", zh: "老师课后解释了我的错误。" },
       { en: "This course helps me practise English every day.", zh: "这门课程帮助我每天练习英语。" }
     ]
+  },
+  {
+    id: "005",
+    version: "v5",
+    date: "2026-09-05",
+    topic: "Food & Shopping",
+    title: "English Daily Vocabulary: Food & Shopping",
+    words: [
+      { word: "customer", meaning: "客户；顾客", phonetic: "/ˈkʌstəmər/", audioUrl: "/audio/papers/005/words/customer.mp3" },
+      { word: "receipt", meaning: "收据", phonetic: "/rɪˈsiːt/", audioUrl: "/audio/papers/005/words/receipt.mp3" },
+      { word: "price", meaning: "价格", phonetic: "/praɪs/", audioUrl: "/audio/papers/005/words/price.mp3" },
+      { word: "discount", meaning: "折扣", phonetic: "/ˈdɪskaʊnt/", audioUrl: "/audio/papers/005/words/discount.mp3" },
+      { word: "fresh", meaning: "新鲜的", phonetic: "/freʃ/", audioUrl: "/audio/papers/005/words/fresh.mp3" },
+      { word: "order", meaning: "点餐；订购", phonetic: "/ˈɔːrdər/", audioUrl: "/audio/papers/005/words/order.mp3" },
+      { word: "menu", meaning: "菜单", phonetic: "/ˈmenjuː/", audioUrl: "/audio/papers/005/words/menu.mp3" },
+      { word: "choose", meaning: "选择", phonetic: "/tʃuːz/", audioUrl: "/audio/papers/005/words/choose.mp3" },
+      { word: "expensive", meaning: "昂贵的", phonetic: "/ɪkˈspensɪv/", audioUrl: "/audio/papers/005/words/expensive.mp3" },
+      { word: "cheap", meaning: "便宜的", phonetic: "/tʃiːp/", audioUrl: "/audio/papers/005/words/cheap.mp3" }
+    ],
+    reading:
+      "Amy went to a small cafe with her father after school. A friendly customer was asking about the price of a sandwich. Amy looked at the menu and wanted to choose something fresh. The fruit salad was cheap, but the pasta was more expensive. Her father had a discount card, so they could save some money. Amy decided to order the fruit salad and a bottle of water. After they paid, the waiter gave them a receipt. Amy learned to check the price before buying food.",
+    readingAudioUrl: "/audio/papers/005/reading.mp3",
+    questions: [
+      { question: "Why did Amy and her father save some money?", answer: "Because her father had a discount card.", studentAnswer: "Because the pasta was cheap.", explanationEn: "The discount card helped them pay less. Cheap describes a low price, but the pasta was expensive.", explanationZh: "discount card 让他们少付钱；cheap 是价格低，但原文说 pasta 更贵。", tag: "Reason" },
+      { question: "What did Amy choose to order?", answer: "She chose the fruit salad and a bottle of water.", studentAnswer: "She chose the pasta and a sandwich.", explanationEn: "Amy wanted something fresh and ordered the fruit salad and water.", explanationZh: "Amy 想要新鲜的东西，最后点了 fruit salad 和 water。", tag: "Reading detail" },
+      { question: "What did the waiter give them after they paid?", answer: "The waiter gave them a receipt.", studentAnswer: "The waiter gave them a menu.", explanationEn: "A menu is used before ordering. A receipt is given after paying.", explanationZh: "menu 是点餐前看的菜单；receipt 是付款后的收据。", tag: "Sequence" },
+      { question: "Which food was more expensive?", answer: "The pasta was more expensive.", studentAnswer: "The fruit salad was more expensive.", explanationEn: "The text says the fruit salad was cheap, but the pasta was more expensive.", explanationZh: "原文对比很清楚：fruit salad 便宜，pasta 更贵。", tag: "Comparison" },
+      { question: "Which word means \"a list of food and drinks in a cafe or restaurant\"?", answer: "menu", studentAnswer: "receipt", explanationEn: "Menu means a list of food and drinks. Receipt means a piece of paper showing what you paid.", explanationZh: "menu 是菜单；receipt 是收据，记录你付了多少钱。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "price", collocations: ["a high price", "a low price", "check the price"], similar: ["cost", "value"], note: "price is the amount of money for something; cost can be the money you must pay or the verb meaning require money." },
+      { word: "order", collocations: ["order food", "order online", "place an order"], similar: ["buy", "ask for"], note: "order can be a verb or a noun. In a cafe, order means ask for food or drink." },
+      { word: "cheap", collocations: ["cheap food", "a cheap ticket", "cheap but useful"], similar: ["inexpensive", "low-cost"], note: "cheap means not expensive, but it can sometimes sound low quality. Low price is safer when you talk about the price itself." }
+    ],
+    blanks: [
+      { sentenceBefore: "A", sentenceAfter: "asked the waiter for water.", answer: "customer", studentAnswer: "waiter", explanationEn: "A customer buys food or drinks. A waiter serves customers.", explanationZh: "customer 是顾客；waiter 是服务员。" },
+      { sentenceBefore: "Please keep the", sentenceAfter: "after you pay.", answer: "receipt", studentAnswer: "menu", explanationEn: "You get a receipt after paying.", explanationZh: "付款后拿到的是 receipt 收据。" },
+      { sentenceBefore: "The", sentenceAfter: "of the cake is three pounds.", answer: "price", studentAnswer: "discount", explanationEn: "Three pounds is the price.", explanationZh: "three pounds 表示价格 price。" },
+      { sentenceBefore: "We got a ten percent", sentenceAfter: "with this card.", answer: "discount", studentAnswer: "price", explanationEn: "A ten percent discount means paying ten percent less.", explanationZh: "ten percent discount 表示九折或少付 10%。" },
+      { sentenceBefore: "These apples are", sentenceAfter: "and sweet.", answer: "fresh", studentAnswer: "cheap", explanationEn: "Fresh describes food that is new and good to eat.", explanationZh: "fresh 描述食物新鲜。" },
+      { sentenceBefore: "I want to", sentenceAfter: "a sandwich for lunch.", answer: "order", studentAnswer: "menu", explanationEn: "Order a sandwich means ask to buy it in a cafe or restaurant.", explanationZh: "order a sandwich 表示点一个三明治。" },
+      { sentenceBefore: "The", sentenceAfter: "shows drinks, snacks and meals.", answer: "menu", studentAnswer: "receipt", explanationEn: "A menu shows food and drinks.", explanationZh: "menu 显示食物和饮料。" },
+      { sentenceBefore: "You can", sentenceAfter: "one drink from the list.", answer: "choose", studentAnswer: "order", explanationEn: "Choose means pick one from several options.", explanationZh: "choose 表示从几个选项中选择一个。" },
+      { sentenceBefore: "That coat is too", sentenceAfter: "for me to buy.", answer: "expensive", studentAnswer: "fresh", explanationEn: "Too expensive means it costs too much money.", explanationZh: "too expensive 表示太贵了。" },
+      { sentenceBefore: "This notebook is only one pound, so it is", sentenceAfter: ".", answer: "cheap", studentAnswer: "expensive", explanationEn: "Only one pound shows it has a low price.", explanationZh: "only one pound 说明价格低，所以是 cheap。" }
+    ],
+    corrections: [
+      { prompt: "The customer gave me a receipt after I paid.", answer: "The waiter gave me a receipt after I paid.", studentAnswer: "The customer gave me a receipt after I paid.", explanationEn: "The waiter gives the receipt. The customer pays and receives it.", explanationZh: "给收据的是 waiter；customer 是付款并拿收据的人。", tag: "Role" },
+      { prompt: "This menu is very expensive.", answer: "This dish is very expensive.", studentAnswer: "This menu is very expensive.", explanationEn: "A menu is the list. A dish or meal can be expensive.", explanationZh: "menu 是菜单本身；真正贵的是 dish 或 meal。", tag: "Meaning" },
+      { prompt: "I want to choose a sandwich from the waiter.", answer: "I want to order a sandwich from the waiter.", studentAnswer: "I want to choose a sandwich from the waiter.", explanationEn: "You choose from a menu, but order from a waiter.", explanationZh: "从菜单里 choose；向服务员 order。", tag: "Collocation" },
+      { prompt: "The price is very cheap.", answer: "The price is very low.", studentAnswer: "The price is very cheap.", explanationEn: "Use low with price. Use cheap with the thing you buy.", explanationZh: "price 要搭配 low；cheap 描述买的东西便宜。", tag: "Collocation" },
+      { prompt: "Can I have a discount price?", answer: "Can I have a discount?", studentAnswer: "Can I have a discount price?", explanationEn: "Have a discount or get a discount is natural. Discount price is less natural in this question.", explanationZh: "自然表达是 have/get a discount，直接问能不能打折。", tag: "Natural English" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short cafe dialogue between a customer and a waiter.",
+    examples: [
+      { en: "The customer checked the price before placing an order.", zh: "顾客下单前看了价格。" },
+      { en: "This cafe has fresh food and a useful menu.", zh: "这家咖啡馆有新鲜食物和实用菜单。" },
+      { en: "The bag was expensive, but I got a discount.", zh: "这个包很贵，但我拿到了折扣。" }
+    ]
   }
 ];
 

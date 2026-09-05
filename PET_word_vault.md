@@ -86,6 +86,27 @@ Worksheet route:
 
 - /papers/004
 
+### v5 - Food & Shopping - 2026-09-05
+
+Paper id: 005
+
+Recorded words:
+
+1. customer - 顾客
+2. receipt - 收据
+3. price - 价格
+4. discount - 折扣
+5. fresh - 新鲜的
+6. order - 点餐；订购
+7. menu - 菜单
+8. choose - 选择
+9. expensive - 昂贵的
+10. cheap - 便宜的
+
+Worksheet route:
+
+- /papers/005
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

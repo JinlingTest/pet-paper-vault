@@ -68,6 +68,21 @@ PAPERS = {
             "homework",
         ],
     },
+    "005": {
+        "reading": "Amy went to a small cafe with her father after school. A friendly customer was asking about the price of a sandwich. Amy looked at the menu and wanted to choose something fresh. The fruit salad was cheap, but the pasta was more expensive. Her father had a discount card, so they could save some money. Amy decided to order the fruit salad and a bottle of water. After they paid, the waiter gave them a receipt. Amy learned to check the price before buying food.",
+        "words": [
+            "customer",
+            "receipt",
+            "price",
+            "discount",
+            "fresh",
+            "order",
+            "menu",
+            "choose",
+            "expensive",
+            "cheap",
+        ],
+    },
 }
 
 
