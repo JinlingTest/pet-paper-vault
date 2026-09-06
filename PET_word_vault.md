@@ -107,6 +107,27 @@ Worksheet route:
 
 - /papers/005
 
+### v6 - Work & Free Time - 2026-09-06
+
+Paper id: 006
+
+Recorded words:
+
+1. interview - 面试；采访
+2. manager - 经理
+3. meeting - 会议
+4. busy - 忙碌的
+5. boring - 无聊的
+6. exciting - 令人兴奋的
+7. hobby - 爱好
+8. activity - 活动
+9. volunteer - 志愿者；自愿做
+10. job - 工作
+
+Worksheet route:
+
+- /papers/006
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

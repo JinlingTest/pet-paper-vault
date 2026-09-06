@@ -404,6 +404,65 @@ export const papers: Paper[] = [
       { en: "This cafe has fresh food and a useful menu.", zh: "这家咖啡馆有新鲜食物和实用菜单。" },
       { en: "The bag was expensive, but I got a discount.", zh: "这个包很贵，但我拿到了折扣。" }
     ]
+  },
+  {
+    id: "006",
+    version: "v6",
+    date: "2026-09-06",
+    topic: "Work & Free Time",
+    title: "English Daily Vocabulary: Work & Free Time",
+    words: [
+      { word: "interview", meaning: "面试；采访", phonetic: "/ˈɪntərvjuː/", audioUrl: "/audio/papers/006/words/interview.mp3" },
+      { word: "manager", meaning: "经理", phonetic: "/ˈmænɪdʒər/", audioUrl: "/audio/papers/006/words/manager.mp3" },
+      { word: "meeting", meaning: "会议", phonetic: "/ˈmiːtɪŋ/", audioUrl: "/audio/papers/006/words/meeting.mp3" },
+      { word: "busy", meaning: "忙碌的", phonetic: "/ˈbɪzi/", audioUrl: "/audio/papers/006/words/busy.mp3" },
+      { word: "boring", meaning: "无聊的", phonetic: "/ˈbɔːrɪŋ/", audioUrl: "/audio/papers/006/words/boring.mp3" },
+      { word: "exciting", meaning: "令人兴奋的", phonetic: "/ɪkˈsaɪtɪŋ/", audioUrl: "/audio/papers/006/words/exciting.mp3" },
+      { word: "hobby", meaning: "爱好", phonetic: "/ˈhɑːbi/", audioUrl: "/audio/papers/006/words/hobby.mp3" },
+      { word: "activity", meaning: "活动", phonetic: "/ækˈtɪvəti/", audioUrl: "/audio/papers/006/words/activity.mp3" },
+      { word: "volunteer", meaning: "志愿者；自愿做", phonetic: "/ˌvɑːlənˈtɪr/", audioUrl: "/audio/papers/006/words/volunteer.mp3" },
+      { word: "job", meaning: "工作", phonetic: "/dʒɑːb/", audioUrl: "/audio/papers/006/words/job.mp3" }
+    ],
+    reading:
+      "Tom wanted a weekend job at the town library, so he went there for an interview. The manager was friendly, but she had a busy morning and asked Tom to wait before their meeting. Tom did not feel bored because he looked at posters for a reading activity. One poster invited students to volunteer on Saturdays. Tom said reading was his hobby, and helping younger children sounded exciting. After the meeting, the manager told Tom he could start next week. Tom was happy because the job matched his free time.",
+    readingAudioUrl: "/audio/papers/006/reading.mp3",
+    questions: [
+      { question: "Why did Tom go to the library?", answer: "He went there for an interview for a weekend job.", studentAnswer: "He went there for a boring meeting with students.", explanationEn: "The first sentence says Tom wanted a weekend job and went for an interview.", explanationZh: "第一句说明 Tom 想找 weekend job，所以去图书馆参加 interview。", tag: "Reason" },
+      { question: "Why did Tom have to wait?", answer: "Because the manager had a busy morning.", studentAnswer: "Because the manager was bored.", explanationEn: "Busy means having many things to do. The manager was busy, not bored.", explanationZh: "busy 是事情很多；boring/bored 是无聊。经理是忙，不是无聊。", tag: "Word choice" },
+      { question: "What was Tom's hobby?", answer: "Reading was his hobby.", studentAnswer: "Working every Saturday was his hobby.", explanationEn: "Tom directly says reading was his hobby.", explanationZh: "原文直接说 reading was his hobby。", tag: "Reading detail" },
+      { question: "What activity could students do on Saturdays?", answer: "They could volunteer to help younger children.", studentAnswer: "They could interview the manager.", explanationEn: "The poster invited students to volunteer, not to interview the manager.", explanationZh: "海报邀请学生 volunteer，不是 interview manager。", tag: "Inference" },
+      { question: "Which word means \"a talk where someone asks questions before giving a job\"?", answer: "interview", studentAnswer: "meeting", explanationEn: "Interview is for asking questions about a job. Meeting is a planned discussion.", explanationZh: "interview 常指求职面试；meeting 是普通会议或会面。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "interview", collocations: ["have an interview", "go for an interview", "a job interview"], similar: ["meeting", "talk"], note: "An interview usually has questions for a job, school place, or news story. A meeting is a more general planned discussion." },
+      { word: "boring", collocations: ["a boring film", "feel bored", "a boring job"], similar: ["dull", "not interesting"], note: "Boring describes the thing that makes you lose interest. Bored describes how a person feels." },
+      { word: "volunteer", collocations: ["work as a volunteer", "volunteer at a library", "volunteer to help"], similar: ["helper", "offer"], note: "Volunteer can be a noun for a helper or a verb meaning offer to do something." }
+    ],
+    blanks: [
+      { sentenceBefore: "I have a job", sentenceAfter: "at ten o'clock tomorrow.", answer: "interview", studentAnswer: "meeting", explanationEn: "A job interview is for getting a job.", explanationZh: "job interview 表示求职面试。" },
+      { sentenceBefore: "The shop", sentenceAfter: "asked everyone to arrive early.", answer: "manager", studentAnswer: "customer", explanationEn: "A manager is the person who organizes workers.", explanationZh: "manager 是管理人员或经理。" },
+      { sentenceBefore: "Our team has a short", sentenceAfter: "after lunch.", answer: "meeting", studentAnswer: "interview", explanationEn: "A meeting is a planned discussion for a group.", explanationZh: "meeting 是会议或会面。" },
+      { sentenceBefore: "Mum is very", sentenceAfter: "today because she has many things to do.", answer: "busy", studentAnswer: "boring", explanationEn: "Having many things to do means busy.", explanationZh: "事情很多就是 busy。" },
+      { sentenceBefore: "The film was", sentenceAfter: ", so I nearly fell asleep.", answer: "boring", studentAnswer: "bored", explanationEn: "The film is boring. A person feels bored.", explanationZh: "film 用 boring；人感到无聊用 bored。" },
+      { sentenceBefore: "The football match was", sentenceAfter: "because both teams played well.", answer: "exciting", studentAnswer: "excited", explanationEn: "The match is exciting. People feel excited.", explanationZh: "match 用 exciting；人感到兴奋用 excited。" },
+      { sentenceBefore: "Drawing is my favourite", sentenceAfter: "after school.", answer: "hobby", studentAnswer: "job", explanationEn: "A hobby is something you enjoy in free time.", explanationZh: "hobby 是业余爱好。" },
+      { sentenceBefore: "The school reading", sentenceAfter: "starts at three.", answer: "activity", studentAnswer: "meeting", explanationEn: "An activity is something people do, often for fun or learning.", explanationZh: "activity 是活动，可以是学习或娱乐活动。" },
+      { sentenceBefore: "I want to", sentenceAfter: "at the animal centre this summer.", answer: "volunteer", studentAnswer: "manager", explanationEn: "Volunteer can be a verb meaning offer to help.", explanationZh: "volunteer 作动词时表示自愿帮忙。" },
+      { sentenceBefore: "My brother has a part-time", sentenceAfter: "in a cafe.", answer: "job", studentAnswer: "hobby", explanationEn: "A part-time job is work for part of the day or week.", explanationZh: "part-time job 是兼职工作。" }
+    ],
+    corrections: [
+      { prompt: "I have a job meeting tomorrow, and the manager will ask me many questions.", answer: "I have a job interview tomorrow, and the manager will ask me many questions.", studentAnswer: "I have a job meeting tomorrow, and the manager will ask me many questions.", explanationEn: "When a manager asks questions before giving a job, it is a job interview.", explanationZh: "求职前经理提问叫 job interview，不是 job meeting。", tag: "Meaning" },
+      { prompt: "The students were boring during the long meeting.", answer: "The students were bored during the long meeting.", studentAnswer: "The students were boring during the long meeting.", explanationEn: "People feel bored. Boring describes the thing that causes the feeling.", explanationZh: "人感到无聊用 bored；让人无聊的事物用 boring。", tag: "Adjective pair" },
+      { prompt: "The activity was excited for younger children.", answer: "The activity was exciting for younger children.", studentAnswer: "The activity was excited for younger children.", explanationEn: "The activity is exciting. The children are excited.", explanationZh: "活动令人兴奋用 exciting；孩子感到兴奋用 excited。", tag: "Adjective pair" },
+      { prompt: "She volunteered a manager at the library.", answer: "She volunteered at the library.", studentAnswer: "She volunteered a manager at the library.", explanationEn: "Volunteer at a place is natural. Manager is a job role, not something you volunteer.", explanationZh: "volunteer at a place 表示在某地做志愿服务；manager 是职位。", tag: "Collocation" },
+      { prompt: "My hobby is a weekend job.", answer: "My hobby is reading on weekends.", studentAnswer: "My hobby is a weekend job.", explanationEn: "A hobby is something you do for enjoyment. A job is work, often for money.", explanationZh: "hobby 是兴趣爱好；job 是工作，通常和报酬有关。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short message about how you spend free time and help others.",
+    examples: [
+      { en: "I have an interview for a weekend job at the library.", zh: "我有一个图书馆周末工作的面试。" },
+      { en: "The meeting was not boring because we planned an exciting activity.", zh: "这次会议不无聊，因为我们计划了一个令人兴奋的活动。" },
+      { en: "My hobby is reading, so I want to volunteer with younger children.", zh: "我的爱好是阅读，所以我想做志愿者帮助年纪小的孩子。" }
+    ]
   }
 ];
 

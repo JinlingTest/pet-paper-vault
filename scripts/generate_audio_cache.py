@@ -83,6 +83,21 @@ PAPERS = {
             "cheap",
         ],
     },
+    "006": {
+        "reading": "Tom wanted a weekend job at the town library, so he went there for an interview. The manager was friendly, but she had a busy morning and asked Tom to wait before their meeting. Tom did not feel bored because he looked at posters for a reading activity. One poster invited students to volunteer on Saturdays. Tom said reading was his hobby, and helping younger children sounded exciting. After the meeting, the manager told Tom he could start next week. Tom was happy because the job matched his free time.",
+        "words": [
+            "interview",
+            "manager",
+            "meeting",
+            "busy",
+            "boring",
+            "exciting",
+            "hobby",
+            "activity",
+            "volunteer",
+            "job",
+        ],
+    },
 }
 
 
