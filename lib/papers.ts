@@ -463,6 +463,65 @@ export const papers: Paper[] = [
       { en: "The meeting was not boring because we planned an exciting activity.", zh: "这次会议不无聊，因为我们计划了一个令人兴奋的活动。" },
       { en: "My hobby is reading, so I want to volunteer with younger children.", zh: "我的爱好是阅读，所以我想做志愿者帮助年纪小的孩子。" }
     ]
+  },
+  {
+    id: "007",
+    version: "v7",
+    date: "2026-09-07",
+    topic: "Home & Technology",
+    title: "English Daily Vocabulary: Home & Technology",
+    words: [
+      { word: "repair", meaning: "修理", phonetic: "/rɪˈper/", audioUrl: "/audio/papers/007/words/repair.mp3" },
+      { word: "screen", meaning: "屏幕", phonetic: "/skriːn/", audioUrl: "/audio/papers/007/words/screen.mp3" },
+      { word: "device", meaning: "设备", phonetic: "/dɪˈvaɪs/", audioUrl: "/audio/papers/007/words/device.mp3" },
+      { word: "online", meaning: "在线的；在线地", phonetic: "/ˌɑːnˈlaɪn/", audioUrl: "/audio/papers/007/words/online.mp3" },
+      { word: "message", meaning: "信息；消息", phonetic: "/ˈmesɪdʒ/", audioUrl: "/audio/papers/007/words/message.mp3" },
+      { word: "battery", meaning: "电池", phonetic: "/ˈbætəri/", audioUrl: "/audio/papers/007/words/battery.mp3" },
+      { word: "charge", meaning: "充电；收费", phonetic: "/tʃɑːrdʒ/", audioUrl: "/audio/papers/007/words/charge.mp3" },
+      { word: "useful", meaning: "有用的", phonetic: "/ˈjuːsfəl/", audioUrl: "/audio/papers/007/words/useful.mp3" },
+      { word: "simple", meaning: "简单的", phonetic: "/ˈsɪmpəl/", audioUrl: "/audio/papers/007/words/simple.mp3" },
+      { word: "problem", meaning: "问题", phonetic: "/ˈprɑːbləm/", audioUrl: "/audio/papers/007/words/problem.mp3" }
+    ],
+    reading:
+      "Grace used her tablet for homework every evening. One day, the screen went dark, and she could not read an online message from her teacher. Grace thought the device had a serious problem, but her brother checked it calmly. He said the battery was empty and helped her charge it. After ten minutes, the tablet worked again. Grace was happy because the repair was simple and did not cost money. She learned that a useful device still needs care, and she promised to charge it before studying.",
+    readingAudioUrl: "/audio/papers/007/reading.mp3",
+    questions: [
+      { question: "Why could Grace not read the teacher's message?", answer: "Because the screen went dark.", studentAnswer: "Because the teacher sent no message.", explanationEn: "The message existed, but Grace could not read it because the screen went dark.", explanationZh: "message 已经有了；Grace 读不了是因为 screen 变黑。", tag: "Reason" },
+      { question: "What was the real problem with the tablet?", answer: "The battery was empty.", studentAnswer: "The screen was broken.", explanationEn: "Grace first thought the problem was serious, but her brother found the battery was empty.", explanationZh: "Grace 以为问题严重，但真正原因是 battery 没电。", tag: "Reading detail" },
+      { question: "How did her brother help?", answer: "He helped her charge the tablet.", studentAnswer: "He bought a new device.", explanationEn: "He charged the tablet. He did not buy a new device.", explanationZh: "哥哥帮她 charge 充电，没有买新 device。", tag: "Action" },
+      { question: "Why was Grace happy about the repair?", answer: "Because it was simple and did not cost money.", studentAnswer: "Because it was online and expensive.", explanationEn: "The repair was simple and free, so Grace was happy.", explanationZh: "repair 简单，而且没有花钱，所以 Grace 很高兴。", tag: "Reason" },
+      { question: "Which word means \"a machine or tool such as a phone or tablet\"?", answer: "device", studentAnswer: "battery", explanationEn: "Device means a machine or tool. Battery is the part that stores power.", explanationZh: "device 是设备；battery 是供电的电池。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "charge", collocations: ["charge a phone", "charge a battery", "charge money"], similar: ["power", "ask for money"], note: "Charge can mean put power into a device, or ask someone to pay money." },
+      { word: "repair", collocations: ["repair a phone", "repair a bike", "need repair"], similar: ["fix", "mend"], note: "Repair and fix both mean make something work again. Repair is a little more formal." },
+      { word: "message", collocations: ["send a message", "receive a message", "read a message"], similar: ["note", "text"], note: "A message is information sent to someone. Text is often a phone message." }
+    ],
+    blanks: [
+      { sentenceBefore: "Can you", sentenceAfter: "my old bike this weekend?", answer: "repair", studentAnswer: "charge", explanationEn: "Repair means make something work again.", explanationZh: "repair 表示修理，让东西重新能用。" },
+      { sentenceBefore: "The phone", sentenceAfter: "is too small for me to read.", answer: "screen", studentAnswer: "battery", explanationEn: "You read words on a screen.", explanationZh: "文字显示在 screen 屏幕上。" },
+      { sentenceBefore: "A tablet is a useful", sentenceAfter: "for studying.", answer: "device", studentAnswer: "message", explanationEn: "A tablet is a device.", explanationZh: "tablet 是一种 device 设备。" },
+      { sentenceBefore: "We can buy tickets", sentenceAfter: "before we go to the cinema.", answer: "online", studentAnswer: "simple", explanationEn: "Buy tickets online means buy them on the internet.", explanationZh: "online 表示在网上。" },
+      { sentenceBefore: "I sent my teacher a short", sentenceAfter: "about the homework.", answer: "message", studentAnswer: "screen", explanationEn: "Send a message is the natural phrase.", explanationZh: "send a message 是发送消息。" },
+      { sentenceBefore: "The", sentenceAfter: "is empty, so the camera cannot work.", answer: "battery", studentAnswer: "device", explanationEn: "An empty battery has no power.", explanationZh: "battery 没电，设备就不能工作。" },
+      { sentenceBefore: "Please", sentenceAfter: "your phone before the trip.", answer: "charge", studentAnswer: "repair", explanationEn: "Charge a phone means put power into it.", explanationZh: "charge a phone 表示给手机充电。" },
+      { sentenceBefore: "This map is very", sentenceAfter: "when we travel.", answer: "useful", studentAnswer: "online", explanationEn: "Useful means helpful.", explanationZh: "useful 表示有帮助、有用。" },
+      { sentenceBefore: "The question is", sentenceAfter: ", so most students can answer it.", answer: "simple", studentAnswer: "serious", explanationEn: "Simple means easy to understand or do.", explanationZh: "simple 表示简单、容易理解。" },
+      { sentenceBefore: "There is a", sentenceAfter: "with my computer.", answer: "problem", studentAnswer: "message", explanationEn: "A problem is something wrong or difficult.", explanationZh: "problem 是问题或故障。" }
+    ],
+    corrections: [
+      { prompt: "I need to charge my broken bike.", answer: "I need to repair my broken bike.", studentAnswer: "I need to charge my broken bike.", explanationEn: "You repair a broken bike. You charge a phone or battery.", explanationZh: "坏自行车要 repair；手机或电池才 charge。", tag: "Meaning" },
+      { prompt: "The battery is dark, so I cannot see the words.", answer: "The screen is dark, so I cannot see the words.", studentAnswer: "The battery is dark, so I cannot see the words.", explanationEn: "A screen can be dark. A battery can be empty or low.", explanationZh: "screen 会变黑；battery 是 empty 或 low。", tag: "Collocation" },
+      { prompt: "This online is useful for homework.", answer: "This device is useful for homework.", studentAnswer: "This online is useful for homework.", explanationEn: "Online is an adjective or adverb, not a thing. Device is the thing you use.", explanationZh: "online 不是一个具体东西；device 才是设备。", tag: "Word form" },
+      { prompt: "I received a useful from my teacher.", answer: "I received a message from my teacher.", studentAnswer: "I received a useful from my teacher.", explanationEn: "Useful is an adjective. Message is the noun for information sent to you.", explanationZh: "useful 是形容词；收到的信息是 message。", tag: "Word form" },
+      { prompt: "The repair was simply and quick.", answer: "The repair was simple and quick.", studentAnswer: "The repair was simply and quick.", explanationEn: "After was, use the adjective simple. Simply is an adverb.", explanationZh: "was 后面用形容词 simple；simply 是副词。", tag: "Grammar" }
+    ],
+    creativePrompt: "Use five words from today's list to write three tips for taking care of a phone or tablet.",
+    examples: [
+      { en: "Please charge the battery before your online class.", zh: "上网课前请给电池充电。" },
+      { en: "The screen had a problem, so we took the device for repair.", zh: "屏幕出了问题，所以我们把设备拿去修理。" },
+      { en: "A simple message can be useful when you need help.", zh: "需要帮助时，一条简单的信息可能很有用。" }
+    ]
   }
 ];
 

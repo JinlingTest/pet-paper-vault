@@ -98,6 +98,21 @@ PAPERS = {
             "job",
         ],
     },
+    "007": {
+        "reading": "Grace used her tablet for homework every evening. One day, the screen went dark, and she could not read an online message from her teacher. Grace thought the device had a serious problem, but her brother checked it calmly. He said the battery was empty and helped her charge it. After ten minutes, the tablet worked again. Grace was happy because the repair was simple and did not cost money. She learned that a useful device still needs care, and she promised to charge it before studying.",
+        "words": [
+            "repair",
+            "screen",
+            "device",
+            "online",
+            "message",
+            "battery",
+            "charge",
+            "useful",
+            "simple",
+            "problem",
+        ],
+    },
 }
 
 

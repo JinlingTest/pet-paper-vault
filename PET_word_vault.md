@@ -128,6 +128,27 @@ Worksheet route:
 
 - /papers/006
 
+### v7 - Home & Technology - 2026-09-07
+
+Paper id: 007
+
+Recorded words:
+
+1. repair - 修理
+2. screen - 屏幕
+3. device - 设备
+4. online - 在线的；在线地
+5. message - 信息；消息
+6. battery - 电池
+7. charge - 充电；收费
+8. useful - 有用的
+9. simple - 简单的
+10. problem - 问题
+
+Worksheet route:
+
+- /papers/007
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
