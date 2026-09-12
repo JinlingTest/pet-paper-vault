@@ -149,6 +149,27 @@ Worksheet route:
 
 - /papers/007
 
+### v8 - Sports & Weekend Activities - 2026-09-12
+
+Paper id: 008
+
+Recorded words:
+
+1. match - 比赛
+2. team - 队；团队
+3. coach - 教练
+4. player - 运动员；选手
+5. competition - 竞赛；比赛
+6. stadium - 体育场
+7. train - 训练；培训
+8. win - 赢；获胜
+9. lose - 输；丢失
+10. prize - 奖品；奖项
+
+Worksheet route:
+
+- /papers/008
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

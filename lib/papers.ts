@@ -522,6 +522,65 @@ export const papers: Paper[] = [
       { en: "The screen had a problem, so we took the device for repair.", zh: "屏幕出了问题，所以我们把设备拿去修理。" },
       { en: "A simple message can be useful when you need help.", zh: "需要帮助时，一条简单的信息可能很有用。" }
     ]
+  },
+  {
+    id: "008",
+    version: "v8",
+    date: "2026-09-12",
+    topic: "Sports & Weekend Activities",
+    title: "English Daily Vocabulary: Sports & Weekend Activities",
+    words: [
+      { word: "match", meaning: "比赛", phonetic: "/mætʃ/", audioUrl: "/audio/papers/008/words/match.mp3" },
+      { word: "team", meaning: "队；团队", phonetic: "/tiːm/", audioUrl: "/audio/papers/008/words/team.mp3" },
+      { word: "coach", meaning: "教练", phonetic: "/koʊtʃ/", audioUrl: "/audio/papers/008/words/coach.mp3" },
+      { word: "player", meaning: "运动员；选手", phonetic: "/ˈpleɪər/", audioUrl: "/audio/papers/008/words/player.mp3" },
+      { word: "competition", meaning: "竞赛；比赛", phonetic: "/ˌkɑːmpəˈtɪʃən/", audioUrl: "/audio/papers/008/words/competition.mp3" },
+      { word: "stadium", meaning: "体育场", phonetic: "/ˈsteɪdiəm/", audioUrl: "/audio/papers/008/words/stadium.mp3" },
+      { word: "train", meaning: "训练；培训", phonetic: "/treɪn/", audioUrl: "/audio/papers/008/words/train.mp3" },
+      { word: "win", meaning: "赢；获胜", phonetic: "/wɪn/", audioUrl: "/audio/papers/008/words/win.mp3" },
+      { word: "lose", meaning: "输；丢失", phonetic: "/luːz/", audioUrl: "/audio/papers/008/words/lose.mp3" },
+      { word: "prize", meaning: "奖品；奖项", phonetic: "/praɪz/", audioUrl: "/audio/papers/008/words/prize.mp3" }
+    ],
+    reading:
+      "On Saturday, Ben's football team went to a small stadium for an important match. Their coach told every player to warm up carefully and listen to each other. The match was part of a school competition, so many families came to watch. Ben's team did not start well and nearly lost the first half. During the break, the coach asked them to stay calm and train their minds, not only their bodies. In the second half, Ben scored the last goal, and his team won the game. They did not win a big prize, but they felt proud because they worked together.",
+    readingAudioUrl: "/audio/papers/008/reading.mp3",
+    questions: [
+      { question: "Where did Ben's team play the match?", answer: "They played at a small stadium.", studentAnswer: "They played in a classroom.", explanationEn: "The text says the team went to a small stadium for the match.", explanationZh: "原文说他们去 small stadium 比赛，不是在 classroom。", tag: "Place" },
+      { question: "What did the coach ask every player to do before the match?", answer: "He asked them to warm up carefully and listen to each other.", studentAnswer: "He asked them to win a big prize.", explanationEn: "Before the match, the coach focused on warming up and teamwork.", explanationZh: "比赛前 coach 强调热身和互相配合，不是先要求 prize。", tag: "Reading detail" },
+      { question: "Why did many families come to watch?", answer: "Because the match was part of a school competition.", studentAnswer: "Because Ben was the only player.", explanationEn: "The school competition made the match important for families.", explanationZh: "很多家庭来看，是因为这是 school competition 的一部分。", tag: "Reason" },
+      { question: "Did Ben's team lose the game?", answer: "No, they won the game.", studentAnswer: "Yes, they lost the game.", explanationEn: "They nearly lost the first half, but they won the game in the end.", explanationZh: "他们上半场差点输，但最后 won the game。", tag: "Negative detail" },
+      { question: "Which word means \"a person who teaches sports\"?", answer: "coach", studentAnswer: "player", explanationEn: "A coach teaches or trains a team. A player takes part in the game.", explanationZh: "coach 是教练；player 是参加比赛的队员。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "match", collocations: ["a football match", "watch a match", "win a match"], similar: ["game", "competition"], note: "Match and game can both mean a sports event. Competition often means a larger contest with winners." },
+      { word: "win", collocations: ["win a match", "win a prize", "win the game"], similar: ["beat", "succeed"], note: "Win focuses on the result. Beat needs an object, such as beat another team." },
+      { word: "train", collocations: ["train hard", "train a team", "train for a match"], similar: ["practise", "prepare"], note: "Train means prepare through regular practice; it can also mean teach someone a skill." }
+    ],
+    blanks: [
+      { sentenceBefore: "Our football", sentenceAfter: "starts at three o'clock.", answer: "match", studentAnswer: "team", explanationEn: "A match is the sports event.", explanationZh: "match 是比赛本身。" },
+      { sentenceBefore: "Each", sentenceAfter: "has eleven players on the field.", answer: "team", studentAnswer: "stadium", explanationEn: "A team is a group of players.", explanationZh: "team 是一组队员。" },
+      { sentenceBefore: "The", sentenceAfter: "taught us how to pass the ball.", answer: "coach", studentAnswer: "player", explanationEn: "A coach teaches players.", explanationZh: "coach 是教练，负责指导队员。" },
+      { sentenceBefore: "She is the best tennis", sentenceAfter: "in our school.", answer: "player", studentAnswer: "coach", explanationEn: "A player takes part in a sport.", explanationZh: "player 是参加运动或比赛的人。" },
+      { sentenceBefore: "The singing", sentenceAfter: "has three rounds.", answer: "competition", studentAnswer: "match", explanationEn: "A competition can have rounds and many people trying to win.", explanationZh: "competition 是竞赛，可以有多个轮次。" },
+      { sentenceBefore: "Thousands of people watched the game in the", sentenceAfter: ".", answer: "stadium", studentAnswer: "team", explanationEn: "A stadium is a large place for sports events.", explanationZh: "stadium 是体育场。" },
+      { sentenceBefore: "We need to", sentenceAfter: "three times a week before the final.", answer: "train", studentAnswer: "win", explanationEn: "Train means practise regularly before an event.", explanationZh: "train 表示为比赛进行训练。" },
+      { sentenceBefore: "I hope we can", sentenceAfter: "the match tomorrow.", answer: "win", studentAnswer: "prize", explanationEn: "Win the match is the natural phrase.", explanationZh: "win the match 表示赢得比赛。" },
+      { sentenceBefore: "If we don't listen to each other, we may", sentenceAfter: "the game.", answer: "lose", studentAnswer: "miss", explanationEn: "Lose the game means not win it.", explanationZh: "lose the game 表示输掉比赛。" },
+      { sentenceBefore: "The first prize was a new football.", sentenceAfter: "", answer: "prize", studentAnswer: "price", explanationEn: "Prize is something you win. Price is the money something costs.", explanationZh: "prize 是奖品；price 是价格。注意拼写只差一个字母。"}
+    ],
+    corrections: [
+      { prompt: "Our team won a price in the competition.", answer: "Our team won a prize in the competition.", studentAnswer: "Our team won a price in the competition.", explanationEn: "Prize means an award. Price means cost.", explanationZh: "prize 是奖品；price 是价格。", tag: "Spelling meaning" },
+      { prompt: "The coach played every goal for us.", answer: "The player scored every goal for us.", studentAnswer: "The coach played every goal for us.", explanationEn: "A player scores goals. A coach trains and guides the team.", explanationZh: "player 进球；coach 负责训练和指导。", tag: "Role" },
+      { prompt: "We trained the match by two goals.", answer: "We won the match by two goals.", studentAnswer: "We trained the match by two goals.", explanationEn: "Win by two goals describes the result. Train means practise.", explanationZh: "win by two goals 表示赢了两个球；train 是训练。", tag: "Word choice" },
+      { prompt: "There were many teams in the football stadium competition.", answer: "There were many teams in the football competition.", studentAnswer: "There were many teams in the football stadium competition.", explanationEn: "Competition is the event. Stadium is the place.", explanationZh: "competition 是赛事；stadium 是地点。", tag: "Meaning" },
+      { prompt: "I don't want to lose my team tomorrow.", answer: "I don't want my team to lose tomorrow.", studentAnswer: "I don't want to lose my team tomorrow.", explanationEn: "Lose my team sounds like you cannot find the team. For a bad result, say my team lose.", explanationZh: "lose my team 像是“找不到队伍”；比赛输了要说 my team lose。", tag: "Sentence pattern" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short pep talk from a coach before a match.",
+    examples: [
+      { en: "The coach helped every player train for the match.", zh: "教练帮助每位队员为比赛训练。" },
+      { en: "Our team did not win a prize, but we enjoyed the competition.", zh: "我们队没有赢得奖品，但我们享受了这场竞赛。" },
+      { en: "The stadium was full when the final match started.", zh: "决赛开始时，体育场坐满了人。" }
+    ]
   }
 ];
 

@@ -113,6 +113,21 @@ PAPERS = {
             "problem",
         ],
     },
+    "008": {
+        "reading": "On Saturday, Ben's football team went to a small stadium for an important match. Their coach told every player to warm up carefully and listen to each other. The match was part of a school competition, so many families came to watch. Ben's team did not start well and nearly lost the first half. During the break, the coach asked them to stay calm and train their minds, not only their bodies. In the second half, Ben scored the last goal, and his team won the game. They did not win a big prize, but they felt proud because they worked together.",
+        "words": [
+            "match",
+            "team",
+            "coach",
+            "player",
+            "competition",
+            "stadium",
+            "train",
+            "win",
+            "lose",
+            "prize",
+        ],
+    },
 }
 
 
