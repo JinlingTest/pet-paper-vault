@@ -170,6 +170,27 @@ Worksheet route:
 
 - /papers/008
 
+### v9 - Weather & Plans - 2026-09-13
+
+Paper id: 009
+
+Recorded words:
+
+1. weather - 天气
+2. forecast - 天气预报；预测
+3. umbrella - 雨伞
+4. raincoat - 雨衣
+5. cloudy - 多云的
+6. sunny - 晴朗的
+7. windy - 有风的
+8. storm - 暴风雨
+9. picnic - 野餐
+10. cancel - 取消
+
+Worksheet route:
+
+- /papers/009
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

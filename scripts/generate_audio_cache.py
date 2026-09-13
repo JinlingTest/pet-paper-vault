@@ -128,6 +128,21 @@ PAPERS = {
             "prize",
         ],
     },
+    "009": {
+        "reading": "Emma and her friends planned a picnic in the park on Sunday. On Saturday evening, Emma checked the weather forecast because the sky looked cloudy. The forecast said Sunday morning would be windy, but the afternoon might be sunny. Emma packed an umbrella and a raincoat just in case. On Sunday, a short storm came before lunch, so the friends waited at home. They did not cancel the picnic because the sun came out later. In the afternoon, the weather was warm and bright, and everyone enjoyed their food under the trees.",
+        "words": [
+            "weather",
+            "forecast",
+            "umbrella",
+            "raincoat",
+            "cloudy",
+            "sunny",
+            "windy",
+            "storm",
+            "picnic",
+            "cancel",
+        ],
+    },
 }
 
 

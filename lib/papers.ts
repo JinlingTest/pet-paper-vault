@@ -581,6 +581,65 @@ export const papers: Paper[] = [
       { en: "Our team did not win a prize, but we enjoyed the competition.", zh: "我们队没有赢得奖品，但我们享受了这场竞赛。" },
       { en: "The stadium was full when the final match started.", zh: "决赛开始时，体育场坐满了人。" }
     ]
+  },
+  {
+    id: "009",
+    version: "v9",
+    date: "2026-09-13",
+    topic: "Weather & Plans",
+    title: "English Daily Vocabulary: Weather & Plans",
+    words: [
+      { word: "weather", meaning: "天气", phonetic: "/ˈweðər/", audioUrl: "/audio/papers/009/words/weather.mp3" },
+      { word: "forecast", meaning: "天气预报；预测", phonetic: "/ˈfɔːrkæst/", audioUrl: "/audio/papers/009/words/forecast.mp3" },
+      { word: "umbrella", meaning: "雨伞", phonetic: "/ʌmˈbrelə/", audioUrl: "/audio/papers/009/words/umbrella.mp3" },
+      { word: "raincoat", meaning: "雨衣", phonetic: "/ˈreɪnkoʊt/", audioUrl: "/audio/papers/009/words/raincoat.mp3" },
+      { word: "cloudy", meaning: "多云的", phonetic: "/ˈklaʊdi/", audioUrl: "/audio/papers/009/words/cloudy.mp3" },
+      { word: "sunny", meaning: "晴朗的", phonetic: "/ˈsʌni/", audioUrl: "/audio/papers/009/words/sunny.mp3" },
+      { word: "windy", meaning: "有风的", phonetic: "/ˈwɪndi/", audioUrl: "/audio/papers/009/words/windy.mp3" },
+      { word: "storm", meaning: "暴风雨", phonetic: "/stɔːrm/", audioUrl: "/audio/papers/009/words/storm.mp3" },
+      { word: "picnic", meaning: "野餐", phonetic: "/ˈpɪknɪk/", audioUrl: "/audio/papers/009/words/picnic.mp3" },
+      { word: "cancel", meaning: "取消", phonetic: "/ˈkænsəl/", audioUrl: "/audio/papers/009/words/cancel.mp3" }
+    ],
+    reading:
+      "Emma and her friends planned a picnic in the park on Sunday. On Saturday evening, Emma checked the weather forecast because the sky looked cloudy. The forecast said Sunday morning would be windy, but the afternoon might be sunny. Emma packed an umbrella and a raincoat just in case. On Sunday, a short storm came before lunch, so the friends waited at home. They did not cancel the picnic because the sun came out later. In the afternoon, the weather was warm and bright, and everyone enjoyed their food under the trees.",
+    readingAudioUrl: "/audio/papers/009/reading.mp3",
+    questions: [
+      { question: "Why did Emma check the forecast?", answer: "Because the sky looked cloudy and they planned a picnic.", studentAnswer: "Because she wanted to cancel school.", explanationEn: "Emma checked the weather forecast for the picnic plan, not for school.", explanationZh: "Emma 查 forecast 是为了 picnic 计划，不是为了取消上学。", tag: "Reason" },
+      { question: "What did Emma pack just in case?", answer: "She packed an umbrella and a raincoat.", studentAnswer: "She packed a storm and a cloud.", explanationEn: "An umbrella and a raincoat are things you can take with you. Storm and cloud are weather conditions.", explanationZh: "umbrella 和 raincoat 是能带走的物品；storm 和 cloud 是天气现象。", tag: "Object" },
+      { question: "What happened before lunch on Sunday?", answer: "A short storm came.", studentAnswer: "It was sunny all morning.", explanationEn: "The story says a short storm came before lunch.", explanationZh: "原文说午饭前来了 a short storm。", tag: "Reading detail" },
+      { question: "Did the friends cancel the picnic?", answer: "No, they did not cancel it.", studentAnswer: "Yes, they cancelled it.", explanationEn: "They waited at home first, but they did not cancel the picnic.", explanationZh: "他们先在家等，但没有 cancel picnic。", tag: "Negative detail" },
+      { question: "Which word means \"stop a plan from happening\"?", answer: "cancel", studentAnswer: "forecast", explanationEn: "Cancel means stop a plan. Forecast means say what may happen later, especially about weather.", explanationZh: "cancel 是取消计划；forecast 是预测，尤其是天气预报。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "forecast", collocations: ["weather forecast", "check the forecast", "the forecast says"], similar: ["prediction", "report"], note: "Forecast often means information about future weather. It can be a noun or a verb." },
+      { word: "cancel", collocations: ["cancel a plan", "cancel a trip", "cancel a class"], similar: ["stop", "call off"], note: "Cancel means decide that something planned will not happen." },
+      { word: "weather", collocations: ["bad weather", "warm weather", "check the weather"], similar: ["climate", "conditions"], note: "Weather is about a short time, such as today. Climate is about a place over many years." }
+    ],
+    blanks: [
+      { sentenceBefore: "The", sentenceAfter: "is warm today, so we can play outside.", answer: "weather", studentAnswer: "forecast", explanationEn: "Weather describes what the day is like.", explanationZh: "weather 表示当天的天气情况。" },
+      { sentenceBefore: "The weather", sentenceAfter: "says it may rain tomorrow.", answer: "forecast", studentAnswer: "storm", explanationEn: "A forecast tells us what the weather may be like later.", explanationZh: "forecast 是天气预报，预测之后的天气。" },
+      { sentenceBefore: "Take an", sentenceAfter: "because it may rain.", answer: "umbrella", studentAnswer: "raincoat", explanationEn: "An umbrella keeps rain off your head. A raincoat is clothing.", explanationZh: "umbrella 是雨伞；raincoat 是雨衣。" },
+      { sentenceBefore: "He wore a yellow", sentenceAfter: "on the rainy walk.", answer: "raincoat", studentAnswer: "umbrella", explanationEn: "Wear a raincoat is natural. Carry an umbrella is natural.", explanationZh: "雨衣是穿的 raincoat；雨伞是拿的 umbrella。"},
+      { sentenceBefore: "It is", sentenceAfter: ", so we cannot see the sun clearly.", answer: "cloudy", studentAnswer: "sunny", explanationEn: "Cloudy means there are many clouds.", explanationZh: "cloudy 表示云很多，看不清太阳。" },
+      { sentenceBefore: "It was", sentenceAfter: "in the afternoon, so the park was bright.", answer: "sunny", studentAnswer: "windy", explanationEn: "Sunny means bright with sun.", explanationZh: "sunny 表示晴朗、有阳光。" },
+      { sentenceBefore: "It is too", sentenceAfter: "to fly a paper plane outside.", answer: "windy", studentAnswer: "cloudy", explanationEn: "Windy means there is a lot of wind.", explanationZh: "windy 表示风很大。" },
+      { sentenceBefore: "A strong", sentenceAfter: "broke some tree branches last night.", answer: "storm", studentAnswer: "picnic", explanationEn: "A storm has strong wind and often rain.", explanationZh: "storm 是暴风雨，可能带来强风和雨。" },
+      { sentenceBefore: "We had a", sentenceAfter: "by the lake and ate sandwiches.", answer: "picnic", studentAnswer: "forecast", explanationEn: "A picnic is a meal eaten outside.", explanationZh: "picnic 是户外野餐。" },
+      { sentenceBefore: "If it rains heavily, we will", sentenceAfter: "the trip.", answer: "cancel", studentAnswer: "forecast", explanationEn: "Cancel the trip means stop the planned trip.", explanationZh: "cancel the trip 表示取消旅行计划。" }
+    ],
+    corrections: [
+      { prompt: "The weather says it will rain tomorrow.", answer: "The forecast says it will rain tomorrow.", studentAnswer: "The weather says it will rain tomorrow.", explanationEn: "A forecast can say what will happen. Weather itself does not speak.", explanationZh: "forecast 可以“说”明天天气；weather 本身不会说话。", tag: "Collocation" },
+      { prompt: "Please wear an umbrella when it rains.", answer: "Please carry an umbrella when it rains.", studentAnswer: "Please wear an umbrella when it rains.", explanationEn: "We carry or use an umbrella. We wear a raincoat.", explanationZh: "umbrella 要 carry/use；raincoat 才是 wear。", tag: "Verb choice" },
+      { prompt: "The sky is sunny, so I cannot see the sun.", answer: "The sky is cloudy, so I cannot see the sun.", studentAnswer: "The sky is sunny, so I cannot see the sun.", explanationEn: "If you cannot see the sun, cloudy is more logical than sunny.", explanationZh: "看不见太阳通常是 cloudy，不是 sunny。", tag: "Meaning" },
+      { prompt: "We cancelled at home until the storm stopped.", answer: "We waited at home until the storm stopped.", studentAnswer: "We cancelled at home until the storm stopped.", explanationEn: "Cancel needs an object such as a picnic or trip. Wait at home describes the action here.", explanationZh: "cancel 后面要接 plan/trip/picnic；这里动作是 wait at home。", tag: "Verb pattern" },
+      { prompt: "The picnic was windy, so we ate food in the park.", answer: "The weather was windy, so we ate food in the park carefully.", studentAnswer: "The picnic was windy, so we ate food in the park.", explanationEn: "Windy describes weather, not the picnic itself.", explanationZh: "windy 描述 weather，不直接描述 picnic。", tag: "Collocation" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short note about whether to keep or cancel a weekend plan.",
+    examples: [
+      { en: "The forecast says the morning will be cloudy and windy.", zh: "天气预报说明天早上多云并且有风。" },
+      { en: "Take an umbrella and a raincoat if the weather looks bad.", zh: "如果天气看起来不好，就带上雨伞和雨衣。" },
+      { en: "We did not cancel the picnic because it became sunny later.", zh: "我们没有取消野餐，因为后来天气变晴了。" }
+    ]
   }
 ];
 
