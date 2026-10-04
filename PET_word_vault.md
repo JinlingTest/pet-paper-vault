@@ -191,6 +191,27 @@ Worksheet route:
 
 - /papers/009
 
+### v10 - City & Directions - 2026-09-20
+
+Paper id: 010
+
+Recorded words:
+
+1. direction - 方向；路线指引
+2. entrance - 入口
+3. exit - 出口
+4. bridge - 桥
+5. traffic - 交通；车流
+6. pavement - 人行道
+7. nearby - 附近的；在附近
+8. corner - 街角；拐角
+9. crossing - 人行横道；十字路口
+10. opposite - 在……对面；相反的
+
+Worksheet route:
+
+- /papers/010
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

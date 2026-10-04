@@ -143,6 +143,21 @@ PAPERS = {
             "cancel",
         ],
     },
+    "010": {
+        "reading": "Leo was visiting a new city and did not know which direction to take to the science museum. A woman at a nearby cafe told him to walk along the pavement until he reached the corner. The traffic was busy, so Leo used the crossing carefully. He then walked over a small bridge and saw the museum opposite a library. At first, he went to the wrong entrance, where a guard showed him the correct one. After his visit, Leo left through the exit beside the gift shop. He was pleased because he could now find his way around the area.",
+        "words": [
+            "direction",
+            "entrance",
+            "exit",
+            "bridge",
+            "traffic",
+            "pavement",
+            "nearby",
+            "corner",
+            "crossing",
+            "opposite",
+        ],
+    },
 }
 
 

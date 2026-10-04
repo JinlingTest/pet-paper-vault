@@ -640,6 +640,65 @@ export const papers: Paper[] = [
       { en: "Take an umbrella and a raincoat if the weather looks bad.", zh: "如果天气看起来不好，就带上雨伞和雨衣。" },
       { en: "We did not cancel the picnic because it became sunny later.", zh: "我们没有取消野餐，因为后来天气变晴了。" }
     ]
+  },
+  {
+    id: "010",
+    version: "v10",
+    date: "2026-09-20",
+    topic: "City & Directions",
+    title: "English Daily Vocabulary: City & Directions",
+    words: [
+      { word: "direction", meaning: "方向；路线指引", phonetic: "/dəˈrekʃən/", audioUrl: "/audio/papers/010/words/direction.mp3" },
+      { word: "entrance", meaning: "入口", phonetic: "/ˈentrəns/", audioUrl: "/audio/papers/010/words/entrance.mp3" },
+      { word: "exit", meaning: "出口", phonetic: "/ˈeksɪt/", audioUrl: "/audio/papers/010/words/exit.mp3" },
+      { word: "bridge", meaning: "桥", phonetic: "/brɪdʒ/", audioUrl: "/audio/papers/010/words/bridge.mp3" },
+      { word: "traffic", meaning: "交通；车流", phonetic: "/ˈtræfɪk/", audioUrl: "/audio/papers/010/words/traffic.mp3" },
+      { word: "pavement", meaning: "人行道", phonetic: "/ˈpeɪvmənt/", audioUrl: "/audio/papers/010/words/pavement.mp3" },
+      { word: "nearby", meaning: "附近的；在附近", phonetic: "/ˌnɪrˈbaɪ/", audioUrl: "/audio/papers/010/words/nearby.mp3" },
+      { word: "corner", meaning: "街角；拐角", phonetic: "/ˈkɔːrnər/", audioUrl: "/audio/papers/010/words/corner.mp3" },
+      { word: "crossing", meaning: "人行横道；十字路口", phonetic: "/ˈkrɔːsɪŋ/", audioUrl: "/audio/papers/010/words/crossing.mp3" },
+      { word: "opposite", meaning: "在……对面；相反的", phonetic: "/ˈɑːpəzɪt/", audioUrl: "/audio/papers/010/words/opposite.mp3" }
+    ],
+    reading:
+      "Leo was visiting a new city and did not know which direction to take to the science museum. A woman at a nearby cafe told him to walk along the pavement until he reached the corner. The traffic was busy, so Leo used the crossing carefully. He then walked over a small bridge and saw the museum opposite a library. At first, he went to the wrong entrance, where a guard showed him the correct one. After his visit, Leo left through the exit beside the gift shop. He was pleased because he could now find his way around the area.",
+    readingAudioUrl: "/audio/papers/010/reading.mp3",
+    questions: [
+      { question: "Why did Leo ask for directions?", answer: "Because he needed to find the science museum.", studentAnswer: "Because he wanted to buy a cafe.", explanationEn: "Leo was new to the city and needed help finding the museum.", explanationZh: "Leo 初到这座城市，需要 directions 来找到科学博物馆。", tag: "Reason" },
+      { question: "Where did the woman work or sit?", answer: "She was at a nearby cafe.", studentAnswer: "She was on the bridge.", explanationEn: "The story says that the woman was at a nearby cafe.", explanationZh: "原文说这位女士在 nearby cafe，不是在桥上。", tag: "Reading detail" },
+      { question: "Why did Leo use the crossing carefully?", answer: "Because the traffic was busy.", studentAnswer: "Because the pavement was closed.", explanationEn: "Busy traffic means many vehicles are moving, so the crossing must be used carefully.", explanationZh: "traffic 很繁忙，车辆很多，因此过 crossing 时要小心。", tag: "Cause and effect" },
+      { question: "What was opposite the museum?", answer: "A library was opposite the museum.", studentAnswer: "A gift shop was opposite the museum.", explanationEn: "The library was across from the museum. The gift shop was beside the exit.", explanationZh: "library 在 museum 对面；gift shop 在 exit 旁边。", tag: "Place" },
+      { question: "Which word means \"a way out of a building\"?", answer: "exit", studentAnswer: "entrance", explanationEn: "Exit is the way out. Entrance is the way in.", explanationZh: "exit 是出口；entrance 是入口。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "direction", collocations: ["ask for directions", "follow the directions", "in the right direction"], similar: ["route", "way"], note: "Use directions in the plural when you mean instructions for finding a place." },
+      { word: "opposite", collocations: ["opposite the bank", "the opposite side", "quite the opposite"], similar: ["across from", "different"], note: "For places, opposite means facing something on the other side." },
+      { word: "traffic", collocations: ["heavy traffic", "traffic lights", "traffic jam"], similar: ["vehicles", "transport"], note: "Traffic is uncountable: say heavy traffic, not many traffics." }
+    ],
+    blanks: [
+      { sentenceBefore: "Which", sentenceAfter: "should we walk in to reach the library?", answer: "direction", studentAnswer: "traffic", explanationEn: "Direction tells us which way to go.", explanationZh: "direction 表示应该往哪个方向走。" },
+      { sentenceBefore: "We entered the museum through the main", sentenceAfter: ".", answer: "entrance", studentAnswer: "exit", explanationEn: "An entrance is the way into a place.", explanationZh: "entrance 是进入建筑物的入口。" },
+      { sentenceBefore: "Follow the green sign to the emergency", sentenceAfter: ".", answer: "exit", studentAnswer: "entrance", explanationEn: "An emergency exit is a way out during danger.", explanationZh: "emergency exit 是紧急出口。" },
+      { sentenceBefore: "The river is wide, so we must cross the", sentenceAfter: ".", answer: "bridge", studentAnswer: "pavement", explanationEn: "A bridge carries people or vehicles over a river.", explanationZh: "bridge 让人或车辆从河上通过。" },
+      { sentenceBefore: "There is heavy", sentenceAfter: "in the city centre this morning.", answer: "traffic", studentAnswer: "crossing", explanationEn: "Heavy traffic means many vehicles are on the road.", explanationZh: "heavy traffic 表示道路上车流量很大。" },
+      { sentenceBefore: "Please walk on the", sentenceAfter: ", not in the road.", answer: "pavement", studentAnswer: "bridge", explanationEn: "The pavement is the part beside the road for people walking.", explanationZh: "pavement 是道路旁供行人行走的人行道。" },
+      { sentenceBefore: "There is a", sentenceAfter: "shop where we can buy water.", answer: "nearby", studentAnswer: "opposite", explanationEn: "Nearby means not far away.", explanationZh: "nearby 表示距离不远、就在附近。" },
+      { sentenceBefore: "Turn at the next", sentenceAfter: "and you will see the hotel.", answer: "corner", studentAnswer: "crossing", explanationEn: "A corner is where one street bends or meets another.", explanationZh: "corner 是街道转弯或相交的街角。" },
+      { sentenceBefore: "Wait for the green light before using the", sentenceAfter: ".", answer: "crossing", studentAnswer: "entrance", explanationEn: "A crossing is a safe marked place for crossing a road.", explanationZh: "crossing 是供行人安全过马路的标记区域。" },
+      { sentenceBefore: "The post office is", sentenceAfter: "the supermarket.", answer: "opposite", studentAnswer: "nearby", explanationEn: "Opposite means on the other side and facing it.", explanationZh: "opposite 表示在另一边、正对着。" }
+    ],
+    corrections: [
+      { prompt: "Can you give me a traffic to the station?", answer: "Can you give me directions to the station?", studentAnswer: "Can you give me a traffic to the station?", explanationEn: "Ask for directions when you need help finding a place. Traffic means vehicles on roads.", explanationZh: "问路要用 ask for directions；traffic 指道路上的车流。", tag: "Word choice" },
+      { prompt: "We left the building through the entrance.", answer: "We left the building through the exit.", studentAnswer: "We left the building through the entrance.", explanationEn: "You normally enter through an entrance and leave through an exit.", explanationZh: "从 entrance 进入，从 exit 离开。", tag: "Opposites" },
+      { prompt: "There were many traffics near the school.", answer: "There was heavy traffic near the school.", studentAnswer: "There were many traffics near the school.", explanationEn: "Traffic is uncountable, so use heavy traffic and a singular verb.", explanationZh: "traffic 是不可数名词，要说 heavy traffic，并使用单数谓语。", tag: "Uncountable noun" },
+      { prompt: "The cafe is opposite from the bank.", answer: "The cafe is opposite the bank.", studentAnswer: "The cafe is opposite from the bank.", explanationEn: "In British English, say opposite the bank without from.", explanationZh: "英式英语中通常直接说 opposite the bank，不加 from。", tag: "Preposition" },
+      { prompt: "Please drive on the pavement to avoid traffic.", answer: "Please walk on the pavement and keep away from traffic.", studentAnswer: "Please drive on the pavement to avoid traffic.", explanationEn: "The pavement is for people walking, not for cars.", explanationZh: "pavement 是给行人走的，不是给汽车行驶的。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to write clear directions from your school gate to a nearby place.",
+    examples: [
+      { en: "Ask for directions if you cannot find the museum entrance.", zh: "如果找不到博物馆入口，就问路。" },
+      { en: "Use the crossing because the traffic near the corner is busy.", zh: "街角附近车流繁忙，请走人行横道。" },
+      { en: "The cafe is opposite the library, just over the bridge.", zh: "咖啡馆在图书馆对面，就在桥的另一边。" }
+    ]
   }
 ];
 
