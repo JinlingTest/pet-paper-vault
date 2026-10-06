@@ -699,6 +699,65 @@ export const papers: Paper[] = [
       { en: "Use the crossing because the traffic near the corner is busy.", zh: "街角附近车流繁忙，请走人行横道。" },
       { en: "The cafe is opposite the library, just over the bridge.", zh: "咖啡馆在图书馆对面，就在桥的另一边。" }
     ]
+  },
+  {
+    id: "011",
+    version: "v11",
+    date: "2026-10-06",
+    topic: "Family & Feelings",
+    title: "English Daily Vocabulary: Family & Feelings",
+    words: [
+      { word: "relative", meaning: "亲戚；亲属", phonetic: "/ˈrelətɪv/", audioUrl: "/audio/papers/011/words/relative.mp3" },
+      { word: "aunt", meaning: "姑母；姨母；伯母；婶母", phonetic: "/ænt/", audioUrl: "/audio/papers/011/words/aunt.mp3" },
+      { word: "uncle", meaning: "叔父；伯父；舅父；姑父；姨父", phonetic: "/ˈʌŋkəl/", audioUrl: "/audio/papers/011/words/uncle.mp3" },
+      { word: "cheerful", meaning: "快乐的；乐观的", phonetic: "/ˈtʃɪrfəl/", audioUrl: "/audio/papers/011/words/cheerful.mp3" },
+      { word: "nervous", meaning: "紧张的；担忧的", phonetic: "/ˈnɜːrvəs/", audioUrl: "/audio/papers/011/words/nervous.mp3" },
+      { word: "upset", meaning: "难过的；心烦的", phonetic: "/ʌpˈset/", audioUrl: "/audio/papers/011/words/upset.mp3" },
+      { word: "grateful", meaning: "感激的", phonetic: "/ˈɡreɪtfəl/", audioUrl: "/audio/papers/011/words/grateful.mp3" },
+      { word: "argue", meaning: "争吵；争论", phonetic: "/ˈɑːrɡjuː/", audioUrl: "/audio/papers/011/words/argue.mp3" },
+      { word: "support", meaning: "支持；帮助", phonetic: "/səˈpɔːrt/", audioUrl: "/audio/papers/011/words/support.mp3" },
+      { word: "trust", meaning: "信任；相信", phonetic: "/trʌst/", audioUrl: "/audio/papers/011/words/trust.mp3" }
+    ],
+    reading:
+      "Sophie was nervous about singing at the school show. Her aunt and uncle came early to support her, and another relative brought her a small card. Before the show, Sophie became upset because she forgot one line of the song. Her uncle told her not to argue with herself and reminded her to trust her preparation. Her aunt stayed cheerful and practised the difficult line with her. Sophie sang well and felt grateful for her family's help. After the show, everyone celebrated together, and Sophie understood that kind support can make a difficult moment easier.",
+    readingAudioUrl: "/audio/papers/011/reading.mp3",
+    questions: [
+      { question: "Why was Sophie nervous?", answer: "Because she was going to sing at the school show.", studentAnswer: "Because she had to visit her uncle.", explanationEn: "The school show made Sophie nervous because she had to sing in front of people.", explanationZh: "Sophie 要在学校演出中唱歌，所以感到 nervous。", tag: "Reason" },
+      { question: "Who came early to support Sophie?", answer: "Her aunt and uncle came early.", studentAnswer: "Only another relative came early.", explanationEn: "The text directly says that her aunt and uncle came early to support her.", explanationZh: "原文明确说 aunt 和 uncle 提前来 support 她。", tag: "Reading detail" },
+      { question: "Why did Sophie become upset?", answer: "Because she forgot one line of the song.", studentAnswer: "Because her family argued with her.", explanationEn: "Sophie felt upset after forgetting a line, not because of a family argument.", explanationZh: "Sophie 因忘记一句歌词而 upset，不是因为家人争吵。", tag: "Cause and effect" },
+      { question: "How did Sophie's aunt help her?", answer: "She stayed cheerful and practised the difficult line with Sophie.", studentAnswer: "She wrote a different song for Sophie.", explanationEn: "Her aunt gave calm, cheerful support and helped her practise.", explanationZh: "aunt 保持 cheerful，并陪 Sophie 练习困难的歌词。", tag: "Action" },
+      { question: "Which word means \"believe that someone or something is reliable\"?", answer: "trust", studentAnswer: "argue", explanationEn: "Trust means believe in someone or something. Argue means disagree in an angry or serious way.", explanationZh: "trust 是信任；argue 是争论或争吵。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "support", collocations: ["support a friend", "family support", "give support"], similar: ["help", "encourage"], note: "Support can be a verb or a noun. It means helping someone emotionally or practically." },
+      { word: "upset", collocations: ["feel upset", "be upset about something", "upset someone"], similar: ["sad", "unhappy"], note: "Upset can describe a feeling or mean make someone unhappy." },
+      { word: "trust", collocations: ["trust a friend", "trust yourself", "build trust"], similar: ["believe", "depend on"], note: "Trust focuses on believing that someone is honest, reliable, or able to do something." }
+    ],
+    blanks: [
+      { sentenceBefore: "Every", sentenceAfter: "was invited to the family dinner.", answer: "relative", studentAnswer: "support", explanationEn: "A relative is a person in your family.", explanationZh: "relative 指家庭中的亲戚或亲属。" },
+      { sentenceBefore: "My", sentenceAfter: "is my mother's sister.", answer: "aunt", studentAnswer: "uncle", explanationEn: "Your mother's sister is your aunt.", explanationZh: "妈妈的姐妹是 aunt。" },
+      { sentenceBefore: "My", sentenceAfter: "is my father's brother.", answer: "uncle", studentAnswer: "aunt", explanationEn: "Your father's brother is your uncle.", explanationZh: "爸爸的兄弟是 uncle。" },
+      { sentenceBefore: "Lena stayed", sentenceAfter: "and smiled even on a rainy day.", answer: "cheerful", studentAnswer: "upset", explanationEn: "Cheerful means happy and positive.", explanationZh: "cheerful 表示快乐、积极乐观。" },
+      { sentenceBefore: "I felt", sentenceAfter: "before speaking to the whole class.", answer: "nervous", studentAnswer: "grateful", explanationEn: "People often feel nervous before speaking in public.", explanationZh: "在全班面前讲话前，人们常会感到 nervous。" },
+      { sentenceBefore: "Sam was", sentenceAfter: "because he lost his favourite book.", answer: "upset", studentAnswer: "cheerful", explanationEn: "Losing something important can make a person upset.", explanationZh: "丢失重要物品会让人感到 upset。" },
+      { sentenceBefore: "I am", sentenceAfter: "for all the help you gave me.", answer: "grateful", studentAnswer: "nervous", explanationEn: "Grateful means thankful for help or kindness.", explanationZh: "grateful 表示对帮助或善意心怀感激。" },
+      { sentenceBefore: "Please do not", sentenceAfter: "about such a small problem.", answer: "argue", studentAnswer: "trust", explanationEn: "Argue means disagree, often with strong feelings.", explanationZh: "argue 表示意见不合并发生争论。" },
+      { sentenceBefore: "Good friends", sentenceAfter: "each other during difficult times.", answer: "support", studentAnswer: "argue", explanationEn: "Support means give help or encouragement.", explanationZh: "support 表示给予帮助或鼓励。" },
+      { sentenceBefore: "You can", sentenceAfter: "Mia because she always tells the truth.", answer: "trust", studentAnswer: "support", explanationEn: "We trust someone who is honest and reliable.", explanationZh: "诚实可靠的人值得 trust。" }
+    ],
+    corrections: [
+      { prompt: "My uncle is my mother's sister.", answer: "My aunt is my mother's sister.", studentAnswer: "My uncle is my mother's sister.", explanationEn: "Aunt is used for a parent's sister. Uncle is used for a parent's brother.", explanationZh: "父母的姐妹是 aunt；父母的兄弟是 uncle。", tag: "Family word" },
+      { prompt: "I was very cheerful when my best friend moved away.", answer: "I was very upset when my best friend moved away.", studentAnswer: "I was very cheerful when my best friend moved away.", explanationEn: "Moving away usually causes sadness, so upset fits the situation better than cheerful.", explanationZh: "好朋友搬走通常让人难过，因此用 upset，不用 cheerful。", tag: "Meaning" },
+      { prompt: "She felt nervous to her parents' help.", answer: "She felt grateful for her parents' help.", studentAnswer: "She felt nervous to her parents' help.", explanationEn: "The natural phrase is grateful for someone's help.", explanationZh: "正确搭配是 be grateful for someone's help。", tag: "Collocation" },
+      { prompt: "The two brothers argued each other about the game.", answer: "The two brothers argued with each other about the game.", studentAnswer: "The two brothers argued each other about the game.", explanationEn: "Use argue with someone about something.", explanationZh: "固定搭配是 argue with someone about something。", tag: "Preposition" },
+      { prompt: "I support my sister because I do not believe her.", answer: "I trust my sister because I believe her.", studentAnswer: "I support my sister because I do not believe her.", explanationEn: "Trust matches believe someone. Support means help or encourage someone.", explanationZh: "相信某人要用 trust；support 表示帮助或鼓励。", tag: "Word choice" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short message that comforts and supports a nervous family member.",
+    examples: [
+      { en: "My aunt stayed cheerful and helped me feel less nervous.", zh: "我的姨妈保持乐观，让我不再那么紧张。" },
+      { en: "I am grateful for every relative who came to support me.", zh: "我感谢每一位前来支持我的亲人。" },
+      { en: "Family members may argue, but they can still trust each other.", zh: "家人可能会争吵，但仍然可以互相信任。" }
+    ]
   }
 ];
 

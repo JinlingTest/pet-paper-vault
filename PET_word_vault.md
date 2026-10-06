@@ -212,6 +212,27 @@ Worksheet route:
 
 - /papers/010
 
+### v11 - Family & Feelings - 2026-10-06
+
+Paper id: 011
+
+Recorded words:
+
+1. relative - 亲戚；亲属
+2. aunt - 姑母；姨母；伯母；婶母
+3. uncle - 叔父；伯父；舅父；姑父；姨父
+4. cheerful - 快乐的；乐观的
+5. nervous - 紧张的；担忧的
+6. upset - 难过的；心烦的
+7. grateful - 感激的
+8. argue - 争吵；争论
+9. support - 支持；帮助
+10. trust - 信任；相信
+
+Worksheet route:
+
+- /papers/011
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

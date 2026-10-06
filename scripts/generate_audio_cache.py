@@ -158,6 +158,21 @@ PAPERS = {
             "opposite",
         ],
     },
+    "011": {
+        "reading": "Sophie was nervous about singing at the school show. Her aunt and uncle came early to support her, and another relative brought her a small card. Before the show, Sophie became upset because she forgot one line of the song. Her uncle told her not to argue with herself and reminded her to trust her preparation. Her aunt stayed cheerful and practised the difficult line with her. Sophie sang well and felt grateful for her family's help. After the show, everyone celebrated together, and Sophie understood that kind support can make a difficult moment easier.",
+        "words": [
+            "relative",
+            "aunt",
+            "uncle",
+            "cheerful",
+            "nervous",
+            "upset",
+            "grateful",
+            "argue",
+            "support",
+            "trust",
+        ],
+    },
 }
 
 
