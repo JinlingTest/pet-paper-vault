@@ -758,6 +758,65 @@ export const papers: Paper[] = [
       { en: "I am grateful for every relative who came to support me.", zh: "我感谢每一位前来支持我的亲人。" },
       { en: "Family members may argue, but they can still trust each other.", zh: "家人可能会争吵，但仍然可以互相信任。" }
     ]
+  },
+  {
+    id: "012",
+    version: "v12",
+    date: "2026-10-09",
+    topic: "Clothes & Appearance",
+    title: "English Daily Vocabulary: Clothes & Appearance",
+    words: [
+      { word: "jacket", meaning: "夹克；短外套", phonetic: "/ˈdʒækɪt/", audioUrl: "/audio/papers/012/words/jacket.mp3" },
+      { word: "sweater", meaning: "毛衣", phonetic: "/ˈswetər/", audioUrl: "/audio/papers/012/words/sweater.mp3" },
+      { word: "trousers", meaning: "裤子", phonetic: "/ˈtraʊzərz/", audioUrl: "/audio/papers/012/words/trousers.mp3" },
+      { word: "skirt", meaning: "裙子", phonetic: "/skɜːrt/", audioUrl: "/audio/papers/012/words/skirt.mp3" },
+      { word: "gloves", meaning: "手套", phonetic: "/ɡlʌvz/", audioUrl: "/audio/papers/012/words/gloves.mp3" },
+      { word: "pocket", meaning: "衣袋；口袋", phonetic: "/ˈpɑːkɪt/", audioUrl: "/audio/papers/012/words/pocket.mp3" },
+      { word: "size", meaning: "尺码；大小", phonetic: "/saɪz/", audioUrl: "/audio/papers/012/words/size.mp3" },
+      { word: "fit", meaning: "合身；适合", phonetic: "/fɪt/", audioUrl: "/audio/papers/012/words/fit.mp3" },
+      { word: "smart", meaning: "整洁漂亮的；时髦的", phonetic: "/smɑːrt/", audioUrl: "/audio/papers/012/words/smart.mp3" },
+      { word: "casual", meaning: "休闲的；随意的", phonetic: "/ˈkæʒuəl/", audioUrl: "/audio/papers/012/words/casual.mp3" }
+    ],
+    reading:
+      "Ella needed smart clothes for a family celebration. At a shop, she first tried a blue sweater with a black skirt, but the sweater was the wrong size. Next, she put on a short jacket and a pair of trousers. They fit her well and looked smart without being too formal. The jacket also had a useful pocket for her phone. Ella usually preferred casual clothes, so she was pleased that the outfit felt comfortable. Before leaving, she bought warm gloves for the cold evening. She chose the jacket and trousers because they looked good and were easy to wear.",
+    readingAudioUrl: "/audio/papers/012/reading.mp3",
+    questions: [
+      { question: "Why did Ella go shopping?", answer: "She needed smart clothes for a family celebration.", studentAnswer: "She needed sports clothes for a match.", explanationEn: "Ella was preparing for a family celebration, not a sports match.", explanationZh: "Ella 为家庭庆祝活动挑选 smart clothes，不是去买运动服。", tag: "Reason" },
+      { question: "Why did Ella not choose the blue sweater?", answer: "Because it was the wrong size.", studentAnswer: "Because it had no pocket.", explanationEn: "The text says the sweater was the wrong size. The pocket belonged to the jacket.", explanationZh: "原文说 sweater 的 size 不合适；pocket 是 jacket 上的。", tag: "Reading detail" },
+      { question: "What did Ella wear with the short jacket?", answer: "She wore a pair of trousers.", studentAnswer: "She wore gloves and a skirt.", explanationEn: "Ella tried the short jacket with trousers.", explanationZh: "Ella 把短 jacket 和 trousers 搭配在一起。", tag: "Object" },
+      { question: "Why was the jacket's pocket useful?", answer: "She could put her phone in it.", studentAnswer: "It changed the jacket's size.", explanationEn: "The pocket was useful because it could hold her phone.", explanationZh: "pocket 可以装手机，所以很实用。", tag: "Purpose" },
+      { question: "Which word means \"relaxed and suitable for everyday wear\"?", answer: "casual", studentAnswer: "smart", explanationEn: "Casual describes relaxed everyday clothes. Smart clothes look neat and suitable for a special event or work.", explanationZh: "casual 指日常休闲服装；smart 指整洁漂亮、适合较正式场合的服装。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "fit", collocations: ["fit well", "fit perfectly", "fit someone"], similar: ["suit", "match"], note: "Fit is mainly about the correct size and shape. Suit means look good on someone." },
+      { word: "size", collocations: ["the right size", "what size", "a larger size"], similar: ["measurement", "fit"], note: "Use size for how large clothes are. Ask What size are you? when shopping." },
+      { word: "smart", collocations: ["look smart", "smart clothes", "smart jacket"], similar: ["neat", "stylish"], note: "For clothes, smart means neat and well dressed. It does not mean intelligent in this context." }
+    ],
+    blanks: [
+      { sentenceBefore: "Take a light", sentenceAfter: "because it may be cool this evening.", answer: "jacket", studentAnswer: "skirt", explanationEn: "A jacket is an outer layer worn on the upper body.", explanationZh: "jacket 是穿在上身外层的短外套。" },
+      { sentenceBefore: "This wool", sentenceAfter: "keeps me warm in winter.", answer: "sweater", studentAnswer: "pocket", explanationEn: "A sweater is a warm knitted item of clothing.", explanationZh: "sweater 是保暖的针织毛衣。" },
+      { sentenceBefore: "These", sentenceAfter: "are too long for me.", answer: "trousers", studentAnswer: "jacket", explanationEn: "Trousers is plural, so it matches these and are.", explanationZh: "trousers 是复数形式，要与 these 和 are 搭配。" },
+      { sentenceBefore: "She wore a blue", sentenceAfter: "with a white shirt.", answer: "skirt", studentAnswer: "trousers", explanationEn: "A skirt is one item, so a blue skirt is correct.", explanationZh: "skirt 是单数服装，因此用 a blue skirt。" },
+      { sentenceBefore: "Wear your", sentenceAfter: "to keep your hands warm.", answer: "gloves", studentAnswer: "pocket", explanationEn: "Gloves cover and warm your hands.", explanationZh: "gloves 戴在手上，可以保暖。" },
+      { sentenceBefore: "I keep my bus card in this", sentenceAfter: ".", answer: "pocket", studentAnswer: "size", explanationEn: "A pocket is a small part of clothing used to hold things.", explanationZh: "pocket 是衣服上用来装小物品的口袋。" },
+      { sentenceBefore: "Do you have this shirt in a larger", sentenceAfter: "?", answer: "size", studentAnswer: "fit", explanationEn: "A larger size means a bigger version of the same clothing item.", explanationZh: "larger size 指同款衣服更大的尺码。" },
+      { sentenceBefore: "These shoes", sentenceAfter: "me perfectly.", answer: "fit", studentAnswer: "size", explanationEn: "Fit means be the correct size and shape for someone.", explanationZh: "fit 表示尺寸和形状适合某人。" },
+      { sentenceBefore: "You look very", sentenceAfter: "in that dark suit.", answer: "smart", studentAnswer: "casual", explanationEn: "A dark suit usually looks neat and smart.", explanationZh: "深色西装通常显得整洁漂亮，因此用 smart。" },
+      { sentenceBefore: "Jeans and a T-shirt are fine for a", sentenceAfter: "weekend lunch.", answer: "casual", studentAnswer: "smart", explanationEn: "Casual describes a relaxed, informal occasion.", explanationZh: "casual 用于轻松、不正式的场合。" }
+    ],
+    corrections: [
+      { prompt: "I need a new trousers for school.", answer: "I need a new pair of trousers for school.", studentAnswer: "I need a new trousers for school.", explanationEn: "Trousers is plural. Say a pair of trousers when counting one item.", explanationZh: "trousers 是复数名词，一条裤子要说 a pair of trousers。", tag: "Plural noun" },
+      { prompt: "These gloves keeps my hands warm.", answer: "These gloves keep my hands warm.", studentAnswer: "These gloves keeps my hands warm.", explanationEn: "Gloves is plural, so use keep, not keeps.", explanationZh: "gloves 是复数，谓语用 keep，不用 keeps。", tag: "Subject-verb agreement" },
+      { prompt: "This jacket fits me because it is too small.", answer: "This jacket does not fit me because it is too small.", studentAnswer: "This jacket fits me because it is too small.", explanationEn: "If clothing is too small, it does not fit correctly.", explanationZh: "衣服太小就不合身，因此要说 does not fit。", tag: "Logic" },
+      { prompt: "My phone is in the jacket's glove.", answer: "My phone is in the jacket's pocket.", studentAnswer: "My phone is in the jacket's glove.", explanationEn: "A pocket holds small things. A glove covers a hand.", explanationZh: "pocket 用来装小物品；glove 戴在手上。", tag: "Meaning" },
+      { prompt: "He wore casual clothes to the formal dinner, so he looked very smart for the event.", answer: "He wore smart clothes to the formal dinner, so he looked right for the event.", studentAnswer: "He wore casual clothes to the formal dinner, so he looked very smart for the event.", explanationEn: "A formal dinner normally calls for smart rather than casual clothes.", explanationZh: "正式晚宴通常应穿 smart clothes，而不是 casual clothes。", tag: "Register" }
+    ],
+    creativePrompt: "Use five words from today's list to describe what you would wear to a casual outing and to a smart celebration.",
+    examples: [
+      { en: "This jacket is the right size and fits me well.", zh: "这件夹克尺码合适，而且很合身。" },
+      { en: "She put her gloves in the pocket of her sweater.", zh: "她把手套放进毛衣的口袋里。" },
+      { en: "The trousers look smart, but the T-shirt is more casual.", zh: "这条裤子看起来很整洁时髦，而这件 T 恤更休闲。" }
+    ]
   }
 ];
 

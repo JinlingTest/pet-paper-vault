@@ -233,6 +233,27 @@ Worksheet route:
 
 - /papers/011
 
+### v12 - Clothes & Appearance - 2026-10-09
+
+Paper id: 012
+
+Recorded words:
+
+1. jacket - 夹克；短外套
+2. sweater - 毛衣
+3. trousers - 裤子
+4. skirt - 裙子
+5. gloves - 手套
+6. pocket - 衣袋；口袋
+7. size - 尺码；大小
+8. fit - 合身；适合
+9. smart - 整洁漂亮的；时髦的
+10. casual - 休闲的；随意的
+
+Worksheet route:
+
+- /papers/012
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

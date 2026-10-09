@@ -173,6 +173,21 @@ PAPERS = {
             "trust",
         ],
     },
+    "012": {
+        "reading": "Ella needed smart clothes for a family celebration. At a shop, she first tried a blue sweater with a black skirt, but the sweater was the wrong size. Next, she put on a short jacket and a pair of trousers. They fit her well and looked smart without being too formal. The jacket also had a useful pocket for her phone. Ella usually preferred casual clothes, so she was pleased that the outfit felt comfortable. Before leaving, she bought warm gloves for the cold evening. She chose the jacket and trousers because they looked good and were easy to wear.",
+        "words": [
+            "jacket",
+            "sweater",
+            "trousers",
+            "skirt",
+            "gloves",
+            "pocket",
+            "size",
+            "fit",
+            "smart",
+            "casual",
+        ],
+    },
 }
 
 
