@@ -1,11 +1,17 @@
 import asyncio
+import base64
+import subprocess
+import tempfile
 from pathlib import Path
 
 import edge_tts
+import imageio_ffmpeg
+from aiohttp.client_exceptions import ClientError
 
 
 VOICE = "en-US-JennyNeural"
 RATE = "-8%"
+edge_available = True
 
 PAPERS = {
     "001": {
@@ -188,16 +194,80 @@ PAPERS = {
             "casual",
         ],
     },
+    "013": {
+        "reading": "Noah's Saturday chore was to help clean the flat before his grandparents arrived. He began by putting books back on the shelf and clothes in the cupboard to make his room tidy. Then he used a cloth to dust the desk and sweep the kitchen floor. His sister loaded the dishwasher while their father started the laundry. Noah wanted to vacuum the living room, but the machine was broken. He went next door to borrow one from a neighbour. Working together made every chore quicker, and the family finished before lunch. Noah felt pleased when the flat looked clean and welcoming.",
+        "words": [
+            "chore",
+            "tidy",
+            "sweep",
+            "dust",
+            "laundry",
+            "dishwasher",
+            "vacuum",
+            "shelf",
+            "cupboard",
+            "borrow",
+        ],
+    },
 }
 
 
 async def save_audio(text: str, output: Path) -> None:
+    global edge_available
+
     if output.exists():
         return
 
     output.parent.mkdir(parents=True, exist_ok=True)
-    communicate = edge_tts.Communicate(text, VOICE, rate=RATE)
-    await communicate.save(str(output))
+    if edge_available:
+        try:
+            communicate = edge_tts.Communicate(text, VOICE, rate=RATE)
+            await communicate.save(str(output))
+            return
+        except (ClientError, edge_tts.exceptions.NoAudioReceived):
+            edge_available = False
+            output.unlink(missing_ok=True)
+
+    await asyncio.to_thread(save_windows_audio, text, output)
+
+
+def save_windows_audio(text: str, output: Path) -> None:
+    with tempfile.TemporaryDirectory() as temp_dir:
+        wav_path = Path(temp_dir) / "speech.wav"
+        escaped_text = text.replace("'", "''")
+        escaped_path = str(wav_path).replace("'", "''")
+        script = (
+            "Add-Type -AssemblyName System.Speech; "
+            "$speaker = New-Object System.Speech.Synthesis.SpeechSynthesizer; "
+            "$speaker.SelectVoice('Microsoft Zira Desktop'); "
+            "$speaker.Rate = -1; "
+            f"$speaker.SetOutputToWaveFile('{escaped_path}'); "
+            f"$speaker.Speak('{escaped_text}'); "
+            "$speaker.Dispose();"
+        )
+        encoded = base64.b64encode(script.encode("utf-16le")).decode("ascii")
+        subprocess.run(
+            ["powershell.exe", "-NoProfile", "-EncodedCommand", encoded],
+            check=True,
+            capture_output=True,
+        )
+        subprocess.run(
+            [
+                imageio_ffmpeg.get_ffmpeg_exe(),
+                "-y",
+                "-loglevel",
+                "error",
+                "-i",
+                str(wav_path),
+                "-codec:a",
+                "libmp3lame",
+                "-q:a",
+                "4",
+                str(output),
+            ],
+            check=True,
+            capture_output=True,
+        )
 
 
 async def main() -> None:

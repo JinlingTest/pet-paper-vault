@@ -817,6 +817,65 @@ export const papers: Paper[] = [
       { en: "She put her gloves in the pocket of her sweater.", zh: "她把手套放进毛衣的口袋里。" },
       { en: "The trousers look smart, but the T-shirt is more casual.", zh: "这条裤子看起来很整洁时髦，而这件 T 恤更休闲。" }
     ]
+  },
+  {
+    id: "013",
+    version: "v13",
+    date: "2026-10-12",
+    topic: "Housework & Home",
+    title: "English Daily Vocabulary: Housework & Home",
+    words: [
+      { word: "chore", meaning: "日常杂务；家务", phonetic: "/tʃɔːr/", audioUrl: "/audio/papers/013/words/chore.mp3" },
+      { word: "tidy", meaning: "整理；整洁的", phonetic: "/ˈtaɪdi/", audioUrl: "/audio/papers/013/words/tidy.mp3" },
+      { word: "sweep", meaning: "扫；清扫", phonetic: "/swiːp/", audioUrl: "/audio/papers/013/words/sweep.mp3" },
+      { word: "dust", meaning: "灰尘；擦去灰尘", phonetic: "/dʌst/", audioUrl: "/audio/papers/013/words/dust.mp3" },
+      { word: "laundry", meaning: "待洗或洗好的衣物；洗衣服", phonetic: "/ˈlɔːndri/", audioUrl: "/audio/papers/013/words/laundry.mp3" },
+      { word: "dishwasher", meaning: "洗碗机", phonetic: "/ˈdɪʃwɑːʃər/", audioUrl: "/audio/papers/013/words/dishwasher.mp3" },
+      { word: "vacuum", meaning: "吸尘器；用吸尘器清洁", phonetic: "/ˈvækjuːm/", audioUrl: "/audio/papers/013/words/vacuum.mp3" },
+      { word: "shelf", meaning: "架子；搁板", phonetic: "/ʃelf/", audioUrl: "/audio/papers/013/words/shelf.mp3" },
+      { word: "cupboard", meaning: "橱柜；壁橱", phonetic: "/ˈkʌbərd/", audioUrl: "/audio/papers/013/words/cupboard.mp3" },
+      { word: "borrow", meaning: "借入；借用", phonetic: "/ˈbɑːroʊ/", audioUrl: "/audio/papers/013/words/borrow.mp3" }
+    ],
+    reading:
+      "Noah's Saturday chore was to help clean the flat before his grandparents arrived. He began by putting books back on the shelf and clothes in the cupboard to make his room tidy. Then he used a cloth to dust the desk and sweep the kitchen floor. His sister loaded the dishwasher while their father started the laundry. Noah wanted to vacuum the living room, but the machine was broken. He went next door to borrow one from a neighbour. Working together made every chore quicker, and the family finished before lunch. Noah felt pleased when the flat looked clean and welcoming.",
+    readingAudioUrl: "/audio/papers/013/reading.mp3",
+    questions: [
+      { question: "Why did Noah's family clean the flat?", answer: "Because his grandparents were coming.", studentAnswer: "Because they wanted to sell the dishwasher.", explanationEn: "The family cleaned before Noah's grandparents arrived.", explanationZh: "Noah 一家打扫房子，是因为祖父母要来。", tag: "Reason" },
+      { question: "How did Noah make his room tidy?", answer: "He put books on the shelf and clothes in the cupboard.", studentAnswer: "He put all the books in the dishwasher.", explanationEn: "Books belonged on the shelf, and clothes went in the cupboard.", explanationZh: "books 放回 shelf，clothes 放进 cupboard，房间因此变整洁。", tag: "Reading detail" },
+      { question: "What did Noah use to dust the desk?", answer: "He used a cloth.", studentAnswer: "He used the laundry.", explanationEn: "A cloth can remove dust from a desk. Laundry means clothes that need washing or have been washed.", explanationZh: "擦桌上灰尘用 cloth；laundry 指待洗或洗好的衣物。", tag: "Object" },
+      { question: "Why did Noah borrow a vacuum?", answer: "Because his family's vacuum was broken.", studentAnswer: "Because he wanted to clean the dishes.", explanationEn: "Noah needed a working vacuum for the living room because the one at home was broken.", explanationZh: "家里的 vacuum 坏了，所以 Noah 向邻居借了一台。", tag: "Cause and effect" },
+      { question: "Which word means \"take and use something that belongs to another person, then return it\"?", answer: "borrow", studentAnswer: "sweep", explanationEn: "Borrow means receive something for a short time and return it later.", explanationZh: "borrow 表示暂时借用别人的东西，之后归还。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "borrow", collocations: ["borrow a book", "borrow something from someone", "borrow for a week"], similar: ["use", "take"], note: "Borrow means take temporarily. Lend means give something temporarily: borrow from, but lend to." },
+      { word: "tidy", collocations: ["tidy a room", "keep tidy", "clean and tidy"], similar: ["neat", "organised"], note: "Tidy can be an adjective or a verb: a tidy room; tidy your room." },
+      { word: "laundry", collocations: ["do the laundry", "a laundry basket", "dirty laundry"], similar: ["washing", "clothes"], note: "Laundry is uncountable. Say some laundry, not a laundry, when you mean clothes." }
+    ],
+    blanks: [
+      { sentenceBefore: "Washing the dishes is my least favourite", sentenceAfter: ".", answer: "chore", studentAnswer: "shelf", explanationEn: "A chore is a regular task, especially at home.", explanationZh: "chore 是需要经常完成的日常杂务或家务。" },
+      { sentenceBefore: "Please", sentenceAfter: "your bedroom before your friends arrive.", answer: "tidy", studentAnswer: "borrow", explanationEn: "Tidy a room means put things in the correct places.", explanationZh: "tidy a room 表示把物品整理归位。" },
+      { sentenceBefore: "Use this broom to", sentenceAfter: "the leaves from the floor.", answer: "sweep", studentAnswer: "dust", explanationEn: "We sweep a floor with a broom.", explanationZh: "用 broom 扫地要搭配 sweep。" },
+      { sentenceBefore: "There is a lot of", sentenceAfter: "on the top of the bookcase.", answer: "dust", studentAnswer: "laundry", explanationEn: "Dust is the fine dirt that collects on surfaces.", explanationZh: "dust 是积在物体表面的细小灰尘。" },
+      { sentenceBefore: "I usually do the", sentenceAfter: "on Sunday afternoon.", answer: "laundry", studentAnswer: "dishwasher", explanationEn: "Do the laundry means wash clothes.", explanationZh: "do the laundry 表示洗衣服。" },
+      { sentenceBefore: "Put the dirty plates in the", sentenceAfter: ".", answer: "dishwasher", studentAnswer: "cupboard", explanationEn: "A dishwasher is a machine that cleans plates and other dishes.", explanationZh: "dishwasher 是清洗盘碗的机器。" },
+      { sentenceBefore: "We use the", sentenceAfter: "to clean dust from the carpet.", answer: "vacuum", studentAnswer: "sweep", explanationEn: "A vacuum removes dirt and dust from carpets.", explanationZh: "vacuum 可以吸走地毯上的灰尘和污物。" },
+      { sentenceBefore: "The dictionaries are on the top", sentenceAfter: ".", answer: "shelf", studentAnswer: "cupboard", explanationEn: "A shelf is a flat surface used for storing or displaying things.", explanationZh: "shelf 是放置或展示物品的平板架。" },
+      { sentenceBefore: "The cups are inside the kitchen", sentenceAfter: ".", answer: "cupboard", studentAnswer: "shelf", explanationEn: "A cupboard is a storage space with doors.", explanationZh: "cupboard 是带门的储物柜。" },
+      { sentenceBefore: "May I", sentenceAfter: "your ruler for a minute?", answer: "borrow", studentAnswer: "tidy", explanationEn: "Borrow means use someone else's item for a short time.", explanationZh: "borrow 表示短时间借用别人的物品。" }
+    ],
+    corrections: [
+      { prompt: "I borrow my sister my umbrella.", answer: "I lend my sister my umbrella.", studentAnswer: "I borrow my sister my umbrella.", explanationEn: "Lend means give temporarily. Borrow means receive temporarily.", explanationZh: "lend 是借出；borrow 是借入。这里是把伞借给姐姐，所以用 lend。", tag: "Confusing verbs" },
+      { prompt: "There are many dust on the shelf.", answer: "There is a lot of dust on the shelf.", studentAnswer: "There are many dust on the shelf.", explanationEn: "Dust is uncountable, so use a lot of and a singular verb.", explanationZh: "dust 是不可数名词，应使用 a lot of 和单数谓语 is。", tag: "Uncountable noun" },
+      { prompt: "Please sweep the desk with a cloth.", answer: "Please dust the desk with a cloth.", studentAnswer: "Please sweep the desk with a cloth.", explanationEn: "We dust a desk with a cloth and sweep a floor with a broom.", explanationZh: "用布擦桌子说 dust the desk；用扫帚扫地说 sweep the floor。", tag: "Collocation" },
+      { prompt: "Put the clean plates in the dishwasher for storage.", answer: "Put the clean plates in the cupboard for storage.", studentAnswer: "Put the clean plates in the dishwasher for storage.", explanationEn: "A dishwasher cleans dishes. A cupboard stores clean dishes.", explanationZh: "dishwasher 用来洗碗；cupboard 用来存放干净的盘碗。", tag: "Meaning" },
+      { prompt: "My room is tidy because all my clothes are on the floor.", answer: "My room is untidy because all my clothes are on the floor.", studentAnswer: "My room is tidy because all my clothes are on the floor.", explanationEn: "Clothes on the floor make a room untidy, not tidy.", explanationZh: "衣服散落在地上会让房间 untidy，而不是 tidy。", tag: "Logic" }
+    ],
+    creativePrompt: "Use five words from today's list to write a fair weekend housework plan for your family.",
+    examples: [
+      { en: "I tidy the shelves while my brother sweeps the floor.", zh: "我整理架子，而弟弟负责扫地。" },
+      { en: "We do the laundry and load the dishwasher after breakfast.", zh: "早餐后我们洗衣服并把餐具放进洗碗机。" },
+      { en: "Can I borrow your vacuum to finish this chore?", zh: "我能借用你的吸尘器完成这项家务吗？" }
+    ]
   }
 ];
 

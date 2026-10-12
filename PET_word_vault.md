@@ -254,6 +254,27 @@ Worksheet route:
 
 - /papers/012
 
+### v13 - Housework & Home - 2026-10-12
+
+Paper id: 013
+
+Recorded words:
+
+1. chore - 日常杂务；家务
+2. tidy - 整理；整洁的
+3. sweep - 扫；清扫
+4. dust - 灰尘；擦去灰尘
+5. laundry - 待洗或洗好的衣物；洗衣服
+6. dishwasher - 洗碗机
+7. vacuum - 吸尘器；用吸尘器清洁
+8. shelf - 架子；搁板
+9. cupboard - 橱柜；壁橱
+10. borrow - 借入；借用
+
+Worksheet route:
+
+- /papers/013
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
