@@ -275,6 +275,27 @@ Worksheet route:
 
 - /papers/013
 
+### v14 - Music & Performance - 2026-10-14
+
+Paper id: 014
+
+Words:
+
+- concert - 音乐会
+- stage - 舞台
+- audience - 观众
+- instrument - 乐器
+- guitar - 吉他
+- musician - 音乐家；乐手
+- perform - 表演；演奏
+- clap - 鼓掌
+- rhythm - 节奏
+- melody - 旋律
+
+Route:
+
+- /papers/014
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

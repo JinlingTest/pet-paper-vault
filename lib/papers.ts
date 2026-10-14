@@ -876,6 +876,65 @@ export const papers: Paper[] = [
       { en: "We do the laundry and load the dishwasher after breakfast.", zh: "早餐后我们洗衣服并把餐具放进洗碗机。" },
       { en: "Can I borrow your vacuum to finish this chore?", zh: "我能借用你的吸尘器完成这项家务吗？" }
     ]
+  },
+  {
+    id: "014",
+    version: "v14",
+    date: "2026-10-14",
+    topic: "Music & Performance",
+    title: "English Daily Vocabulary: Music & Performance",
+    words: [
+      { word: "concert", meaning: "音乐会", phonetic: "/ˈkɑːnsərt/", audioUrl: "/audio/papers/014/words/concert.mp3" },
+      { word: "stage", meaning: "舞台", phonetic: "/steɪdʒ/", audioUrl: "/audio/papers/014/words/stage.mp3" },
+      { word: "audience", meaning: "观众", phonetic: "/ˈɔːdiəns/", audioUrl: "/audio/papers/014/words/audience.mp3" },
+      { word: "instrument", meaning: "乐器", phonetic: "/ˈɪnstrəmənt/", audioUrl: "/audio/papers/014/words/instrument.mp3" },
+      { word: "guitar", meaning: "吉他", phonetic: "/ɡɪˈtɑːr/", audioUrl: "/audio/papers/014/words/guitar.mp3" },
+      { word: "musician", meaning: "音乐家；乐手", phonetic: "/mjuˈzɪʃən/", audioUrl: "/audio/papers/014/words/musician.mp3" },
+      { word: "perform", meaning: "表演；演奏", phonetic: "/pərˈfɔːrm/", audioUrl: "/audio/papers/014/words/perform.mp3" },
+      { word: "clap", meaning: "鼓掌", phonetic: "/klæp/", audioUrl: "/audio/papers/014/words/clap.mp3" },
+      { word: "rhythm", meaning: "节奏", phonetic: "/ˈrɪðəm/", audioUrl: "/audio/papers/014/words/rhythm.mp3" },
+      { word: "melody", meaning: "旋律", phonetic: "/ˈmelədi/", audioUrl: "/audio/papers/014/words/melody.mp3" }
+    ],
+    reading:
+      "Liam's school held a concert on Friday evening. He walked onto the stage with his guitar and felt nervous when he saw the large audience. His music teacher, a professional musician, reminded him to listen to the rhythm and enjoy the melody. The guitar was Liam's favourite instrument, and he had practised for weeks. When it was time to perform, he took a slow breath and began to play. At the end of the song, everyone started to clap. Liam smiled because the concert had gone well, and he was proud that he had stayed calm on stage.",
+    readingAudioUrl: "/audio/papers/014/reading.mp3",
+    questions: [
+      { question: "Why did Liam feel nervous when he walked onto the stage?", answer: "Because he saw the large audience.", studentAnswer: "Because he had forgotten his guitar.", explanationEn: "Liam had his guitar, but seeing many people in the audience made him nervous.", explanationZh: "Liam 带着 guitar；让他紧张的是看到台下有很多 audience。", tag: "Reason" },
+      { question: "Who reminded Liam to listen to the rhythm?", answer: "His music teacher, a professional musician, reminded him.", studentAnswer: "A member of the audience reminded him.", explanationEn: "The music teacher gave Liam advice before he performed.", explanationZh: "在 Liam 表演前，给他提醒的是 music teacher，也是一位 professional musician。", tag: "Reading detail" },
+      { question: "What was Liam's favourite instrument?", answer: "The guitar was his favourite instrument.", studentAnswer: "The piano was his favourite instrument.", explanationEn: "The passage directly says that the guitar was Liam's favourite instrument.", explanationZh: "原文明确说明 Liam 最喜欢的 instrument 是 guitar。", tag: "Object" },
+      { question: "What did the audience do at the end of the song?", answer: "They started to clap.", studentAnswer: "They walked onto the stage.", explanationEn: "The audience clapped to show that they enjoyed the performance.", explanationZh: "歌曲结束后，audience 用 clap 表达对表演的喜爱。", tag: "Action" },
+      { question: "Which word means \"play music or act in front of people\"?", answer: "perform", studentAnswer: "practise", explanationEn: "Perform means present music or acting to an audience. Practise means prepare by repeating an activity.", explanationZh: "perform 是面向观众表演；practise 是在正式表演前反复练习。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "perform", collocations: ["perform on stage", "perform a song", "perform well"], similar: ["play", "act"], note: "Perform is a verb. Performance is the related noun: give a performance." },
+      { word: "audience", collocations: ["a large audience", "audience members", "in front of an audience"], similar: ["crowd", "spectators"], note: "An audience watches or listens to a show. Spectators usually watch a sport or event." },
+      { word: "rhythm", collocations: ["keep the rhythm", "a strong rhythm", "a sense of rhythm"], similar: ["beat", "pattern"], note: "Rhythm is the regular beat of music. Melody is the tune that you can sing or remember." }
+    ],
+    blanks: [
+      { sentenceBefore: "We bought tickets for the school", sentenceAfter: "on Friday evening.", answer: "concert", studentAnswer: "stage", explanationEn: "A concert is an event where music is performed.", explanationZh: "concert 是现场演奏或演唱音乐的活动。" },
+      { sentenceBefore: "The singer walked onto the", sentenceAfter: "and picked up the microphone.", answer: "stage", studentAnswer: "audience", explanationEn: "The stage is the raised area where performers appear.", explanationZh: "stage 是表演者进行演出的舞台。" },
+      { sentenceBefore: "The", sentenceAfter: "became quiet when the music began.", answer: "audience", studentAnswer: "musician", explanationEn: "The audience is the group of people watching or listening.", explanationZh: "audience 指观看或聆听演出的观众群体。" },
+      { sentenceBefore: "Which musical", sentenceAfter: "would you like to learn?", answer: "instrument", studentAnswer: "melody", explanationEn: "A guitar, piano, or violin is a musical instrument.", explanationZh: "guitar、piano 和 violin 都属于 musical instrument。" },
+      { sentenceBefore: "Maya plays the", sentenceAfter: "in the school band.", answer: "guitar", studentAnswer: "rhythm", explanationEn: "A guitar is a stringed musical instrument.", explanationZh: "guitar 是一种有弦的乐器。" },
+      { sentenceBefore: "The young", sentenceAfter: "writes and plays her own songs.", answer: "musician", studentAnswer: "audience", explanationEn: "A musician is someone who plays or creates music.", explanationZh: "musician 是演奏或创作音乐的人。" },
+      { sentenceBefore: "Our band will", sentenceAfter: "three songs at the festival.", answer: "perform", studentAnswer: "clap", explanationEn: "Perform means play or present something for an audience.", explanationZh: "perform 表示为观众演奏或表演。" },
+      { sentenceBefore: "Please", sentenceAfter: "at the end to thank the performers.", answer: "clap", studentAnswer: "perform", explanationEn: "Clap means hit your hands together to show approval.", explanationZh: "clap 表示拍手鼓掌，通常用来表示赞赏。" },
+      { sentenceBefore: "Tap your foot to keep the", sentenceAfter: "of the music.", answer: "rhythm", studentAnswer: "melody", explanationEn: "Rhythm is the regular beat or timing in music.", explanationZh: "rhythm 是音乐中有规律的节拍和速度。" },
+      { sentenceBefore: "I remembered the song because its", sentenceAfter: "was simple and beautiful.", answer: "melody", studentAnswer: "instrument", explanationEn: "A melody is the tune or sequence of musical notes.", explanationZh: "melody 指由音符组成、可以哼唱或记住的旋律。" }
+    ],
+    corrections: [
+      { prompt: "We watched the concert on the audience.", answer: "We watched the concert from the audience.", studentAnswer: "We watched the concert on the audience.", explanationEn: "You sit or stand in the audience, and you can watch a concert from the audience.", explanationZh: "观众身处 audience 中，从观众席观看演出要用 from the audience。", tag: "Preposition" },
+      { prompt: "She played a beautiful guitar on the instrument.", answer: "She played a beautiful melody on the guitar.", studentAnswer: "She played a beautiful guitar on the instrument.", explanationEn: "You play a melody on an instrument such as a guitar.", explanationZh: "在 guitar 等 instrument 上演奏的是 melody。", tag: "Word choice" },
+      { prompt: "The musician performed very good.", answer: "The musician performed very well.", studentAnswer: "The musician performed very good.", explanationEn: "Use the adverb well to describe how someone performed.", explanationZh: "修饰动词 performed 要用副词 well，不能用形容词 good。", tag: "Adverb" },
+      { prompt: "Everyone clapped the singer after the song.", answer: "Everyone clapped for the singer after the song.", studentAnswer: "Everyone clapped the singer after the song.", explanationEn: "Use clap for someone when showing approval of that person.", explanationZh: "为某人鼓掌要使用固定搭配 clap for someone。", tag: "Collocation" },
+      { prompt: "The melody tells us how fast the music moves.", answer: "The rhythm tells us how fast the music moves.", studentAnswer: "The melody tells us how fast the music moves.", explanationEn: "Rhythm controls the beat and timing. Melody is the tune made by a sequence of notes.", explanationZh: "rhythm 表示节拍和速度；melody 是由音符组成的旋律。", tag: "Confusing words" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short review of a school concert or performance.",
+    examples: [
+      { en: "The musician walked onto the stage with her guitar.", zh: "那位乐手拿着吉他走上舞台。" },
+      { en: "The audience clapped after the band performed the final song.", zh: "乐队演奏完最后一首歌后，观众鼓起了掌。" },
+      { en: "This instrument gives the melody a strong rhythm.", zh: "这种乐器让这段旋律有了强烈的节奏。" }
+    ]
   }
 ];
 
