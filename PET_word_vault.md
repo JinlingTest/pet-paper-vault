@@ -296,6 +296,27 @@ Route:
 
 - /papers/014
 
+### v15 - Air Travel & Holidays - 2026-10-15
+
+Paper id: 015
+
+Words:
+
+- airline - 航空公司
+- airport - 机场
+- passport - 护照
+- boarding - 登机；上船
+- departure - 离开；出发
+- destination - 目的地
+- abroad - 在国外；到国外
+- reserve - 预订；保留
+- accommodation - 住处；住宿
+- tourist - 游客
+
+Route:
+
+- /papers/015
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

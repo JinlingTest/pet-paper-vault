@@ -935,6 +935,65 @@ export const papers: Paper[] = [
       { en: "The audience clapped after the band performed the final song.", zh: "乐队演奏完最后一首歌后，观众鼓起了掌。" },
       { en: "This instrument gives the melody a strong rhythm.", zh: "这种乐器让这段旋律有了强烈的节奏。" }
     ]
+  },
+  {
+    id: "015",
+    version: "v15",
+    date: "2026-10-15",
+    topic: "Air Travel & Holidays",
+    title: "English Daily Vocabulary: Air Travel & Holidays",
+    words: [
+      { word: "airline", meaning: "航空公司", phonetic: "/ˈerlaɪn/", audioUrl: "/audio/papers/015/words/airline.mp3" },
+      { word: "airport", meaning: "机场", phonetic: "/ˈerpɔːrt/", audioUrl: "/audio/papers/015/words/airport.mp3" },
+      { word: "passport", meaning: "护照", phonetic: "/ˈpæspɔːrt/", audioUrl: "/audio/papers/015/words/passport.mp3" },
+      { word: "boarding", meaning: "登机；上船", phonetic: "/ˈbɔːrdɪŋ/", audioUrl: "/audio/papers/015/words/boarding.mp3" },
+      { word: "departure", meaning: "离开；出发", phonetic: "/dɪˈpɑːrtʃər/", audioUrl: "/audio/papers/015/words/departure.mp3" },
+      { word: "destination", meaning: "目的地", phonetic: "/ˌdestɪˈneɪʃən/", audioUrl: "/audio/papers/015/words/destination.mp3" },
+      { word: "abroad", meaning: "在国外；到国外", phonetic: "/əˈbrɔːd/", audioUrl: "/audio/papers/015/words/abroad.mp3" },
+      { word: "reserve", meaning: "预订；保留", phonetic: "/rɪˈzɜːrv/", audioUrl: "/audio/papers/015/words/reserve.mp3" },
+      { word: "accommodation", meaning: "住处；住宿", phonetic: "/əˌkɑːməˈdeɪʃən/", audioUrl: "/audio/papers/015/words/accommodation.mp3" },
+      { word: "tourist", meaning: "游客", phonetic: "/ˈtʊrɪst/", audioUrl: "/audio/papers/015/words/tourist.mp3" }
+    ],
+    reading:
+      "Emma's family were travelling abroad for the first time. They used an airline website to reserve their seats and accommodation near the beach. On the morning of their departure, they arrived at the airport early. Emma checked that her passport was safely in her bag. After receiving her boarding pass, she looked at the departure screen to find the correct gate. Their destination was Lisbon, a city Emma had always wanted to visit. When they arrived, a friendly tourist helped the family read a map. Emma felt excited because the holiday had begun smoothly.",
+    readingAudioUrl: "/audio/papers/015/reading.mp3",
+    questions: [
+      { question: "Why was this journey special for Emma's family?", answer: "It was their first time travelling abroad.", studentAnswer: "It was their first visit to an airport restaurant.", explanationEn: "The passage says that the family had never travelled abroad before.", explanationZh: "原文说明这是全家第一次 travel abroad，也就是第一次出国旅行。", tag: "Reason" },
+      { question: "What did the family reserve online?", answer: "They reserved their seats and accommodation.", studentAnswer: "They reserved passports and maps.", explanationEn: "The airline website was used to book seats and accommodation, not travel documents.", explanationZh: "他们通过 airline 网站预订 seats 和 accommodation，不是预订护照或地图。", tag: "Reading detail" },
+      { question: "Where did Emma keep her passport?", answer: "She kept it safely in her bag.", studentAnswer: "She left it on the departure screen.", explanationEn: "Emma checked that the passport was in her bag before boarding.", explanationZh: "boarding 前，Emma 确认 passport 安全地放在包里。", tag: "Place" },
+      { question: "How did Emma find the correct gate?", answer: "She looked at the departure screen.", studentAnswer: "She asked the tourist at the destination.", explanationEn: "At the airport, the departure screen showed Emma which gate to use.", explanationZh: "在 airport 内，Emma 通过 departure screen 找到正确登机口。", tag: "Action" },
+      { question: "Which word means \"the place someone is travelling to\"?", answer: "destination", studentAnswer: "departure", explanationEn: "Destination is the place you are going to. Departure is the act or time of leaving.", explanationZh: "destination 是要去的目的地；departure 是离开或出发。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "reserve", collocations: ["reserve a seat", "reserve a room", "reserve in advance"], similar: ["book", "keep"], note: "Reserve and book both mean arrange something for later use. Reserve can also mean keep something for a special purpose." },
+      { word: "departure", collocations: ["departure time", "departure gate", "before departure"], similar: ["leaving", "take-off"], note: "Departure means leaving. Its opposite is arrival. A plane takes off after departure procedures." },
+      { word: "accommodation", collocations: ["book accommodation", "holiday accommodation", "comfortable accommodation"], similar: ["lodging", "place to stay"], note: "Accommodation is uncountable in British English: say some accommodation, not an accommodation." }
+    ],
+    blanks: [
+      { sentenceBefore: "Which", sentenceAfter: "are you flying with?", answer: "airline", studentAnswer: "airport", explanationEn: "An airline is a company that carries passengers by plane.", explanationZh: "airline 是经营飞机客运服务的航空公司。" },
+      { sentenceBefore: "We should arrive at the", sentenceAfter: "two hours before the plane leaves.", answer: "airport", studentAnswer: "destination", explanationEn: "An airport is the place where planes arrive and leave.", explanationZh: "airport 是飞机起飞和降落的机场。" },
+      { sentenceBefore: "You need a valid", sentenceAfter: "to travel to many countries.", answer: "passport", studentAnswer: "tourist", explanationEn: "A passport is an official document used for international travel.", explanationZh: "passport 是国际旅行时使用的官方身份证件。" },
+      { sentenceBefore: "Please have your pass ready when", sentenceAfter: "begins.", answer: "boarding", studentAnswer: "departure", explanationEn: "Boarding is the process of getting onto a plane, ship, or train.", explanationZh: "boarding 指登上飞机、轮船或火车的过程。" },
+      { sentenceBefore: "Our", sentenceAfter: "time has changed from 8:00 to 8:30.", answer: "departure", studentAnswer: "destination", explanationEn: "Departure time is the time when a journey begins.", explanationZh: "departure time 指旅程开始、交通工具出发的时间。" },
+      { sentenceBefore: "Paris is our final", sentenceAfter: "after changing planes in Rome.", answer: "destination", studentAnswer: "airport", explanationEn: "A destination is the final place a traveller wants to reach.", explanationZh: "destination 是旅行者最终要到达的目的地。" },
+      { sentenceBefore: "My cousin lives", sentenceAfter: "and returns home every summer.", answer: "abroad", studentAnswer: "tourist", explanationEn: "Abroad means in or to another country.", explanationZh: "abroad 表示在国外或到国外。" },
+      { sentenceBefore: "We need to", sentenceAfter: "a table because the restaurant is popular.", answer: "reserve", studentAnswer: "boarding", explanationEn: "Reserve means arrange for a place or item to be kept for you.", explanationZh: "reserve 表示提前预订，让位置或物品为你保留。" },
+      { sentenceBefore: "The price includes transport and three nights of", sentenceAfter: ".", answer: "accommodation", studentAnswer: "airline", explanationEn: "Accommodation means a place to stay during a journey.", explanationZh: "accommodation 指旅行期间居住的地方或住宿服务。" },
+      { sentenceBefore: "The", sentenceAfter: "asked a local person to take a photo.", answer: "tourist", studentAnswer: "passport", explanationEn: "A tourist is a person visiting a place for pleasure.", explanationZh: "tourist 是为了游览而到访某地的游客。" }
+    ],
+    corrections: [
+      { prompt: "We arrived to the airport at six o'clock.", answer: "We arrived at the airport at six o'clock.", studentAnswer: "We arrived to the airport at six o'clock.", explanationEn: "Use arrive at for a specific place such as an airport or station.", explanationZh: "到达机场或车站等具体地点要用 arrive at。", tag: "Preposition" },
+      { prompt: "I need to reserve a passport before travelling.", answer: "I need to apply for a passport before travelling.", studentAnswer: "I need to reserve a passport before travelling.", explanationEn: "You apply for an official passport. You reserve a seat, room, or table.", explanationZh: "办理护照用 apply for a passport；预订座位、房间或桌位才用 reserve。", tag: "Collocation" },
+      { prompt: "We found a comfortable accommodation near the beach.", answer: "We found comfortable accommodation near the beach.", studentAnswer: "We found a comfortable accommodation near the beach.", explanationEn: "Accommodation is normally uncountable, so do not use a or an before it.", explanationZh: "accommodation 通常是不可数名词，前面不能直接使用 a 或 an。", tag: "Uncountable noun" },
+      { prompt: "Our departure is Madrid, and we will arrive there tonight.", answer: "Our destination is Madrid, and we will arrive there tonight.", studentAnswer: "Our departure is Madrid, and we will arrive there tonight.", explanationEn: "Madrid is the place being travelled to, so it is the destination.", explanationZh: "Madrid 是要到达的地方，因此应使用 destination，而不是 departure。", tag: "Confusing words" },
+      { prompt: "She went to abroad during the school holiday.", answer: "She went abroad during the school holiday.", studentAnswer: "She went to abroad during the school holiday.", explanationEn: "Abroad is an adverb, so say go abroad without the preposition to.", explanationZh: "abroad 是副词，固定表达是 go abroad，前面不加 to。", tag: "Grammar" }
+    ],
+    creativePrompt: "Use five words from today's list to write a short checklist for a first trip abroad.",
+    examples: [
+      { en: "Check your passport before leaving for the airport.", zh: "出发去机场前检查好护照。" },
+      { en: "The airline shows the departure gate on your boarding pass.", zh: "航空公司会在登机牌上显示出发登机口。" },
+      { en: "We reserved accommodation close to our holiday destination.", zh: "我们在度假目的地附近预订了住宿。" }
+    ]
   }
 ];
 

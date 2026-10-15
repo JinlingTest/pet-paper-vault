@@ -224,6 +224,21 @@ PAPERS = {
             "melody",
         ],
     },
+    "015": {
+        "reading": "Emma's family were travelling abroad for the first time. They used an airline website to reserve their seats and accommodation near the beach. On the morning of their departure, they arrived at the airport early. Emma checked that her passport was safely in her bag. After receiving her boarding pass, she looked at the departure screen to find the correct gate. Their destination was Lisbon, a city Emma had always wanted to visit. When they arrived, a friendly tourist helped the family read a map. Emma felt excited because the holiday had begun smoothly.",
+        "words": [
+            "airline",
+            "airport",
+            "passport",
+            "boarding",
+            "departure",
+            "destination",
+            "abroad",
+            "reserve",
+            "accommodation",
+            "tourist",
+        ],
+    },
 }
 
 
