@@ -994,6 +994,65 @@ export const papers: Paper[] = [
       { en: "The airline shows the departure gate on your boarding pass.", zh: "航空公司会在登机牌上显示出发登机口。" },
       { en: "We reserved accommodation close to our holiday destination.", zh: "我们在度假目的地附近预订了住宿。" }
     ]
+  },
+  {
+    id: "016",
+    version: "v16",
+    date: "2026-10-16",
+    topic: "Nature & Countryside",
+    title: "English Daily Vocabulary: Nature & Countryside",
+    words: [
+      { word: "countryside", meaning: "乡村；乡下", phonetic: "/ˈkʌntrisaɪd/", audioUrl: "/audio/papers/016/words/countryside.mp3" },
+      { word: "forest", meaning: "森林", phonetic: "/ˈfɔːrɪst/", audioUrl: "/audio/papers/016/words/forest.mp3" },
+      { word: "mountain", meaning: "山；高山", phonetic: "/ˈmaʊntən/", audioUrl: "/audio/papers/016/words/mountain.mp3" },
+      { word: "valley", meaning: "山谷；谷地", phonetic: "/ˈvæli/", audioUrl: "/audio/papers/016/words/valley.mp3" },
+      { word: "path", meaning: "小路；小径", phonetic: "/pæθ/", audioUrl: "/audio/papers/016/words/path.mp3" },
+      { word: "hill", meaning: "小山；山丘", phonetic: "/hɪl/", audioUrl: "/audio/papers/016/words/hill.mp3" },
+      { word: "wildlife", meaning: "野生动物；野生生物", phonetic: "/ˈwaɪldlaɪf/", audioUrl: "/audio/papers/016/words/wildlife.mp3" },
+      { word: "scenery", meaning: "风景；景色", phonetic: "/ˈsiːnəri/", audioUrl: "/audio/papers/016/words/scenery.mp3" },
+      { word: "peaceful", meaning: "宁静的；平和的", phonetic: "/ˈpiːsfəl/", audioUrl: "/audio/papers/016/words/peaceful.mp3" },
+      { word: "explore", meaning: "探索；探险", phonetic: "/ɪkˈsplɔːr/", audioUrl: "/audio/papers/016/words/explore.mp3" }
+    ],
+    reading:
+      "Oliver spent the weekend with his aunt in the countryside. On Saturday morning, they followed a narrow path into a quiet forest. They climbed a small hill and saw a high mountain beyond the green valley. Oliver stopped several times to photograph the beautiful scenery. His aunt showed him signs of local wildlife, including a fox's footprints near a stream. The area felt peaceful because there were no cars or crowds. After lunch, they decided to explore another path beside the trees. Oliver returned home tired but happy and wanted to visit the countryside again.",
+    readingAudioUrl: "/audio/papers/016/reading.mp3",
+    questions: [
+      { question: "Who did Oliver visit in the countryside?", answer: "He visited his aunt.", studentAnswer: "He visited a wildlife photographer.", explanationEn: "The first sentence says that Oliver stayed with his aunt for the weekend.", explanationZh: "第一句说明 Oliver 周末去 countryside 看望 aunt。", tag: "Reading detail" },
+      { question: "Where did the narrow path lead?", answer: "It led into a quiet forest.", studentAnswer: "It led directly to a busy city.", explanationEn: "Oliver and his aunt followed the path into the forest.", explanationZh: "Oliver 和姨妈沿着 path 走进了 forest。", tag: "Place" },
+      { question: "What did Oliver photograph?", answer: "He photographed the beautiful scenery.", studentAnswer: "He photographed cars in the valley.", explanationEn: "Oliver stopped during the walk to take pictures of the scenery.", explanationZh: "Oliver 在途中停下来拍摄美丽的 scenery。", tag: "Object" },
+      { question: "Why did the area feel peaceful?", answer: "Because there were no cars or crowds.", studentAnswer: "Because the wildlife was very noisy.", explanationEn: "Without traffic and crowds, the countryside felt calm and peaceful.", explanationZh: "那里没有车辆和人群，所以 countryside 显得安静、peaceful。", tag: "Cause and effect" },
+      { question: "Which word means \"travel around a place to learn about it\"?", answer: "explore", studentAnswer: "follow", explanationEn: "Explore means travel through or examine a place to discover more about it.", explanationZh: "explore 表示走访或查看某个地方，从而发现和了解更多。", tag: "Meaning" }
+    ],
+    wordStudy: [
+      { word: "countryside", collocations: ["in the countryside", "open countryside", "visit the countryside"], similar: ["rural area", "country"], note: "Countryside means land outside towns and cities. Country can also mean a nation, so context matters." },
+      { word: "scenery", collocations: ["beautiful scenery", "mountain scenery", "enjoy the scenery"], similar: ["landscape", "surroundings"], note: "Scenery is uncountable. Say beautiful scenery, not beautiful sceneries." },
+      { word: "explore", collocations: ["explore a forest", "explore the area", "explore safely"], similar: ["discover", "investigate"], note: "Explore usually takes a place directly: explore the valley, without in after the verb." }
+    ],
+    blanks: [
+      { sentenceBefore: "My grandparents live in the", sentenceAfter: ", far from the city.", answer: "countryside", studentAnswer: "forest", explanationEn: "The countryside is the land outside towns and cities.", explanationZh: "countryside 指城市和城镇以外的乡村地区。" },
+      { sentenceBefore: "Tall trees covered most of the", sentenceAfter: ".", answer: "forest", studentAnswer: "valley", explanationEn: "A forest is a large area of land covered with trees.", explanationZh: "forest 是长有大量树木的大片土地。" },
+      { sentenceBefore: "Snow remained on top of the", sentenceAfter: "even in spring.", answer: "mountain", studentAnswer: "hill", explanationEn: "A mountain is much higher and steeper than a typical hill.", explanationZh: "mountain 通常比 hill 更高、更陡。" },
+      { sentenceBefore: "A river flowed through the", sentenceAfter: "between two mountains.", answer: "valley", studentAnswer: "path", explanationEn: "A valley is low land between hills or mountains.", explanationZh: "valley 是位于山丘或高山之间的低地。" },
+      { sentenceBefore: "Stay on the marked", sentenceAfter: "so that you do not get lost.", answer: "path", studentAnswer: "scenery", explanationEn: "A path is a narrow route for people walking.", explanationZh: "path 是供人行走的狭窄小路。" },
+      { sentenceBefore: "We walked up the grassy", sentenceAfter: "to watch the sunset.", answer: "hill", studentAnswer: "mountain", explanationEn: "A hill is a raised area of land that is lower than a mountain.", explanationZh: "hill 是比 mountain 低缓的山丘。" },
+      { sentenceBefore: "Visitors should never feed the local", sentenceAfter: ".", answer: "wildlife", studentAnswer: "countryside", explanationEn: "Wildlife means animals and plants living naturally in an area.", explanationZh: "wildlife 指在某地区自然生活的野生动植物。" },
+      { sentenceBefore: "The train journey offers beautiful", sentenceAfter: "along the coast.", answer: "scenery", studentAnswer: "wildlife", explanationEn: "Scenery means the natural features and appearance of a place.", explanationZh: "scenery 指一个地方的自然景色和整体风光。" },
+      { sentenceBefore: "The garden was quiet and", sentenceAfter: "early in the morning.", answer: "peaceful", studentAnswer: "explore", explanationEn: "Peaceful describes a calm place without noise or trouble.", explanationZh: "peaceful 形容没有噪声或打扰、令人平静的地方。" },
+      { sentenceBefore: "We had enough time to", sentenceAfter: "the village on foot.", answer: "explore", studentAnswer: "path", explanationEn: "Explore means travel around a place and learn about it.", explanationZh: "explore 表示在一个地方走访并了解它。" }
+    ],
+    corrections: [
+      { prompt: "We saw many beautiful sceneries from the hill.", answer: "We saw beautiful scenery from the hill.", studentAnswer: "We saw many beautiful sceneries from the hill.", explanationEn: "Scenery is uncountable, so do not use many or a plural form.", explanationZh: "scenery 是不可数名词，不能使用 many，也没有复数 sceneries。", tag: "Uncountable noun" },
+      { prompt: "The children explored in the forest after lunch.", answer: "The children explored the forest after lunch.", studentAnswer: "The children explored in the forest after lunch.", explanationEn: "Explore can take a place directly: explore the forest.", explanationZh: "explore 后可直接接地点，应说 explore the forest，不加 in。", tag: "Verb pattern" },
+      { prompt: "A valley is always higher than a mountain.", answer: "A valley is lower than the mountains around it.", studentAnswer: "A valley is always higher than a mountain.", explanationEn: "A valley is low land between hills or mountains.", explanationZh: "valley 是山丘或高山之间的低地，并不比 mountain 高。", tag: "Meaning" },
+      { prompt: "There are many wildlife in this forest.", answer: "There is a lot of wildlife in this forest.", studentAnswer: "There are many wildlife in this forest.", explanationEn: "Wildlife is uncountable, so use a lot of and a singular verb.", explanationZh: "wildlife 是不可数名词，应使用 a lot of 和单数谓语 is。", tag: "Uncountable noun" },
+      { prompt: "The city centre was peaceful because thousands of cars were making noise.", answer: "The city centre was noisy because thousands of cars were making noise.", studentAnswer: "The city centre was peaceful because thousands of cars were making noise.", explanationEn: "Heavy traffic and noise make a place noisy, not peaceful.", explanationZh: "大量车辆制造噪声时，地点应是 noisy，而不是 peaceful。", tag: "Logic" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a peaceful countryside walk that you would like to take.",
+    examples: [
+      { en: "A narrow path led us through the forest and up a hill.", zh: "一条狭窄的小路带我们穿过森林，走上山丘。" },
+      { en: "We enjoyed the mountain scenery across the green valley.", zh: "我们欣赏了绿色山谷另一边的高山风景。" },
+      { en: "Explore the countryside quietly so you do not disturb the wildlife.", zh: "安静地探索乡村，以免打扰野生动物。" }
+    ]
   }
 ];
 

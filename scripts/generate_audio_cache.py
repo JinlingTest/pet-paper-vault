@@ -239,6 +239,21 @@ PAPERS = {
             "tourist",
         ],
     },
+    "016": {
+        "reading": "Oliver spent the weekend with his aunt in the countryside. On Saturday morning, they followed a narrow path into a quiet forest. They climbed a small hill and saw a high mountain beyond the green valley. Oliver stopped several times to photograph the beautiful scenery. His aunt showed him signs of local wildlife, including a fox's footprints near a stream. The area felt peaceful because there were no cars or crowds. After lunch, they decided to explore another path beside the trees. Oliver returned home tired but happy and wanted to visit the countryside again.",
+        "words": [
+            "countryside",
+            "forest",
+            "mountain",
+            "valley",
+            "path",
+            "hill",
+            "wildlife",
+            "scenery",
+            "peaceful",
+            "explore",
+        ],
+    },
 }
 
 

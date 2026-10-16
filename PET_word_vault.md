@@ -317,6 +317,27 @@ Route:
 
 - /papers/015
 
+### v16 - Nature & Countryside - 2026-10-16
+
+Paper id: 016
+
+Words:
+
+- countryside - 乡村；乡下
+- forest - 森林
+- mountain - 山；高山
+- valley - 山谷；谷地
+- path - 小路；小径
+- hill - 小山；山丘
+- wildlife - 野生动物；野生生物
+- scenery - 风景；景色
+- peaceful - 宁静的；平和的
+- explore - 探索；探险
+
+Route:
+
+- /papers/016
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
