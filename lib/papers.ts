@@ -1053,6 +1053,65 @@ export const papers: Paper[] = [
       { en: "We enjoyed the mountain scenery across the green valley.", zh: "我们欣赏了绿色山谷另一边的高山风景。" },
       { en: "Explore the countryside quietly so you do not disturb the wildlife.", zh: "安静地探索乡村，以免打扰野生动物。" }
     ]
+  },
+  {
+    id: "017",
+    version: "v17",
+    date: "2026-10-18",
+    topic: "Reading & Library",
+    title: "English Daily Vocabulary: Reading & Library",
+    words: [
+      { word: "novel", meaning: "长篇小说", phonetic: "/ˈnɑːvəl/", audioUrl: "/audio/papers/017/words/novel.mp3" },
+      { word: "author", meaning: "作者", phonetic: "/ˈɔːθər/", audioUrl: "/audio/papers/017/words/author.mp3" },
+      { word: "chapter", meaning: "（书的）章节", phonetic: "/ˈtʃæptər/", audioUrl: "/audio/papers/017/words/chapter.mp3" },
+      { word: "recommend", meaning: "推荐；建议", phonetic: "/ˌrekəˈmend/", audioUrl: "/audio/papers/017/words/recommend.mp3" },
+      { word: "fiction", meaning: "虚构作品；小说", phonetic: "/ˈfɪkʃən/", audioUrl: "/audio/papers/017/words/fiction.mp3" },
+      { word: "magazine", meaning: "杂志", phonetic: "/ˌmæɡəˈziːn/", audioUrl: "/audio/papers/017/words/magazine.mp3" },
+      { word: "article", meaning: "文章", phonetic: "/ˈɑːrtɪkəl/", audioUrl: "/audio/papers/017/words/article.mp3" },
+      { word: "librarian", meaning: "图书管理员", phonetic: "/laɪˈbreriən/", audioUrl: "/audio/papers/017/words/librarian.mp3" },
+      { word: "reference", meaning: "参考资料；参考", phonetic: "/ˈrefərəns/", audioUrl: "/audio/papers/017/words/reference.mp3" },
+      { word: "publish", meaning: "出版；发表", phonetic: "/ˈpʌblɪʃ/", audioUrl: "/audio/papers/017/words/publish.mp3" }
+    ],
+    reading:
+      "On Tuesday, Mei visited the town library to find a book for her reading club. A librarian recommended a novel by a local author. Mei read the first chapter and liked the story, although she usually chose science books instead of fiction. She also picked up a magazine and found an article about how books are made. For her school project, she checked a reference book for facts about printing. The librarian explained that the local author hoped to publish another novel next year. Mei took the novel home and planned to recommend it to her friends after she had finished it.",
+    readingAudioUrl: "/audio/papers/017/reading.mp3",
+    questions: [
+      { question: "Why did Mei visit the library?", answer: "She wanted a book for her reading club.", studentAnswer: "She wanted to publish a magazine.", explanationEn: "Mei went to find a book for her reading club, not to publish one.", explanationZh: "Mei 去图书馆是为阅读小组找书，而不是去出版 magazine。", tag: "Purpose" },
+      { question: "Who recommended the novel?", answer: "A librarian recommended it.", studentAnswer: "The local author recommended it.", explanationEn: "The librarian suggested the novel by a local author.", explanationZh: "推荐 novel 的人是 librarian；local author 是这本书的作者。", tag: "Reading detail" },
+      { question: "What did Mei usually read instead of fiction?", answer: "She usually read science books.", studentAnswer: "She usually read magazines about printing.", explanationEn: "The passage contrasts Mei's usual science books with fiction.", explanationZh: "原文将 Mei 平时读的 science books 与 fiction 对比。", tag: "Contrast" },
+      { question: "What did Mei use for facts about printing?", answer: "She used a reference book.", studentAnswer: "She used the novel's first chapter.", explanationEn: "Mei checked a reference book for facts needed in her school project.", explanationZh: "Mei 为学校项目查事实时使用的是 reference book。", tag: "Source" },
+      { question: "When did the author hope to publish another novel?", answer: "Next year.", studentAnswer: "On Tuesday.", explanationEn: "Tuesday was Mei's visit; the author hoped to publish next year.", explanationZh: "Tuesday 是 Mei 去图书馆的时间；作者希望 next year 出版新书。", tag: "Time" }
+    ],
+    wordStudy: [
+      { word: "recommend", collocations: ["recommend a book", "recommend something to a friend", "highly recommend"], similar: ["suggest", "advise"], note: "Recommend something to someone, or recommend doing something. Do not say recommend someone a book." },
+      { word: "fiction", collocations: ["read fiction", "science fiction", "a work of fiction"], similar: ["stories", "novels"], note: "Fiction is usually uncountable. A novel is one long work of fiction; not all fiction is a novel." },
+      { word: "publish", collocations: ["publish a book", "publish an article", "publish online"], similar: ["release", "print"], note: "Publish means make writing available to readers. Print only means produce a physical copy." }
+    ],
+    blanks: [
+      { sentenceBefore: "I finished a long", sentenceAfter: "about two friends on an adventure.", answer: "novel", studentAnswer: "article", explanationEn: "A novel is a long fictional story in book form.", explanationZh: "novel 是篇幅较长、以书本形式呈现的虚构故事。" },
+      { sentenceBefore: "The", sentenceAfter: "signed copies of her new book.", answer: "author", studentAnswer: "librarian", explanationEn: "An author is the person who writes a book.", explanationZh: "author 是创作这本书的作者。" },
+      { sentenceBefore: "The mystery is solved in the final", sentenceAfter: "of the book.", answer: "chapter", studentAnswer: "magazine", explanationEn: "A chapter is one section of a book.", explanationZh: "chapter 指一本书中的一个章节。" },
+      { sentenceBefore: "Can you", sentenceAfter: "a good story for my holiday?", answer: "recommend", studentAnswer: "publish", explanationEn: "Recommend means suggest something that someone might like.", explanationZh: "recommend 表示向别人推荐可能喜欢的作品。" },
+      { sentenceBefore: "This story is", sentenceAfter: "; the characters are not real people.", answer: "fiction", studentAnswer: "reference", explanationEn: "Fiction tells an imagined story rather than reporting facts.", explanationZh: "fiction 讲述虚构故事，而不是陈述事实。" },
+      { sentenceBefore: "The monthly", sentenceAfter: "has photos and short stories about sport.", answer: "magazine", studentAnswer: "chapter", explanationEn: "A magazine is a publication issued regularly, often with varied content.", explanationZh: "magazine 是定期发行、内容多样的杂志。" },
+      { sentenceBefore: "I read a short", sentenceAfter: "about bees in the school newspaper.", answer: "article", studentAnswer: "novel", explanationEn: "An article is a piece of writing in a newspaper, magazine, or website.", explanationZh: "article 是报纸、杂志或网站上的一篇文章。" },
+      { sentenceBefore: "Ask the", sentenceAfter: "where to find the history books.", answer: "librarian", studentAnswer: "author", explanationEn: "A librarian helps people use a library and find books.", explanationZh: "librarian 是帮助读者使用图书馆、寻找图书的人。" },
+      { sentenceBefore: "Use this dictionary as a", sentenceAfter: "when checking a word's meaning.", answer: "reference", studentAnswer: "fiction", explanationEn: "A reference is a source used to check information.", explanationZh: "reference 可以指查证信息时使用的参考资料。" },
+      { sentenceBefore: "The school will", sentenceAfter: "the winning stories on its website.", answer: "publish", studentAnswer: "recommend", explanationEn: "Publish means make writing available for people to read.", explanationZh: "publish 表示将作品发表出来供大家阅读。" }
+    ],
+    corrections: [
+      { prompt: "I recommend you this novel.", answer: "I recommend this novel to you.", studentAnswer: "I recommend you this novel.", explanationEn: "Use recommend something to someone, not recommend someone something.", explanationZh: "正确搭配是 recommend something to someone。", tag: "Verb pattern" },
+      { prompt: "She reads many fictions in her free time.", answer: "She reads a lot of fiction in her free time.", studentAnswer: "She reads many fictions in her free time.", explanationEn: "Fiction is normally uncountable; use a lot of fiction.", explanationZh: "fiction 通常不可数，要说 a lot of fiction。", tag: "Uncountable noun" },
+      { prompt: "The librarian wrote this novel last year.", answer: "The author wrote this novel last year.", studentAnswer: "The librarian wrote this novel last year.", explanationEn: "Author names the writer; librarian names a person who works in a library.", explanationZh: "写小说的是 author；librarian 是图书管理员。", tag: "Word choice" },
+      { prompt: "The book's first magazine introduces the main character.", answer: "The book's first chapter introduces the main character.", studentAnswer: "The book's first magazine introduces the main character.", explanationEn: "A chapter is a section within a book; a magazine is a separate publication.", explanationZh: "书的一部分是 chapter；magazine 是单独出版的杂志。", tag: "Meaning" },
+      { prompt: "The newspaper will print the article online tomorrow.", answer: "The newspaper will publish the article online tomorrow.", studentAnswer: "The newspaper will print the article online tomorrow.", explanationEn: "Publish works for online writing; print means produce a physical copy.", explanationZh: "网上发表文章要用 publish；print 指印出纸质副本。", tag: "Confusing verbs" }
+    ],
+    creativePrompt: "Use five words from today's list to recommend a book or magazine article to a friend.",
+    examples: [
+      { en: "The librarian recommended a novel by my favourite author.", zh: "图书管理员推荐了一本我最喜欢的作家写的长篇小说。" },
+      { en: "The first chapter made me want to read more fiction.", zh: "第一章让我想读更多虚构作品。" },
+      { en: "The magazine will publish my article next month.", zh: "这本杂志下个月将发表我的文章。" }
+    ]
   }
 ];
 

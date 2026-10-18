@@ -254,6 +254,21 @@ PAPERS = {
             "explore",
         ],
     },
+    "017": {
+        "reading": "On Tuesday, Mei visited the town library to find a book for her reading club. A librarian recommended a novel by a local author. Mei read the first chapter and liked the story, although she usually chose science books instead of fiction. She also picked up a magazine and found an article about how books are made. For her school project, she checked a reference book for facts about printing. The librarian explained that the local author hoped to publish another novel next year. Mei took the novel home and planned to recommend it to her friends after she had finished it.",
+        "words": [
+            "novel",
+            "author",
+            "chapter",
+            "recommend",
+            "fiction",
+            "magazine",
+            "article",
+            "librarian",
+            "reference",
+            "publish",
+        ],
+    },
 }
 
 

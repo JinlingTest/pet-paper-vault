@@ -338,6 +338,27 @@ Route:
 
 - /papers/016
 
+### v17 - Reading & Library - 2026-10-18
+
+Paper id: 017
+
+Words:
+
+- novel - 长篇小说
+- author - 作者
+- chapter - （书的）章节
+- recommend - 推荐；建议
+- fiction - 虚构作品；小说
+- magazine - 杂志
+- article - 文章
+- librarian - 图书管理员
+- reference - 参考资料；参考
+- publish - 出版；发表
+
+Route:
+
+- /papers/017
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

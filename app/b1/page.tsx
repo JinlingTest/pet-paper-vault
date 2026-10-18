@@ -18,7 +18,8 @@ const topicZh: Record<string, string> = {
   "013": "家务与家庭",
   "014": "音乐与表演",
   "015": "航空旅行与度假",
-  "016": "自然与乡村"
+  "016": "自然与乡村",
+  "017": "阅读与图书馆"
 };
 
 export const metadata = {
