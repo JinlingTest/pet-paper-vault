@@ -359,6 +359,27 @@ Route:
 
 - /papers/017
 
+### v18 - Art & Gallery - 2026-10-20
+
+Paper id: 018
+
+Words:
+
+- exhibit - 展品；展出
+- painting - 绘画作品；油画
+- sculpture - 雕塑
+- artist - 艺术家
+- gallery - 画廊；美术馆
+- portrait - 肖像画；人物照片
+- sketch - 素描；速写
+- design - 设计；图案
+- display - 展示；陈列
+- collection - 收藏品；一组作品
+
+Route:
+
+- /papers/018
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

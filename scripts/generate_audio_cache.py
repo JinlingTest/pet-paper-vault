@@ -269,6 +269,21 @@ PAPERS = {
             "publish",
         ],
     },
+    "018": {
+        "reading": "Rosa's class visited a small gallery to see a collection of work by young artists. Her favourite exhibit was a colourful painting of the sea. Near it stood a sculpture made from old metal objects. A student artist explained how she had made the sculpture. Rosa also noticed a portrait of the artist's grandfather and a quick pencil sketch beside it. The sketch showed the first idea for the portrait. At the end of the visit, the class helped design a poster to display their own work at school. Rosa wanted to return to the gallery with her family.",
+        "words": [
+            "exhibit",
+            "painting",
+            "sculpture",
+            "artist",
+            "gallery",
+            "portrait",
+            "sketch",
+            "design",
+            "display",
+            "collection",
+        ],
+    },
 }
 
 

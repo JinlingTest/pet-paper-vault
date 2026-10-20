@@ -1112,6 +1112,65 @@ export const papers: Paper[] = [
       { en: "The first chapter made me want to read more fiction.", zh: "第一章让我想读更多虚构作品。" },
       { en: "The magazine will publish my article next month.", zh: "这本杂志下个月将发表我的文章。" }
     ]
+  },
+  {
+    id: "018",
+    version: "v18",
+    date: "2026-10-20",
+    topic: "Art & Gallery",
+    title: "English Daily Vocabulary: Art & Gallery",
+    words: [
+      { word: "exhibit", meaning: "展品；展出", phonetic: "/ɪɡˈzɪbɪt/", audioUrl: "/audio/papers/018/words/exhibit.mp3" },
+      { word: "painting", meaning: "绘画作品；油画", phonetic: "/ˈpeɪntɪŋ/", audioUrl: "/audio/papers/018/words/painting.mp3" },
+      { word: "sculpture", meaning: "雕塑", phonetic: "/ˈskʌlptʃər/", audioUrl: "/audio/papers/018/words/sculpture.mp3" },
+      { word: "artist", meaning: "艺术家", phonetic: "/ˈɑːrtɪst/", audioUrl: "/audio/papers/018/words/artist.mp3" },
+      { word: "gallery", meaning: "画廊；美术馆", phonetic: "/ˈɡæləri/", audioUrl: "/audio/papers/018/words/gallery.mp3" },
+      { word: "portrait", meaning: "肖像画；人物照片", phonetic: "/ˈpɔːrtrɪt/", audioUrl: "/audio/papers/018/words/portrait.mp3" },
+      { word: "sketch", meaning: "素描；速写", phonetic: "/sketʃ/", audioUrl: "/audio/papers/018/words/sketch.mp3" },
+      { word: "design", meaning: "设计；图案", phonetic: "/dɪˈzaɪn/", audioUrl: "/audio/papers/018/words/design.mp3" },
+      { word: "display", meaning: "展示；陈列", phonetic: "/dɪˈspleɪ/", audioUrl: "/audio/papers/018/words/display.mp3" },
+      { word: "collection", meaning: "收藏品；一组作品", phonetic: "/kəˈlekʃən/", audioUrl: "/audio/papers/018/words/collection.mp3" }
+    ],
+    reading:
+      "Rosa's class visited a small gallery to see a collection of work by young artists. Her favourite exhibit was a colourful painting of the sea. Near it stood a sculpture made from old metal objects. A student artist explained how she had made the sculpture. Rosa also noticed a portrait of the artist's grandfather and a quick pencil sketch beside it. The sketch showed the first idea for the portrait. At the end of the visit, the class helped design a poster to display their own work at school. Rosa wanted to return to the gallery with her family.",
+    readingAudioUrl: "/audio/papers/018/reading.mp3",
+    questions: [
+      { question: "Why did Rosa's class visit the gallery?", answer: "To see a collection of work by young artists.", studentAnswer: "To buy old metal objects.", explanationEn: "The class went to see young artists' work, not to shop for materials.", explanationZh: "全班去 gallery 是欣赏年轻艺术家的 collection，而不是购买材料。", tag: "Purpose" },
+      { question: "What was Rosa's favourite exhibit?", answer: "A colourful painting of the sea.", studentAnswer: "A portrait of the artist's grandfather.", explanationEn: "The sea painting is named as Rosa's favourite exhibit.", explanationZh: "原文明确说 Rosa 最喜欢的 exhibit 是一幅海景 painting。", tag: "Reading detail" },
+      { question: "What was the sculpture made from?", answer: "Old metal objects.", studentAnswer: "Pencil and paper.", explanationEn: "The sculpture used old metal objects; the pencil was used for the sketch.", explanationZh: "sculpture 使用旧金属物件制作；铅笔用于 sketch。", tag: "Material" },
+      { question: "What did the sketch show?", answer: "The first idea for the portrait.", studentAnswer: "The final design for the school poster.", explanationEn: "The quick pencil sketch showed the artist's early idea for the portrait.", explanationZh: "素描呈现的是 portrait 最初的构思，不是学校海报的最终设计。", tag: "Sequence" },
+      { question: "What would the class display at school?", answer: "Their own work.", studentAnswer: "The gallery's metal sculpture.", explanationEn: "The class designed a poster for showing their own work at school.", explanationZh: "全班设计海报，是为了在学校 display 自己的作品。", tag: "Object" }
+    ],
+    wordStudy: [
+      { word: "exhibit", collocations: ["a favourite exhibit", "exhibit a painting", "museum exhibit"], similar: ["display", "show"], note: "Exhibit can be a noun for an object on show or a verb meaning to show an object publicly." },
+      { word: "portrait", collocations: ["paint a portrait", "a family portrait", "portrait of someone"], similar: ["picture", "photograph"], note: "A portrait mainly shows a person; a landscape shows a place or outdoor scene." },
+      { word: "display", collocations: ["display artwork", "on display", "a window display"], similar: ["show", "exhibit"], note: "Display means put something where people can see it. Use on display for an item already being shown." }
+    ],
+    blanks: [
+      { sentenceBefore: "This dinosaur model is my favourite", sentenceAfter: "at the museum.", answer: "exhibit", studentAnswer: "artist", explanationEn: "An exhibit is an object shown to the public.", explanationZh: "exhibit 可指向公众展示的展品。" },
+      { sentenceBefore: "The", sentenceAfter: "of the mountains hangs above our sofa.", answer: "painting", studentAnswer: "sculpture", explanationEn: "A painting is a picture made with paint.", explanationZh: "painting 指用颜料绘制的画作。" },
+      { sentenceBefore: "The stone", sentenceAfter: "stands in the centre of the garden.", answer: "sculpture", studentAnswer: "sketch", explanationEn: "A sculpture is a three-dimensional artwork made from stone, metal, or another material.", explanationZh: "sculpture 是用石头、金属等材料制作的立体艺术品。" },
+      { sentenceBefore: "The", sentenceAfter: "painted scenes from her home town.", answer: "artist", studentAnswer: "portrait", explanationEn: "An artist is a person who creates art.", explanationZh: "artist 是创作艺术作品的人。" },
+      { sentenceBefore: "We visited an art", sentenceAfter: "to see the new paintings.", answer: "gallery", studentAnswer: "collection", explanationEn: "A gallery is a place where artworks are shown.", explanationZh: "gallery 是展出艺术作品的场所。" },
+      { sentenceBefore: "The", sentenceAfter: "shows my grandmother when she was young.", answer: "portrait", studentAnswer: "design", explanationEn: "A portrait is a picture or photograph of a person.", explanationZh: "portrait 是描绘某个人的画像或照片。" },
+      { sentenceBefore: "Before painting the wall, I made a quick", sentenceAfter: "of my idea.", answer: "sketch", studentAnswer: "collection", explanationEn: "A sketch is a quick, simple drawing used to record an idea.", explanationZh: "sketch 是记录想法的快速简笔画或素描。" },
+      { sentenceBefore: "Our group will", sentenceAfter: "a poster for the school show.", answer: "design", studentAnswer: "display", explanationEn: "Design means plan the appearance of something before it is made.", explanationZh: "design 表示在制作前规划作品的样式。" },
+      { sentenceBefore: "The school will", sentenceAfter: "the winning drawings in the hall.", answer: "display", studentAnswer: "design", explanationEn: "Display means put items where others can see them.", explanationZh: "display 表示把作品陈列出来供人观看。" },
+      { sentenceBefore: "The gallery has a", sentenceAfter: "of fifty small paintings.", answer: "collection", studentAnswer: "painting", explanationEn: "A collection is a group of items gathered together.", explanationZh: "collection 指汇集在一起的一组物品或作品。" }
+    ],
+    corrections: [
+      { prompt: "The portrait shows only a mountain and a river.", answer: "The landscape painting shows a mountain and a river.", studentAnswer: "The portrait shows only a mountain and a river.", explanationEn: "A portrait shows a person; a landscape painting shows outdoor scenery.", explanationZh: "portrait 主要描绘人物；描绘山川应说 landscape painting。", tag: "Meaning" },
+      { prompt: "The artist is a beautiful picture on the wall.", answer: "The painting is a beautiful picture on the wall.", studentAnswer: "The artist is a beautiful picture on the wall.", explanationEn: "An artist makes the picture; the painting is the picture itself.", explanationZh: "artist 是创作者；painting 才是画作本身。", tag: "Word choice" },
+      { prompt: "We will display the poster before we decide how it should look.", answer: "We will design the poster before we decide where to display it.", studentAnswer: "We will display the poster before we decide how it should look.", explanationEn: "Design the poster first, then display the finished result.", explanationZh: "先 design 海报，再 display 完成的作品。", tag: "Sequence" },
+      { prompt: "My drawing is in display at the gallery.", answer: "My drawing is on display at the gallery.", studentAnswer: "My drawing is in display at the gallery.", explanationEn: "The fixed phrase for an item being shown is on display.", explanationZh: "作品正在展出应使用固定搭配 on display。", tag: "Collocation" },
+      { prompt: "A collection means only one object.", answer: "A collection means a group of objects.", studentAnswer: "A collection means only one object.", explanationEn: "A collection contains several items gathered together.", explanationZh: "collection 包含汇集在一起的多个物品，不是单独一件。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to describe an artwork you would make for a school gallery.",
+    examples: [
+      { en: "The artist made a sketch before starting the painting.", zh: "艺术家在动笔画画前先画了一幅草图。" },
+      { en: "A portrait and a small sculpture were on display at the gallery.", zh: "一幅肖像画和一件小雕塑在美术馆展出。" },
+      { en: "Our collection included every student's favourite exhibit.", zh: "我们的作品集收录了每位学生最喜爱的展品。" }
+    ]
   }
 ];
 

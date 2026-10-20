@@ -19,7 +19,8 @@ const topicZh: Record<string, string> = {
   "014": "音乐与表演",
   "015": "航空旅行与度假",
   "016": "自然与乡村",
-  "017": "阅读与图书馆"
+  "017": "阅读与图书馆",
+  "018": "艺术与画廊"
 };
 
 export const metadata = {
