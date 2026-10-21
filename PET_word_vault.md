@@ -380,6 +380,27 @@ Route:
 
 - /papers/018
 
+### v19 - Celebrations & Traditions - 2026-10-21
+
+Paper id: 019
+
+Recorded words:
+
+1. invitation - 邀请函；邀请
+2. ceremony - 典礼；仪式
+3. decorate - 装饰；布置
+4. guest - 客人；宾客
+5. celebrate - 庆祝
+6. tradition - 传统；惯例
+7. festival - 节日；节庆活动
+8. gift - 礼物
+9. surprise - 惊喜；使惊讶
+10. prepare - 准备
+
+Worksheet route:
+
+- /papers/019
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

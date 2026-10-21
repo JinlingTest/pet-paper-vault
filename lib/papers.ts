@@ -1171,6 +1171,65 @@ export const papers: Paper[] = [
       { en: "A portrait and a small sculpture were on display at the gallery.", zh: "一幅肖像画和一件小雕塑在美术馆展出。" },
       { en: "Our collection included every student's favourite exhibit.", zh: "我们的作品集收录了每位学生最喜爱的展品。" }
     ]
+  },
+  {
+    id: "019",
+    version: "v19",
+    date: "2026-10-21",
+    topic: "Celebrations & Traditions",
+    title: "English Daily Vocabulary: Celebrations & Traditions",
+    words: [
+      { word: "invitation", meaning: "邀请函；邀请", phonetic: "/ˌɪnvɪˈteɪʃən/", audioUrl: "/audio/papers/019/words/invitation.mp3" },
+      { word: "ceremony", meaning: "典礼；仪式", phonetic: "/ˈserəmoʊni/", audioUrl: "/audio/papers/019/words/ceremony.mp3" },
+      { word: "decorate", meaning: "装饰；布置", phonetic: "/ˈdekəreɪt/", audioUrl: "/audio/papers/019/words/decorate.mp3" },
+      { word: "guest", meaning: "客人；宾客", phonetic: "/ɡest/", audioUrl: "/audio/papers/019/words/guest.mp3" },
+      { word: "celebrate", meaning: "庆祝", phonetic: "/ˈseləbreɪt/", audioUrl: "/audio/papers/019/words/celebrate.mp3" },
+      { word: "tradition", meaning: "传统；惯例", phonetic: "/trəˈdɪʃən/", audioUrl: "/audio/papers/019/words/tradition.mp3" },
+      { word: "festival", meaning: "节日；节庆活动", phonetic: "/ˈfestɪvəl/", audioUrl: "/audio/papers/019/words/festival.mp3" },
+      { word: "gift", meaning: "礼物", phonetic: "/ɡɪft/", audioUrl: "/audio/papers/019/words/gift.mp3" },
+      { word: "surprise", meaning: "惊喜；使惊讶", phonetic: "/sərˈpraɪz/", audioUrl: "/audio/papers/019/words/surprise.mp3" },
+      { word: "prepare", meaning: "准备", phonetic: "/prɪˈper/", audioUrl: "/audio/papers/019/words/prepare.mp3" }
+    ],
+    reading:
+      "Every autumn, Lina's town holds a small food festival. This year, her class received an invitation to help at the opening ceremony. They had a week to prepare. On Friday, Lina and her friends decorated the hall with paper flowers and welcomed each guest at the door. Lina's family has a tradition of making apple cakes for the festival, so she brought some to share. After the ceremony, everyone celebrated with music and food. Lina gave her teacher a small gift: a card signed by the whole class. The teacher smiled, but the biggest surprise came when the visitors voted Lina's class cake table their favourite. Lina felt proud of the work they had done together.",
+    readingAudioUrl: "/audio/papers/019/reading.mp3",
+    questions: [
+      { question: "What did Lina's class receive?", answer: "An invitation to help at the opening ceremony.", studentAnswer: "A gift from every guest.", explanationEn: "The class was invited to help at the opening ceremony; guests did not send gifts.", explanationZh: "全班收到的是参加开幕 ceremony 的 invitation，不是客人的礼物。", tag: "Reading detail" },
+      { question: "How long did the class have to prepare?", answer: "One week.", studentAnswer: "Only one day.", explanationEn: "The passage says they had a week to prepare.", explanationZh: "原文明确说他们有一周时间 prepare，不是一天。", tag: "Time" },
+      { question: "What was Lina's family tradition?", answer: "Making apple cakes for the festival.", studentAnswer: "Decorating the hall with paper flowers.", explanationEn: "Making apple cakes is the family tradition; decorating was the class's task this year.", explanationZh: "家族 tradition 是为 festival 做苹果蛋糕；布置大厅是这次班级的任务。", tag: "Distinguishing details" },
+      { question: "What gift did Lina give her teacher?", answer: "A card signed by the whole class.", studentAnswer: "A box of apple cakes.", explanationEn: "The signed card was Lina's gift to the teacher; the cakes were for sharing.", explanationZh: "送给老师的 gift 是全班签名的卡片；蛋糕是拿来分享的。", tag: "Object" },
+      { question: "What surprised Lina at the end?", answer: "Visitors chose her class cake table as their favourite.", studentAnswer: "The festival was cancelled.", explanationEn: "The visitors' vote for the cake table was the surprise; the festival took place.", explanationZh: "最后的 surprise 是游客投票选她们班的蛋糕摊为最喜欢的摊位；活动没有取消。", tag: "Outcome" }
+    ],
+    wordStudy: [
+      { word: "invitation", collocations: ["receive an invitation", "send an invitation", "invitation to a party"], similar: ["invite", "request"], note: "Invitation is a noun; invite is a verb. Say an invitation to an event or invite someone to an event." },
+      { word: "celebrate", collocations: ["celebrate a birthday", "celebrate a festival", "celebrate with friends"], similar: ["enjoy", "mark"], note: "Celebrate takes the occasion directly: celebrate a birthday, not celebrate for a birthday." },
+      { word: "prepare", collocations: ["prepare for a ceremony", "prepare food", "prepare to leave"], similar: ["get ready", "plan"], note: "Prepare for an event, but prepare a thing. Prepare to do something describes the next action." }
+    ],
+    blanks: [
+      { sentenceBefore: "We received an", sentenceAfter: "to the school concert.", answer: "invitation", studentAnswer: "guest", explanationEn: "An invitation is a message asking someone to attend an event.", explanationZh: "invitation 是邀请别人参加活动的通知或邀请函。" },
+      { sentenceBefore: "The head teacher spoke at the opening", sentenceAfter: ".", answer: "ceremony", studentAnswer: "festival", explanationEn: "An opening ceremony formally begins an event.", explanationZh: "opening ceremony 指活动正式开始时举行的开幕仪式。" },
+      { sentenceBefore: "We will", sentenceAfter: "the classroom with colourful paper stars.", answer: "decorate", studentAnswer: "prepare", explanationEn: "Decorate means make a place look attractive by adding things.", explanationZh: "decorate 是用装饰物把教室布置得更美观。" },
+      { sentenceBefore: "Every", sentenceAfter: "signed the book before leaving the party.", answer: "guest", studentAnswer: "gift", explanationEn: "A guest is a person invited to an event.", explanationZh: "guest 是受邀参加活动的人。" },
+      { sentenceBefore: "Our family will", sentenceAfter: "Grandpa's birthday on Sunday.", answer: "celebrate", studentAnswer: "decorate", explanationEn: "Celebrate means do something special for a happy occasion.", explanationZh: "celebrate 表示为生日等喜事举行庆祝活动。" },
+      { sentenceBefore: "Eating together on this day is a family", sentenceAfter: ".", answer: "tradition", studentAnswer: "surprise", explanationEn: "A tradition is a custom repeated over many years.", explanationZh: "tradition 是多年沿袭的习俗或惯例。" },
+      { sentenceBefore: "The town holds a music", sentenceAfter: "every summer.", answer: "festival", studentAnswer: "ceremony", explanationEn: "A festival is an event or series of events held to celebrate something.", explanationZh: "festival 是围绕音乐等主题举办的节庆活动。" },
+      { sentenceBefore: "I wrapped the", sentenceAfter: "in blue paper before giving it to Mum.", answer: "gift", studentAnswer: "guest", explanationEn: "A gift is something given to another person.", explanationZh: "gift 是送给别人的礼物；guest 是客人。" },
+      { sentenceBefore: "The party was a", sentenceAfter: "; nobody had told Ben about it.", answer: "surprise", studentAnswer: "tradition", explanationEn: "A surprise is something unexpected.", explanationZh: "surprise 指事先没料到的事情，这里是惊喜聚会。" },
+      { sentenceBefore: "Please", sentenceAfter: "the food before our guests arrive.", answer: "prepare", studentAnswer: "celebrate", explanationEn: "Prepare food means get it ready for use or eating.", explanationZh: "prepare food 是把食物准备好；不是庆祝食物。" }
+    ],
+    corrections: [
+      { prompt: "The school invitation us to the ceremony.", answer: "The school invited us to the ceremony.", studentAnswer: "The school invitation us to the ceremony.", explanationEn: "Invitation is a noun; the sentence needs the past-tense verb invited.", explanationZh: "invitation 是名词；句子这里需要动词 invite 的过去式 invited。", tag: "Word form" },
+      { prompt: "They celebrated for their grandmother's birthday.", answer: "They celebrated their grandmother's birthday.", studentAnswer: "They celebrated for their grandmother's birthday.", explanationEn: "Celebrate takes the event directly, without for.", explanationZh: "celebrate 后直接接庆祝的事情，不加 for。", tag: "Verb pattern" },
+      { prompt: "We prepared the festival by buying tickets.", answer: "We prepared for the festival by buying tickets.", studentAnswer: "We prepared the festival by buying tickets.", explanationEn: "Prepare for an event means get ready to attend it; prepare an event means arrange or organise it.", explanationZh: "买票是在为参加 festival 做准备，应说 prepare for；prepare the festival 更像筹办节庆本身。", tag: "Preposition" },
+      { prompt: "The gift thanked us for coming to the party.", answer: "The guest thanked us for coming to the party.", studentAnswer: "The gift thanked us for coming to the party.", explanationEn: "A guest is a person who can thank someone; a gift is an object.", explanationZh: "能向别人道谢的是 guest（客人）；gift 是物品。", tag: "Meaning" },
+      { prompt: "A tradition is something a family does for the first time today.", answer: "A tradition is something a family has done for many years.", studentAnswer: "A tradition is something a family does for the first time today.", explanationEn: "A tradition is a practice repeated over time, not a first-time activity.", explanationZh: "tradition 强调长期沿袭，不是今天第一次做的事情。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a celebration your class could organise.",
+    examples: [
+      { en: "We sent each guest an invitation to the opening ceremony.", zh: "我们给每位客人寄了开幕式邀请函。" },
+      { en: "Our family tradition is to decorate the room before the festival.", zh: "我们家的传统是在节日前装饰房间。" },
+      { en: "I prepared a small gift to surprise my friend on her birthday.", zh: "我准备了一份小礼物，想在朋友生日时给她一个惊喜。" }
+    ]
   }
 ];
 

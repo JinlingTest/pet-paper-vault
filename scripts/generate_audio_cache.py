@@ -284,6 +284,21 @@ PAPERS = {
             "collection",
         ],
     },
+    "019": {
+        "reading": "Every autumn, Lina's town holds a small food festival. This year, her class received an invitation to help at the opening ceremony. They had a week to prepare. On Friday, Lina and her friends decorated the hall with paper flowers and welcomed each guest at the door. Lina's family has a tradition of making apple cakes for the festival, so she brought some to share. After the ceremony, everyone celebrated with music and food. Lina gave her teacher a small gift: a card signed by the whole class. The teacher smiled, but the biggest surprise came when the visitors voted Lina's class cake table their favourite. Lina felt proud of the work they had done together.",
+        "words": [
+            "invitation",
+            "ceremony",
+            "decorate",
+            "guest",
+            "celebrate",
+            "tradition",
+            "festival",
+            "gift",
+            "surprise",
+            "prepare",
+        ],
+    },
 }
 
 
