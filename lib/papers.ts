@@ -1230,6 +1230,65 @@ export const papers: Paper[] = [
       { en: "Our family tradition is to decorate the room before the festival.", zh: "我们家的传统是在节日前装饰房间。" },
       { en: "I prepared a small gift to surprise my friend on her birthday.", zh: "我准备了一份小礼物，想在朋友生日时给她一个惊喜。" }
     ]
+  },
+  {
+    id: "020",
+    version: "v20",
+    date: "2026-10-23",
+    topic: "Science & Experiments",
+    title: "English Daily Vocabulary: Science & Experiments",
+    words: [
+      { word: "scientist", meaning: "科学家", phonetic: "/ˈsaɪəntɪst/", audioUrl: "/audio/papers/020/words/scientist.mp3" },
+      { word: "experiment", meaning: "实验", phonetic: "/ɪkˈsperɪmənt/", audioUrl: "/audio/papers/020/words/experiment.mp3" },
+      { word: "laboratory", meaning: "实验室", phonetic: "/ˈlæbrətɔːri/", audioUrl: "/audio/papers/020/words/laboratory.mp3" },
+      { word: "discover", meaning: "发现", phonetic: "/dɪˈskʌvər/", audioUrl: "/audio/papers/020/words/discover.mp3" },
+      { word: "observe", meaning: "观察", phonetic: "/əbˈzɜːrv/", audioUrl: "/audio/papers/020/words/observe.mp3" },
+      { word: "measure", meaning: "测量", phonetic: "/ˈmeʒər/", audioUrl: "/audio/papers/020/words/measure.mp3" },
+      { word: "mixture", meaning: "混合物", phonetic: "/ˈmɪkstʃər/", audioUrl: "/audio/papers/020/words/mixture.mp3" },
+      { word: "evidence", meaning: "证据；依据", phonetic: "/ˈevɪdəns/", audioUrl: "/audio/papers/020/words/evidence.mp3" },
+      { word: "research", meaning: "研究；调查", phonetic: "/rɪˈsɜːrtʃ/", audioUrl: "/audio/papers/020/words/research.mp3" },
+      { word: "equipment", meaning: "设备；器材", phonetic: "/ɪˈkwɪpmənt/", audioUrl: "/audio/papers/020/words/equipment.mp3" }
+    ],
+    reading:
+      "On Wednesday, Maya's class visited a school laboratory. A scientist helped them do an experiment with water and salt. First, the children used simple equipment to measure two cups of water. Then they added salt to one cup and watched the mixture carefully. They wanted to observe what happened when both cups were placed in a warm room. By Friday, the water in each cup had disappeared, but salt remained in one. The class did not discover a new kind of salt. Instead, they found evidence that the salt had not disappeared with the water. Maya wrote down the result and decided to do more research about how water changes into gas.",
+    readingAudioUrl: "/audio/papers/020/reading.mp3",
+    questions: [
+      { question: "Where did Maya's class do the experiment?", answer: "In a school laboratory.", studentAnswer: "In a warm garden.", explanationEn: "They visited a school laboratory; the cups were later placed in a warm room.", explanationZh: "实验地点是学校 laboratory；后来杯子被放在温暖的房间。", tag: "Place" },
+      { question: "What did they add to one cup?", answer: "Salt.", studentAnswer: "More water.", explanationEn: "They added salt to one of the two cups of water.", explanationZh: "他们往其中一个杯子里加入 salt，而不是更多的水。", tag: "Reading detail" },
+      { question: "What remained in one cup by Friday?", answer: "Salt remained.", studentAnswer: "Water remained.", explanationEn: "The water had disappeared, but the salt remained in one cup.", explanationZh: "到周五水已经不见，留下来的是 salt。", tag: "Result" },
+      { question: "Did the class discover a new kind of salt?", answer: "No, they did not.", studentAnswer: "Yes, they discovered a new kind.", explanationEn: "The passage explicitly says they did not discover a new kind of salt.", explanationZh: "原文明确说他们没有 discover 新种类的盐。", tag: "Negation" },
+      { question: "What did Maya want to research next?", answer: "How water changes into gas.", studentAnswer: "How to build new laboratory equipment.", explanationEn: "Her next research topic was the change from water to gas.", explanationZh: "Maya 想继续 research 水如何变成气体，而不是研究如何制造设备。", tag: "Next step" }
+    ],
+    wordStudy: [
+      { word: "experiment", collocations: ["do an experiment", "science experiment", "experiment with water"], similar: ["test", "trial"], note: "Do or carry out an experiment; research is a broader investigation that may include several experiments." },
+      { word: "discover", collocations: ["discover a fact", "discover something new", "make a discovery"], similar: ["find", "invent"], note: "Discover means find something that already exists; invent means create something new." },
+      { word: "evidence", collocations: ["find evidence", "strong evidence", "evidence that something happened"], similar: ["proof", "clue"], note: "Evidence is uncountable in this sense: say some evidence, not an evidence." }
+    ],
+    blanks: [
+      { sentenceBefore: "The", sentenceAfter: "studied how plants grow.", answer: "scientist", studentAnswer: "laboratory", explanationEn: "A scientist is a person who studies the natural world.", explanationZh: "scientist 是研究自然世界的人。"},
+      { sentenceBefore: "We did an", sentenceAfter: "to see whether seeds need light.", answer: "experiment", studentAnswer: "evidence", explanationEn: "An experiment is a test used to learn what happens.", explanationZh: "experiment 是为了了解结果而进行的实验。"},
+      { sentenceBefore: "The class wore safety glasses in the", sentenceAfter: ".", answer: "laboratory", studentAnswer: "equipment", explanationEn: "A laboratory is a room used for scientific work.", explanationZh: "laboratory 指进行科学实验的房间。"},
+      { sentenceBefore: "We hope to", sentenceAfter: "why the leaves changed colour.", answer: "discover", studentAnswer: "measure", explanationEn: "Discover means find out something previously unknown.", explanationZh: "discover 表示弄清之前不知道的事情。"},
+      { sentenceBefore: "Sit quietly and", sentenceAfter: "the bird's behaviour.", answer: "observe", studentAnswer: "discover", explanationEn: "Observe means watch carefully over time.", explanationZh: "observe 表示仔细观察。"},
+      { sentenceBefore: "Use a ruler to", sentenceAfter: "the length of the table.", answer: "measure", studentAnswer: "observe", explanationEn: "Measure means find the size or amount of something.", explanationZh: "measure 表示测出长度或数量。"},
+      { sentenceBefore: "The bowl held a", sentenceAfter: "of flour and water.", answer: "mixture", studentAnswer: "equipment", explanationEn: "A mixture contains two or more substances combined.", explanationZh: "mixture 是由两种或更多物质混在一起形成的东西。"},
+      { sentenceBefore: "The wet ground was", sentenceAfter: "that it had rained.", answer: "evidence", studentAnswer: "research", explanationEn: "Evidence is information or a sign supporting a conclusion.", explanationZh: "湿地面是下过雨的 evidence（依据）。"},
+      { sentenceBefore: "Her", sentenceAfter: "into sea animals took several months.", answer: "research", studentAnswer: "experiment", explanationEn: "Research is a careful study of a subject over time.", explanationZh: "research 指对某个主题持续、系统地研究。"},
+      { sentenceBefore: "Please put the science", sentenceAfter: "away after class.", answer: "equipment", studentAnswer: "mixture", explanationEn: "Equipment means tools needed for an activity.", explanationZh: "equipment 指活动所需的器材，通常不可数。"}
+    ],
+    corrections: [
+      { prompt: "The scientist is a room where we test ideas.", answer: "The laboratory is a room where we test ideas.", studentAnswer: "The scientist is a room where we test ideas.", explanationEn: "A scientist is a person; a laboratory is a room.", explanationZh: "scientist 是人；laboratory 才是实验室。", tag: "Meaning" },
+      { prompt: "We made an experiment with salt and water.", answer: "We did an experiment with salt and water.", studentAnswer: "We made an experiment with salt and water.", explanationEn: "The usual collocation is do an experiment.", explanationZh: "常用搭配是 do an experiment。", tag: "Collocation" },
+      { prompt: "She invented a bird that was already living on the island.", answer: "She discovered a bird that was already living on the island.", studentAnswer: "She invented a bird that was already living on the island.", explanationEn: "Discover means find an existing thing; invent means create a new thing.", explanationZh: "找到已经存在的鸟是 discover；invent 是发明新东西。", tag: "Confusing verbs" },
+      { prompt: "The teacher found an evidence that the water had changed.", answer: "The teacher found evidence that the water had changed.", studentAnswer: "The teacher found an evidence that the water had changed.", explanationEn: "Evidence is uncountable here, so do not use an.", explanationZh: "这里 evidence 不可数，前面不能加 an。", tag: "Uncountable noun" },
+      { prompt: "We bought three new equipments for the laboratory.", answer: "We bought three new pieces of equipment for the laboratory.", studentAnswer: "We bought three new equipments for the laboratory.", explanationEn: "Equipment is uncountable; count pieces of equipment instead.", explanationZh: "equipment 不可数；计数时说 pieces of equipment。", tag: "Uncountable noun" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a safe classroom experiment and what you learned.",
+    examples: [
+      { en: "The scientist used equipment to measure the water.", zh: "科学家用器材测量水量。" },
+      { en: "We observed the mixture during the experiment.", zh: "实验过程中，我们观察了混合物。" },
+      { en: "Our research gave us evidence that the salt remained.", zh: "我们的研究为盐仍然存在提供了证据。" }
+    ]
   }
 ];
 

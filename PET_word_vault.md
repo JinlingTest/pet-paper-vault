@@ -401,6 +401,27 @@ Worksheet route:
 
 - /papers/019
 
+### v20 - Science & Experiments - 2026-10-23
+
+Paper id: 020
+
+Recorded words:
+
+1. scientist - 科学家
+2. experiment - 实验
+3. laboratory - 实验室
+4. discover - 发现
+5. observe - 观察
+6. measure - 测量
+7. mixture - 混合物
+8. evidence - 证据；依据
+9. research - 研究；调查
+10. equipment - 设备；器材
+
+Worksheet route:
+
+- /papers/020
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

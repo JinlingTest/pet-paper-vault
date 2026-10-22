@@ -299,6 +299,21 @@ PAPERS = {
             "prepare",
         ],
     },
+    "020": {
+        "reading": "On Wednesday, Maya's class visited a school laboratory. A scientist helped them do an experiment with water and salt. First, the children used simple equipment to measure two cups of water. Then they added salt to one cup and watched the mixture carefully. They wanted to observe what happened when both cups were placed in a warm room. By Friday, the water in each cup had disappeared, but salt remained in one. The class did not discover a new kind of salt. Instead, they found evidence that the salt had not disappeared with the water. Maya wrote down the result and decided to do more research about how water changes into gas.",
+        "words": [
+            "scientist",
+            "experiment",
+            "laboratory",
+            "discover",
+            "observe",
+            "measure",
+            "mixture",
+            "evidence",
+            "research",
+            "equipment",
+        ],
+    },
 }
 
 
