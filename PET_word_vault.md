@@ -422,6 +422,27 @@ Worksheet route:
 
 - /papers/020
 
+### v21 - Cooking & Recipes - 2026-10-24
+
+Paper id: 021
+
+Recorded words:
+
+1. recipe - 食谱；做法
+2. ingredient - （食物的）原料；配料
+3. oven - 烤箱
+4. bake - 烘烤
+5. slice - 薄片；把……切成片
+6. stir - 搅拌
+7. flavour - 味道；风味
+8. taste - 品尝；味道
+9. portion - 一份（食物）
+10. serve - 端上（食物）；招待
+
+Worksheet route:
+
+- /papers/021
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

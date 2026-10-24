@@ -1289,6 +1289,65 @@ export const papers: Paper[] = [
       { en: "We observed the mixture during the experiment.", zh: "实验过程中，我们观察了混合物。" },
       { en: "Our research gave us evidence that the salt remained.", zh: "我们的研究为盐仍然存在提供了证据。" }
     ]
+  },
+  {
+    id: "021",
+    version: "v21",
+    date: "2026-10-24",
+    topic: "Cooking & Recipes",
+    title: "English Daily Vocabulary: Cooking & Recipes",
+    words: [
+      { word: "recipe", meaning: "食谱；做法", phonetic: "/ˈresəpi/", audioUrl: "/audio/papers/021/words/recipe.mp3" },
+      { word: "ingredient", meaning: "（食物的）原料；配料", phonetic: "/ɪnˈɡriːdiənt/", audioUrl: "/audio/papers/021/words/ingredient.mp3" },
+      { word: "oven", meaning: "烤箱", phonetic: "/ˈʌvən/", audioUrl: "/audio/papers/021/words/oven.mp3" },
+      { word: "bake", meaning: "烘烤", phonetic: "/beɪk/", audioUrl: "/audio/papers/021/words/bake.mp3" },
+      { word: "slice", meaning: "薄片；把……切成片", phonetic: "/slaɪs/", audioUrl: "/audio/papers/021/words/slice.mp3" },
+      { word: "stir", meaning: "搅拌", phonetic: "/stɜːr/", audioUrl: "/audio/papers/021/words/stir.mp3" },
+      { word: "flavour", meaning: "味道；风味", phonetic: "/ˈfleɪvər/", audioUrl: "/audio/papers/021/words/flavour.mp3" },
+      { word: "taste", meaning: "品尝；味道", phonetic: "/teɪst/", audioUrl: "/audio/papers/021/words/taste.mp3" },
+      { word: "portion", meaning: "一份（食物）", phonetic: "/ˈpɔːrʃən/", audioUrl: "/audio/papers/021/words/portion.mp3" },
+      { word: "serve", meaning: "端上（食物）；招待", phonetic: "/sɜːrv/", audioUrl: "/audio/papers/021/words/serve.mp3" }
+    ],
+    reading:
+      "On Saturday, Ben followed his aunt's recipe for an apple cake. He checked every ingredient before starting: apples, flour, eggs and a little sugar. His aunt warmed the oven while Ben washed the fruit. He cut the apples into thin slices and put each slice in a bowl. Next, he stirred the eggs into the flour and added the apples. The cake needed to bake for thirty minutes. The warm apple flavour filled the kitchen, but Ben waited until the cake had cooled before taking a taste. He cut one portion for his aunt and another for himself. That evening, they served the rest of the cake to their neighbours. Everyone asked Ben to write down the recipe.",
+    readingAudioUrl: "/audio/papers/021/reading.mp3",
+    questions: [
+      { question: "Whose recipe did Ben follow?", answer: "His aunt's recipe.", studentAnswer: "A neighbour's recipe.", explanationEn: "The first sentence says the recipe belonged to Ben's aunt.", explanationZh: "第一句说明 recipe 来自 Ben 的阿姨，不是邻居。", tag: "Reading detail" },
+      { question: "What did Ben do to the apples after washing them?", answer: "He cut them into thin slices.", studentAnswer: "He put whole apples in the oven.", explanationEn: "Ben cut each apple into a thin slice before adding the pieces to a bowl.", explanationZh: "Ben 把苹果切成薄 slice，没有把整只苹果放进 oven。", tag: "Sequence" },
+      { question: "How long did the cake bake?", answer: "Thirty minutes.", studentAnswer: "One hour.", explanationEn: "The recipe in the passage required thirty minutes of baking.", explanationZh: "文中明确说蛋糕需要 bake 三十分钟。", tag: "Time" },
+      { question: "When did Ben taste the cake?", answer: "After it had cooled.", studentAnswer: "As soon as it came out of the oven.", explanationEn: "He waited for the cake to cool before tasting it.", explanationZh: "Ben 等蛋糕冷却后才 taste，不是出炉后立刻吃。", tag: "Sequence" },
+      { question: "Who ate the rest of the cake that evening?", answer: "Their neighbours.", studentAnswer: "Only Ben's aunt.", explanationEn: "Ben and his aunt served the remaining cake to their neighbours.", explanationZh: "晚上剩下的蛋糕是 serve 给邻居们的。", tag: "People" }
+    ],
+    wordStudy: [
+      { word: "recipe", collocations: ["follow a recipe", "cake recipe", "write down a recipe"], similar: ["instructions", "method"], note: "A recipe lists ingredients and steps for making food; a menu lists food available to order." },
+      { word: "bake", collocations: ["bake a cake", "bake in the oven", "freshly baked bread"], similar: ["cook", "roast"], note: "Bake uses dry heat, usually in an oven. Cook is broader and can include boiling or frying." },
+      { word: "serve", collocations: ["serve dinner", "serve food to guests", "serve with vegetables"], similar: ["offer", "bring"], note: "Serve food to someone; serve a dish with something means put the foods together." }
+    ],
+    blanks: [
+      { sentenceBefore: "I followed the", sentenceAfter: "to make a simple cake.", answer: "recipe", studentAnswer: "ingredient", explanationEn: "A recipe gives the steps and ingredients for making food.", explanationZh: "recipe 包含制作食物的步骤和配料。"},
+      { sentenceBefore: "Flour is one", sentenceAfter: "in this bread.", answer: "ingredient", studentAnswer: "portion", explanationEn: "An ingredient is one of the foods used to make a dish.", explanationZh: "ingredient 指做这道菜所用的一种原料。"},
+      { sentenceBefore: "Put the cake in the", sentenceAfter: "for twenty minutes.", answer: "oven", studentAnswer: "bake", explanationEn: "An oven is the appliance used for baking.", explanationZh: "oven 是用来烘烤的设备。"},
+      { sentenceBefore: "We will", sentenceAfter: "the bread until it is golden.", answer: "bake", studentAnswer: "stir", explanationEn: "Bake means cook using dry heat in an oven.", explanationZh: "bake 是在烤箱中用热气烘烤。"},
+      { sentenceBefore: "Please cut a thin", sentenceAfter: "of cheese for my sandwich.", answer: "slice", studentAnswer: "portion", explanationEn: "A slice is a thin, flat piece cut from food.", explanationZh: "slice 指从食物上切下的薄片。"},
+      { sentenceBefore: "Use a spoon to", sentenceAfter: "the soup gently.", answer: "stir", studentAnswer: "serve", explanationEn: "Stir means move a spoon around in a liquid or mixture.", explanationZh: "stir 是用勺子在汤或混合物中搅拌。"},
+      { sentenceBefore: "The lemon gave the cake a fresh", sentenceAfter: ".", answer: "flavour", studentAnswer: "portion", explanationEn: "Flavour describes a food's particular taste.", explanationZh: "flavour 指食物的特定风味。"},
+      { sentenceBefore: "Let the soup cool before you", sentenceAfter: "it.", answer: "taste", studentAnswer: "bake", explanationEn: "Taste means try a small amount to find out its flavour.", explanationZh: "taste 是品尝一点，了解味道。"},
+      { sentenceBefore: "Each child received one", sentenceAfter: "of rice.", answer: "portion", studentAnswer: "slice", explanationEn: "A portion is an amount of food for one person.", explanationZh: "portion 指分给一个人的一份食物。"},
+      { sentenceBefore: "We will", sentenceAfter: "dinner at seven o'clock.", answer: "serve", studentAnswer: "stir", explanationEn: "Serve dinner means give or bring the meal to people.", explanationZh: "serve dinner 是给人端上晚餐。"}
+    ],
+    corrections: [
+      { prompt: "The recipe is one food used in the cake.", answer: "The ingredient is one food used in the cake.", studentAnswer: "The recipe is one food used in the cake.", explanationEn: "An ingredient is a food used to make a dish; a recipe is the set of instructions.", explanationZh: "ingredient 是原料；recipe 是说明用料和步骤的食谱。", tag: "Meaning" },
+      { prompt: "We baked the soup by stirring it on the stove.", answer: "We cooked the soup by stirring it on the stove.", studentAnswer: "We baked the soup by stirring it on the stove.", explanationEn: "Bake normally means cook with dry heat in an oven; soup on a stove is cooked.", explanationZh: "bake 通常是在烤箱中烘烤；炉灶上的汤应说 cook。", tag: "Word choice" },
+      { prompt: "She stirred the bread into three thin pieces.", answer: "She sliced the bread into three thin pieces.", studentAnswer: "She stirred the bread into three thin pieces.", explanationEn: "Slice means cut into thin pieces; stir means mix by moving a spoon around.", explanationZh: "切薄片用 slice；用勺子搅拌才用 stir。", tag: "Confusing verbs" },
+      { prompt: "The waiter served the food for the guests.", answer: "The waiter served the food to the guests.", studentAnswer: "The waiter served the food for the guests.", explanationEn: "Use serve food to someone when giving them a meal.", explanationZh: "给某人端上食物应说 serve food to someone。", tag: "Preposition" },
+      { prompt: "Each person ate a flavour of cake.", answer: "Each person ate a portion of cake.", studentAnswer: "Each person ate a flavour of cake.", explanationEn: "A portion is an amount of food; flavour means its taste.", explanationZh: "portion 是一份食物；flavour 是味道。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to explain how you would make and share a simple dish.",
+    examples: [
+      { en: "Check the ingredients before you follow the recipe.", zh: "照着食谱做之前，先核对原料。" },
+      { en: "Stir the mixture, then bake it in the oven.", zh: "搅拌混合物，然后放进烤箱烘烤。" },
+      { en: "Serve each guest a small portion and ask how it tastes.", zh: "给每位客人端上一小份，并问问味道如何。" }
+    ]
   }
 ];
 

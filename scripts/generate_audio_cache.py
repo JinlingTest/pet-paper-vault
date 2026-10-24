@@ -314,6 +314,21 @@ PAPERS = {
             "equipment",
         ],
     },
+    "021": {
+        "reading": "On Saturday, Ben followed his aunt's recipe for an apple cake. He checked every ingredient before starting: apples, flour, eggs and a little sugar. His aunt warmed the oven while Ben washed the fruit. He cut the apples into thin slices and put each slice in a bowl. Next, he stirred the eggs into the flour and added the apples. The cake needed to bake for thirty minutes. The warm apple flavour filled the kitchen, but Ben waited until the cake had cooled before taking a taste. He cut one portion for his aunt and another for himself. That evening, they served the rest of the cake to their neighbours. Everyone asked Ben to write down the recipe.",
+        "words": [
+            "recipe",
+            "ingredient",
+            "oven",
+            "bake",
+            "slice",
+            "stir",
+            "flavour",
+            "taste",
+            "portion",
+            "serve",
+        ],
+    },
 }
 
 
