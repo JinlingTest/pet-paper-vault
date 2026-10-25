@@ -24,7 +24,8 @@ const topicZh: Record<string, string> = {
   "019": "庆祝活动与传统",
   "020": "科学与实验",
   "021": "烹饪与食谱",
-  "022": "海边与海洋"
+  "022": "海边与海洋",
+  "023": "露营与户外"
 };
 
 export const metadata = {

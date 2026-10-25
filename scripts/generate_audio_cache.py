@@ -344,6 +344,21 @@ PAPERS = {
             "harbour",
         ],
     },
+    "023": {
+        "reading": "On Saturday, Leo joined his family at a campsite beside a lake. He carried a backpack and helped put up a tent. Before their hike, his sister used a compass to check the trail on a map. Leo packed a torch because they might return after sunset. They collected dry firewood, but the park guide explained that a campfire was not allowed near the trees. Instead, they ate sandwiches under a wooden shelter. Rain began during the walk, so they followed the marked trail back to the campsite. Leo was glad they had checked the rules and carried the right things.",
+        "words": [
+            "campsite",
+            "tent",
+            "campfire",
+            "torch",
+            "backpack",
+            "trail",
+            "hike",
+            "compass",
+            "shelter",
+            "firewood",
+        ],
+    },
 }
 
 

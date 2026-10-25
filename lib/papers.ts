@@ -1407,6 +1407,65 @@ export const papers: Paper[] = [
       { en: "We put on sunscreen before walking along the coast.", zh: "沿海岸散步前，我们涂了防晒霜。" },
       { en: "A wave carried a shell across the sand near the harbour.", zh: "一阵海浪把贝壳冲过港口附近的沙滩。" }
     ]
+  },
+  {
+    id: "023",
+    version: "v23",
+    date: "2026-10-26",
+    topic: "Camping & Outdoors",
+    title: "English Daily Vocabulary: Camping & Outdoors",
+    words: [
+      { word: "campsite", meaning: "露营地", phonetic: "/ˈkæmpsaɪt/", audioUrl: "/audio/papers/023/words/campsite.mp3" },
+      { word: "tent", meaning: "帐篷", phonetic: "/tent/", audioUrl: "/audio/papers/023/words/tent.mp3" },
+      { word: "campfire", meaning: "营火；篝火", phonetic: "/ˈkæmpfaɪər/", audioUrl: "/audio/papers/023/words/campfire.mp3" },
+      { word: "torch", meaning: "手电筒", phonetic: "/tɔːrtʃ/", audioUrl: "/audio/papers/023/words/torch.mp3" },
+      { word: "backpack", meaning: "背包", phonetic: "/ˈbækpæk/", audioUrl: "/audio/papers/023/words/backpack.mp3" },
+      { word: "trail", meaning: "小路；步道", phonetic: "/treɪl/", audioUrl: "/audio/papers/023/words/trail.mp3" },
+      { word: "hike", meaning: "远足；徒步旅行", phonetic: "/haɪk/", audioUrl: "/audio/papers/023/words/hike.mp3" },
+      { word: "compass", meaning: "指南针", phonetic: "/ˈkʌmpəs/", audioUrl: "/audio/papers/023/words/compass.mp3" },
+      { word: "shelter", meaning: "遮蔽处；庇护所", phonetic: "/ˈʃeltər/", audioUrl: "/audio/papers/023/words/shelter.mp3" },
+      { word: "firewood", meaning: "柴火；薪柴", phonetic: "/ˈfaɪərwʊd/", audioUrl: "/audio/papers/023/words/firewood.mp3" }
+    ],
+    reading:
+      "On Saturday, Leo joined his family at a campsite beside a lake. He carried a backpack and helped put up a tent. Before their hike, his sister used a compass to check the trail on a map. Leo packed a torch because they might return after sunset. They collected dry firewood, but the park guide explained that a campfire was not allowed near the trees. Instead, they ate sandwiches under a wooden shelter. Rain began during the walk, so they followed the marked trail back to the campsite. Leo was glad they had checked the rules and carried the right things.",
+    readingAudioUrl: "/audio/papers/023/reading.mp3",
+    questions: [
+      { question: "Where was the campsite?", answer: "Beside a lake.", studentAnswer: "At the top of a mountain.", explanationEn: "The opening sentence places the campsite beside a lake.", explanationZh: "开头明确说 campsite 在湖边，而不是山顶。", tag: "Place" },
+      { question: "What did Leo help put up?", answer: "A tent.", studentAnswer: "A wooden shelter.", explanationEn: "Leo helped put up the tent; the wooden shelter was already there.", explanationZh: "Leo 帮忙搭起的是 tent；木质 shelter 原本就在那儿。", tag: "Reading detail" },
+      { question: "Why did Leo pack a torch?", answer: "They might return after sunset.", studentAnswer: "They planned to light a campfire.", explanationEn: "The torch was for light if they returned after sunset.", explanationZh: "带 torch 是因为可能日落后回来，需要照明。", tag: "Purpose" },
+      { question: "Why did the family not make a campfire?", answer: "The park rules did not allow one near the trees.", studentAnswer: "They had not collected any firewood.", explanationEn: "They had firewood, but the park guide said a campfire was not allowed near the trees.", explanationZh: "他们已有 firewood；没点 campfire 是因为园区规定不允许在树旁生火。", tag: "Cause" },
+      { question: "What did they do when it rained?", answer: "They followed the marked trail back to the campsite.", studentAnswer: "They stayed on the island.", explanationEn: "After rain began, they used the marked trail to return.", explanationZh: "下雨后，他们沿有标记的 trail 返回 campsite。", tag: "Sequence" }
+    ],
+    wordStudy: [
+      { word: "hike", collocations: ["go on a hike", "hike through the hills", "a long hike"], similar: ["walk", "trek"], note: "A hike is usually a long walk outdoors, often on a trail; an ordinary walk can be short and in town." },
+      { word: "shelter", collocations: ["find shelter", "take shelter from the rain", "a wooden shelter"], similar: ["cover", "tent"], note: "Shelter can mean protection from weather or a place that provides it. A tent is one kind of portable shelter." },
+      { word: "firewood", collocations: ["collect firewood", "dry firewood", "a pile of firewood"], similar: ["wood", "fuel"], note: "Firewood is wood used as fuel. It is uncountable, so say some firewood or pieces of firewood." }
+    ],
+    blanks: [
+      { sentenceBefore: "We found a", sentenceAfter: "with drinking water and toilets.", answer: "campsite", studentAnswer: "trail", explanationEn: "A campsite is a place where people can stay in tents.", explanationZh: "campsite 是可以搭帐篷住宿的营地。" },
+      { sentenceBefore: "Our", sentenceAfter: "kept the rain off our sleeping bags.", answer: "tent", studentAnswer: "compass", explanationEn: "A tent is a portable cloth shelter for camping.", explanationZh: "tent 是露营用的便携帐篷。" },
+      { sentenceBefore: "The guide checked the rules before lighting a", sentenceAfter: ".", answer: "campfire", studentAnswer: "torch", explanationEn: "A campfire is an outdoor fire used at a camp.", explanationZh: "campfire 是在营地生的户外火堆。" },
+      { sentenceBefore: "Use a", sentenceAfter: "to see the path after dark.", answer: "torch", studentAnswer: "firewood", explanationEn: "A torch is a portable electric light.", explanationZh: "torch 是便携式手电筒。" },
+      { sentenceBefore: "I carried my lunch and water in a", sentenceAfter: ".", answer: "backpack", studentAnswer: "tent", explanationEn: "A backpack is a bag carried on your back.", explanationZh: "backpack 是背在背上的包。" },
+      { sentenceBefore: "Stay on the marked", sentenceAfter: "through the forest.", answer: "trail", studentAnswer: "campsite", explanationEn: "A trail is a path through a natural area.", explanationZh: "trail 是林间等自然区域的小路。" },
+      { sentenceBefore: "We went on a three-hour", sentenceAfter: "up the hill.", answer: "hike", studentAnswer: "shelter", explanationEn: "A hike is a long outdoor walk.", explanationZh: "hike 指较长时间的户外徒步。" },
+      { sentenceBefore: "The", sentenceAfter: "showed us which way was north.", answer: "compass", studentAnswer: "torch", explanationEn: "A compass shows directions.", explanationZh: "compass 可以指示方向。" },
+      { sentenceBefore: "We waited under a wooden", sentenceAfter: "until the rain stopped.", answer: "shelter", studentAnswer: "campfire", explanationEn: "A shelter provides protection from the weather.", explanationZh: "shelter 是能遮风避雨的地方。" },
+      { sentenceBefore: "The group collected dry", sentenceAfter: "for the permitted fire.", answer: "firewood", studentAnswer: "backpack", explanationEn: "Firewood is wood kept for burning.", explanationZh: "firewood 是供燃烧使用的柴火。" }
+    ],
+    corrections: [
+      { prompt: "We slept inside our backpack at the campsite.", answer: "We slept inside our tent at the campsite.", studentAnswer: "We slept inside our backpack at the campsite.", explanationEn: "A tent is a place to sleep; a backpack carries belongings.", explanationZh: "睡觉用 tent；backpack 用来装随身物品。", tag: "Meaning" },
+      { prompt: "A compass gives light when the trail is dark.", answer: "A torch gives light when the trail is dark.", studentAnswer: "A compass gives light when the trail is dark.", explanationEn: "A torch produces light; a compass shows direction.", explanationZh: "torch 照明；compass 指方向。", tag: "Confusing nouns" },
+      { prompt: "We went to a hike through the forest.", answer: "We went on a hike through the forest.", studentAnswer: "We went to a hike through the forest.", explanationEn: "The usual collocation is go on a hike.", explanationZh: "固定搭配是 go on a hike。", tag: "Collocation" },
+      { prompt: "They collected three firewoods for the campfire.", answer: "They collected three pieces of firewood for the campfire.", studentAnswer: "They collected three firewoods for the campfire.", explanationEn: "Firewood is uncountable; count pieces of firewood.", explanationZh: "firewood 不可数；计数要说 pieces of firewood。", tag: "Uncountable noun" },
+      { prompt: "The campsite is a narrow path through the woods.", answer: "The trail is a narrow path through the woods.", studentAnswer: "The campsite is a narrow path through the woods.", explanationEn: "A trail is a path; a campsite is a place to stay.", explanationZh: "trail 是小路；campsite 是露营地。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to plan a safe family camping trip.",
+    examples: [
+      { en: "We put up our tent at the campsite before going on a hike.", zh: "远足前，我们在营地搭好了帐篷。" },
+      { en: "Take a compass and a torch when you follow the trail.", zh: "沿步道行走时，带上指南针和手电筒。" },
+      { en: "The guide said we could not use our firewood for a campfire here.", zh: "向导说这里不能用柴火生营火。" }
+    ]
   }
 ];
 

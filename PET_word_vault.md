@@ -464,6 +464,27 @@ Worksheet route:
 
 - /papers/022
 
+### v23 - Camping & Outdoors - 2026-10-26
+
+Paper id: 023
+
+Recorded words:
+
+1. campsite - 露营地
+2. tent - 帐篷
+3. campfire - 营火；篝火
+4. torch - 手电筒
+5. backpack - 背包
+6. trail - 小路；步道
+7. hike - 远足；徒步旅行
+8. compass - 指南针
+9. shelter - 遮蔽处；庇护所
+10. firewood - 柴火；薪柴
+
+Worksheet route:
+
+- /papers/023
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
