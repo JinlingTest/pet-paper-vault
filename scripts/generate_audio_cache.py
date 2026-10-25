@@ -329,6 +329,21 @@ PAPERS = {
             "serve",
         ],
     },
+    "022": {
+        "reading": "Last Sunday, Eva and her father travelled to a small town on the coast. They walked from the harbour to a sandy beach and watched a boat leave for an island. Eva found a pink shell near the shore, but her father asked her to leave it there for other visitors to see. At noon, the tide began to rise and each wave reached farther up the sand. A lifeguard told everyone to move their bags away from the water. Eva had put on sunscreen before leaving home, but her father reminded her to put on more after lunch. They stayed behind the safety flags and spent the afternoon drawing the boats instead of swimming.",
+        "words": [
+            "coast",
+            "wave",
+            "tide",
+            "shell",
+            "sand",
+            "shore",
+            "lifeguard",
+            "sunscreen",
+            "island",
+            "harbour",
+        ],
+    },
 }
 
 

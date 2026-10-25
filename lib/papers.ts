@@ -1348,6 +1348,65 @@ export const papers: Paper[] = [
       { en: "Stir the mixture, then bake it in the oven.", zh: "搅拌混合物，然后放进烤箱烘烤。" },
       { en: "Serve each guest a small portion and ask how it tastes.", zh: "给每位客人端上一小份，并问问味道如何。" }
     ]
+  },
+  {
+    id: "022",
+    version: "v22",
+    date: "2026-10-25",
+    topic: "Seaside & Ocean",
+    title: "English Daily Vocabulary: Seaside & Ocean",
+    words: [
+      { word: "coast", meaning: "海岸；沿海地区", phonetic: "/koʊst/", audioUrl: "/audio/papers/022/words/coast.mp3" },
+      { word: "wave", meaning: "波浪；挥手", phonetic: "/weɪv/", audioUrl: "/audio/papers/022/words/wave.mp3" },
+      { word: "tide", meaning: "潮汐；潮水", phonetic: "/taɪd/", audioUrl: "/audio/papers/022/words/tide.mp3" },
+      { word: "shell", meaning: "贝壳；外壳", phonetic: "/ʃel/", audioUrl: "/audio/papers/022/words/shell.mp3" },
+      { word: "sand", meaning: "沙；沙子", phonetic: "/sænd/", audioUrl: "/audio/papers/022/words/sand.mp3" },
+      { word: "shore", meaning: "岸边；海滨", phonetic: "/ʃɔːr/", audioUrl: "/audio/papers/022/words/shore.mp3" },
+      { word: "lifeguard", meaning: "救生员", phonetic: "/ˈlaɪfɡɑːrd/", audioUrl: "/audio/papers/022/words/lifeguard.mp3" },
+      { word: "sunscreen", meaning: "防晒霜", phonetic: "/ˈsʌnskriːn/", audioUrl: "/audio/papers/022/words/sunscreen.mp3" },
+      { word: "island", meaning: "岛；岛屿", phonetic: "/ˈaɪlənd/", audioUrl: "/audio/papers/022/words/island.mp3" },
+      { word: "harbour", meaning: "港口；海港", phonetic: "/ˈhɑːrbər/", audioUrl: "/audio/papers/022/words/harbour.mp3" }
+    ],
+    reading:
+      "Last Sunday, Eva and her father travelled to a small town on the coast. They walked from the harbour to a sandy beach and watched a boat leave for an island. Eva found a pink shell near the shore, but her father asked her to leave it there for other visitors to see. At noon, the tide began to rise and each wave reached farther up the sand. A lifeguard told everyone to move their bags away from the water. Eva had put on sunscreen before leaving home, but her father reminded her to put on more after lunch. They stayed behind the safety flags and spent the afternoon drawing the boats instead of swimming.",
+    readingAudioUrl: "/audio/papers/022/reading.mp3",
+    questions: [
+      { question: "Where did Eva and her father walk from?", answer: "From the harbour.", studentAnswer: "From the island.", explanationEn: "They walked from the harbour to the beach; they only saw a boat going to the island.", explanationZh: "他们从 harbour 走向海滩；island 是船去的地方，不是他们走来的地方。", tag: "Place" },
+      { question: "What did Eva find near the shore?", answer: "A pink shell.", studentAnswer: "A small boat.", explanationEn: "Eva found a pink shell near the shore.", explanationZh: "Eva 在 shore 附近发现了一枚粉色 shell。", tag: "Reading detail" },
+      { question: "Why did people move their bags?", answer: "Because the rising tide and waves were reaching farther up the sand.", studentAnswer: "Because a boat was coming into the harbour.", explanationEn: "The lifeguard warned them as the rising tide brought waves closer to their bags.", explanationZh: "tide 上涨、wave 越来越靠近沙滩上的包，所以救生员提醒大家挪开。", tag: "Cause" },
+      { question: "When did Eva first put on sunscreen?", answer: "Before leaving home.", studentAnswer: "After swimming.", explanationEn: "She applied sunscreen before leaving home; her father reminded her to put on more after lunch.", explanationZh: "Eva 出门前先涂了 sunscreen；午饭后爸爸提醒她补涂。", tag: "Time" },
+      { question: "What did they do in the afternoon?", answer: "They drew the boats instead of swimming.", studentAnswer: "They swam to the island.", explanationEn: "They stayed behind the safety flags and drew boats.", explanationZh: "下午他们留在安全旗后面画船，并没有游到岛上。", tag: "Activity" }
+    ],
+    wordStudy: [
+      { word: "coast", collocations: ["on the coast", "along the coast", "a coastal town"], similar: ["shore", "beach"], note: "Coast is the land along the sea over a wider area; shore is the edge where land meets water." },
+      { word: "tide", collocations: ["high tide", "low tide", "the tide rises"], similar: ["wave", "current"], note: "Tide is the regular rise and fall of sea level; a wave is a moving shape on the water's surface." },
+      { word: "sunscreen", collocations: ["put on sunscreen", "wear sunscreen", "reapply sunscreen"], similar: ["sun cream", "sunblock"], note: "Sunscreen is normally uncountable. Say some sunscreen, not a sunscreen." }
+    ],
+    blanks: [
+      { sentenceBefore: "Many fishing towns lie along the", sentenceAfter: ".", answer: "coast", studentAnswer: "shell", explanationEn: "The coast is the land beside the sea.", explanationZh: "coast 指沿海地区或海岸线。" },
+      { sentenceBefore: "A large", sentenceAfter: "hit the side of the boat.", answer: "wave", studentAnswer: "tide", explanationEn: "A wave is a moving ridge of water.", explanationZh: "wave 是水面上向前移动的波浪。" },
+      { sentenceBefore: "The", sentenceAfter: "was low, so more beach was visible.", answer: "tide", studentAnswer: "wave", explanationEn: "Low tide means the sea level has fallen.", explanationZh: "low tide 指潮位低，露出更多海滩。" },
+      { sentenceBefore: "I found a small", sentenceAfter: "on the beach.", answer: "shell", studentAnswer: "sand", explanationEn: "A shell is the hard outer part of some sea animals.", explanationZh: "shell 是某些海洋动物的硬壳。" },
+      { sentenceBefore: "The children built a castle from wet", sentenceAfter: ".", answer: "sand", studentAnswer: "shore", explanationEn: "Sand is the small grains found on many beaches.", explanationZh: "sand 指海滩上的细小沙粒。" },
+      { sentenceBefore: "We stood on the", sentenceAfter: "and watched the boat leave.", answer: "shore", studentAnswer: "island", explanationEn: "The shore is the edge of land next to the water.", explanationZh: "shore 是靠近水的岸边。" },
+      { sentenceBefore: "The", sentenceAfter: "watched the swimmers from a tall chair.", answer: "lifeguard", studentAnswer: "harbour", explanationEn: "A lifeguard is a person trained to help swimmers in danger.", explanationZh: "lifeguard 是负责水域安全并救助游泳者的人。" },
+      { sentenceBefore: "Put on", sentenceAfter: "before you spend the afternoon in the sun.", answer: "sunscreen", studentAnswer: "sand", explanationEn: "Sunscreen helps protect your skin from sunlight.", explanationZh: "sunscreen 是帮助保护皮肤免受日晒的防晒霜。" },
+      { sentenceBefore: "A boat took us to the small", sentenceAfter: "across the water.", answer: "island", studentAnswer: "coast", explanationEn: "An island is land surrounded by water.", explanationZh: "island 是被水环绕的陆地。" },
+      { sentenceBefore: "The fishing boats returned to the", sentenceAfter: "before dark.", answer: "harbour", studentAnswer: "lifeguard", explanationEn: "A harbour is a sheltered place where boats can stop.", explanationZh: "harbour 是船只停泊的港口。" }
+    ],
+    corrections: [
+      { prompt: "The tide was a single moving ridge of water.", answer: "The wave was a single moving ridge of water.", studentAnswer: "The tide was a single moving ridge of water.", explanationEn: "A wave moves across the surface; the tide is the regular change in sea level.", explanationZh: "wave 是一个波浪；tide 是海面周期性的涨落。", tag: "Confusing nouns" },
+      { prompt: "We put a sunscreen on before going outside.", answer: "We put on some sunscreen before going outside.", studentAnswer: "We put a sunscreen on before going outside.", explanationEn: "Sunscreen is uncountable in this use, and the usual phrase is put on sunscreen.", explanationZh: "这里 sunscreen 不可数，常说 put on some sunscreen。", tag: "Uncountable noun" },
+      { prompt: "The lifeguard is a building where boats stop.", answer: "The harbour is a place where boats stop.", studentAnswer: "The lifeguard is a building where boats stop.", explanationEn: "A lifeguard is a person; a harbour is a place for boats.", explanationZh: "lifeguard 是救生员；harbour 才是船停泊的港口。", tag: "Meaning" },
+      { prompt: "The island is connected to the mainland on every side.", answer: "The island is surrounded by water.", studentAnswer: "The island is connected to the mainland on every side.", explanationEn: "An island has water around it rather than land on every side.", explanationZh: "island 四周环水，不是四周与大陆相连。", tag: "Meaning" },
+      { prompt: "Eva stood at the sand and watched the boat from the shore.", answer: "Eva stood on the sand and watched the boat from the shore.", studentAnswer: "Eva stood at the sand and watched the boat from the shore.", explanationEn: "For standing on a beach surface, use on the sand.", explanationZh: "表示站在沙滩表面，通常用 on the sand。", tag: "Preposition" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a safe day by the sea.",
+    examples: [
+      { en: "The lifeguard watched the shore as the tide rose.", zh: "涨潮时，救生员留意着岸边。" },
+      { en: "We put on sunscreen before walking along the coast.", zh: "沿海岸散步前，我们涂了防晒霜。" },
+      { en: "A wave carried a shell across the sand near the harbour.", zh: "一阵海浪把贝壳冲过港口附近的沙滩。" }
+    ]
   }
 ];
 

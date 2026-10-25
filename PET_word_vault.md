@@ -443,6 +443,27 @@ Worksheet route:
 
 - /papers/021
 
+### v22 - Seaside & Ocean - 2026-10-25
+
+Paper id: 022
+
+Recorded words:
+
+1. coast - 海岸；沿海地区
+2. wave - 波浪；挥手
+3. tide - 潮汐；潮水
+4. shell - 贝壳；外壳
+5. sand - 沙；沙子
+6. shore - 岸边；海滨
+7. lifeguard - 救生员
+8. sunscreen - 防晒霜
+9. island - 岛；岛屿
+10. harbour - 港口；海港
+
+Worksheet route:
+
+- /papers/022
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
