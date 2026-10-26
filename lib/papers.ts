@@ -1466,6 +1466,65 @@ export const papers: Paper[] = [
       { en: "Take a compass and a torch when you follow the trail.", zh: "沿步道行走时，带上指南针和手电筒。" },
       { en: "The guide said we could not use our firewood for a campfire here.", zh: "向导说这里不能用柴火生营火。" }
     ]
+  },
+  {
+    id: "024",
+    version: "v24",
+    date: "2026-10-27",
+    topic: "Photography & Memories",
+    title: "English Daily Vocabulary: Photography & Memories",
+    words: [
+      { word: "camera", meaning: "照相机；摄像机", phonetic: "/ˈkæmərə/", audioUrl: "/audio/papers/024/words/camera.mp3" },
+      { word: "photograph", meaning: "照片；拍照", phonetic: "/ˈfoʊtəɡræf/", audioUrl: "/audio/papers/024/words/photograph.mp3" },
+      { word: "lens", meaning: "镜头；透镜", phonetic: "/lenz/", audioUrl: "/audio/papers/024/words/lens.mp3" },
+      { word: "focus", meaning: "对焦；集中注意力", phonetic: "/ˈfoʊkəs/", audioUrl: "/audio/papers/024/words/focus.mp3" },
+      { word: "capture", meaning: "拍摄；捕捉", phonetic: "/ˈkæptʃər/", audioUrl: "/audio/papers/024/words/capture.mp3" },
+      { word: "album", meaning: "相册；专辑", phonetic: "/ˈælbəm/", audioUrl: "/audio/papers/024/words/album.mp3" },
+      { word: "memory", meaning: "记忆；回忆", phonetic: "/ˈmeməri/", audioUrl: "/audio/papers/024/words/memory.mp3" },
+      { word: "moment", meaning: "片刻；时刻", phonetic: "/ˈmoʊmənt/", audioUrl: "/audio/papers/024/words/moment.mp3" },
+      { word: "flash", meaning: "闪光灯；闪光", phonetic: "/flæʃ/", audioUrl: "/audio/papers/024/words/flash.mp3" },
+      { word: "image", meaning: "图像；影像", phonetic: "/ˈɪmɪdʒ/", audioUrl: "/audio/papers/024/words/image.mp3" }
+    ],
+    reading:
+      "At her grandmother's birthday party, Nia brought a camera to take pictures. Her uncle showed her how to clean the lens and focus on a person's face. Nia wanted to capture the moment when Grandma blew out the candles. Her first image was dark because the room was dim and she had not used the flash. She tried again when Grandma opened a gift near the window. This time, the light was better, and Nia took a clear photograph of her grandmother smiling. Later, they printed the picture and placed it in a family album. For Nia, the photograph was more than an image: it was a happy memory of a day spent together.",
+    readingAudioUrl: "/audio/papers/024/reading.mp3",
+    questions: [
+      { question: "Why did Nia bring a camera?", answer: "To take pictures at her grandmother's birthday party.", studentAnswer: "To record a school lesson.", explanationEn: "She brought it to take pictures at the birthday party.", explanationZh: "Nia 带 camera 是为了拍祖母生日聚会，不是录学校课程。", tag: "Purpose" },
+      { question: "What did her uncle teach her?", answer: "How to clean the lens and focus on a face.", studentAnswer: "How to print an album.", explanationEn: "He showed Nia how to clean the lens and focus on a person's face.", explanationZh: "叔叔教她清洁 lens，并把焦点对准人脸。", tag: "Reading detail" },
+      { question: "Why was the first image dark?", answer: "The room was dim and Nia had not used the flash.", studentAnswer: "The camera's lens was missing.", explanationEn: "The passage gives both the dim room and unused flash as the reason.", explanationZh: "第一张 image 发暗，是因为房间光线暗且没用 flash。", tag: "Cause" },
+      { question: "When did Nia take the clear photograph?", answer: "When Grandma opened a gift near the window.", studentAnswer: "When Grandma blew out the candles.", explanationEn: "The clear photograph came on her second try near the window.", explanationZh: "清晰的 photograph 是祖母在窗边拆礼物时拍的第二张。", tag: "Sequence" },
+      { question: "Where did they put the printed picture?", answer: "In a family album.", studentAnswer: "In the camera's lens.", explanationEn: "They printed the picture and placed it in the family album.", explanationZh: "照片打印后被放进家庭 album。", tag: "Place" }
+    ],
+    wordStudy: [
+      { word: "photograph", collocations: ["take a photograph", "a family photograph", "photograph a person"], similar: ["photo", "picture"], note: "Photograph can be a noun or a verb. A photograph is an image made with a camera; a picture may also be a drawing." },
+      { word: "focus", collocations: ["focus on a face", "focus the camera", "in focus"], similar: ["concentrate", "aim"], note: "Use focus on a subject when directing attention or a camera toward it. In focus means visually sharp." },
+      { word: "memory", collocations: ["a happy memory", "share a memory", "remember a moment"], similar: ["recollection", "reminder"], note: "A memory is something you remember. A photograph may help you remember it, but the photograph is not the memory itself." }
+    ],
+    blanks: [
+      { sentenceBefore: "She used a", sentenceAfter: "to take pictures at the party.", answer: "camera", studentAnswer: "album", explanationEn: "A camera is the device used to take pictures.", explanationZh: "camera 是拍照用的设备。" },
+      { sentenceBefore: "The family", sentenceAfter: "shows everyone standing together.", answer: "photograph", studentAnswer: "flash", explanationEn: "A photograph is a picture made with a camera.", explanationZh: "photograph 是用相机拍出的照片。" },
+      { sentenceBefore: "Wipe the", sentenceAfter: "gently so the photo is clear.", answer: "lens", studentAnswer: "album", explanationEn: "The lens is the glass part of a camera that lets light in.", explanationZh: "lens 是让光进入相机的镜头。" },
+      { sentenceBefore: "Please", sentenceAfter: "on Grandma's face before taking the picture.", answer: "focus", studentAnswer: "capture", explanationEn: "Focus on a face means make it the clear subject of the picture.", explanationZh: "focus on 人脸是让人脸成为清晰的拍摄主体。" },
+      { sentenceBefore: "I want to", sentenceAfter: "the moment everyone starts laughing.", answer: "capture", studentAnswer: "flash", explanationEn: "Capture a moment means record it in a photo or video.", explanationZh: "capture a moment 是把某个瞬间记录下来。" },
+      { sentenceBefore: "We kept our old photos in a blue", sentenceAfter: ".", answer: "album", studentAnswer: "camera", explanationEn: "An album is a book or collection for photographs.", explanationZh: "album 是存放照片的相册。" },
+      { sentenceBefore: "Our picnic is a happy", sentenceAfter: "I still think about.", answer: "memory", studentAnswer: "lens", explanationEn: "A memory is something remembered from the past.", explanationZh: "memory 是对过去事情的回忆。" },
+      { sentenceBefore: "Wait a", sentenceAfter: "while I get my camera.", answer: "moment", studentAnswer: "image", explanationEn: "A moment is a short period of time.", explanationZh: "moment 指很短的一段时间。" },
+      { sentenceBefore: "The room was dark, so the photographer used a", sentenceAfter: ".", answer: "flash", studentAnswer: "memory", explanationEn: "A flash adds a short burst of light for a picture.", explanationZh: "flash 是拍照时提供瞬间光线的闪光灯。" },
+      { sentenceBefore: "The screen showed an", sentenceAfter: "of the mountains.", answer: "image", studentAnswer: "moment", explanationEn: "An image is a visual representation shown or recorded.", explanationZh: "image 是显示或记录下来的图像。" }
+    ],
+    corrections: [
+      { prompt: "The camera's album was dirty, so every photo looked unclear.", answer: "The camera's lens was dirty, so every photo looked unclear.", studentAnswer: "The camera's album was dirty, so every photo looked unclear.", explanationEn: "A dirty lens can make photos unclear; an album stores photos.", explanationZh: "脏 lens 会使照片模糊；album 用来存放照片。", tag: "Meaning" },
+      { prompt: "Focus at Grandma's face before taking the picture.", answer: "Focus on Grandma's face before taking the picture.", studentAnswer: "Focus at Grandma's face before taking the picture.", explanationEn: "The usual pattern is focus on a subject.", explanationZh: "固定搭配是 focus on 某个拍摄对象。", tag: "Preposition" },
+      { prompt: "A moment is a book for keeping photographs.", answer: "An album is a book for keeping photographs.", studentAnswer: "A moment is a book for keeping photographs.", explanationEn: "An album holds photos; a moment is a short period of time.", explanationZh: "album 是相册；moment 是片刻。", tag: "Meaning" },
+      { prompt: "The flash is the picture shown on the screen.", answer: "The image is the picture shown on the screen.", studentAnswer: "The flash is the picture shown on the screen.", explanationEn: "An image is a picture; a flash is a brief burst of light.", explanationZh: "image 是图像；flash 是瞬间闪光。", tag: "Confusing nouns" },
+      { prompt: "I have a happy camera of our trip.", answer: "I have a happy memory of our trip.", studentAnswer: "I have a happy camera of our trip.", explanationEn: "A memory is a remembered experience; a camera is the device used to take photos.", explanationZh: "memory 是回忆；camera 是拍照设备。", tag: "Word choice" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a photograph that reminds you of a happy day.",
+    examples: [
+      { en: "I used my camera to capture a special moment.", zh: "我用相机记录了一个特别的瞬间。" },
+      { en: "The lens was clean, so the photograph was in focus.", zh: "镜头很干净，所以照片很清晰。" },
+      { en: "We placed the image in an album to keep the memory.", zh: "我们把照片放进相册，保存这份回忆。" }
+    ]
   }
 ];
 

@@ -485,6 +485,27 @@ Worksheet route:
 
 - /papers/023
 
+### v24 - Photography & Memories - 2026-10-27
+
+Paper id: 024
+
+Recorded words:
+
+1. camera - 照相机；摄像机
+2. photograph - 照片；拍照
+3. lens - 镜头；透镜
+4. focus - 对焦；集中注意力
+5. capture - 拍摄；捕捉
+6. album - 相册；专辑
+7. memory - 记忆；回忆
+8. moment - 片刻；时刻
+9. flash - 闪光灯；闪光
+10. image - 图像；影像
+
+Worksheet route:
+
+- /papers/024
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

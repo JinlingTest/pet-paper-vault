@@ -359,6 +359,21 @@ PAPERS = {
             "firewood",
         ],
     },
+    "024": {
+        "reading": "At her grandmother's birthday party, Nia brought a camera to take pictures. Her uncle showed her how to clean the lens and focus on a person's face. Nia wanted to capture the moment when Grandma blew out the candles. Her first image was dark because the room was dim and she had not used the flash. She tried again when Grandma opened a gift near the window. This time, the light was better, and Nia took a clear photograph of her grandmother smiling. Later, they printed the picture and placed it in a family album. For Nia, the photograph was more than an image: it was a happy memory of a day spent together.",
+        "words": [
+            "camera",
+            "photograph",
+            "lens",
+            "focus",
+            "capture",
+            "album",
+            "memory",
+            "moment",
+            "flash",
+            "image",
+        ],
+    },
 }
 
 
