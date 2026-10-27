@@ -1525,6 +1525,65 @@ export const papers: Paper[] = [
       { en: "The lens was clean, so the photograph was in focus.", zh: "镜头很干净，所以照片很清晰。" },
       { en: "We placed the image in an album to keep the memory.", zh: "我们把照片放进相册，保存这份回忆。" }
     ]
+  },
+  {
+    id: "025",
+    version: "v25",
+    date: "2026-10-28",
+    topic: "Gardening & Plants",
+    title: "English Daily Vocabulary: Gardening & Plants",
+    words: [
+      { word: "seed", meaning: "种子", phonetic: "/siːd/", audioUrl: "/audio/papers/025/words/seed.mp3" },
+      { word: "soil", meaning: "土壤", phonetic: "/sɔɪl/", audioUrl: "/audio/papers/025/words/soil.mp3" },
+      { word: "root", meaning: "根；根部", phonetic: "/ruːt/", audioUrl: "/audio/papers/025/words/root.mp3" },
+      { word: "stem", meaning: "茎；柄", phonetic: "/stem/", audioUrl: "/audio/papers/025/words/stem.mp3" },
+      { word: "leaf", meaning: "叶子", phonetic: "/liːf/", audioUrl: "/audio/papers/025/words/leaf.mp3" },
+      { word: "flower", meaning: "花；开花", phonetic: "/ˈflaʊər/", audioUrl: "/audio/papers/025/words/flower.mp3" },
+      { word: "grow", meaning: "生长；种植", phonetic: "/ɡroʊ/", audioUrl: "/audio/papers/025/words/grow.mp3" },
+      { word: "harvest", meaning: "收获；收成", phonetic: "/ˈhɑːrvɪst/", audioUrl: "/audio/papers/025/words/harvest.mp3" },
+      { word: "pot", meaning: "花盆；锅", phonetic: "/pɑːt/", audioUrl: "/audio/papers/025/words/pot.mp3" },
+      { word: "weed", meaning: "杂草；除草", phonetic: "/wiːd/", audioUrl: "/audio/papers/025/words/weed.mp3" }
+    ],
+    reading:
+      "On Monday, Aisha's class started a small garden behind school. Each pupil put one seed into a pot filled with soil. They learned that a root grows downward and a stem grows upward. A green leaf appeared first; later the plant produced a yellow flower. Aisha wanted to grow beans too, but the teacher asked her to wait until the next lesson. They pulled out a weed that was taking space from the young plants. Every Friday they checked the soil and watered it. At the end of term, they planned to harvest the beans and share them with the school kitchen.",
+    readingAudioUrl: "/audio/papers/025/reading.mp3",
+    questions: [
+      { question: "Where did the class start its garden?", answer: "Behind the school.", studentAnswer: "In the school kitchen.", explanationEn: "The garden was behind school; the kitchen would receive the beans later.", explanationZh: "花园在学校后面；厨房是之后分享豆子的地方。", tag: "Place" },
+      { question: "What did each pupil put in a pot?", answer: "One seed.", studentAnswer: "A yellow flower.", explanationEn: "Each pupil planted a seed; the flower appeared later.", explanationZh: "每人往 pot 里放一颗 seed；flower 是后来长出的。", tag: "Sequence" },
+      { question: "Which part of the plant grows downward?", answer: "The root.", studentAnswer: "The stem.", explanationEn: "Roots grow down into the soil; stems grow upward.", explanationZh: "root 向下生长进入土壤；stem 向上生长。", tag: "Contrast" },
+      { question: "Why did they pull out the weed?", answer: "It was taking space from the young plants.", studentAnswer: "It was the bean they wanted to harvest.", explanationEn: "The weed was unwanted and occupied space needed by the young plants.", explanationZh: "weed 占了幼苗的生长空间，不是要收获的豆子。", tag: "Cause" },
+      { question: "What did they plan to do at the end of term?", answer: "Harvest the beans and share them with the school kitchen.", studentAnswer: "Plant the first seed.", explanationEn: "The final plan was to harvest and share the beans.", explanationZh: "学期末计划 harvest 豆子并与学校厨房分享，不是那时才播下第一颗种子。", tag: "Future plan" }
+    ],
+    wordStudy: [
+      { word: "grow", collocations: ["grow beans", "grow quickly", "grow from a seed"], similar: ["plant", "raise"], note: "Grow can mean become bigger or help plants develop. Plant means put a seed or young plant into soil." },
+      { word: "harvest", collocations: ["harvest beans", "harvest crops", "a good harvest"], similar: ["pick", "gather"], note: "Harvest means collect crops when they are ready; plant happens at the beginning of growing." },
+      { word: "leaf", collocations: ["a green leaf", "fallen leaves", "leaf of a plant"], similar: ["petal", "stem"], note: "Leaf has the irregular plural leaves. A petal is part of a flower, not the same as a leaf." }
+    ],
+    blanks: [
+      { sentenceBefore: "Put one", sentenceAfter: "in each hole in the soil.", answer: "seed", studentAnswer: "weed", explanationEn: "A seed can develop into a new plant.", explanationZh: "seed 可以生长成为一株新植物。" },
+      { sentenceBefore: "The dark", sentenceAfter: "was wet after the rain.", answer: "soil", studentAnswer: "pot", explanationEn: "Soil is the earth in which plants grow.", explanationZh: "soil 是植物生长所依赖的土壤。" },
+      { sentenceBefore: "The plant's", sentenceAfter: "takes in water from the ground.", answer: "root", studentAnswer: "leaf", explanationEn: "A root is the part below the ground that takes in water.", explanationZh: "root 是地下吸收水分的根。" },
+      { sentenceBefore: "The", sentenceAfter: "holds the flower above the leaves.", answer: "stem", studentAnswer: "root", explanationEn: "A stem supports a flower or leaves above the ground.", explanationZh: "stem 是支撑花和叶的茎。" },
+      { sentenceBefore: "One green", sentenceAfter: "fell from the tree.", answer: "leaf", studentAnswer: "seed", explanationEn: "Leaf is singular; its plural is leaves.", explanationZh: "leaf 是一片叶子，复数形式是 leaves。" },
+      { sentenceBefore: "A yellow", sentenceAfter: "opened in the morning sun.", answer: "flower", studentAnswer: "pot", explanationEn: "A flower is the colourful part of many plants.", explanationZh: "flower 是许多植物开出的花。" },
+      { sentenceBefore: "These beans will", sentenceAfter: "well if they get enough light.", answer: "grow", studentAnswer: "harvest", explanationEn: "Grow means develop and become bigger.", explanationZh: "grow 表示植物生长、长大。" },
+      { sentenceBefore: "Farmers will", sentenceAfter: "the ripe apples in autumn.", answer: "harvest", studentAnswer: "grow", explanationEn: "Harvest means collect crops when they are ready.", explanationZh: "harvest 指农作物成熟后收获。" },
+      { sentenceBefore: "We planted the little tree in a large", sentenceAfter: ".", answer: "pot", studentAnswer: "stem", explanationEn: "A pot is a container used for growing a plant.", explanationZh: "pot 是种植物用的花盆。" },
+      { sentenceBefore: "Remove the", sentenceAfter: "before it spreads through the garden.", answer: "weed", studentAnswer: "flower", explanationEn: "A weed is an unwanted plant growing among other plants.", explanationZh: "weed 是长在花园里、不需要的杂草。" }
+    ],
+    corrections: [
+      { prompt: "The root grows upward and holds the leaves above the ground.", answer: "The stem grows upward and holds the leaves above the ground.", studentAnswer: "The root grows upward and holds the leaves above the ground.", explanationEn: "The stem supports leaves above ground; roots usually grow down into the soil.", explanationZh: "stem 在地上支撑叶子；root 通常向下长进土壤。", tag: "Meaning" },
+      { prompt: "Aisha saw two green leafs on the plant.", answer: "Aisha saw two green leaves on the plant.", studentAnswer: "Aisha saw two green leafs on the plant.", explanationEn: "The plural of leaf is leaves, not leafs.", explanationZh: "leaf 的复数是 leaves，不是 leafs。", tag: "Irregular plural" },
+      { prompt: "We harvested the seeds into the soil before they grew.", answer: "We planted the seeds in the soil before they grew.", studentAnswer: "We harvested the seeds into the soil before they grew.", explanationEn: "Plant seeds at the beginning; harvest crops after they grow.", explanationZh: "开始时 plant 种子；成熟后才 harvest 作物。", tag: "Confusing verbs" },
+      { prompt: "A pot is the earth that covers a seed.", answer: "Soil is the earth that covers a seed.", studentAnswer: "A pot is the earth that covers a seed.", explanationEn: "Soil is earth; a pot is the container holding it.", explanationZh: "soil 是土壤；pot 是装土的容器。", tag: "Meaning" },
+      { prompt: "The weed was the flower the children wanted to keep.", answer: "The flower was the plant part the children wanted to keep.", studentAnswer: "The weed was the flower the children wanted to keep.", explanationEn: "A weed is an unwanted plant; the children wanted to keep the flower.", explanationZh: "weed 是不想要的杂草；孩子们想保留的是 flower。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to describe how you would start a small garden.",
+    examples: [
+      { en: "Put the seed into soil in a pot and give it water.", zh: "把种子放进花盆里的土壤，再浇水。" },
+      { en: "A root grows down while the stem grows up.", zh: "根向下长，茎向上长。" },
+      { en: "Remove each weed before you harvest the beans.", zh: "收获豆子前先拔掉杂草。" }
+    ]
   }
 ];
 

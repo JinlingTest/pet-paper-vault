@@ -506,6 +506,27 @@ Worksheet route:
 
 - /papers/024
 
+### v25 - Gardening & Plants - 2026-10-28
+
+Paper id: 025
+
+Recorded words:
+
+1. seed - 种子
+2. soil - 土壤
+3. root - 根；根部
+4. stem - 茎；柄
+5. leaf - 叶子
+6. flower - 花；开花
+7. grow - 生长；种植
+8. harvest - 收获；收成
+9. pot - 花盆；锅
+10. weed - 杂草；除草
+
+Worksheet route:
+
+- /papers/025
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

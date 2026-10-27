@@ -374,6 +374,21 @@ PAPERS = {
             "image",
         ],
     },
+    "025": {
+        "reading": "On Monday, Aisha's class started a small garden behind school. Each pupil put one seed into a pot filled with soil. They learned that a root grows downward and a stem grows upward. A green leaf appeared first; later the plant produced a yellow flower. Aisha wanted to grow beans too, but the teacher asked her to wait until the next lesson. They pulled out a weed that was taking space from the young plants. Every Friday they checked the soil and watered it. At the end of term, they planned to harvest the beans and share them with the school kitchen.",
+        "words": [
+            "seed",
+            "soil",
+            "root",
+            "stem",
+            "leaf",
+            "flower",
+            "grow",
+            "harvest",
+            "pot",
+            "weed",
+        ],
+    },
 }
 
 
