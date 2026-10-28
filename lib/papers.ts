@@ -1584,6 +1584,65 @@ export const papers: Paper[] = [
       { en: "A root grows down while the stem grows up.", zh: "根向下长，茎向上长。" },
       { en: "Remove each weed before you harvest the beans.", zh: "收获豆子前先拔掉杂草。" }
     ]
+  },
+  {
+    id: "026",
+    version: "v26",
+    date: "2026-10-29",
+    topic: "Castles & History",
+    title: "English Daily Vocabulary: Castles & History",
+    words: [
+      { word: "castle", meaning: "城堡", phonetic: "/ˈkæsəl/", audioUrl: "/audio/papers/026/words/castle.mp3" },
+      { word: "tower", meaning: "塔；塔楼", phonetic: "/ˈtaʊər/", audioUrl: "/audio/papers/026/words/tower.mp3" },
+      { word: "gate", meaning: "大门；门口", phonetic: "/ɡeɪt/", audioUrl: "/audio/papers/026/words/gate.mp3" },
+      { word: "wall", meaning: "墙；城墙", phonetic: "/wɔːl/", audioUrl: "/audio/papers/026/words/wall.mp3" },
+      { word: "king", meaning: "国王", phonetic: "/kɪŋ/", audioUrl: "/audio/papers/026/words/king.mp3" },
+      { word: "queen", meaning: "王后；女王", phonetic: "/kwiːn/", audioUrl: "/audio/papers/026/words/queen.mp3" },
+      { word: "knight", meaning: "骑士", phonetic: "/naɪt/", audioUrl: "/audio/papers/026/words/knight.mp3" },
+      { word: "history", meaning: "历史", phonetic: "/ˈhɪstəri/", audioUrl: "/audio/papers/026/words/history.mp3" },
+      { word: "ancient", meaning: "古代的；古老的", phonetic: "/ˈeɪnʃənt/", audioUrl: "/audio/papers/026/words/ancient.mp3" },
+      { word: "guide", meaning: "导游；向导；引导", phonetic: "/ɡaɪd/", audioUrl: "/audio/papers/026/words/guide.mp3" }
+    ],
+    reading:
+      "On Friday, Maya's class visited an ancient castle. A guide met them at the main gate and showed them a thick stone wall. The castle's tall tower gave guards a clear view of the road. The guide explained that a king and a queen had lived there centuries ago. A knight once protected the entrance, but the suit of armour they saw was only a copy. Maya liked history, so she asked how people had carried water to the tower. The guide said workers had used buckets from a nearby well. Before leaving, the class drew the castle and wrote one fact they had learned.",
+    readingAudioUrl: "/audio/papers/026/reading.mp3",
+    questions: [
+      { question: "Where did the guide meet the class?", answer: "At the main gate.", studentAnswer: "At the top of the tower.", explanationEn: "The guide met them at the main gate, before showing them the wall.", explanationZh: "guide 在主 gate 迎接全班，不是在 tower 顶部。", tag: "Place" },
+      { question: "Why was the tall tower useful to guards?", answer: "It gave them a clear view of the road.", studentAnswer: "It made the castle's wall disappear.", explanationEn: "From the tower, guards could see the road clearly.", explanationZh: "站在 tower 上，守卫能清楚看到道路。", tag: "Purpose" },
+      { question: "Who had lived in the castle centuries ago?", answer: "A king and a queen.", studentAnswer: "Maya and her teacher.", explanationEn: "The guide said a king and a queen had lived there long ago.", explanationZh: "导游说很久以前住在 castle 里的是 king 和 queen。", tag: "People" },
+      { question: "Was the suit of armour they saw the original one?", answer: "No, it was a copy.", studentAnswer: "Yes, it belonged to the knight they met.", explanationEn: "The passage says the suit of armour was only a copy.", explanationZh: "原文说他们看到的盔甲只是复制品。", tag: "Negation" },
+      { question: "How had workers carried water to the tower?", answer: "In buckets from a nearby well.", studentAnswer: "Through the stone wall.", explanationEn: "Workers used buckets to bring water from a nearby well.", explanationZh: "工人用桶从附近的井把水运到塔楼。", tag: "Method" }
+    ],
+    wordStudy: [
+      { word: "ancient", collocations: ["an ancient castle", "ancient history", "ancient buildings"], similar: ["old", "historic"], note: "Ancient describes something from a very distant past; old can refer to a much shorter time." },
+      { word: "guide", collocations: ["a tour guide", "guide visitors around", "a guide to the castle"], similar: ["leader", "show"], note: "Guide can be a person who shows visitors around or a verb meaning to lead someone." },
+      { word: "history", collocations: ["study history", "local history", "learn about history"], similar: ["the past", "story"], note: "History concerns real past events; a story may be true or imagined." }
+    ],
+    blanks: [
+      { sentenceBefore: "The old", sentenceAfter: "stood on a hill above the town.", answer: "castle", studentAnswer: "king", explanationEn: "A castle is a large fortified building from the past.", explanationZh: "castle 是过去建造的、具有防御功能的大建筑。"},
+      { sentenceBefore: "We climbed the", sentenceAfter: "to see the countryside.", answer: "tower", studentAnswer: "gate", explanationEn: "A tower is a tall structure that offers a view from above.", explanationZh: "tower 是可以从高处眺望的塔楼。"},
+      { sentenceBefore: "The visitors entered through the main", sentenceAfter: ".", answer: "gate", studentAnswer: "wall", explanationEn: "A gate is an opening or door used to enter a place.", explanationZh: "gate 是进入某处的大门。"},
+      { sentenceBefore: "The thick stone", sentenceAfter: "surrounded the old building.", answer: "wall", studentAnswer: "tower", explanationEn: "A wall is a solid structure that can surround a building.", explanationZh: "wall 是可以围住建筑物的墙。"},
+      { sentenceBefore: "The", sentenceAfter: "ruled the country for many years.", answer: "king", studentAnswer: "knight", explanationEn: "A king is a male ruler of a country.", explanationZh: "king 是男性君主；knight 是骑士。"},
+      { sentenceBefore: "The", sentenceAfter: "was the country's female ruler.", answer: "queen", studentAnswer: "guide", explanationEn: "A queen can be a female ruler.", explanationZh: "queen 可以指女性君主。"},
+      { sentenceBefore: "The", sentenceAfter: "wore armour and rode a horse.", answer: "knight", studentAnswer: "king", explanationEn: "A knight was a trained mounted soldier in the past.", explanationZh: "knight 是过去穿盔甲、骑马作战的骑士。"},
+      { sentenceBefore: "I enjoy learning", sentenceAfter: "because I want to understand the past.", answer: "history", studentAnswer: "guide", explanationEn: "History is the study of past events.", explanationZh: "history 是对过去事件的研究。"},
+      { sentenceBefore: "People built this", sentenceAfter: "temple many centuries ago.", answer: "ancient", studentAnswer: "history", explanationEn: "Ancient describes something from a very long time ago.", explanationZh: "ancient 形容非常久远的年代留下的事物。"},
+      { sentenceBefore: "Our", sentenceAfter: "explained each room as we walked through the castle.", answer: "guide", studentAnswer: "queen", explanationEn: "A guide shows visitors around and explains places.", explanationZh: "guide 带领游客参观并讲解。"}
+    ],
+    corrections: [
+      { prompt: "We entered the castle through the stone wall.", answer: "We entered the castle through the gate.", studentAnswer: "We entered the castle through the stone wall.", explanationEn: "A gate is an entrance; a wall is a solid barrier.", explanationZh: "gate 是入口；wall 是实体的墙。", tag: "Meaning" },
+      { prompt: "A king is a soldier who wears armour and rides a horse.", answer: "A knight is a soldier who wears armour and rides a horse.", studentAnswer: "A king is a soldier who wears armour and rides a horse.", explanationEn: "A knight is a trained soldier; a king is a ruler.", explanationZh: "knight 是骑士；king 是君主。", tag: "Confusing nouns" },
+      { prompt: "The ancient castle was built last week.", answer: "The new castle was built last week.", studentAnswer: "The ancient castle was built last week.", explanationEn: "Ancient means from a very distant past, not built last week.", explanationZh: "ancient 表示非常古老，不可能是上周才建成。", tag: "Meaning" },
+      { prompt: "The guide is the tall building that guards climbed.", answer: "The tower is the tall building that guards climbed.", studentAnswer: "The guide is the tall building that guards climbed.", explanationEn: "A tower is a tall structure; a guide is a person or a set of directions.", explanationZh: "tower 是高塔；guide 是向导或指南。", tag: "Meaning" },
+      { prompt: "Maya studied the history of an imaginary dragon in a made-up tale.", answer: "Maya read the story of an imaginary dragon in a made-up tale.", studentAnswer: "Maya studied the history of an imaginary dragon in a made-up tale.", explanationEn: "History deals with real past events; an imaginary dragon belongs in a story.", explanationZh: "history 讲真实的过去；虚构的龙属于 story。", tag: "Word choice" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a visit to an old castle.",
+    examples: [
+      { en: "The guide met us at the gate of the ancient castle.", zh: "向导在古城堡的大门迎接我们。" },
+      { en: "A knight watched from the tower above the stone wall.", zh: "一名骑士从石墙上的塔楼放哨。" },
+      { en: "We learned that a king and a queen lived there long ago.", zh: "我们了解到很久以前一位国王和一位王后住在那里。" }
+    ]
   }
 ];
 

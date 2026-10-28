@@ -389,6 +389,21 @@ PAPERS = {
             "weed",
         ],
     },
+    "026": {
+        "reading": "On Friday, Maya's class visited an ancient castle. A guide met them at the main gate and showed them a thick stone wall. The castle's tall tower gave guards a clear view of the road. The guide explained that a king and a queen had lived there centuries ago. A knight once protected the entrance, but the suit of armour they saw was only a copy. Maya liked history, so she asked how people had carried water to the tower. The guide said workers had used buckets from a nearby well. Before leaving, the class drew the castle and wrote one fact they had learned.",
+        "words": [
+            "castle",
+            "tower",
+            "gate",
+            "wall",
+            "king",
+            "queen",
+            "knight",
+            "history",
+            "ancient",
+            "guide",
+        ],
+    },
 }
 
 

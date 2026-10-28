@@ -527,6 +527,27 @@ Worksheet route:
 
 - /papers/025
 
+### v26 - Castles & History - 2026-10-29
+
+Paper id: 026
+
+Recorded words:
+
+1. castle - 城堡
+2. tower - 塔；塔楼
+3. gate - 大门；门口
+4. wall - 墙；城墙
+5. king - 国王
+6. queen - 王后；女王
+7. knight - 骑士
+8. history - 历史
+9. ancient - 古代的；古老的
+10. guide - 导游；向导；引导
+
+Worksheet route:
+
+- /papers/026
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
