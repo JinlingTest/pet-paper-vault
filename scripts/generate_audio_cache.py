@@ -404,6 +404,21 @@ PAPERS = {
             "guide",
         ],
     },
+    "027": {
+        "reading": "On Saturday, Ben's class visited a small theatre. A director showed them a script for a new comedy about a lost dog. Each actor practised a different character. Ben watched one funny scene and noticed how a bright costume helped him recognise the dog owner. After the visit, the class went to a cinema to see a short film made from the same story. The film had different actors, but the ending was the same. Ben preferred the play because he could see the actors right in front of him. On Monday, he wrote a review for the school newspaper.",
+        "words": [
+            "theatre",
+            "cinema",
+            "film",
+            "actor",
+            "character",
+            "comedy",
+            "scene",
+            "script",
+            "director",
+            "costume",
+        ],
+    },
 }
 
 

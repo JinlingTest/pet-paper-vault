@@ -548,6 +548,27 @@ Worksheet route:
 
 - /papers/026
 
+### v27 - Theatre & Cinema - 2026-11-05
+
+Paper id: 027
+
+Recorded words:
+
+1. theatre - 剧院；戏剧
+2. cinema - 电影院
+3. film - 电影
+4. actor - 演员
+5. character - 角色；人物
+6. comedy - 喜剧
+7. scene - 场景；一场戏
+8. script - 剧本
+9. director - 导演
+10. costume - 戏服；服装
+
+Worksheet route:
+
+- /papers/027
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

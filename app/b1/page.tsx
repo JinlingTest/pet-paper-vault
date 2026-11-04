@@ -28,7 +28,8 @@ const topicZh: Record<string, string> = {
   "023": "露营与户外",
   "024": "摄影与回忆",
   "025": "园艺与植物",
-  "026": "城堡与历史"
+  "026": "城堡与历史",
+  "027": "戏剧与电影"
 };
 
 export const metadata = {

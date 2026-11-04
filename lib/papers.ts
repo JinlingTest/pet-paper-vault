@@ -1643,6 +1643,65 @@ export const papers: Paper[] = [
       { en: "A knight watched from the tower above the stone wall.", zh: "一名骑士从石墙上的塔楼放哨。" },
       { en: "We learned that a king and a queen lived there long ago.", zh: "我们了解到很久以前一位国王和一位王后住在那里。" }
     ]
+  },
+  {
+    id: "027",
+    version: "v27",
+    date: "2026-11-05",
+    topic: "Theatre & Cinema",
+    title: "English Daily Vocabulary: Theatre & Cinema",
+    words: [
+      { word: "theatre", meaning: "剧院；戏剧", phonetic: "/ˈθiːətər/", audioUrl: "/audio/papers/027/words/theatre.mp3" },
+      { word: "cinema", meaning: "电影院", phonetic: "/ˈsɪnəmə/", audioUrl: "/audio/papers/027/words/cinema.mp3" },
+      { word: "film", meaning: "电影", phonetic: "/fɪlm/", audioUrl: "/audio/papers/027/words/film.mp3" },
+      { word: "actor", meaning: "演员", phonetic: "/ˈæktər/", audioUrl: "/audio/papers/027/words/actor.mp3" },
+      { word: "character", meaning: "角色；人物", phonetic: "/ˈkærəktər/", audioUrl: "/audio/papers/027/words/character.mp3" },
+      { word: "comedy", meaning: "喜剧", phonetic: "/ˈkɑːmədi/", audioUrl: "/audio/papers/027/words/comedy.mp3" },
+      { word: "scene", meaning: "场景；一场戏", phonetic: "/siːn/", audioUrl: "/audio/papers/027/words/scene.mp3" },
+      { word: "script", meaning: "剧本", phonetic: "/skrɪpt/", audioUrl: "/audio/papers/027/words/script.mp3" },
+      { word: "director", meaning: "导演", phonetic: "/dəˈrektər/", audioUrl: "/audio/papers/027/words/director.mp3" },
+      { word: "costume", meaning: "戏服；服装", phonetic: "/ˈkɑːstuːm/", audioUrl: "/audio/papers/027/words/costume.mp3" }
+    ],
+    reading:
+      "On Saturday, Ben's class visited a small theatre. A director showed them a script for a new comedy about a lost dog. Each actor practised a different character. Ben watched one funny scene and noticed how a bright costume helped him recognise the dog owner. After the visit, the class went to a cinema to see a short film made from the same story. The film had different actors, but the ending was the same. Ben preferred the play because he could see the actors right in front of him. On Monday, he wrote a review for the school newspaper.",
+    readingAudioUrl: "/audio/papers/027/reading.mp3",
+    questions: [
+      { question: "Where did Ben's class go first?", answer: "To a small theatre.", studentAnswer: "To a cinema.", explanationEn: "They visited the theatre before going to the cinema.", explanationZh: "全班先去了 theatre，之后才去 cinema。", tag: "Sequence" },
+      { question: "What was the new comedy about?", answer: "A lost dog.", studentAnswer: "A lost actor.", explanationEn: "The script was for a comedy about a lost dog.", explanationZh: "script 写的是一只走失的狗，不是演员走失。", tag: "Detail" },
+      { question: "What helped Ben recognise the dog owner?", answer: "A bright costume.", studentAnswer: "The film's ending.", explanationEn: "Ben noticed the costume during the scene at the theatre.", explanationZh: "在剧院的 scene 中，醒目的 costume 帮 Ben 认出狗的主人。", tag: "Evidence" },
+      { question: "How were the film and the play different?", answer: "They had different actors.", studentAnswer: "They had different endings.", explanationEn: "The actors were different, but the ending was the same.", explanationZh: "两者的 actor 不同，但结局相同。注意转折词 but。", tag: "Contrast" },
+      { question: "Why did Ben prefer the play?", answer: "He could see the actors right in front of him.", studentAnswer: "He could watch it on a large cinema screen.", explanationEn: "Ben liked seeing the actors perform in front of him at the theatre.", explanationZh: "Ben 更喜欢现场戏剧，因为演员就在他面前。", tag: "Reason" }
+    ],
+    wordStudy: [
+      { word: "theatre", collocations: ["go to the theatre", "a theatre ticket", "a small theatre"], similar: ["cinema", "stage"], note: "A theatre is usually where people watch a live play; a cinema is where people watch films on a screen." },
+      { word: "character", collocations: ["play a character", "a main character", "a favourite character"], similar: ["actor", "person"], note: "A character is a person in a story; an actor is the real person who plays that character." },
+      { word: "script", collocations: ["read a script", "write a script", "follow the script"], similar: ["story", "review"], note: "A script contains the words and actions for a play or film; a review gives an opinion after watching it." }
+    ],
+    blanks: [
+      { sentenceBefore: "We watched a live play at the", sentenceAfter: ".", answer: "theatre", studentAnswer: "cinema", explanationEn: "People normally watch live plays at a theatre.", explanationZh: "现场戏剧通常在 theatre 观看；cinema 是电影院。" },
+      { sentenceBefore: "The new", sentenceAfter: "has a large screen for films.", answer: "cinema", studentAnswer: "theatre", explanationEn: "A cinema shows films on a screen.", explanationZh: "cinema 用银幕放映电影。" },
+      { sentenceBefore: "We saw a short", sentenceAfter: "about a lost dog.", answer: "film", studentAnswer: "script", explanationEn: "A film is a movie you can watch.", explanationZh: "film 是可以观看的电影；script 是剧本。" },
+      { sentenceBefore: "The", sentenceAfter: "played the dog owner in the play.", answer: "actor", studentAnswer: "character", explanationEn: "An actor is the real person performing a role.", explanationZh: "actor 是扮演角色的真人；character 是故事中的人物。" },
+      { sentenceBefore: "The main", sentenceAfter: "in the story was a dog owner.", answer: "character", studentAnswer: "actor", explanationEn: "A character is a person within a story.", explanationZh: "character 指故事里的人物，不是扮演他的演员。" },
+      { sentenceBefore: "The audience laughed because the play was a", sentenceAfter: ".", answer: "comedy", studentAnswer: "costume", explanationEn: "A comedy is a play or film intended to make people laugh.", explanationZh: "comedy 是让人发笑的喜剧。" },
+      { sentenceBefore: "In the final", sentenceAfter: ", the dog found its home.", answer: "scene", studentAnswer: "cinema", explanationEn: "A scene is one part of a play or film.", explanationZh: "scene 是戏剧或电影中的一个场景。" },
+      { sentenceBefore: "The actors read the", sentenceAfter: "before they began to practise.", answer: "script", studentAnswer: "film", explanationEn: "A script gives actors their words and actions.", explanationZh: "script 写着演员的台词和动作。" },
+      { sentenceBefore: "The", sentenceAfter: "decided where the actors should stand.", answer: "director", studentAnswer: "costume", explanationEn: "A director leads the making of a play or film.", explanationZh: "director 指导戏剧或电影的制作。" },
+      { sentenceBefore: "The actor wore a bright", sentenceAfter: "for the play.", answer: "costume", studentAnswer: "scene", explanationEn: "A costume is special clothing worn for a performance.", explanationZh: "costume 是演出时穿的戏服。" }
+    ],
+    corrections: [
+      { prompt: "We watched the live play at the cinema, not on a screen.", answer: "We watched the live play at the theatre, not on a screen.", studentAnswer: "We watched the live play at the cinema, not on a screen.", explanationEn: "A live play is performed in a theatre; films are shown at a cinema.", explanationZh: "现场戏剧在 theatre 演出，电影在 cinema 放映。", tag: "Confusing places" },
+      { prompt: "The character was the real person who acted in the play.", answer: "The actor was the real person who acted in the play.", studentAnswer: "The character was the real person who acted in the play.", explanationEn: "The actor is a real performer; the character belongs to the story.", explanationZh: "actor 是真人演员；character 是故事中的角色。", tag: "Confusing nouns" },
+      { prompt: "The actors read the costume to learn their lines.", answer: "The actors read the script to learn their lines.", studentAnswer: "The actors read the costume to learn their lines.", explanationEn: "Lines are written in a script; a costume is clothing.", explanationZh: "台词写在 script 里；costume 是服装。", tag: "Meaning" },
+      { prompt: "The audience laughed because the film was a director.", answer: "The audience laughed because the film was a comedy.", studentAnswer: "The audience laughed because the film was a director.", explanationEn: "A comedy is a funny type of film; a director is a person.", explanationZh: "comedy 是喜剧类型；director 是导演。", tag: "Word choice" },
+      { prompt: "The final cinema showed the dog finding its home.", answer: "The final scene showed the dog finding its home.", studentAnswer: "The final cinema showed the dog finding its home.", explanationEn: "A scene is a part of the story; a cinema is a place to watch films.", explanationZh: "scene 是故事中的一幕；cinema 是看电影的地点。", tag: "Confusing nouns" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a play or film you would like to make.",
+    examples: [
+      { en: "The actor played my favourite character at the theatre.", zh: "演员在剧院扮演了我最喜欢的角色。" },
+      { en: "The director read the script before filming the final scene.", zh: "导演在拍摄最后一场戏前读了剧本。" },
+      { en: "We saw a funny comedy at the cinema, and I liked the costumes.", zh: "我们在电影院看了一部有趣的喜剧，我喜欢里面的服装。" }
+    ]
   }
 ];
 
