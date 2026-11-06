@@ -569,6 +569,27 @@ Worksheet route:
 
 - /papers/027
 
+### v28 - Road Safety - 2026-11-06
+
+Paper id: 028
+
+Recorded words:
+
+1. helmet - 头盔
+2. bicycle - 自行车
+3. signal - 信号；示意
+4. accident - 事故；意外
+5. careful - 小心的；仔细的
+6. driver - 司机
+7. pedestrian - 行人
+8. seatbelt - 安全带
+9. speed - 速度；加速
+10. danger - 危险
+
+Worksheet route:
+
+- /papers/028
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

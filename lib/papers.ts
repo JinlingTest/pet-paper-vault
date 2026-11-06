@@ -1702,6 +1702,65 @@ export const papers: Paper[] = [
       { en: "The director read the script before filming the final scene.", zh: "导演在拍摄最后一场戏前读了剧本。" },
       { en: "We saw a funny comedy at the cinema, and I liked the costumes.", zh: "我们在电影院看了一部有趣的喜剧，我喜欢里面的服装。" }
     ]
+  },
+  {
+    id: "028",
+    version: "v28",
+    date: "2026-11-06",
+    topic: "Road Safety",
+    title: "English Daily Vocabulary: Road Safety",
+    words: [
+      { word: "helmet", meaning: "头盔", phonetic: "/ˈhelmɪt/", audioUrl: "/audio/papers/028/words/helmet.mp3" },
+      { word: "bicycle", meaning: "自行车", phonetic: "/ˈbaɪsɪkəl/", audioUrl: "/audio/papers/028/words/bicycle.mp3" },
+      { word: "signal", meaning: "信号；示意", phonetic: "/ˈsɪɡnəl/", audioUrl: "/audio/papers/028/words/signal.mp3" },
+      { word: "accident", meaning: "事故；意外", phonetic: "/ˈæksɪdənt/", audioUrl: "/audio/papers/028/words/accident.mp3" },
+      { word: "careful", meaning: "小心的；仔细的", phonetic: "/ˈkerfəl/", audioUrl: "/audio/papers/028/words/careful.mp3" },
+      { word: "driver", meaning: "司机", phonetic: "/ˈdraɪvər/", audioUrl: "/audio/papers/028/words/driver.mp3" },
+      { word: "pedestrian", meaning: "行人", phonetic: "/pəˈdestriən/", audioUrl: "/audio/papers/028/words/pedestrian.mp3" },
+      { word: "seatbelt", meaning: "安全带", phonetic: "/ˈsiːt belt/", audioUrl: "/audio/papers/028/words/seatbelt.mp3" },
+      { word: "speed", meaning: "速度；加速", phonetic: "/spiːd/", audioUrl: "/audio/papers/028/words/speed.mp3" },
+      { word: "danger", meaning: "危险", phonetic: "/ˈdeɪndʒər/", audioUrl: "/audio/papers/028/words/danger.mp3" }
+    ],
+    reading:
+      "On Monday, Leo rode his bicycle to school. He wore a helmet and stopped when the red signal appeared. A pedestrian was waiting to cross the road, so Leo let her go first. Nearby, a driver slowed down because the street was busy. His little brother was in the car with a seatbelt on. The driver said that high speed can be a danger near a school. Leo was careful, and everyone reached the school safely. Later, the class discussed how a small mistake could cause an accident. They made posters to remind other children to look both ways before crossing.",
+    readingAudioUrl: "/audio/papers/028/reading.mp3",
+    questions: [
+      { question: "How did Leo travel to school?", answer: "By bicycle.", studentAnswer: "By car.", explanationEn: "Leo rode his bicycle, while the driver and his brother were in the car.", explanationZh: "Leo 骑 bicycle；坐汽车的是司机和弟弟。", tag: "People" },
+      { question: "What did Leo do when the red signal appeared?", answer: "He stopped.", studentAnswer: "He rode faster.", explanationEn: "The passage says he stopped at the red signal.", explanationZh: "红色 signal 出现时，Leo 停了下来。", tag: "Action" },
+      { question: "Who did Leo let cross first?", answer: "A pedestrian.", studentAnswer: "The driver.", explanationEn: "The pedestrian was waiting to cross, and Leo let her go first.", explanationZh: "等待过马路的是 pedestrian，Leo 让她先走。", tag: "Detail" },
+      { question: "Why did the driver slow down?", answer: "Because the street was busy.", studentAnswer: "Because the car had no seatbelt.", explanationEn: "The driver slowed down because the street was busy; the brother did have a seatbelt on.", explanationZh: "司机因道路繁忙而减速；弟弟已经系了 seatbelt。", tag: "Reason" },
+      { question: "What did the class make later?", answer: "Posters about road safety.", studentAnswer: "New bicycle helmets.", explanationEn: "They made posters to remind children to look both ways.", explanationZh: "全班做了提醒大家过马路看两边的海报。", tag: "Sequence" }
+    ],
+    wordStudy: [
+      { word: "careful", collocations: ["be careful", "a careful driver", "careful with traffic"], similar: ["cautious", "safe"], note: "Careful describes how someone acts; safe describes a situation without much danger." },
+      { word: "speed", collocations: ["high speed", "reduce your speed", "at a safe speed"], similar: ["pace", "rate"], note: "Speed is how fast something moves; a driver should slow down near a school." },
+      { word: "pedestrian", collocations: ["a pedestrian crossing", "watch for pedestrians", "pedestrian safety"], similar: ["walker", "passer-by"], note: "A pedestrian travels on foot, unlike a cyclist or a driver." }
+    ],
+    blanks: [
+      { sentenceBefore: "Wear a", sentenceAfter: "when you cycle.", answer: "helmet", studentAnswer: "seatbelt", explanationEn: "A helmet protects your head when cycling.", explanationZh: "骑车时戴 helmet 保护头部。" },
+      { sentenceBefore: "Leo rode his", sentenceAfter: "to school.", answer: "bicycle", studentAnswer: "seatbelt", explanationEn: "A bicycle is a two-wheeled vehicle you ride.", explanationZh: "bicycle 是可以骑的两轮车。" },
+      { sentenceBefore: "Stop when the red", sentenceAfter: "appears.", answer: "signal", studentAnswer: "speed", explanationEn: "A red signal tells road users to stop.", explanationZh: "红色 signal 提示道路使用者停下。" },
+      { sentenceBefore: "The icy road caused an", sentenceAfter: ".", answer: "accident", studentAnswer: "helmet", explanationEn: "An accident is an unexpected harmful event.", explanationZh: "accident 指意外事故。" },
+      { sentenceBefore: "Be", sentenceAfter: "when you cross the road.", answer: "careful", studentAnswer: "danger", explanationEn: "Careful is an adjective after be.", explanationZh: "be 后要用形容词 careful。" },
+      { sentenceBefore: "The", sentenceAfter: "slowed the car near the school.", answer: "driver", studentAnswer: "pedestrian", explanationEn: "A driver controls a car.", explanationZh: "driver 是开车的人；pedestrian 是行人。" },
+      { sentenceBefore: "The", sentenceAfter: "walked across the street.", answer: "pedestrian", studentAnswer: "driver", explanationEn: "A pedestrian is someone walking, not driving.", explanationZh: "pedestrian 指步行的人。" },
+      { sentenceBefore: "Fasten your", sentenceAfter: "before the car moves.", answer: "seatbelt", studentAnswer: "helmet", explanationEn: "A seatbelt keeps you secure in a car seat.", explanationZh: "坐汽车时系 seatbelt。" },
+      { sentenceBefore: "The car's", sentenceAfter: "was low near the school.", answer: "speed", studentAnswer: "danger", explanationEn: "Speed tells us how fast the car is moving.", explanationZh: "speed 指车辆行驶的速度。" },
+      { sentenceBefore: "Running across a busy road is a", sentenceAfter: "to children.", answer: "danger", studentAnswer: "careful", explanationEn: "Danger is a noun for a possible source of harm.", explanationZh: "danger 是名词，表示危险。" }
+    ],
+    corrections: [
+      { prompt: "Leo put on a seatbelt before riding his bicycle.", answer: "Leo put on a helmet before riding his bicycle.", studentAnswer: "Leo put on a seatbelt before riding his bicycle.", explanationEn: "Cyclists wear helmets; people in cars wear seatbelts.", explanationZh: "骑车戴 helmet；坐车系 seatbelt。", tag: "Confusing equipment" },
+      { prompt: "The driver walked across the road while the car waited.", answer: "The pedestrian walked across the road while the car waited.", studentAnswer: "The driver walked across the road while the car waited.", explanationEn: "A pedestrian crosses on foot; the driver stays with the car in this context.", explanationZh: "这里步行过马路的是 pedestrian，driver 在车里等候。", tag: "People" },
+      { prompt: "Be danger when you cross the road.", answer: "Be careful when you cross the road.", studentAnswer: "Be danger when you cross the road.", explanationEn: "After be, use the adjective careful; danger is a noun.", explanationZh: "be 后用形容词 careful；danger 是名词。", tag: "Word form" },
+      { prompt: "The red speed told Leo to stop.", answer: "The red signal told Leo to stop.", studentAnswer: "The red speed told Leo to stop.", explanationEn: "A signal gives an instruction; speed describes how fast something moves.", explanationZh: "signal 发出指示；speed 表示速度。", tag: "Meaning" },
+      { prompt: "An accident is a plan to travel safely.", answer: "An accident is an unexpected event that can cause harm.", studentAnswer: "An accident is a plan to travel safely.", explanationEn: "An accident happens unexpectedly; it is not a safety plan.", explanationZh: "accident 是意外发生的事故，不是安全出行计划。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to write three road-safety rules for a friend.",
+    examples: [
+      { en: "Wear a helmet when you ride a bicycle.", zh: "骑自行车时要戴头盔。" },
+      { en: "A careful driver slows down near pedestrians.", zh: "小心的司机在行人附近会减速。" },
+      { en: "Fasten your seatbelt to reduce danger in a car.", zh: "坐汽车时系好安全带以降低危险。" }
+    ]
   }
 ];
 

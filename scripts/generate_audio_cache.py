@@ -419,6 +419,10 @@ PAPERS = {
             "costume",
         ],
     },
+    "028": {
+        "reading": "On Monday, Leo rode his bicycle to school. He wore a helmet and stopped when the red signal appeared. A pedestrian was waiting to cross the road, so Leo let her go first. Nearby, a driver slowed down because the street was busy. His little brother was in the car with a seatbelt on. The driver said that high speed can be a danger near a school. Leo was careful, and everyone reached the school safely. Later, the class discussed how a small mistake could cause an accident. They made posters to remind other children to look both ways before crossing.",
+        "words": ["helmet", "bicycle", "signal", "accident", "careful", "driver", "pedestrian", "seatbelt", "speed", "danger"],
+    },
 }
 
 
