@@ -1761,6 +1761,65 @@ export const papers: Paper[] = [
       { en: "A careful driver slows down near pedestrians.", zh: "小心的司机在行人附近会减速。" },
       { en: "Fasten your seatbelt to reduce danger in a car.", zh: "坐汽车时系好安全带以降低危险。" }
     ]
+  },
+  {
+    id: "029",
+    version: "v29",
+    date: "2026-11-07",
+    topic: "Life on a Farm",
+    title: "English Daily Vocabulary: Life on a Farm",
+    words: [
+      { word: "farm", meaning: "农场", phonetic: "/fɑːrm/", audioUrl: "/audio/papers/029/words/farm.mp3" },
+      { word: "farmer", meaning: "农民；农场主", phonetic: "/ˈfɑːrmər/", audioUrl: "/audio/papers/029/words/farmer.mp3" },
+      { word: "barn", meaning: "谷仓；牲口棚", phonetic: "/bɑːrn/", audioUrl: "/audio/papers/029/words/barn.mp3" },
+      { word: "tractor", meaning: "拖拉机", phonetic: "/ˈtræktər/", audioUrl: "/audio/papers/029/words/tractor.mp3" },
+      { word: "field", meaning: "田地；牧场", phonetic: "/fiːld/", audioUrl: "/audio/papers/029/words/field.mp3" },
+      { word: "cow", meaning: "奶牛；母牛", phonetic: "/kaʊ/", audioUrl: "/audio/papers/029/words/cow.mp3" },
+      { word: "sheep", meaning: "羊；绵羊", phonetic: "/ʃiːp/", audioUrl: "/audio/papers/029/words/sheep.mp3" },
+      { word: "chicken", meaning: "鸡", phonetic: "/ˈtʃɪkɪn/", audioUrl: "/audio/papers/029/words/chicken.mp3" },
+      { word: "wool", meaning: "羊毛", phonetic: "/wʊl/", audioUrl: "/audio/papers/029/words/wool.mp3" },
+      { word: "milk", meaning: "牛奶；挤奶", phonetic: "/mɪlk/", audioUrl: "/audio/papers/029/words/milk.mp3" }
+    ],
+    reading:
+      "On Sunday, Emma visited her aunt's farm. Her aunt is a farmer who grows vegetables and looks after animals. In the morning, Emma saw a tractor moving slowly across a field. A cow stood near the barn, and her aunt explained how to milk it safely. Several sheep were eating grass nearby. Emma learned that their wool can be used to make warm clothes. A chicken walked past her boots as she carried water to the barn. Before lunch, Emma helped collect vegetables from the field. She enjoyed the fresh air but realised that a farmer's work begins early and takes a lot of care.",
+    readingAudioUrl: "/audio/papers/029/reading.mp3",
+    questions: [
+      { question: "Who owns the farm Emma visited?", answer: "Her aunt.", studentAnswer: "Her teacher.", explanationEn: "Emma visited her aunt's farm, and her aunt works there as a farmer.", explanationZh: "Emma 去的是姑姑的 farm；姑姑是 farmer。", tag: "People" },
+      { question: "What was moving across the field?", answer: "A tractor.", studentAnswer: "A chicken.", explanationEn: "The tractor moved slowly across the field; the chicken walked past Emma's boots.", explanationZh: "穿过 field 的是 tractor；chicken 从 Emma 的靴子旁走过。", tag: "Detail" },
+      { question: "Where was the cow standing?", answer: "Near the barn.", studentAnswer: "Inside Emma's house.", explanationEn: "The passage places the cow near the barn.", explanationZh: "原文说 cow 站在 barn 附近。", tag: "Place" },
+      { question: "What can sheep's wool be used for?", answer: "Making warm clothes.", studentAnswer: "Driving a tractor.", explanationEn: "Emma learned that wool can be used to make warm clothes.", explanationZh: "sheep 的 wool 可以用来制作保暖衣物。", tag: "Purpose" },
+      { question: "What did Emma do before lunch?", answer: "She helped collect vegetables from the field.", studentAnswer: "She built a new barn.", explanationEn: "Before lunch, Emma helped collect vegetables; she did not build a barn.", explanationZh: "午饭前 Emma 帮忙从田里收蔬菜。", tag: "Sequence" }
+    ],
+    wordStudy: [
+      { word: "farm", collocations: ["work on a farm", "visit a farm", "a small farm"], similar: ["field", "garden"], note: "A farm is the whole place where crops or animals are raised; a field is one area of land within it." },
+      { word: "milk", collocations: ["drink milk", "milk a cow", "fresh milk"], similar: ["dairy", "water"], note: "Milk can be an uncountable noun for the drink or a verb meaning take milk from an animal." },
+      { word: "sheep", collocations: ["a flock of sheep", "sheep's wool", "feed the sheep"], similar: ["goat", "lamb"], note: "The plural of sheep is also sheep; do not add -s. A lamb is a young sheep." }
+    ],
+    blanks: [
+      { sentenceBefore: "Emma visited her aunt's", sentenceAfter: "on Sunday.", answer: "farm", studentAnswer: "field", explanationEn: "The farm is the whole place she visited.", explanationZh: "farm 指她参观的整个农场；field 只是其中的田地。" },
+      { sentenceBefore: "The", sentenceAfter: "looked after the animals every morning.", answer: "farmer", studentAnswer: "tractor", explanationEn: "A farmer is the person who works on a farm.", explanationZh: "farmer 是在农场工作的人。" },
+      { sentenceBefore: "The cow stood beside the", sentenceAfter: ".", answer: "barn", studentAnswer: "wool", explanationEn: "A barn is a farm building.", explanationZh: "barn 是农场里的建筑。" },
+      { sentenceBefore: "The", sentenceAfter: "pulled a heavy cart across the field.", answer: "tractor", studentAnswer: "chicken", explanationEn: "A tractor is a powerful farm vehicle.", explanationZh: "tractor 是能拉重物的农用车辆。" },
+      { sentenceBefore: "The farmer planted vegetables in the", sentenceAfter: ".", answer: "field", studentAnswer: "barn", explanationEn: "A field is an area of land where crops can grow.", explanationZh: "field 是可以种植作物的田地。" },
+      { sentenceBefore: "The", sentenceAfter: "gave fresh milk in the morning.", answer: "cow", studentAnswer: "sheep", explanationEn: "The cow in this farm story provided milk.", explanationZh: "这篇农场故事中，提供牛奶的是 cow。" },
+      { sentenceBefore: "Three", sentenceAfter: "were eating grass near the fence.", answer: "sheep", studentAnswer: "sheeps", explanationEn: "Sheep has the same form in singular and plural.", explanationZh: "sheep 的单复数同形，不能写 sheeps。" },
+      { sentenceBefore: "A", sentenceAfter: "walked past Emma's boots.", answer: "chicken", studentAnswer: "tractor", explanationEn: "A chicken is a bird kept on farms.", explanationZh: "chicken 是农场里饲养的鸡。" },
+      { sentenceBefore: "Warm jumpers can be made from sheep's", sentenceAfter: ".", answer: "wool", studentAnswer: "milk", explanationEn: "Wool is the material from a sheep's coat.", explanationZh: "wool 是从羊身上获得的羊毛。" },
+      { sentenceBefore: "Emma watched her aunt", sentenceAfter: "the cow.", answer: "milk", studentAnswer: "wool", explanationEn: "Here milk is a verb meaning to take milk from a cow.", explanationZh: "这里 milk 是动词，表示给奶牛挤奶。" }
+    ],
+    corrections: [
+      { prompt: "Three sheeps ate grass beside the fence.", answer: "Three sheep ate grass beside the fence.", studentAnswer: "Three sheeps ate grass beside the fence.", explanationEn: "The plural of sheep is sheep, without -s.", explanationZh: "sheep 单复数同形，不加 -s。", tag: "Plural" },
+      { prompt: "The farmer drove a barn across the field.", answer: "The farmer drove a tractor across the field.", studentAnswer: "The farmer drove a barn across the field.", explanationEn: "A tractor is a vehicle; a barn is a building.", explanationZh: "tractor 是车辆；barn 是建筑。", tag: "Confusing nouns" },
+      { prompt: "Emma drank a glass of wool at breakfast.", answer: "Emma drank a glass of milk at breakfast.", studentAnswer: "Emma drank a glass of wool at breakfast.", explanationEn: "Milk is a drink; wool is a material for clothing.", explanationZh: "milk 可以喝；wool 是做衣服的材料。", tag: "Meaning" },
+      { prompt: "The field is the person who looks after the animals.", answer: "The farmer is the person who looks after the animals.", studentAnswer: "The field is the person who looks after the animals.", explanationEn: "A farmer is a person; a field is land.", explanationZh: "farmer 是人；field 是田地。", tag: "Word choice" },
+      { prompt: "The chicken gave the cow fresh milk.", answer: "The cow gave the farmer fresh milk.", studentAnswer: "The chicken gave the cow fresh milk.", explanationEn: "In this story, the cow provides milk to the farmer; the chicken does not.", explanationZh: "故事中是 cow 提供牛奶，chicken 不产牛奶。", tag: "Meaning" }
+    ],
+    creativePrompt: "Use five words from today's list to describe one morning on a farm.",
+    examples: [
+      { en: "The farmer drove a tractor across the field.", zh: "农民开着拖拉机穿过田地。" },
+      { en: "A cow stood near the barn while three sheep ate grass.", zh: "一头奶牛站在谷仓旁，三只羊在吃草。" },
+      { en: "We can make warm clothes from wool and drink fresh milk.", zh: "我们可以用羊毛做保暖衣服，也可以喝新鲜牛奶。" }
+    ]
   }
 ];
 

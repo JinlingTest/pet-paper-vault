@@ -423,6 +423,10 @@ PAPERS = {
         "reading": "On Monday, Leo rode his bicycle to school. He wore a helmet and stopped when the red signal appeared. A pedestrian was waiting to cross the road, so Leo let her go first. Nearby, a driver slowed down because the street was busy. His little brother was in the car with a seatbelt on. The driver said that high speed can be a danger near a school. Leo was careful, and everyone reached the school safely. Later, the class discussed how a small mistake could cause an accident. They made posters to remind other children to look both ways before crossing.",
         "words": ["helmet", "bicycle", "signal", "accident", "careful", "driver", "pedestrian", "seatbelt", "speed", "danger"],
     },
+    "029": {
+        "reading": "On Sunday, Emma visited her aunt's farm. Her aunt is a farmer who grows vegetables and looks after animals. In the morning, Emma saw a tractor moving slowly across a field. A cow stood near the barn, and her aunt explained how to milk it safely. Several sheep were eating grass nearby. Emma learned that their wool can be used to make warm clothes. A chicken walked past her boots as she carried water to the barn. Before lunch, Emma helped collect vegetables from the field. She enjoyed the fresh air but realised that a farmer's work begins early and takes a lot of care.",
+        "words": ["farm", "farmer", "barn", "tractor", "field", "cow", "sheep", "chicken", "wool", "milk"],
+    },
 }
 
 

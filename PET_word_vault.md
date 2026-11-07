@@ -590,6 +590,27 @@ Worksheet route:
 
 - /papers/028
 
+### v29 - Life on a Farm - 2026-11-07
+
+Paper id: 029
+
+Recorded words:
+
+1. farm - 农场
+2. farmer - 农民；农场主
+3. barn - 谷仓；牲口棚
+4. tractor - 拖拉机
+5. field - 田地；牧场
+6. cow - 奶牛；母牛
+7. sheep - 羊；绵羊
+8. chicken - 鸡
+9. wool - 羊毛
+10. milk - 牛奶；挤奶
+
+Worksheet route:
+
+- /papers/029
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
