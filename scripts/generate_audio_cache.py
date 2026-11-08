@@ -427,6 +427,10 @@ PAPERS = {
         "reading": "On Sunday, Emma visited her aunt's farm. Her aunt is a farmer who grows vegetables and looks after animals. In the morning, Emma saw a tractor moving slowly across a field. A cow stood near the barn, and her aunt explained how to milk it safely. Several sheep were eating grass nearby. Emma learned that their wool can be used to make warm clothes. A chicken walked past her boots as she carried water to the barn. Before lunch, Emma helped collect vegetables from the field. She enjoyed the fresh air but realised that a farmer's work begins early and takes a lot of care.",
         "words": ["farm", "farmer", "barn", "tractor", "field", "cow", "sheep", "chicken", "wool", "milk"],
     },
+    "030": {
+        "reading": "On Tuesday, Amy went to the post office with her father. She wanted to post a birthday card to her cousin. She put the card in an envelope, wrote her cousin's address clearly on it, and added a stamp. Her father had a parcel for his friend. The package was too large for the mailbox outside, so he handed it to a worker at the counter. The worker asked for the sender's name and explained that delivery would take three days. Amy's cousin called on Friday to say she had received the card. Amy was glad it had arrived before the birthday party.",
+        "words": ["parcel", "envelope", "stamp", "address", "delivery", "post", "package", "sender", "receive", "mailbox"],
+    },
 }
 
 

@@ -611,6 +611,27 @@ Worksheet route:
 
 - /papers/029
 
+### v30 - Post Office & Parcels - 2026-11-08
+
+Paper id: 030
+
+Recorded words:
+
+1. parcel - 包裹
+2. envelope - 信封
+3. stamp - 邮票；盖章
+4. address - 地址
+5. delivery - 递送；送货
+6. post - 邮寄；邮政
+7. package - 包裹；包装
+8. sender - 寄件人
+9. receive - 收到；接收
+10. mailbox - 信箱；邮筒
+
+Worksheet route:
+
+- /papers/030
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

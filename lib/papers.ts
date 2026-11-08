@@ -1820,6 +1820,65 @@ export const papers: Paper[] = [
       { en: "A cow stood near the barn while three sheep ate grass.", zh: "一头奶牛站在谷仓旁，三只羊在吃草。" },
       { en: "We can make warm clothes from wool and drink fresh milk.", zh: "我们可以用羊毛做保暖衣服，也可以喝新鲜牛奶。" }
     ]
+  },
+  {
+    id: "030",
+    version: "v30",
+    date: "2026-11-08",
+    topic: "Post Office & Parcels",
+    title: "English Daily Vocabulary: Post Office & Parcels",
+    words: [
+      { word: "parcel", meaning: "包裹", phonetic: "/ˈpɑːrsəl/", audioUrl: "/audio/papers/030/words/parcel.mp3" },
+      { word: "envelope", meaning: "信封", phonetic: "/ˈenvəloʊp/", audioUrl: "/audio/papers/030/words/envelope.mp3" },
+      { word: "stamp", meaning: "邮票；盖章", phonetic: "/stæmp/", audioUrl: "/audio/papers/030/words/stamp.mp3" },
+      { word: "address", meaning: "地址", phonetic: "/ˈædres/", audioUrl: "/audio/papers/030/words/address.mp3" },
+      { word: "delivery", meaning: "递送；送货", phonetic: "/dɪˈlɪvəri/", audioUrl: "/audio/papers/030/words/delivery.mp3" },
+      { word: "post", meaning: "邮寄；邮政", phonetic: "/poʊst/", audioUrl: "/audio/papers/030/words/post.mp3" },
+      { word: "package", meaning: "包裹；包装", phonetic: "/ˈpækɪdʒ/", audioUrl: "/audio/papers/030/words/package.mp3" },
+      { word: "sender", meaning: "寄件人", phonetic: "/ˈsendər/", audioUrl: "/audio/papers/030/words/sender.mp3" },
+      { word: "receive", meaning: "收到；接收", phonetic: "/rɪˈsiːv/", audioUrl: "/audio/papers/030/words/receive.mp3" },
+      { word: "mailbox", meaning: "信箱；邮筒", phonetic: "/ˈmeɪlbɑːks/", audioUrl: "/audio/papers/030/words/mailbox.mp3" }
+    ],
+    reading:
+      "On Tuesday, Amy went to the post office with her father. She wanted to post a birthday card to her cousin. She put the card in an envelope, wrote her cousin's address clearly on it, and added a stamp. Her father had a parcel for his friend. The package was too large for the mailbox outside, so he handed it to a worker at the counter. The worker asked for the sender's name and explained that delivery would take three days. Amy's cousin called on Friday to say she had received the card. Amy was glad it had arrived before the birthday party.",
+    readingAudioUrl: "/audio/papers/030/reading.mp3",
+    questions: [
+      { question: "What did Amy want to post?", answer: "A birthday card.", studentAnswer: "A large parcel.", explanationEn: "Amy posted the card; her father sent the parcel.", explanationZh: "Amy 寄的是生日卡；parcel 是爸爸寄的。", tag: "People" },
+      { question: "Where did Amy write her cousin's address?", answer: "On the envelope.", studentAnswer: "On the stamp.", explanationEn: "She put the card in an envelope and wrote the address on it.", explanationZh: "address 写在 envelope 上，不是写在 stamp 上。", tag: "Place" },
+      { question: "Why did her father not use the mailbox?", answer: "The package was too large.", studentAnswer: "He did not know the sender's name.", explanationEn: "The package was too large for the mailbox, so he used the counter.", explanationZh: "package 太大，放不进 mailbox。", tag: "Reason" },
+      { question: "How long did the worker say delivery would take?", answer: "Three days.", studentAnswer: "One week.", explanationEn: "The worker said delivery would take three days.", explanationZh: "工作人员说 delivery 需要三天。", tag: "Detail" },
+      { question: "When did Amy's cousin say she had received the card?", answer: "On Friday.", studentAnswer: "On Tuesday.", explanationEn: "They posted it on Tuesday, and her cousin called on Friday.", explanationZh: "周二邮寄，表姐周五打电话说已 receive 卡片。", tag: "Sequence" }
+    ],
+    wordStudy: [
+      { word: "parcel", collocations: ["send a parcel", "a small parcel", "collect a parcel"], similar: ["package", "letter"], note: "Parcel and package can both mean a wrapped item sent to someone. A letter is usually flat and goes in an envelope." },
+      { word: "post", collocations: ["post a letter", "post a card", "go to the post office"], similar: ["send", "deliver"], note: "Post means send by mail; deliver describes bringing it to the receiver." },
+      { word: "receive", collocations: ["receive a card", "receive a parcel", "receive a message"], similar: ["get", "send"], note: "The sender sends an item; the receiver receives it. These describe opposite sides of one exchange." }
+    ],
+    blanks: [
+      { sentenceBefore: "Dad sent a heavy", sentenceAfter: "to his friend.", answer: "parcel", studentAnswer: "stamp", explanationEn: "A parcel is an item packed for posting.", explanationZh: "parcel 是准备邮寄的包裹。" },
+      { sentenceBefore: "Put the birthday card inside an", sentenceAfter: ".", answer: "envelope", studentAnswer: "mailbox", explanationEn: "An envelope holds a card or letter.", explanationZh: "envelope 用来装卡片或信。" },
+      { sentenceBefore: "Amy placed a", sentenceAfter: "on the envelope.", answer: "stamp", studentAnswer: "sender", explanationEn: "A stamp shows that postage has been paid.", explanationZh: "stamp 是贴在信封上的邮票。" },
+      { sentenceBefore: "Write the street", sentenceAfter: "clearly so the card reaches the right house.", answer: "address", studentAnswer: "delivery", explanationEn: "An address tells the post office where to take the card.", explanationZh: "address 告诉邮局卡片要送到哪里。" },
+      { sentenceBefore: "The worker said", sentenceAfter: "would take three days.", answer: "delivery", studentAnswer: "sender", explanationEn: "Delivery is the process of taking the item to its destination.", explanationZh: "delivery 指把物品送到目的地的过程。" },
+      { sentenceBefore: "We will", sentenceAfter: "the letter tomorrow morning.", answer: "post", studentAnswer: "receive", explanationEn: "Post means send something by mail.", explanationZh: "post 在这里是动词，意为邮寄。" },
+      { sentenceBefore: "The", sentenceAfter: "was too big to fit in the mailbox.", answer: "package", studentAnswer: "envelope", explanationEn: "A package can be a large wrapped item.", explanationZh: "package 可以指包装好的较大包裹。" },
+      { sentenceBefore: "The", sentenceAfter: "wrote his own name on the form.", answer: "sender", studentAnswer: "receiver", explanationEn: "The sender is the person who sends the item.", explanationZh: "sender 是寄出物品的人。" },
+      { sentenceBefore: "I hope to", sentenceAfter: "your card before Friday.", answer: "receive", studentAnswer: "post", explanationEn: "Receive means get something that someone sent.", explanationZh: "receive 指收到别人寄来的东西。" },
+      { sentenceBefore: "Amy dropped the small letter into the", sentenceAfter: ".", answer: "mailbox", studentAnswer: "parcel", explanationEn: "A mailbox can hold letters waiting to be collected.", explanationZh: "mailbox 可以是投递信件的邮筒。" }
+    ],
+    corrections: [
+      { prompt: "Amy put the card inside a stamp.", answer: "Amy put the card inside an envelope.", studentAnswer: "Amy put the card inside a stamp.", explanationEn: "A card goes inside an envelope; a stamp goes on the outside.", explanationZh: "卡片放进 envelope；stamp 贴在外面。", tag: "Confusing nouns" },
+      { prompt: "The address is the person who sent the parcel.", answer: "The sender is the person who sent the parcel.", studentAnswer: "The address is the person who sent the parcel.", explanationEn: "Sender is a person; address is a location.", explanationZh: "sender 是寄件人；address 是地址。", tag: "Meaning" },
+      { prompt: "Amy received the card to her cousin on Tuesday.", answer: "Amy posted the card to her cousin on Tuesday.", studentAnswer: "Amy received the card to her cousin on Tuesday.", explanationEn: "Amy sent the card, so use posted; her cousin received it later.", explanationZh: "Amy 是寄件人，用 posted；表姐之后才 received。", tag: "Direction" },
+      { prompt: "The big package fit easily inside the small mailbox.", answer: "The big package was too large for the small mailbox.", studentAnswer: "The big package fit easily inside the small mailbox.", explanationEn: "The reading says the package was too large for the mailbox.", explanationZh: "原文说 package 太大，放不进 mailbox。", tag: "Reading evidence" },
+      { prompt: "The worker said the delivery would take three weeks.", answer: "The worker said the delivery would take three days.", studentAnswer: "The worker said the delivery would take three weeks.", explanationEn: "The stated delivery time is three days, not three weeks.", explanationZh: "工作人员说 delivery 需要三天，不是三周。", tag: "Reading evidence" }
+    ],
+    creativePrompt: "Use five words from today's list to explain how you would send a birthday card.",
+    examples: [
+      { en: "Write the address on the envelope and add a stamp.", zh: "在信封上写好地址，再贴上邮票。" },
+      { en: "The sender took the parcel to the post office.", zh: "寄件人把包裹带到邮局。" },
+      { en: "The delivery took three days, and my cousin received the card.", zh: "投递花了三天，表姐收到了卡片。" }
+    ]
   }
 ];
 
