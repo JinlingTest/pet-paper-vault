@@ -632,6 +632,27 @@ Worksheet route:
 
 - /papers/030
 
+### v31 - Staying at a Hotel - 2026-11-10
+
+Paper id: 031
+
+Recorded words:
+
+1. hotel - 酒店；旅馆
+2. reservation - 预订；预约
+3. reception - 接待处；前台
+4. lobby - 大厅；门厅
+5. key - 钥匙；关键
+6. lift - 电梯；抬起
+7. floor - 楼层；地板
+8. breakfast - 早餐
+9. staff - 员工；全体职员
+10. service - 服务
+
+Worksheet route:
+
+- /papers/031
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

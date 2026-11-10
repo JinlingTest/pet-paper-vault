@@ -1879,6 +1879,65 @@ export const papers: Paper[] = [
       { en: "The sender took the parcel to the post office.", zh: "寄件人把包裹带到邮局。" },
       { en: "The delivery took three days, and my cousin received the card.", zh: "投递花了三天，表姐收到了卡片。" }
     ]
+  },
+  {
+    id: "031",
+    version: "v31",
+    date: "2026-11-10",
+    topic: "Staying at a Hotel",
+    title: "English Daily Vocabulary: Staying at a Hotel",
+    words: [
+      { word: "hotel", meaning: "酒店；旅馆", phonetic: "/hoʊˈtel/", audioUrl: "/audio/papers/031/words/hotel.mp3" },
+      { word: "reservation", meaning: "预订；预约", phonetic: "/ˌrezərˈveɪʃən/", audioUrl: "/audio/papers/031/words/reservation.mp3" },
+      { word: "reception", meaning: "接待处；前台", phonetic: "/rɪˈsepʃən/", audioUrl: "/audio/papers/031/words/reception.mp3" },
+      { word: "lobby", meaning: "大厅；门厅", phonetic: "/ˈlɑːbi/", audioUrl: "/audio/papers/031/words/lobby.mp3" },
+      { word: "key", meaning: "钥匙；关键", phonetic: "/kiː/", audioUrl: "/audio/papers/031/words/key.mp3" },
+      { word: "lift", meaning: "电梯；抬起", phonetic: "/lɪft/", audioUrl: "/audio/papers/031/words/lift.mp3" },
+      { word: "floor", meaning: "楼层；地板", phonetic: "/flɔːr/", audioUrl: "/audio/papers/031/words/floor.mp3" },
+      { word: "breakfast", meaning: "早餐", phonetic: "/ˈbrekfəst/", audioUrl: "/audio/papers/031/words/breakfast.mp3" },
+      { word: "staff", meaning: "员工；全体职员", phonetic: "/stæf/", audioUrl: "/audio/papers/031/words/staff.mp3" },
+      { word: "service", meaning: "服务", phonetic: "/ˈsɜːrvɪs/", audioUrl: "/audio/papers/031/words/service.mp3" }
+    ],
+    reading:
+      "On Friday evening, Nina and her mother arrived at a small hotel near the sea. Nina's mother had made a reservation online. At reception, a member of staff checked their names and gave them a key. They waited in the lobby while another family checked in. Their room was on the third floor, so they took the lift. In the morning, breakfast was served downstairs from seven to ten. Nina liked the fresh fruit and warm bread. When she left her scarf in the dining room, a staff member brought it back to her. Nina thanked him for the friendly service before they went to the beach.",
+    readingAudioUrl: "/audio/papers/031/reading.mp3",
+    questions: [
+      { question: "Who made the reservation?", answer: "Nina's mother.", studentAnswer: "The staff member.", explanationEn: "Nina's mother made the reservation online before they arrived.", explanationZh: "到达 hotel 前，是 Nina 的妈妈在线做了 reservation。", tag: "People" },
+      { question: "What did the staff member give them at reception?", answer: "A key.", studentAnswer: "A scarf.", explanationEn: "At reception, the staff member checked their names and gave them a key.", explanationZh: "reception 的员工核对姓名后给了她们 key。", tag: "Detail" },
+      { question: "Why did they take the lift?", answer: "Their room was on the third floor.", studentAnswer: "Breakfast was on the roof.", explanationEn: "They used the lift because their room was on the third floor.", explanationZh: "房间在三楼，所以她们乘 lift。", tag: "Reason" },
+      { question: "When was breakfast served?", answer: "From seven to ten in the morning.", studentAnswer: "From ten to twelve at night.", explanationEn: "The passage gives the breakfast time as seven to ten in the morning.", explanationZh: "breakfast 的供应时间是早上七点到十点。", tag: "Time" },
+      { question: "What did Nina leave in the dining room?", answer: "Her scarf.", studentAnswer: "Her room key.", explanationEn: "A staff member returned the scarf she had left behind.", explanationZh: "Nina 落下的是围巾，不是房间 key。", tag: "Detail" }
+    ],
+    wordStudy: [
+      { word: "reservation", collocations: ["make a reservation", "confirm a reservation", "a hotel reservation"], similar: ["booking", "appointment"], note: "A reservation holds a room or table in advance; an appointment is usually a planned meeting with a person." },
+      { word: "reception", collocations: ["ask at reception", "the hotel reception", "work at reception"], similar: ["front desk", "lobby"], note: "Reception is the desk where guests check in; the lobby is the larger entrance area around it." },
+      { word: "service", collocations: ["friendly service", "good service", "room service"], similar: ["help", "staff"], note: "Service is the help provided; staff are the people who provide it." }
+    ],
+    blanks: [
+      { sentenceBefore: "We stayed at a small", sentenceAfter: "near the beach.", answer: "hotel", studentAnswer: "lobby", explanationEn: "A hotel provides rooms for travellers to stay in.", explanationZh: "hotel 为旅客提供住宿；lobby 只是大厅。" },
+      { sentenceBefore: "Mum made a room", sentenceAfter: "before the trip.", answer: "reservation", studentAnswer: "service", explanationEn: "A reservation books a room in advance.", explanationZh: "reservation 指提前预订房间。" },
+      { sentenceBefore: "We collected our room key at", sentenceAfter: ".", answer: "reception", studentAnswer: "breakfast", explanationEn: "Reception is where hotel guests check in.", explanationZh: "reception 是酒店办理入住的前台。" },
+      { sentenceBefore: "The family waited in the", sentenceAfter: "near the entrance.", answer: "lobby", studentAnswer: "floor", explanationEn: "A lobby is the entrance area inside a hotel.", explanationZh: "lobby 是酒店入口处的大厅。" },
+      { sentenceBefore: "The staff member gave Nina the room", sentenceAfter: ".", answer: "key", studentAnswer: "lift", explanationEn: "A key opens a room door.", explanationZh: "key 用来打开房门。" },
+      { sentenceBefore: "We took the", sentenceAfter: "up to the third floor.", answer: "lift", studentAnswer: "lobby", explanationEn: "A lift carries people between floors.", explanationZh: "lift 在不同楼层间运送人。" },
+      { sentenceBefore: "Their room was on the third", sentenceAfter: ".", answer: "floor", studentAnswer: "hotel", explanationEn: "Floor can mean a level of a building.", explanationZh: "floor 在这里表示楼层。" },
+      { sentenceBefore: "We ate fruit and bread for", sentenceAfter: ".", answer: "breakfast", studentAnswer: "reception", explanationEn: "Breakfast is the morning meal.", explanationZh: "breakfast 是早餐。" },
+      { sentenceBefore: "A member of", sentenceAfter: "returned Nina's scarf.", answer: "staff", studentAnswer: "service", explanationEn: "A member of staff is one employee.", explanationZh: "a member of staff 指一位员工。" },
+      { sentenceBefore: "Nina thanked the hotel for its friendly", sentenceAfter: ".", answer: "service", studentAnswer: "staff", explanationEn: "Service is the help the hotel provides.", explanationZh: "service 是酒店提供的服务。" }
+    ],
+    corrections: [
+      { prompt: "Mum made a reception online to keep a room.", answer: "Mum made a reservation online to keep a room.", studentAnswer: "Mum made a reception online to keep a room.", explanationEn: "You make a reservation in advance; reception is a place in the hotel.", explanationZh: "提前订房用 make a reservation；reception 是前台。", tag: "Confusing nouns" },
+      { prompt: "Nina collected the room lobby from the front desk.", answer: "Nina collected the room key from the front desk.", studentAnswer: "Nina collected the room lobby from the front desk.", explanationEn: "A key opens the room; a lobby is a large entrance area.", explanationZh: "key 能开房门；lobby 是大厅。", tag: "Meaning" },
+      { prompt: "They took the floor up to the third lift.", answer: "They took the lift up to the third floor.", studentAnswer: "They took the floor up to the third lift.", explanationEn: "A lift moves between floors, not the other way around.", explanationZh: "lift 是电梯，通往第三 floor。", tag: "Word order" },
+      { prompt: "A member of service brought Nina's scarf back.", answer: "A member of staff brought Nina's scarf back.", studentAnswer: "A member of service brought Nina's scarf back.", explanationEn: "Say a member of staff for an employee; service is the help provided.", explanationZh: "一位员工说 a member of staff；service 是提供的服务。", tag: "Collocation" },
+      { prompt: "Breakfast was served from seven to ten in the evening.", answer: "Breakfast was served from seven to ten in the morning.", studentAnswer: "Breakfast was served from seven to ten in the evening.", explanationEn: "The reading says breakfast was served in the morning.", explanationZh: "阅读材料明确说 breakfast 在早上供应。", tag: "Reading evidence" }
+    ],
+    creativePrompt: "Use five words from today's list to describe checking in at a hotel.",
+    examples: [
+      { en: "We made a reservation before arriving at the hotel.", zh: "到达酒店前我们预订了房间。" },
+      { en: "The staff member at reception gave us a key.", zh: "前台员工给了我们一把钥匙。" },
+      { en: "We took the lift to the third floor after breakfast.", zh: "吃过早餐后，我们乘电梯去了三楼。" }
+    ]
   }
 ];
 

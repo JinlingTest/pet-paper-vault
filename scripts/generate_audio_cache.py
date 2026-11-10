@@ -431,6 +431,10 @@ PAPERS = {
         "reading": "On Tuesday, Amy went to the post office with her father. She wanted to post a birthday card to her cousin. She put the card in an envelope, wrote her cousin's address clearly on it, and added a stamp. Her father had a parcel for his friend. The package was too large for the mailbox outside, so he handed it to a worker at the counter. The worker asked for the sender's name and explained that delivery would take three days. Amy's cousin called on Friday to say she had received the card. Amy was glad it had arrived before the birthday party.",
         "words": ["parcel", "envelope", "stamp", "address", "delivery", "post", "package", "sender", "receive", "mailbox"],
     },
+    "031": {
+        "reading": "On Friday evening, Nina and her mother arrived at a small hotel near the sea. Nina's mother had made a reservation online. At reception, a member of staff checked their names and gave them a key. They waited in the lobby while another family checked in. Their room was on the third floor, so they took the lift. In the morning, breakfast was served downstairs from seven to ten. Nina liked the fresh fruit and warm bread. When she left her scarf in the dining room, a staff member brought it back to her. Nina thanked him for the friendly service before they went to the beach.",
+        "words": ["hotel", "reservation", "reception", "lobby", "key", "lift", "floor", "breakfast", "staff", "service"],
+    },
 }
 
 
