@@ -33,7 +33,8 @@ const topicZh: Record<string, string> = {
   "028": "道路安全",
   "029": "农场生活",
   "030": "邮局与寄件",
-  "031": "酒店住宿"
+  "031": "酒店住宿",
+  "032": "参观水族馆"
 };
 
 export const metadata = {

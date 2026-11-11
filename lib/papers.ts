@@ -1938,6 +1938,65 @@ export const papers: Paper[] = [
       { en: "The staff member at reception gave us a key.", zh: "前台员工给了我们一把钥匙。" },
       { en: "We took the lift to the third floor after breakfast.", zh: "吃过早餐后，我们乘电梯去了三楼。" }
     ]
+  },
+  {
+    id: "032",
+    version: "v32",
+    date: "2026-11-11",
+    topic: "A Visit to the Aquarium",
+    title: "English Daily Vocabulary: A Visit to the Aquarium",
+    words: [
+      { word: "aquarium", meaning: "水族馆；水族箱", phonetic: "/əˈkweriəm/", audioUrl: "/audio/papers/032/words/aquarium.mp3" },
+      { word: "tank", meaning: "水箱；水槽", phonetic: "/tæŋk/", audioUrl: "/audio/papers/032/words/tank.mp3" },
+      { word: "shark", meaning: "鲨鱼", phonetic: "/ʃɑːrk/", audioUrl: "/audio/papers/032/words/shark.mp3" },
+      { word: "dolphin", meaning: "海豚", phonetic: "/ˈdɑːlfɪn/", audioUrl: "/audio/papers/032/words/dolphin.mp3" },
+      { word: "jellyfish", meaning: "水母", phonetic: "/ˈdʒeliˌfɪʃ/", audioUrl: "/audio/papers/032/words/jellyfish.mp3" },
+      { word: "coral", meaning: "珊瑚", phonetic: "/ˈkɔːrəl/", audioUrl: "/audio/papers/032/words/coral.mp3" },
+      { word: "seaweed", meaning: "海藻", phonetic: "/ˈsiːwiːd/", audioUrl: "/audio/papers/032/words/seaweed.mp3" },
+      { word: "fin", meaning: "鱼鳍", phonetic: "/fɪn/", audioUrl: "/audio/papers/032/words/fin.mp3" },
+      { word: "feed", meaning: "喂养；饲料", phonetic: "/fiːd/", audioUrl: "/audio/papers/032/words/feed.mp3" },
+      { word: "visitor", meaning: "参观者；访客", phonetic: "/ˈvɪzɪtər/", audioUrl: "/audio/papers/032/words/visitor.mp3" }
+    ],
+    reading:
+      "On Saturday, Tom's class visited an aquarium. A visitor beside Tom pointed to a large tank where a shark swam past a rock. Tom could see its tall fin above its back. In another tank, small fish moved through green seaweed and around a piece of coral. Then the class watched a jellyfish floating slowly in the water. At noon, a worker explained how the team would feed the animals. The worker asked everyone to wait quietly and never throw food into the tanks. Tom had hoped to see a dolphin, but that part of the aquarium was closed for cleaning. He took notes so he could tell his sister about the animals later.",
+    readingAudioUrl: "/audio/papers/032/reading.mp3",
+    questions: [
+      { question: "Where did Tom's class go on Saturday?", answer: "To an aquarium.", studentAnswer: "To a farm.", explanationEn: "The first sentence says the class visited an aquarium.", explanationZh: "开头明确说全班去参观 aquarium。", tag: "Place" },
+      { question: "What animal swam in the large tank?", answer: "A shark.", studentAnswer: "A dolphin.", explanationEn: "A shark swam in the large tank; Tom did not get to see a dolphin.", explanationZh: "大 tank 里游过的是 shark；Tom 没看到 dolphin。", tag: "Detail" },
+      { question: "What did the small fish swim through?", answer: "Green seaweed.", studentAnswer: "The visitor's notes.", explanationEn: "The small fish moved through green seaweed and around coral.", explanationZh: "小鱼游过绿色的 seaweed，并绕过 coral。", tag: "Detail" },
+      { question: "What did the worker tell visitors not to do?", answer: "Throw food into the tanks.", studentAnswer: "Wait quietly.", explanationEn: "The worker asked people to wait quietly and not throw food into the tanks.", explanationZh: "工作人员要求安静等候，不能把食物扔进水箱。", tag: "Negation" },
+      { question: "Why could Tom not see a dolphin?", answer: "That part of the aquarium was closed for cleaning.", studentAnswer: "The dolphin was in the shark tank.", explanationEn: "The dolphin area was closed for cleaning.", explanationZh: "dolphin 区域因清洁而关闭。", tag: "Reason" }
+    ],
+    wordStudy: [
+      { word: "aquarium", collocations: ["visit an aquarium", "an aquarium tank", "a large aquarium"], similar: ["zoo", "tank"], note: "An aquarium is a place or container for aquatic animals; a tank is one container inside it." },
+      { word: "feed", collocations: ["feed the fish", "feed the animals", "fish feed"], similar: ["give food to", "eat"], note: "Feed means give food to an animal; eat describes what the animal does with the food." },
+      { word: "fin", collocations: ["a shark's fin", "a tall fin", "use its fins to swim"], similar: ["tail", "wing"], note: "A fin helps many water animals move or balance; it is not the same as a tail or a bird's wing." }
+    ],
+    blanks: [
+      { sentenceBefore: "Our class visited an", sentenceAfter: "to learn about sea animals.", answer: "aquarium", studentAnswer: "tank", explanationEn: "An aquarium is the place the class visited.", explanationZh: "aquarium 是全班参观的水族馆；tank 是其中的水箱。" },
+      { sentenceBefore: "The shark swam inside a large", sentenceAfter: ".", answer: "tank", studentAnswer: "fin", explanationEn: "A tank is a container that holds water and animals.", explanationZh: "tank 是装水和动物的水箱。" },
+      { sentenceBefore: "The", sentenceAfter: "swam past a rock in the big tank.", answer: "shark", studentAnswer: "visitor", explanationEn: "A shark is a sea animal that can swim in a tank.", explanationZh: "shark 是在水箱中游动的海洋动物。" },
+      { sentenceBefore: "Tom hoped to see a", sentenceAfter: ", but its area was closed.", answer: "dolphin", studentAnswer: "coral", explanationEn: "The dolphin area was closed for cleaning.", explanationZh: "关闭的是 dolphin 区域。" },
+      { sentenceBefore: "The", sentenceAfter: "floated slowly through the water.", answer: "jellyfish", studentAnswer: "seaweed", explanationEn: "A jellyfish is an animal that can float in water.", explanationZh: "jellyfish 是能在水中漂浮的水母。" },
+      { sentenceBefore: "Small fish swam around a piece of", sentenceAfter: ".", answer: "coral", studentAnswer: "visitor", explanationEn: "Coral can form structures that fish swim around.", explanationZh: "coral 可以形成供鱼环绕游动的结构。" },
+      { sentenceBefore: "Green", sentenceAfter: "grew in the water beside the fish.", answer: "seaweed", studentAnswer: "fin", explanationEn: "Seaweed is a plant-like organism in water.", explanationZh: "seaweed 是水中的海藻。" },
+      { sentenceBefore: "Tom saw the shark's tall", sentenceAfter: "above its back.", answer: "fin", studentAnswer: "tank", explanationEn: "A fin is a body part that helps a shark swim.", explanationZh: "fin 是鲨鱼身体的一部分，帮助游泳。" },
+      { sentenceBefore: "The worker will", sentenceAfter: "the fish at noon.", answer: "feed", studentAnswer: "eat", explanationEn: "The worker gives food to the fish, so use feed.", explanationZh: "工作人员给鱼喂食，用 feed；鱼自己吃才用 eat。" },
+      { sentenceBefore: "A", sentenceAfter: "pointed to the large tank.", answer: "visitor", studentAnswer: "shark", explanationEn: "A visitor is a person looking around the aquarium.", explanationZh: "visitor 是参观水族馆的人。" }
+    ],
+    corrections: [
+      { prompt: "The class visited a tank with many separate rooms and exhibits.", answer: "The class visited an aquarium with many separate rooms and exhibits.", studentAnswer: "The class visited a tank with many separate rooms and exhibits.", explanationEn: "An aquarium can have rooms and exhibits; a tank is one container.", explanationZh: "aquarium 是包含多个展区的场所；tank 是单个水箱。", tag: "Confusing nouns" },
+      { prompt: "The shark used a visitor on its back to help it swim.", answer: "The shark used a fin on its back to help it swim.", studentAnswer: "The shark used a visitor on its back to help it swim.", explanationEn: "A fin belongs to the shark; a visitor is a person.", explanationZh: "fin 是鲨鱼身上的鳍；visitor 是参观者。", tag: "Meaning" },
+      { prompt: "The worker will eat the fish at noon.", answer: "The worker will feed the fish at noon.", studentAnswer: "The worker will eat the fish at noon.", explanationEn: "Feed the fish means give them food; eat the fish means consume them.", explanationZh: "feed the fish 是喂鱼；eat the fish 是把鱼吃掉。", tag: "Confusing verbs" },
+      { prompt: "Tom saw the dolphin even though its area was closed.", answer: "Tom did not see the dolphin because its area was closed.", studentAnswer: "Tom saw the dolphin even though its area was closed.", explanationEn: "Tom hoped to see it, but its area was closed for cleaning.", explanationZh: "Tom 希望看到 dolphin，但该区域因清洁关闭。", tag: "Reading evidence" },
+      { prompt: "The jellyfish grew like green seaweed beside the rocks.", answer: "The seaweed grew in the water beside the rocks.", studentAnswer: "The jellyfish grew like green seaweed beside the rocks.", explanationEn: "Seaweed is plant-like; a jellyfish is an animal.", explanationZh: "seaweed 是海藻；jellyfish 是动物。", tag: "Word choice" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a visit to an aquarium.",
+    examples: [
+      { en: "A visitor watched a shark swim around the tank.", zh: "一位参观者看着鲨鱼在水箱里游动。" },
+      { en: "Small fish moved past coral and green seaweed.", zh: "小鱼游过珊瑚和绿色海藻。" },
+      { en: "The worker fed the animals while we watched quietly.", zh: "我们安静观看时，工作人员给动物喂食。" }
+    ]
   }
 ];
 

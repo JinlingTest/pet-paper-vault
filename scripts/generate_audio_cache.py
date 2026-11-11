@@ -435,6 +435,10 @@ PAPERS = {
         "reading": "On Friday evening, Nina and her mother arrived at a small hotel near the sea. Nina's mother had made a reservation online. At reception, a member of staff checked their names and gave them a key. They waited in the lobby while another family checked in. Their room was on the third floor, so they took the lift. In the morning, breakfast was served downstairs from seven to ten. Nina liked the fresh fruit and warm bread. When she left her scarf in the dining room, a staff member brought it back to her. Nina thanked him for the friendly service before they went to the beach.",
         "words": ["hotel", "reservation", "reception", "lobby", "key", "lift", "floor", "breakfast", "staff", "service"],
     },
+    "032": {
+        "reading": "On Saturday, Tom's class visited an aquarium. A visitor beside Tom pointed to a large tank where a shark swam past a rock. Tom could see its tall fin above its back. In another tank, small fish moved through green seaweed and around a piece of coral. Then the class watched a jellyfish floating slowly in the water. At noon, a worker explained how the team would feed the animals. The worker asked everyone to wait quietly and never throw food into the tanks. Tom had hoped to see a dolphin, but that part of the aquarium was closed for cleaning. He took notes so he could tell his sister about the animals later.",
+        "words": ["aquarium", "tank", "shark", "dolphin", "jellyfish", "coral", "seaweed", "fin", "feed", "visitor"],
+    },
 }
 
 

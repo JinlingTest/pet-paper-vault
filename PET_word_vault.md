@@ -653,6 +653,27 @@ Worksheet route:
 
 - /papers/031
 
+### v32 - A Visit to the Aquarium - 2026-11-11
+
+Paper id: 032
+
+Recorded words:
+
+1. aquarium - 水族馆；水族箱
+2. tank - 水箱；水槽
+3. shark - 鲨鱼
+4. dolphin - 海豚
+5. jellyfish - 水母
+6. coral - 珊瑚
+7. seaweed - 海藻
+8. fin - 鱼鳍
+9. feed - 喂养；饲料
+10. visitor - 参观者；访客
+
+Worksheet route:
+
+- /papers/032
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
