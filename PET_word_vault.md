@@ -674,6 +674,27 @@ Worksheet route:
 
 - /papers/032
 
+### v33 - A Day at the Zoo - 2026-11-13
+
+Paper id: 033
+
+Recorded words:
+
+1. zoo - 动物园
+2. enclosure - 围栏；圈养区
+3. keeper - 饲养员；看护人
+4. giraffe - 长颈鹿
+5. elephant - 大象
+6. monkey - 猴子
+7. penguin - 企鹅
+8. lion - 狮子
+9. zebra - 斑马
+10. habitat - 栖息地
+
+Worksheet route:
+
+- /papers/033
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

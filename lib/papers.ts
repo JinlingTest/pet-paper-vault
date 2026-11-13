@@ -1997,6 +1997,65 @@ export const papers: Paper[] = [
       { en: "Small fish moved past coral and green seaweed.", zh: "小鱼游过珊瑚和绿色海藻。" },
       { en: "The worker fed the animals while we watched quietly.", zh: "我们安静观看时，工作人员给动物喂食。" }
     ]
+  },
+  {
+    id: "033",
+    version: "v33",
+    date: "2026-11-13",
+    topic: "A Day at the Zoo",
+    title: "English Daily Vocabulary: A Day at the Zoo",
+    words: [
+      { word: "zoo", meaning: "动物园", phonetic: "/zuː/", audioUrl: "/audio/papers/033/words/zoo.mp3" },
+      { word: "enclosure", meaning: "围栏；圈养区", phonetic: "/ɪnˈkloʊʒər/", audioUrl: "/audio/papers/033/words/enclosure.mp3" },
+      { word: "keeper", meaning: "饲养员；看护人", phonetic: "/ˈkiːpər/", audioUrl: "/audio/papers/033/words/keeper.mp3" },
+      { word: "giraffe", meaning: "长颈鹿", phonetic: "/dʒəˈræf/", audioUrl: "/audio/papers/033/words/giraffe.mp3" },
+      { word: "elephant", meaning: "大象", phonetic: "/ˈelɪfənt/", audioUrl: "/audio/papers/033/words/elephant.mp3" },
+      { word: "monkey", meaning: "猴子", phonetic: "/ˈmʌŋki/", audioUrl: "/audio/papers/033/words/monkey.mp3" },
+      { word: "penguin", meaning: "企鹅", phonetic: "/ˈpeŋɡwɪn/", audioUrl: "/audio/papers/033/words/penguin.mp3" },
+      { word: "lion", meaning: "狮子", phonetic: "/ˈlaɪən/", audioUrl: "/audio/papers/033/words/lion.mp3" },
+      { word: "zebra", meaning: "斑马", phonetic: "/ˈziːbrə/", audioUrl: "/audio/papers/033/words/zebra.mp3" },
+      { word: "habitat", meaning: "栖息地", phonetic: "/ˈhæbɪtæt/", audioUrl: "/audio/papers/033/words/habitat.mp3" }
+    ],
+    reading:
+      "On Sunday, Maya visited the zoo with her brother. A keeper showed them a map and explained that each enclosure had space for its animals. First, they saw a giraffe reaching up for leaves and a zebra standing nearby. An elephant splashed water onto its back. Later, a monkey climbed a rope while a lion rested in the shade. Maya's brother liked the penguin area best because he could watch the birds swim. A sign explained how the zoo tried to make each habitat suitable for the animals. Before leaving, Maya thanked the keeper and drew a picture of the giraffe in her notebook.",
+    readingAudioUrl: "/audio/papers/033/reading.mp3",
+    questions: [
+      { question: "Who showed Maya and her brother a map?", answer: "A keeper.", studentAnswer: "A lion.", explanationEn: "The keeper showed them the map at the start of the visit.", explanationZh: "参观开始时，给他们看地图的是 keeper。", tag: "People" },
+      { question: "What was the giraffe reaching for?", answer: "Leaves.", studentAnswer: "Water.", explanationEn: "The giraffe reached up for leaves; the elephant splashed water.", explanationZh: "giraffe 伸长脖子够树叶；elephant 往身上喷水。", tag: "Detail" },
+      { question: "Which animal climbed a rope?", answer: "A monkey.", studentAnswer: "A zebra.", explanationEn: "The monkey climbed a rope while the lion rested.", explanationZh: "爬绳子的是 monkey，不是 zebra。", tag: "Detail" },
+      { question: "Why did Maya's brother like the penguin area?", answer: "He could watch the birds swim.", studentAnswer: "He could feed the lions.", explanationEn: "He liked watching the penguins swim.", explanationZh: "弟弟喜欢看 penguin 游泳。", tag: "Reason" },
+      { question: "What did Maya draw before leaving?", answer: "A giraffe.", studentAnswer: "An elephant.", explanationEn: "Maya drew the giraffe in her notebook.", explanationZh: "离开前 Maya 在本子里画了 giraffe。", tag: "Sequence" }
+    ],
+    wordStudy: [
+      { word: "habitat", collocations: ["natural habitat", "animal habitat", "protect a habitat"], similar: ["home", "enclosure"], note: "A habitat is the kind of place an animal lives naturally; an enclosure is a bounded space made by people." },
+      { word: "keeper", collocations: ["zoo keeper", "animal keeper", "ask the keeper"], similar: ["carer", "visitor"], note: "A keeper cares for animals; a visitor comes to look at them." },
+      { word: "penguin", collocations: ["watch a penguin swim", "a group of penguins", "penguin area"], similar: ["bird", "fish"], note: "A penguin is a bird that swims but does not fly; it is not a fish." }
+    ],
+    blanks: [
+      { sentenceBefore: "Our class went to the", sentenceAfter: "to see animals.", answer: "zoo", studentAnswer: "enclosure", explanationEn: "A zoo is the whole place visitors enter.", explanationZh: "zoo 是整个动物园；enclosure 只是其中的圈养区。" },
+      { sentenceBefore: "The lion rested inside its", sentenceAfter: ".", answer: "enclosure", studentAnswer: "habitat", explanationEn: "An enclosure is a bounded area made for animals at a zoo.", explanationZh: "enclosure 是动物园中有边界的圈养区。" },
+      { sentenceBefore: "The", sentenceAfter: "looked after the animals each day.", answer: "keeper", studentAnswer: "visitor", explanationEn: "A keeper cares for animals; a visitor comes to see them.", explanationZh: "keeper 负责照料动物；visitor 是参观者。" },
+      { sentenceBefore: "The tall", sentenceAfter: "reached up for leaves.", answer: "giraffe", studentAnswer: "penguin", explanationEn: "A giraffe has a long neck and can reach high leaves.", explanationZh: "giraffe 脖子很长，能够到高处的树叶。" },
+      { sentenceBefore: "The", sentenceAfter: "splashed water onto its back.", answer: "elephant", studentAnswer: "zebra", explanationEn: "The reading describes the elephant splashing water.", explanationZh: "阅读材料里往身上喷水的是 elephant。" },
+      { sentenceBefore: "A", sentenceAfter: "climbed a rope in its enclosure.", answer: "monkey", studentAnswer: "lion", explanationEn: "The monkey climbed a rope; the lion rested.", explanationZh: "monkey 爬绳子，lion 在休息。" },
+      { sentenceBefore: "The", sentenceAfter: "swam through the cold water.", answer: "penguin", studentAnswer: "giraffe", explanationEn: "A penguin is a swimming bird.", explanationZh: "penguin 是会游泳的鸟。" },
+      { sentenceBefore: "A", sentenceAfter: "rested in the shade.", answer: "lion", studentAnswer: "monkey", explanationEn: "The lion rested in the shade in the story.", explanationZh: "故事中在阴凉处休息的是 lion。" },
+      { sentenceBefore: "The", sentenceAfter: "has black-and-white stripes.", answer: "zebra", studentAnswer: "elephant", explanationEn: "A zebra is known for its black-and-white stripes.", explanationZh: "zebra 有黑白相间的条纹。" },
+      { sentenceBefore: "A forest can be a natural", sentenceAfter: "for many animals.", answer: "habitat", studentAnswer: "enclosure", explanationEn: "A habitat is a natural place where animals live.", explanationZh: "habitat 指动物生活的自然环境。" }
+    ],
+    corrections: [
+      { prompt: "The zoo is one small space inside an enclosure.", answer: "An enclosure is one space inside a zoo.", studentAnswer: "The zoo is one small space inside an enclosure.", explanationEn: "A zoo contains enclosures, not the other way around.", explanationZh: "zoo 包含多个 enclosure，不是反过来。", tag: "Part and whole" },
+      { prompt: "The visitor cares for the zoo animals every day as a job.", answer: "The keeper cares for the zoo animals every day as a job.", studentAnswer: "The visitor cares for the zoo animals every day as a job.", explanationEn: "A keeper works with the animals; a visitor comes to see them.", explanationZh: "keeper 负责照料动物；visitor 来参观。", tag: "People" },
+      { prompt: "A penguin is a fish that cannot fly.", answer: "A penguin is a bird that cannot fly.", studentAnswer: "A penguin is a fish that cannot fly.", explanationEn: "A penguin swims, but it is a bird rather than a fish.", explanationZh: "penguin 虽会游泳，但它是鸟，不是鱼。", tag: "Meaning" },
+      { prompt: "The monkey rested in the shade while the lion climbed a rope.", answer: "The lion rested in the shade while the monkey climbed a rope.", studentAnswer: "The monkey rested in the shade while the lion climbed a rope.", explanationEn: "The reading assigns the resting to the lion and the climbing to the monkey.", explanationZh: "阅读材料中 lion 休息，monkey 爬绳子。", tag: "Reading evidence" },
+      { prompt: "A natural habitat is always a fenced zoo enclosure.", answer: "A natural habitat is a place where an animal lives in nature.", studentAnswer: "A natural habitat is always a fenced zoo enclosure.", explanationEn: "A habitat may be a forest or river; an enclosure is a bounded space made by people.", explanationZh: "habitat 可以是森林或河流；enclosure 是人工圈养区。", tag: "Confusing nouns" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a respectful visit to a zoo.",
+    examples: [
+      { en: "The keeper showed us the giraffe's enclosure.", zh: "饲养员带我们看长颈鹿的圈养区。" },
+      { en: "We watched a penguin swim and a lion rest.", zh: "我们看见企鹅游泳、狮子休息。" },
+      { en: "A good habitat gives animals room to move.", zh: "良好的栖息环境给动物留出活动空间。" }
+    ]
   }
 ];
 

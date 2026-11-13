@@ -439,6 +439,10 @@ PAPERS = {
         "reading": "On Saturday, Tom's class visited an aquarium. A visitor beside Tom pointed to a large tank where a shark swam past a rock. Tom could see its tall fin above its back. In another tank, small fish moved through green seaweed and around a piece of coral. Then the class watched a jellyfish floating slowly in the water. At noon, a worker explained how the team would feed the animals. The worker asked everyone to wait quietly and never throw food into the tanks. Tom had hoped to see a dolphin, but that part of the aquarium was closed for cleaning. He took notes so he could tell his sister about the animals later.",
         "words": ["aquarium", "tank", "shark", "dolphin", "jellyfish", "coral", "seaweed", "fin", "feed", "visitor"],
     },
+    "033": {
+        "reading": "On Sunday, Maya visited the zoo with her brother. A keeper showed them a map and explained that each enclosure had space for its animals. First, they saw a giraffe reaching up for leaves and a zebra standing nearby. An elephant splashed water onto its back. Later, a monkey climbed a rope while a lion rested in the shade. Maya's brother liked the penguin area best because he could watch the birds swim. A sign explained how the zoo tried to make each habitat suitable for the animals. Before leaving, Maya thanked the keeper and drew a picture of the giraffe in her notebook.",
+        "words": ["zoo", "enclosure", "keeper", "giraffe", "elephant", "monkey", "penguin", "lion", "zebra", "habitat"],
+    },
 }
 
 
