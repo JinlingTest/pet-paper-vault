@@ -443,6 +443,10 @@ PAPERS = {
         "reading": "On Sunday, Maya visited the zoo with her brother. A keeper showed them a map and explained that each enclosure had space for its animals. First, they saw a giraffe reaching up for leaves and a zebra standing nearby. An elephant splashed water onto its back. Later, a monkey climbed a rope while a lion rested in the shade. Maya's brother liked the penguin area best because he could watch the birds swim. A sign explained how the zoo tried to make each habitat suitable for the animals. Before leaving, Maya thanked the keeper and drew a picture of the giraffe in her notebook.",
         "words": ["zoo", "enclosure", "keeper", "giraffe", "elephant", "monkey", "penguin", "lion", "zebra", "habitat"],
     },
+    "034": {
+        "reading": "After school, Mia and Ben went to the playground. A long queue had formed beside the slide, so they waited for their turn. Mia wanted to climb the wooden ladder, but she checked that the child ahead of her had moved away first. Ben tried to balance on a low beam. Then they took turns on the swing and played together on the seesaw. Their little sister made a castle in the sandpit. A sign listed one important rule: do not push other children. When a younger child asked for a turn, Mia stepped aside and smiled. Everyone had more fun because they shared the space and played carefully.",
+        "words": ["playground", "slide", "swing", "seesaw", "sandpit", "climb", "balance", "turn", "queue", "rule"],
+    },
 }
 
 

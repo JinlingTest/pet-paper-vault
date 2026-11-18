@@ -2056,6 +2056,65 @@ export const papers: Paper[] = [
       { en: "We watched a penguin swim and a lion rest.", zh: "我们看见企鹅游泳、狮子休息。" },
       { en: "A good habitat gives animals room to move.", zh: "良好的栖息环境给动物留出活动空间。" }
     ]
+  },
+  {
+    id: "034",
+    version: "v34",
+    date: "2026-11-18",
+    topic: "Playground Rules",
+    title: "English Daily Vocabulary: Playground Rules",
+    words: [
+      { word: "playground", meaning: "游乐场；操场", phonetic: "/ˈpleɪɡraʊnd/", audioUrl: "/audio/papers/034/words/playground.mp3" },
+      { word: "slide", meaning: "滑梯；滑动", phonetic: "/slaɪd/", audioUrl: "/audio/papers/034/words/slide.mp3" },
+      { word: "swing", meaning: "秋千；摆动", phonetic: "/swɪŋ/", audioUrl: "/audio/papers/034/words/swing.mp3" },
+      { word: "seesaw", meaning: "跷跷板", phonetic: "/ˈsiːsɔː/", audioUrl: "/audio/papers/034/words/seesaw.mp3" },
+      { word: "sandpit", meaning: "沙坑；沙池", phonetic: "/ˈsændpɪt/", audioUrl: "/audio/papers/034/words/sandpit.mp3" },
+      { word: "climb", meaning: "攀爬", phonetic: "/klaɪm/", audioUrl: "/audio/papers/034/words/climb.mp3" },
+      { word: "balance", meaning: "平衡；保持平衡", phonetic: "/ˈbæləns/", audioUrl: "/audio/papers/034/words/balance.mp3" },
+      { word: "turn", meaning: "轮次；轮到；转动", phonetic: "/tɜːrn/", audioUrl: "/audio/papers/034/words/turn.mp3" },
+      { word: "queue", meaning: "队伍；排队", phonetic: "/kjuː/", audioUrl: "/audio/papers/034/words/queue.mp3" },
+      { word: "rule", meaning: "规则", phonetic: "/ruːl/", audioUrl: "/audio/papers/034/words/rule.mp3" }
+    ],
+    reading:
+      "After school, Mia and Ben went to the playground. A long queue had formed beside the slide, so they waited for their turn. Mia wanted to climb the wooden ladder, but she checked that the child ahead of her had moved away first. Ben tried to balance on a low beam. Then they took turns on the swing and played together on the seesaw. Their little sister made a castle in the sandpit. A sign listed one important rule: do not push other children. When a younger child asked for a turn, Mia stepped aside and smiled. Everyone had more fun because they shared the space and played carefully.",
+    readingAudioUrl: "/audio/papers/034/reading.mp3",
+    questions: [
+      { question: "Why did Mia and Ben wait beside the slide?", answer: "There was a long queue.", studentAnswer: "The slide was broken.", explanationEn: "The passage says a long queue had formed beside the slide.", explanationZh: "slide 旁有长 queue，所以他们等待。", tag: "Reason" },
+      { question: "What did Mia check before climbing?", answer: "That the child ahead had moved away.", studentAnswer: "That the sandpit was empty.", explanationEn: "Mia waited until the child ahead of her had moved away.", explanationZh: "Mia 在 climb 前确认前面的孩子已经离开。", tag: "Sequence" },
+      { question: "Where did Ben try to balance?", answer: "On a low beam.", studentAnswer: "On the seesaw.", explanationEn: "Ben tried to balance on a low beam before playing on the seesaw.", explanationZh: "Ben 先在低矮横梁上练 balance，之后才玩跷跷板。", tag: "Place" },
+      { question: "What did their little sister make?", answer: "A castle in the sandpit.", studentAnswer: "A queue by the swing.", explanationEn: "Their little sister made a sand castle in the sandpit.", explanationZh: "妹妹在 sandpit 里堆了一座城堡。", tag: "Detail" },
+      { question: "What did the sign tell children not to do?", answer: "Push other children.", studentAnswer: "Wait for a turn.", explanationEn: "The sign's rule was not to push other children.", explanationZh: "标牌上的 rule 是不要推其他孩子。", tag: "Negation" }
+    ],
+    wordStudy: [
+      { word: "turn", collocations: ["wait for your turn", "take turns", "whose turn is it"], similar: ["chance", "rotation"], note: "A turn is one person's chance to do something; take turns means share chances in order." },
+      { word: "queue", collocations: ["join a queue", "wait in a queue", "a long queue"], similar: ["line", "crowd"], note: "A queue is an ordered line of people waiting; a crowd is not necessarily ordered." },
+      { word: "balance", collocations: ["keep your balance", "balance on a beam", "lose your balance"], similar: ["steady", "stability"], note: "Balance is the ability to stay steady; climb means move upward using hands or feet." }
+    ],
+    blanks: [
+      { sentenceBefore: "The children went to the", sentenceAfter: "after school.", answer: "playground", studentAnswer: "sandpit", explanationEn: "The playground is the whole area where they played.", explanationZh: "playground 是整片游乐区域；sandpit 只是沙池。" },
+      { sentenceBefore: "They waited beside the", sentenceAfter: "before going down it.", answer: "slide", studentAnswer: "swing", explanationEn: "Children go down a slide.", explanationZh: "slide 是可以滑下来的滑梯。" },
+      { sentenceBefore: "Ben sat on the", sentenceAfter: "and moved back and forth.", answer: "swing", studentAnswer: "slide", explanationEn: "A swing moves back and forth.", explanationZh: "swing 是前后摆动的秋千。" },
+      { sentenceBefore: "Two children sat at opposite ends of the", sentenceAfter: ".", answer: "seesaw", studentAnswer: "sandpit", explanationEn: "A seesaw has seats at opposite ends.", explanationZh: "seesaw 两端都可以坐人。" },
+      { sentenceBefore: "Their sister made a sand castle in the", sentenceAfter: ".", answer: "sandpit", studentAnswer: "queue", explanationEn: "A sandpit is a place filled with sand for play.", explanationZh: "sandpit 是供孩子玩沙子的沙池。" },
+      { sentenceBefore: "Mia used the ladder to", sentenceAfter: "up to the platform.", answer: "climb", studentAnswer: "balance", explanationEn: "Climb means move upward, often using a ladder.", explanationZh: "climb 指向上攀爬；balance 指保持平衡。" },
+      { sentenceBefore: "Ben tried to keep his", sentenceAfter: "on the narrow beam.", answer: "balance", studentAnswer: "turn", explanationEn: "Keep your balance means stay steady.", explanationZh: "keep your balance 表示保持身体稳定。" },
+      { sentenceBefore: "Please wait for your", sentenceAfter: "before using the slide.", answer: "turn", studentAnswer: "rule", explanationEn: "Your turn is your chance to use it next.", explanationZh: "your turn 指轮到你的机会。" },
+      { sentenceBefore: "The children formed a", sentenceAfter: "beside the slide.", answer: "queue", studentAnswer: "seesaw", explanationEn: "A queue is a line of people waiting.", explanationZh: "queue 是等待时排成的队伍。" },
+      { sentenceBefore: "One playground", sentenceAfter: "said not to push others.", answer: "rule", studentAnswer: "turn", explanationEn: "A rule tells people what behaviour is expected.", explanationZh: "rule 说明应遵守的行为要求。" }
+    ],
+    corrections: [
+      { prompt: "The children went down the swing from the top platform.", answer: "The children went down the slide from the top platform.", studentAnswer: "The children went down the swing from the top platform.", explanationEn: "You go down a slide; a swing moves back and forth.", explanationZh: "从高处滑下来用 slide；swing 前后摆动。", tag: "Confusing equipment" },
+      { prompt: "Mia and Ben pushed past the queue to take a turn.", answer: "Mia and Ben waited in the queue for their turn.", studentAnswer: "Mia and Ben pushed past the queue to take a turn.", explanationEn: "They waited in the queue instead of pushing ahead.", explanationZh: "他们在 queue 中等待轮到自己，没有插队。", tag: "Reading evidence" },
+      { prompt: "Ben tried to climb on the low beam without moving upward.", answer: "Ben tried to balance on the low beam without moving upward.", studentAnswer: "Ben tried to climb on the low beam without moving upward.", explanationEn: "Balance means stay steady; climb means move up.", explanationZh: "balance 是保持平衡；climb 是向上攀爬。", tag: "Confusing verbs" },
+      { prompt: "The sandpit was a sign telling children not to push.", answer: "The sign showed a rule telling children not to push.", studentAnswer: "The sandpit was a sign telling children not to push.", explanationEn: "A rule gives an instruction; a sandpit is a play area.", explanationZh: "rule 提出行为要求；sandpit 是玩沙的地方。", tag: "Meaning" },
+      { prompt: "The sister made a castle on the seesaw with sand.", answer: "The sister made a castle in the sandpit with sand.", studentAnswer: "The sister made a castle on the seesaw with sand.", explanationEn: "She used the sandpit, not the seesaw, to make a castle.", explanationZh: "妹妹在 sandpit 堆城堡，不是在 seesaw 上。", tag: "Reading evidence" }
+    ],
+    creativePrompt: "Use five words from today's list to explain how to share playground equipment fairly.",
+    examples: [
+      { en: "Join the queue and wait for your turn on the slide.", zh: "排好队，等待轮到你玩滑梯。" },
+      { en: "Keep your balance when you climb the ladder.", zh: "爬梯子时保持平衡。" },
+      { en: "The playground rule is to share the swing and seesaw.", zh: "游乐场的规则是分享秋千和跷跷板。" }
+    ]
   }
 ];
 

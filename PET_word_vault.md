@@ -695,6 +695,27 @@ Worksheet route:
 
 - /papers/033
 
+### v34 - Playground Rules - 2026-11-18
+
+Paper id: 034
+
+Recorded words:
+
+1. playground - 游乐场；操场
+2. slide - 滑梯；滑动
+3. swing - 秋千；摆动
+4. seesaw - 跷跷板
+5. sandpit - 沙坑；沙池
+6. climb - 攀爬
+7. balance - 平衡；保持平衡
+8. turn - 轮次；轮到；转动
+9. queue - 队伍；排队
+10. rule - 规则
+
+Worksheet route:
+
+- /papers/034
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
