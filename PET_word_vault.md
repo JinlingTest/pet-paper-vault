@@ -716,6 +716,27 @@ Worksheet route:
 
 - /papers/034
 
+### v35 - The School Newspaper - 2026-11-19
+
+Paper id: 035
+
+Recorded words:
+
+1. newspaper - 报纸
+2. headline - 标题；大字标题
+3. editor - 编辑
+4. reporter - 记者；报道者
+5. deadline - 截止日期
+6. fact - 事实
+7. source - 来源；信息源
+8. opinion - 观点；意见
+9. draft - 草稿；起草
+10. journalist - 新闻记者
+
+Worksheet route:
+
+- /papers/035
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

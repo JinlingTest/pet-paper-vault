@@ -447,6 +447,10 @@ PAPERS = {
         "reading": "After school, Mia and Ben went to the playground. A long queue had formed beside the slide, so they waited for their turn. Mia wanted to climb the wooden ladder, but she checked that the child ahead of her had moved away first. Ben tried to balance on a low beam. Then they took turns on the swing and played together on the seesaw. Their little sister made a castle in the sandpit. A sign listed one important rule: do not push other children. When a younger child asked for a turn, Mia stepped aside and smiled. Everyone had more fun because they shared the space and played carefully.",
         "words": ["playground", "slide", "swing", "seesaw", "sandpit", "climb", "balance", "turn", "queue", "rule"],
     },
+    "035": {
+        "reading": "Lily joined the school newspaper team on Monday. The editor asked her to write about a new reading corner. Lily acted as a reporter and spoke to three students about it. She checked each fact with a teacher, who was another useful source. In her first draft, Lily wrote that the corner was the best place in school, but the editor said that was an opinion, not a fact. Together they chose a clear headline: New Reading Corner Opens. The deadline was Thursday, so Lily finished the story on Wednesday evening. A visiting journalist later read the newspaper and praised the team for checking their information carefully.",
+        "words": ["newspaper", "headline", "editor", "reporter", "deadline", "fact", "source", "opinion", "draft", "journalist"],
+    },
 }
 
 

@@ -2115,6 +2115,65 @@ export const papers: Paper[] = [
       { en: "Keep your balance when you climb the ladder.", zh: "爬梯子时保持平衡。" },
       { en: "The playground rule is to share the swing and seesaw.", zh: "游乐场的规则是分享秋千和跷跷板。" }
     ]
+  },
+  {
+    id: "035",
+    version: "v35",
+    date: "2026-11-19",
+    topic: "The School Newspaper",
+    title: "English Daily Vocabulary: The School Newspaper",
+    words: [
+      { word: "newspaper", meaning: "报纸", phonetic: "/ˈnuːzˌpeɪpər/", audioUrl: "/audio/papers/035/words/newspaper.mp3" },
+      { word: "headline", meaning: "标题；大字标题", phonetic: "/ˈhedlaɪn/", audioUrl: "/audio/papers/035/words/headline.mp3" },
+      { word: "editor", meaning: "编辑", phonetic: "/ˈedɪtər/", audioUrl: "/audio/papers/035/words/editor.mp3" },
+      { word: "reporter", meaning: "记者；报道者", phonetic: "/rɪˈpɔːrtər/", audioUrl: "/audio/papers/035/words/reporter.mp3" },
+      { word: "deadline", meaning: "截止日期", phonetic: "/ˈdedlaɪn/", audioUrl: "/audio/papers/035/words/deadline.mp3" },
+      { word: "fact", meaning: "事实", phonetic: "/fækt/", audioUrl: "/audio/papers/035/words/fact.mp3" },
+      { word: "source", meaning: "来源；信息源", phonetic: "/sɔːrs/", audioUrl: "/audio/papers/035/words/source.mp3" },
+      { word: "opinion", meaning: "观点；意见", phonetic: "/əˈpɪnjən/", audioUrl: "/audio/papers/035/words/opinion.mp3" },
+      { word: "draft", meaning: "草稿；起草", phonetic: "/dræft/", audioUrl: "/audio/papers/035/words/draft.mp3" },
+      { word: "journalist", meaning: "新闻记者", phonetic: "/ˈdʒɜːrnəlɪst/", audioUrl: "/audio/papers/035/words/journalist.mp3" }
+    ],
+    reading:
+      "Lily joined the school newspaper team on Monday. The editor asked her to write about a new reading corner. Lily acted as a reporter and spoke to three students about it. She checked each fact with a teacher, who was another useful source. In her first draft, Lily wrote that the corner was the best place in school, but the editor said that was an opinion, not a fact. Together they chose a clear headline: New Reading Corner Opens. The deadline was Thursday, so Lily finished the story on Wednesday evening. A visiting journalist later read the newspaper and praised the team for checking their information carefully.",
+    readingAudioUrl: "/audio/papers/035/reading.mp3",
+    questions: [
+      { question: "What was Lily asked to write about?", answer: "A new reading corner.", studentAnswer: "A school concert.", explanationEn: "The editor gave Lily the new reading corner as her topic.", explanationZh: "editor 让 Lily 写的是新阅读角。", tag: "Topic" },
+      { question: "How many students did Lily speak to?", answer: "Three.", studentAnswer: "One.", explanationEn: "As a reporter, she spoke to three students.", explanationZh: "Lily 作为 reporter 采访了三名学生。", tag: "Number" },
+      { question: "Who helped Lily check the facts?", answer: "A teacher.", studentAnswer: "The visiting journalist.", explanationEn: "She checked each fact with a teacher before the journalist visited.", explanationZh: "帮 Lily 核对 fact 的是老师；journalist 后来才来。", tag: "People" },
+      { question: "Why did the editor change Lily's sentence about the best place?", answer: "It was an opinion, not a fact.", studentAnswer: "It missed the deadline.", explanationEn: "Calling a place the best is a personal opinion.", explanationZh: "说某处“最好”是个人 opinion，不是可核实的 fact。", tag: "Fact versus opinion" },
+      { question: "When did Lily finish the story?", answer: "On Wednesday evening.", studentAnswer: "On Thursday evening.", explanationEn: "She finished Wednesday evening, before the Thursday deadline.", explanationZh: "她周三晚上完成，早于周四的 deadline。", tag: "Time" }
+    ],
+    wordStudy: [
+      { word: "fact", collocations: ["check a fact", "a clear fact", "fact or opinion"], similar: ["truth", "information"], note: "A fact can be checked with evidence; an opinion says what someone thinks or feels." },
+      { word: "source", collocations: ["a reliable source", "check a source", "source of information"], similar: ["origin", "reference"], note: "A source is where information comes from, such as a person or document." },
+      { word: "reporter", collocations: ["a school reporter", "reporter for a newspaper", "ask a reporter"], similar: ["journalist", "editor"], note: "Reporter and journalist are close in meaning; an editor reviews and improves their writing." }
+    ],
+    blanks: [
+      { sentenceBefore: "Lily wrote for the school", sentenceAfter: ".", answer: "newspaper", studentAnswer: "headline", explanationEn: "A newspaper contains written news stories.", explanationZh: "newspaper 是刊登新闻的报纸。" },
+      { sentenceBefore: "The large title above the story is the", sentenceAfter: ".", answer: "headline", studentAnswer: "draft", explanationEn: "A headline is the title that introduces a news story.", explanationZh: "headline 是新闻上方醒目的标题。" },
+      { sentenceBefore: "The", sentenceAfter: "checked Lily's writing before it was printed.", answer: "editor", studentAnswer: "source", explanationEn: "An editor checks and improves writing.", explanationZh: "editor 负责审核和修改稿件。" },
+      { sentenceBefore: "As a school", sentenceAfter: ", Lily asked students questions.", answer: "reporter", studentAnswer: "editor", explanationEn: "A reporter gathers information for a story.", explanationZh: "reporter 为报道收集信息。" },
+      { sentenceBefore: "The Thursday", sentenceAfter: "meant Lily had to finish by then.", answer: "deadline", studentAnswer: "headline", explanationEn: "A deadline is the last time work should be completed.", explanationZh: "deadline 是完成任务的最后期限。" },
+      { sentenceBefore: "The opening date was a", sentenceAfter: "the teacher could check.", answer: "fact", studentAnswer: "opinion", explanationEn: "A fact is information that can be checked.", explanationZh: "fact 是可以核实的信息。" },
+      { sentenceBefore: "The teacher was a useful", sentenceAfter: "of information.", answer: "source", studentAnswer: "draft", explanationEn: "A source provides information.", explanationZh: "source 是信息的来源。" },
+      { sentenceBefore: "The claim that this is the best corner is an", sentenceAfter: ".", answer: "opinion", studentAnswer: "fact", explanationEn: "Best expresses a personal judgement.", explanationZh: "“最好”表达个人判断，属于 opinion。" },
+      { sentenceBefore: "Lily changed her first", sentenceAfter: "after speaking to the editor.", answer: "draft", studentAnswer: "deadline", explanationEn: "A draft is an early version of writing.", explanationZh: "draft 是文章的初稿。" },
+      { sentenceBefore: "A visiting", sentenceAfter: "praised the school news team.", answer: "journalist", studentAnswer: "headline", explanationEn: "A journalist is a person who works with news.", explanationZh: "journalist 是从事新闻工作的记者。" }
+    ],
+    corrections: [
+      { prompt: "The deadline was the large title above the story.", answer: "The headline was the large title above the story.", studentAnswer: "The deadline was the large title above the story.", explanationEn: "A headline is a title; a deadline is the last time to finish work.", explanationZh: "headline 是标题；deadline 是截止时间。", tag: "Confusing nouns" },
+      { prompt: "The editor was the early version of Lily's story.", answer: "The draft was the early version of Lily's story.", studentAnswer: "The editor was the early version of Lily's story.", explanationEn: "A draft is writing; an editor is a person.", explanationZh: "draft 是草稿；editor 是人。", tag: "Meaning" },
+      { prompt: "The best place in school is a fact everyone can check.", answer: "The best place in school is an opinion people may disagree about.", studentAnswer: "The best place in school is a fact everyone can check.", explanationEn: "Best expresses judgement, so it is an opinion rather than a checkable fact.", explanationZh: "“最好”是主观判断，属于 opinion，而非可核实的 fact。", tag: "Fact versus opinion" },
+      { prompt: "Lily finished the story after Thursday's deadline.", answer: "Lily finished the story before Thursday's deadline.", studentAnswer: "Lily finished the story after Thursday's deadline.", explanationEn: "She finished on Wednesday evening, before the deadline.", explanationZh: "她周三完成，早于周四的 deadline。", tag: "Reading evidence" },
+      { prompt: "The source improved Lily's sentences, while the editor was where facts came from.", answer: "The editor improved Lily's sentences, while the source was where facts came from.", studentAnswer: "The source improved Lily's sentences, while the editor was where facts came from.", explanationEn: "An editor reviews writing; a source supplies information.", explanationZh: "editor 修改文章；source 提供信息。", tag: "Roles" }
+    ],
+    creativePrompt: "Use five words from today's list to plan a short school news story.",
+    examples: [
+      { en: "The reporter checked each fact with a reliable source.", zh: "记者向可靠的信息来源核实每个事实。" },
+      { en: "The editor changed the headline in my first draft.", zh: "编辑修改了我初稿中的标题。" },
+      { en: "We finished the newspaper before the deadline.", zh: "我们在截止日期前完成了校报。" }
+    ]
   }
 ];
 
