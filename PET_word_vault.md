@@ -737,6 +737,27 @@ Worksheet route:
 
 - /papers/035
 
+### v36 - At the Bakery - 2026-11-21
+
+Paper id: 036
+
+Recorded words:
+
+1. bakery - 面包店
+2. bread - 面包
+3. flour - 面粉
+4. dough - 面团
+5. baker - 面包师
+6. loaf - 一条面包
+7. pastry - 酥皮点心；油酥面团
+8. yeast - 酵母
+9. crust - 面包皮；外壳
+10. roll - 小圆面包；卷
+
+Worksheet route:
+
+- /papers/036
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.

@@ -451,6 +451,10 @@ PAPERS = {
         "reading": "Lily joined the school newspaper team on Monday. The editor asked her to write about a new reading corner. Lily acted as a reporter and spoke to three students about it. She checked each fact with a teacher, who was another useful source. In her first draft, Lily wrote that the corner was the best place in school, but the editor said that was an opinion, not a fact. Together they chose a clear headline: New Reading Corner Opens. The deadline was Thursday, so Lily finished the story on Wednesday evening. A visiting journalist later read the newspaper and praised the team for checking their information carefully.",
         "words": ["newspaper", "headline", "editor", "reporter", "deadline", "fact", "source", "opinion", "draft", "journalist"],
     },
+    "036": {
+        "reading": "On Saturday morning, Sam visited a bakery with his grandmother. The baker showed them how to make bread. First, she mixed flour, water and yeast to make dough. She let the dough rest before shaping one large loaf and several small rolls. While the bread cooked, Sam chose a fruit pastry for his grandmother. When the loaf was ready, it had a golden crust. The baker said the rolls would be ready ten minutes later. Sam wanted to take the hot bread home at once, but his grandmother suggested waiting until it was cool enough to carry. They thanked the baker and left with a loaf, two rolls and the pastry.",
+        "words": ["bakery", "bread", "flour", "dough", "baker", "loaf", "pastry", "yeast", "crust", "roll"],
+    },
 }
 
 

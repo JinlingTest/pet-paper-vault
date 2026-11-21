@@ -2174,6 +2174,65 @@ export const papers: Paper[] = [
       { en: "The editor changed the headline in my first draft.", zh: "编辑修改了我初稿中的标题。" },
       { en: "We finished the newspaper before the deadline.", zh: "我们在截止日期前完成了校报。" }
     ]
+  },
+  {
+    id: "036",
+    version: "v36",
+    date: "2026-11-21",
+    topic: "At the Bakery",
+    title: "English Daily Vocabulary: At the Bakery",
+    words: [
+      { word: "bakery", meaning: "面包店", phonetic: "/ˈbeɪkəri/", audioUrl: "/audio/papers/036/words/bakery.mp3" },
+      { word: "bread", meaning: "面包", phonetic: "/bred/", audioUrl: "/audio/papers/036/words/bread.mp3" },
+      { word: "flour", meaning: "面粉", phonetic: "/ˈflaʊər/", audioUrl: "/audio/papers/036/words/flour.mp3" },
+      { word: "dough", meaning: "面团", phonetic: "/doʊ/", audioUrl: "/audio/papers/036/words/dough.mp3" },
+      { word: "baker", meaning: "面包师", phonetic: "/ˈbeɪkər/", audioUrl: "/audio/papers/036/words/baker.mp3" },
+      { word: "loaf", meaning: "一条面包", phonetic: "/loʊf/", audioUrl: "/audio/papers/036/words/loaf.mp3" },
+      { word: "pastry", meaning: "酥皮点心；油酥面团", phonetic: "/ˈpeɪstri/", audioUrl: "/audio/papers/036/words/pastry.mp3" },
+      { word: "yeast", meaning: "酵母", phonetic: "/jiːst/", audioUrl: "/audio/papers/036/words/yeast.mp3" },
+      { word: "crust", meaning: "面包皮；外壳", phonetic: "/krʌst/", audioUrl: "/audio/papers/036/words/crust.mp3" },
+      { word: "roll", meaning: "小圆面包；卷", phonetic: "/roʊl/", audioUrl: "/audio/papers/036/words/roll.mp3" }
+    ],
+    reading:
+      "On Saturday morning, Sam visited a bakery with his grandmother. The baker showed them how to make bread. First, she mixed flour, water and yeast to make dough. She let the dough rest before shaping one large loaf and several small rolls. While the bread cooked, Sam chose a fruit pastry for his grandmother. When the loaf was ready, it had a golden crust. The baker said the rolls would be ready ten minutes later. Sam wanted to take the hot bread home at once, but his grandmother suggested waiting until it was cool enough to carry. They thanked the baker and left with a loaf, two rolls and the pastry.",
+    readingAudioUrl: "/audio/papers/036/reading.mp3",
+    questions: [
+      { question: "Who went to the bakery with Sam?", answer: "His grandmother.", studentAnswer: "His teacher.", explanationEn: "Sam visited the bakery with his grandmother.", explanationZh: "陪 Sam 去 bakery 的是奶奶。", tag: "People" },
+      { question: "What three things did the baker mix first?", answer: "Flour, water and yeast.", studentAnswer: "Fruit, bread and pastry.", explanationEn: "She mixed flour, water and yeast to make dough.", explanationZh: "baker 把 flour、水和 yeast 混成 dough。", tag: "Detail" },
+      { question: "What did Sam choose for his grandmother?", answer: "A fruit pastry.", studentAnswer: "A loaf of bread.", explanationEn: "Sam chose a fruit pastry for his grandmother while the bread cooked.", explanationZh: "Sam 给奶奶选的是水果 pastry。", tag: "Detail" },
+      { question: "What colour was the loaf's crust?", answer: "Golden.", studentAnswer: "Green.", explanationEn: "The loaf had a golden crust when it was ready.", explanationZh: "面包烤好时 crust 呈金黄色。", tag: "Description" },
+      { question: "Why did Sam's grandmother suggest waiting?", answer: "The bread was too hot to carry yet.", studentAnswer: "The bakery was closed.", explanationEn: "She wanted the bread to cool enough for them to carry it.", explanationZh: "面包太烫，奶奶建议等到能拿时再带走。", tag: "Reason" }
+    ],
+    wordStudy: [
+      { word: "dough", collocations: ["make dough", "let the dough rest", "shape the dough"], similar: ["mixture", "bread"], note: "Dough is the uncooked mixture; bread is the food after cooking. Dough is usually uncountable." },
+      { word: "loaf", collocations: ["a loaf of bread", "two loaves", "a fresh loaf"], similar: ["roll", "slice"], note: "A loaf is one large shaped piece of bread; a roll is a small individual piece. The plural is loaves." },
+      { word: "flour", collocations: ["mix flour with water", "a bag of flour", "wheat flour"], similar: ["flower", "powder"], note: "Flour is a baking ingredient; flower is a plant. They sound the same but have different spellings." }
+    ],
+    blanks: [
+      { sentenceBefore: "We bought fresh bread at the", sentenceAfter: ".", answer: "bakery", studentAnswer: "baker", explanationEn: "A bakery is a shop; a baker is a person.", explanationZh: "bakery 是面包店；baker 是面包师。" },
+      { sentenceBefore: "The warm", sentenceAfter: "smelled wonderful.", answer: "bread", studentAnswer: "flour", explanationEn: "Bread is the finished food, not the raw flour.", explanationZh: "bread 是做好的面包；flour 是生面粉。" },
+      { sentenceBefore: "The baker poured", sentenceAfter: "into a large bowl.", answer: "flour", studentAnswer: "flower", explanationEn: "Flour is used to make dough; flower is a plant.", explanationZh: "flour 是面粉；flower 是花。" },
+      { sentenceBefore: "She let the", sentenceAfter: "rest before shaping it.", answer: "dough", studentAnswer: "crust", explanationEn: "Dough is the uncooked mixture that can be shaped.", explanationZh: "dough 是可以塑形的生面团。" },
+      { sentenceBefore: "The", sentenceAfter: "showed us how to make bread.", answer: "baker", studentAnswer: "bakery", explanationEn: "A baker is a person who makes bread.", explanationZh: "baker 是做面包的人。" },
+      { sentenceBefore: "We bought one large", sentenceAfter: "of bread.", answer: "loaf", studentAnswer: "roll", explanationEn: "A loaf is a large shaped piece of bread.", explanationZh: "loaf 指一整条面包。" },
+      { sentenceBefore: "Sam chose a fruit", sentenceAfter: "for his grandmother.", answer: "pastry", studentAnswer: "yeast", explanationEn: "A pastry is a sweet or savoury baked item.", explanationZh: "pastry 是烘焙点心。" },
+      { sentenceBefore: "The baker added", sentenceAfter: "to help the dough rise.", answer: "yeast", studentAnswer: "crust", explanationEn: "Yeast helps dough rise.", explanationZh: "yeast 能帮助面团发酵膨胀。" },
+      { sentenceBefore: "The loaf had a crisp golden", sentenceAfter: ".", answer: "crust", studentAnswer: "dough", explanationEn: "The crust is the outside of baked bread.", explanationZh: "crust 是烤好面包的外皮。" },
+      { sentenceBefore: "Each child received a small bread", sentenceAfter: ".", answer: "roll", studentAnswer: "loaf", explanationEn: "A roll is a small individual piece of bread.", explanationZh: "roll 是一只小面包；loaf 通常更大。" }
+    ],
+    corrections: [
+      { prompt: "The bakery mixed flour and water to make dough.", answer: "The baker mixed flour and water to make dough.", studentAnswer: "The bakery mixed flour and water to make dough.", explanationEn: "The baker is the person doing the mixing; the bakery is the shop.", explanationZh: "动手混合的是 baker；bakery 是店铺。", tag: "Confusing nouns" },
+      { prompt: "Sam used flowers to make bread.", answer: "Sam used flour to make bread.", studentAnswer: "Sam used flowers to make bread.", explanationEn: "Flour is the baking ingredient; flowers are plants.", explanationZh: "做面包用 flour 面粉，不是 flowers 花。", tag: "Homophones" },
+      { prompt: "The crust was the uncooked mixture resting in the bowl.", answer: "The dough was the uncooked mixture resting in the bowl.", studentAnswer: "The crust was the uncooked mixture resting in the bowl.", explanationEn: "Dough is uncooked; crust forms on the outside after baking.", explanationZh: "dough 是生面团；crust 是烤后形成的外皮。", tag: "Meaning" },
+      { prompt: "The baker made one large roll and several small loaves.", answer: "The baker made one large loaf and several small rolls.", studentAnswer: "The baker made one large roll and several small loaves.", explanationEn: "The passage says one large loaf and several small rolls.", explanationZh: "原文说一条大 loaf 和几只小 rolls。", tag: "Reading evidence" },
+      { prompt: "Sam chose a fruit yeast for his grandmother.", answer: "Sam chose a fruit pastry for his grandmother.", studentAnswer: "Sam chose a fruit yeast for his grandmother.", explanationEn: "Pastry is a baked food; yeast is an ingredient used to raise dough.", explanationZh: "pastry 是烘焙点心；yeast 是让面团发酵的原料。", tag: "Word choice" }
+    ],
+    creativePrompt: "Use five words from today's list to describe a visit to a bakery.",
+    examples: [
+      { en: "The baker mixed flour and yeast into dough.", zh: "面包师把面粉和酵母混成面团。" },
+      { en: "A fresh loaf had a golden crust.", zh: "一条新鲜面包有金黄的外皮。" },
+      { en: "We bought two rolls and a fruit pastry.", zh: "我们买了两只小圆面包和一块水果酥皮点心。" }
+    ]
   }
 ];
 
