@@ -38,7 +38,8 @@ const topicZh: Record<string, string> = {
   "033": "动物园参观",
   "034": "游乐场规则",
   "035": "校园报纸",
-  "036": "面包店"
+  "036": "面包店",
+  "037": "太空与行星"
 };
 
 export const metadata = {

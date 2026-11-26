@@ -2233,6 +2233,65 @@ export const papers: Paper[] = [
       { en: "A fresh loaf had a golden crust.", zh: "一条新鲜面包有金黄的外皮。" },
       { en: "We bought two rolls and a fruit pastry.", zh: "我们买了两只小圆面包和一块水果酥皮点心。" }
     ]
+  },
+  {
+    id: "037",
+    version: "v37",
+    date: "2026-11-26",
+    topic: "Space & Planets",
+    title: "English Daily Vocabulary: Space & Planets",
+    words: [
+      { word: "planet", meaning: "行星", phonetic: "/ˈplænɪt/", audioUrl: "/audio/papers/037/words/planet.mp3" },
+      { word: "star", meaning: "恒星；星星", phonetic: "/stɑːr/", audioUrl: "/audio/papers/037/words/star.mp3" },
+      { word: "moon", meaning: "月亮；卫星", phonetic: "/muːn/", audioUrl: "/audio/papers/037/words/moon.mp3" },
+      { word: "telescope", meaning: "望远镜", phonetic: "/ˈtelɪskoʊp/", audioUrl: "/audio/papers/037/words/telescope.mp3" },
+      { word: "space", meaning: "太空；空间", phonetic: "/speɪs/", audioUrl: "/audio/papers/037/words/space.mp3" },
+      { word: "astronaut", meaning: "宇航员", phonetic: "/ˈæstrənɔːt/", audioUrl: "/audio/papers/037/words/astronaut.mp3" },
+      { word: "rocket", meaning: "火箭", phonetic: "/ˈrɑːkɪt/", audioUrl: "/audio/papers/037/words/rocket.mp3" },
+      { word: "orbit", meaning: "轨道；绕轨道运行", phonetic: "/ˈɔːrbɪt/", audioUrl: "/audio/papers/037/words/orbit.mp3" },
+      { word: "earth", meaning: "地球", phonetic: "/ɜːrθ/", audioUrl: "/audio/papers/037/words/earth.mp3" },
+      { word: "sky", meaning: "天空", phonetic: "/skaɪ/", audioUrl: "/audio/papers/037/words/sky.mp3" }
+    ],
+    reading:
+      "On Friday evening, Ella's science club met at school to look at the night sky. Their teacher brought a telescope and showed them the moon. She explained that the moon travels around the Earth, while the Earth is a planet that travels around the sun. The sun is a star, not a planet. Inside the classroom, the children watched a short video about an astronaut travelling into space in a rocket. A diagram showed the moon's orbit around the Earth. Ella drew the diagram in her notebook and wrote down one question: why does the moon look different on some nights? The teacher promised to discuss it at their next meeting.",
+    readingAudioUrl: "/audio/papers/037/reading.mp3",
+    questions: [
+      { question: "When did the science club meet?", answer: "On Friday evening.", studentAnswer: "On Saturday morning.", explanationEn: "The first sentence gives the time as Friday evening.", explanationZh: "开头写的是周五晚上，不是周六早晨。", tag: "Time" },
+      { question: "What did the teacher use to show the moon?", answer: "A telescope.", studentAnswer: "A rocket.", explanationEn: "The teacher brought a telescope to look at the moon.", explanationZh: "老师用 telescope 观察 moon；rocket 只出现在视频中。", tag: "Detail" },
+      { question: "Is the sun a planet?", answer: "No, it is a star.", studentAnswer: "Yes, it is a planet.", explanationEn: "The reading says the sun is a star, not a planet.", explanationZh: "原文说太阳是 star，不是 planet。", tag: "Contrast" },
+      { question: "What did the video show?", answer: "An astronaut travelling into space in a rocket.", studentAnswer: "Ella travelling to the moon.", explanationEn: "The video was about an astronaut in a rocket, not Ella.", explanationZh: "视频讲的是 astronaut 坐 rocket 进入 space。", tag: "Detail" },
+      { question: "What question did Ella write down?", answer: "Why the moon looks different on some nights.", studentAnswer: "Why the Earth is a star.", explanationEn: "Ella asked about changes in the moon's appearance.", explanationZh: "Ella 问的是 moon 为何有些夜晚看起来不同。", tag: "Reading evidence" }
+    ],
+    wordStudy: [
+      { word: "planet", collocations: ["a distant planet", "planet Earth", "travel around a star"], similar: ["world", "star"], note: "A planet travels around a star; a star gives off its own light." },
+      { word: "orbit", collocations: ["the moon's orbit", "orbit the Earth", "stay in orbit"], similar: ["path", "circle"], note: "Orbit can be a noun for a path or a verb meaning travel around another object in space." },
+      { word: "sky", collocations: ["night sky", "look at the sky", "clear sky"], similar: ["space", "air"], note: "The sky is what we see above us from Earth; space extends far beyond the air around Earth." }
+    ],
+    blanks: [
+      { sentenceBefore: "The Earth is a", sentenceAfter: "that travels around the sun.", answer: "planet", studentAnswer: "star", explanationEn: "The Earth is a planet; the sun is a star.", explanationZh: "Earth 是 planet；太阳是 star。" },
+      { sentenceBefore: "The sun is a", sentenceAfter: "that gives us light.", answer: "star", studentAnswer: "planet", explanationEn: "The sun is a star, not a planet.", explanationZh: "太阳是 star，不是 planet。" },
+      { sentenceBefore: "We looked at the", sentenceAfter: "through a telescope.", answer: "moon", studentAnswer: "sky", explanationEn: "The teacher showed them the moon through the telescope.", explanationZh: "老师通过望远镜让他们观察 moon。" },
+      { sentenceBefore: "The teacher brought a", sentenceAfter: "to see faraway objects.", answer: "telescope", studentAnswer: "rocket", explanationEn: "A telescope helps people view faraway objects.", explanationZh: "telescope 用来观察远处的物体。" },
+      { sentenceBefore: "The astronaut travelled into", sentenceAfter: "in a rocket.", answer: "space", studentAnswer: "sky", explanationEn: "Space is the region beyond Earth's atmosphere.", explanationZh: "space 指地球大气层外的太空。" },
+      { sentenceBefore: "The", sentenceAfter: "worked on a spacecraft.", answer: "astronaut", studentAnswer: "planet", explanationEn: "An astronaut is a person trained to travel in space.", explanationZh: "astronaut 是接受训练进入太空的人。" },
+      { sentenceBefore: "The", sentenceAfter: "lifted off from the ground.", answer: "rocket", studentAnswer: "telescope", explanationEn: "A rocket can launch a spacecraft.", explanationZh: "rocket 可以把航天器送上天。" },
+      { sentenceBefore: "The moon's", sentenceAfter: "takes it around the Earth.", answer: "orbit", studentAnswer: "sky", explanationEn: "An orbit is the path around another object.", explanationZh: "orbit 是围绕另一个天体运动的轨道。" },
+      { sentenceBefore: "We live on the", sentenceAfter: ".", answer: "earth", studentAnswer: "moon", explanationEn: "The Earth is our home planet.", explanationZh: "Earth 是我们居住的地球。" },
+      { sentenceBefore: "Stars were visible in the clear night", sentenceAfter: ".", answer: "sky", studentAnswer: "rocket", explanationEn: "The sky is what we look up at from Earth.", explanationZh: "sky 是我们从地面抬头看到的天空。" }
+    ],
+    corrections: [
+      { prompt: "The sun is a planet that gives us light.", answer: "The sun is a star that gives us light.", studentAnswer: "The sun is a planet that gives us light.", explanationEn: "The sun is a star; the Earth is a planet.", explanationZh: "太阳是 star；地球是 planet。", tag: "Confusing nouns" },
+      { prompt: "The teacher used a rocket to show the class the moon from school.", answer: "The teacher used a telescope to show the class the moon from school.", studentAnswer: "The teacher used a rocket to show the class the moon from school.", explanationEn: "A telescope is for viewing faraway objects; a rocket travels into space.", explanationZh: "telescope 用来观察；rocket 用于进入太空。", tag: "Meaning" },
+      { prompt: "The moon's sky is the path it follows around the Earth.", answer: "The moon's orbit is the path it follows around the Earth.", studentAnswer: "The moon's sky is the path it follows around the Earth.", explanationEn: "Orbit means the path around another object in space.", explanationZh: "orbit 指绕另一个天体运行的轨道。", tag: "Meaning" },
+      { prompt: "An astronaut is the machine that carries people into space.", answer: "A rocket is a machine that can carry people into space.", studentAnswer: "An astronaut is the machine that carries people into space.", explanationEn: "An astronaut is a person; a rocket is a vehicle.", explanationZh: "astronaut 是人；rocket 是运载工具。", tag: "Word choice" },
+      { prompt: "Ella asked why the Earth looked different each night.", answer: "Ella asked why the moon looked different on some nights.", studentAnswer: "Ella asked why the Earth looked different each night.", explanationEn: "Ella's question was about the moon's changing appearance.", explanationZh: "Ella 问的是 moon 在某些夜晚外观为何不同。", tag: "Reading evidence" }
+    ],
+    creativePrompt: "Use five words from today's list to describe what you might see at a science club meeting.",
+    examples: [
+      { en: "We used a telescope to look at the moon in the night sky.", zh: "我们用望远镜观察夜空中的月亮。" },
+      { en: "The Earth is a planet, and the sun is a star.", zh: "地球是行星，太阳是恒星。" },
+      { en: "A rocket carried an astronaut into space.", zh: "火箭把一名宇航员送入太空。" }
+    ]
   }
 ];
 

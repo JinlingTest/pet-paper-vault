@@ -455,6 +455,10 @@ PAPERS = {
         "reading": "On Saturday morning, Sam visited a bakery with his grandmother. The baker showed them how to make bread. First, she mixed flour, water and yeast to make dough. She let the dough rest before shaping one large loaf and several small rolls. While the bread cooked, Sam chose a fruit pastry for his grandmother. When the loaf was ready, it had a golden crust. The baker said the rolls would be ready ten minutes later. Sam wanted to take the hot bread home at once, but his grandmother suggested waiting until it was cool enough to carry. They thanked the baker and left with a loaf, two rolls and the pastry.",
         "words": ["bakery", "bread", "flour", "dough", "baker", "loaf", "pastry", "yeast", "crust", "roll"],
     },
+    "037": {
+        "reading": "On Friday evening, Ella's science club met at school to look at the night sky. Their teacher brought a telescope and showed them the moon. She explained that the moon travels around the Earth, while the Earth is a planet that travels around the sun. The sun is a star, not a planet. Inside the classroom, the children watched a short video about an astronaut travelling into space in a rocket. A diagram showed the moon's orbit around the Earth. Ella drew the diagram in her notebook and wrote down one question: why does the moon look different on some nights? The teacher promised to discuss it at their next meeting.",
+        "words": ["planet", "star", "moon", "telescope", "space", "astronaut", "rocket", "orbit", "earth", "sky"],
+    },
 }
 
 

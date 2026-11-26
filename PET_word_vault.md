@@ -758,6 +758,27 @@ Worksheet route:
 
 - /papers/036
 
+### v37 - Space & Planets - 2026-11-26
+
+Paper id: 037
+
+Recorded words:
+
+1. planet - 行星
+2. star - 恒星；星星
+3. moon - 月亮；卫星
+4. telescope - 望远镜
+5. space - 太空；空间
+6. astronaut - 宇航员
+7. rocket - 火箭
+8. orbit - 轨道；绕轨道运行
+9. earth - 地球
+10. sky - 天空
+
+Worksheet route:
+
+- /papers/037
+
 ## Unused Word Vault
 
 Use 10 new words each day. Prefer one topic per worksheet.
